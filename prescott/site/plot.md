@@ -1,7 +1,7 @@
 ---
 title: "The Prescott Post lot"
 slug: /map/
-last_revised: "2026-10-30"
+last_revised: "2026-11-01"
 researchers: ["Bernard Brennan"]
 ---
 
@@ -13,11 +13,13 @@ You are standing in a burial lot of the Grand Army of the Republic, the organiza
 
 ## How the lot began
 
-In 1871 Prescott Post asked the City of Providence for a burial lot here. On December 21, 1871, the City Council granted it. The first condition was that the lot be deeded to Prescott Post "for the use of all the Posts of the G. A. R. in this city, as a burial place for the comrades of their several Posts." [3]
+In 1871 Prescott Post asked the City of Providence for a burial lot here. On December 21, 1871, the City Council granted it. The first condition was that the lot be deeded to Prescott Post "for the use of all the posts of the Grand Army of the Republic in this city as a burial place for the comrades of their several posts." [9]
 
-One of those posts was Ives Post No. 13, a post of Black veterans, chartered in 1868. [4] The grant does not mention race. It names every post, and Ives Post was one of them. [3][4]
+![The grant: Resolution No. 287 of the Providence City Council, approved December 21, 1871, as printed. [9]](../records/_monument/1871-resolution-287.jpg)
 
-The Post dedicated the monument on Decoration Day, Saturday, May 29, 1875. Its shaft is an old 32-pounder cannon, ten and a half feet long, that Congress voted to the Post. It stands on a base of Westerly granite. [3]
+One of those posts was Ives Post No. 13, a post of Black veterans, chartered in 1868. [4] The grant does not mention race. It names every post, and Ives Post was one of them. [9][4]
+
+The Post dedicated the monument on Decoration Day, Saturday, May 29, 1875. Its shaft is an old 32-pounder cannon, ten and a half feet long, that Congress voted to the Post. It stands on a base of Westerly granite. [3] The [monument page](../monument/index.html) has the Act of Congress and the rest of its story.
 
 ## Who is here
 
@@ -29,9 +31,15 @@ They lie in the same rows. A corporal of the 14th Rhode Island is next to a sail
 
 The City kept its own burial grounds differently. In 1883 its free burials, for those whose families could not pay, ran in two numbered series: a White Free Ground and a Colored Free Ground. [6]
 
+![The City's burial ledger, March 1883, place-of-interment column. Free burials are entered by series and grave number: "Colored Free Ground 553," "White Free Ground 1496," "Colored Free Ground 554." The struck line, ditto marks for "Colored Free Ground 555," is Zebedee Howland's; the red note beside it reads "Soldier. Raised Sept. 8/86 & Int. in Prov. G.A.R. Lot Grave 23. Chg. City." [See the whole page](../records/G3/1883-burial-ledger.jpg). Courtesy City of Providence, Department of Parks, North Burial Ground. [6]](../records/G3/1883-burial-ledger-detail.jpg)
+
 In 1885 the General Assembly passed a law: honorably discharged soldiers and sailors buried in pauper ground had to be moved out of it. [7] The City's committee on the North Burial Ground found this lot too small to take them. In June 1886 the City Council voted to enlarge it by annexing the Providence Police Association's lot, and to move the monument to the centre of the larger lot. [7]
 
-Zebedee Howland, sergeant major of the 14th Rhode Island, had died in March 1883. The City buried him in the Colored Free Ground. On September 8, 1886, ten weeks after the City authorized the enlargement, his body was raised and reburied here, at the City's charge. The clerk struck the old entry and wrote "Soldier" beside it. [6] His stone is at G3.
+![The joint committee's report (No. 272) and the Council's Resolution No. 273 of June 28, 1886, as printed: the enlargement of the lot and the moving of the monument. [7]](../records/_monument/1886-report-272-resolution-273.jpg)
+
+Zebedee Howland, sergeant major of the 14th Rhode Island, had died in March 1883. The City buried him in the Colored Free Ground. On September 8, 1886, ten weeks after the City authorized the enlargement, his body was raised and reburied here, at the City's charge. The clerk struck the old entry and wrote "Soldier" beside it. [6] His stone is at G3, and [his page](../stone/G3-howland/index.html) tells his story.
+
+![The stone of Zebedee Howland, G3: ZEBEDEE HOWLAND / Co. A. 14th R.I.H.Arty. / Died March 13, 1883. [Read his page →](../stone/G3-howland/index.html)](../records/G3/stone-2026-close.jpg)
 
 Howland's is the one case documented so far. The 1885 law makes it likely there were others, Black and white. The City's burial ledgers will show how many.
 
@@ -54,13 +62,14 @@ The lot is cared for by the City of Providence, Department of Parks, North Buria
 ## Sources
 
 1. Monument inscription, Prescott Post lot, North Burial Ground, Providence, R.I. Photograph by Bernard Brennan, 2026 (IMG_2584).
-2. Prescott Post Digital Companion, *Plot register* (register.csv), surveyed and photographed by Bernard Brennan, 2025–2026; stone-by-stone transcriptions and photo references are in the register. Dated stones in grid order: row A 1919–1928; row B 1915–1919; row C 1912–1915; row F 1902–1904; rows G–I 1876–1889; rows J–K 1894–1898; row M 1899–190?; front row (unsurveyed) 1932–1936.
-3. "The Laureled Dead: Annual Observance of Decoration … Dedication of the Prescott Post Monument," *Providence Morning Star*, May 31, 1875, 1, including the report of the Post's building committee, which quotes City Council Resolution No. 287, approved December 21, 1871. ⟨cite the resolution from the City's printed *Resolutions* for 1871 once located⟩
+2. Prescott Post Digital Companion, *Plot register* (register.csv), surveyed and photographed by Bernard Brennan, 2025–2026; stone-by-stone transcriptions and photo references are in the register. Dated stones in grid order: row A 1919–1928; row B 1915–1919; row C 1912–1915; row F 1902–1904; rows G–I 1876–1889; rows J–K 1894–1898; row E 1905–1909; row M 1899–190?; row N 1928–1937.
+3. "The Laureled Dead: Annual Observance of Decoration … Dedication of the Prescott Post Monument," *Providence Morning Star*, May 31, 1875, 1, including the report of the Post's building committee.
 4. Andrew Evans, "Black Memory of the Civil War in New England, 1865–1877" (PhD diss., Brandeis University, 2026), 125 n. 187, 159–60. ⟨replace or supplement with a primary source for the 1868 charter: Department of R.I. proceedings or Ives Post records⟩
 5. Jack Perry, "An Overdue Salute," *Providence Journal*, June 19, 2025, 1.
 6. City of Providence, North Burial Ground, *Superintendent's Record of Burials*, 1883, entry of 18 March 1883 (Zebedee Howland), with marginal annotation of 8 September 1886; same page, series headings "White Free Ground" and "Colored Free Ground." Photograph by Bernard Brennan, 2026 (IMG_2550), courtesy City of Providence, Department of Parks, North Burial Ground. ⟨volume and page: ask A. Heppner⟩
-7. City of Providence, ⟨title of printed volume⟩, 1886, No. 272, "Report of the Joint Committee on the North Burial Ground, relative to the Enlargement of the 'Prescott Post Lot,'" presented June 7, 1886, ⟨329⟩–330; No. 273, "Resolution Authorizing the Commissioners of the North Burial Ground to Enlarge the 'Prescott Post Lot,'" approved June 28, 1886, 330–⟨331⟩. ⟨Add the 1885 statute: R.I. *Acts and Resolves*, May Session 1885, chapter⟩
-8. Editorial standard of this site: see "About the research" ⟨page to be written⟩.
+7. City of Providence, ⟨title of printed volume⟩, 1886, No. 272, "Report of the Joint Committee on the North Burial Ground, relative to the Enlargement of the 'Prescott Post Lot,'" presented June 7, 1886, ⟨329⟩–330; No. 273, "Resolution Authorizing the Commissioners of the North Burial Ground to Enlarge the 'Prescott Post Lot,'" approved June 28, 1886, 330–⟨331⟩. ⟨page number is clipped in our copy of the page: 330 or 336; confirm⟩ ⟨Add the 1885 statute: R.I. *Acts and Resolves*, May Session 1885, chapter⟩
+8. The editorial standards of this site: see [Editorial standards](../standards/index.html).
+9. City of Providence, City Council, Resolution No. 287, "Resolution to set off a lot in the North Burying Ground for use of the Grand Army of the Republic," approved December 21, 1871; as printed in ⟨title of printed volume⟩.
 
 <!-- Editor's notes, not for publication:
      - "about three hundred": the register has 14 rows × up to 25 columns incl. a flagpole
@@ -85,6 +94,5 @@ The lot is cared for by the City of Providence, Department of Parks, North Buria
        Evans, 249 n. 69) are the place to test it. Re-read this paragraph against them.
      - The 1875 dedication line "The lot is designed especially for …" is lost in the fold
        of the scan. Read it from the original before release.
-     - The ledger paragraph depends on Annalisa approving publication of the Howland
-       ledger entry. Ask before release.
+     - Ledger image: A. Heppner approved publication of NBG record images, 1 Nov 2026.
 -->

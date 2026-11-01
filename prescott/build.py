@@ -952,6 +952,11 @@ def main():
         (dest / "index.html").write_text(html_text, encoding="utf-8")
         hosted |= records
     # Photographs of stones not yet matched to a grid position are shown on the help page.
+    # Records that the site pages (site/*.md) show directly are hosted too.
+    for sp in (ROOT / "site").glob("*.md"):
+        for m in re.finditer(r"\.\./(records/[^)\s\]]+\.(?:jpe?g|png|pdf))", sp.read_text(encoding="utf-8")):
+            if (ROOT / m.group(1)).exists():
+                hosted.add(m.group(1))
     # ...and records that belong to site pages rather than stones live in records/_<name>/.
     for p in sorted((ROOT / "records").glob("_*/*")):
         if p.suffix.lower() in (".jpg", ".jpeg", ".png", ".pdf"):
