@@ -157,6 +157,7 @@ def inline(text, prefix):
     s = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", s)
     s = re.sub(r"(?<![\w*])\*(?!\s)(.+?)(?<!\s)\*(?![\w*])", r"<em>\1</em>", s)
     s = re.sub(r"\[([^\]]+)\]\((https?://[^)\s]+)\)", r'<a href="\2" rel="noopener">\1</a>', s)
+    s = re.sub(r"\[([^\]]+)\]\(((?:\.\./|/)[^)\s]+)\)", r'<a href="\2">\1</a>', s)   # relative links
     s = re.sub(r"\[(\d+)\](?!\()", r'<a class="cite" href="#src-\1">[\1]</a>', s)
     s = MARKER_RE.sub(lambda m: f'<mark class="todo">⟨{m.group(1)}⟩</mark>', s)
     return s
@@ -328,7 +329,7 @@ def page(title, body_html, prefix, researchers, revised, release, extra_head="",
 </main>
 <footer class="site">
   <p>{credits}{CITY_CREDIT}{revised_txt}</p>
-  <p><a href="{prefix}map/index.html">Plot map</a> · <a href="{prefix}register.csv">Register (CSV)</a></p>
+  <p><a href="{prefix}map/index.html">Plot map</a> · <a href="{prefix}help/index.html">How to help</a> · <a href="{prefix}register.csv">Register (CSV)</a></p>
 </footer>
 </body>
 </html>
@@ -363,6 +364,8 @@ footer.site { max-width:40rem; margin:2rem auto 0; padding:1rem; border-top:3px 
             padding:.1rem .45rem; border-radius:.2rem; font-size:.95rem; }
 .status { font-size:.9rem; border-left:4px solid var(--rule); padding:.3rem .6rem; margin:.8rem 0; background:#f3f1ec; }
 .status b { text-transform:capitalize; }
+ul.cols { columns:2 14rem; padding-left:1.2rem; }
+ul.cols li { break-inside:avoid; }
 section.help { margin:1.6rem 0; padding:.9rem 1rem; border:1px solid var(--rule); background:#f3f1ec; }
 section.help h2 { margin-top:0; }
 a.button { display:inline-block; padding:.6rem 1rem; border:1px solid currentColor; border-radius:4px; text-decoration:none; font-weight:600; }
@@ -631,6 +634,77 @@ def render_map(rows, dossiers, release):
                 str(meta.get("last_revised", "")), release, kind="map", path="map/")
 
 
+
+# ----------------------------------------------------------------------------
+# How-to-help page
+# ----------------------------------------------------------------------------
+
+
+def photo_lists(rows, dossiers, redo_spec):
+    """From the register (+ the help page's hand-kept redo list): (counts_html, wanted_html, redo_html)."""
+    by_grid = {d["grid"]: d for d in dossiers}
+    reg = {r["grid"]: r for r in rows}
+    photographed = {r["grid"] for r in rows if "stone photographed" in r["notes"]}
+    named = [r for r in rows if r["name_carved"]]
+    unread = [r for r in rows if not r["name_carved"] and r["status"] == "stone-only"]
+    sunk = [r for r in rows if not r["name_carved"] and "sunk" in r["notes"]]
+    wanted = [r for r in named if r["grid"] not in photographed]
+
+    def item(r, extra=""):
+        label = html.escape(f'{r["grid"]} — {r["name_carved"]}')
+        d = by_grid.get(r["grid"])
+        link = f'<a href="../stone/{d["slug"]}/index.html">{label}</a>' if d else label
+        return f"<li>{link}{(' <small>' + html.escape(extra) + '</small>') if extra else ''}</li>"
+
+    redo_items = []
+    for spec in redo_spec or []:
+        grid, _, reason = str(spec).partition(" — ")
+        grid = grid.strip()
+        if grid not in reg:
+            problem("warn", "site/help.md", f"redo: {grid} is not in the register")
+            continue
+        redo_items.append(item(reg[grid], reason.strip()))
+
+    sunk_txt = ""
+    if sunk:
+        sunk_txt = (f" {len(sunk)} markers ({', '.join(r['grid'] for r in sunk)}) are sunk with no inscription read at all; "
+                    f"photograph them as they are and tell us how far they are buried.")
+    counts = (f"<p>The lot has {len(rows)} surveyed positions. We have read a name on {len(named)} stones and photographed "
+              f"{len(photographed)} of them. <b>About {len(unread)} stones have not been read at all</b> — most were recorded "
+              f"only by the state of service carved at the top. A clear photograph of any one of them, with its grid position, "
+              f"is new knowledge.{sunk_txt}</p>")
+    wanted_html = "<ul class=\"cols\">" + "".join(item(r) for r in wanted) + "</ul>" if wanted else "<p>None at present.</p>"
+    redo_html = "<ul>" + "".join(redo_items) + "</ul>" if redo_items else "<p>None at present.</p>"
+    return counts, wanted_html, redo_html
+
+
+def render_help(rows, dossiers, file_requests, release):
+    prefix = "../"
+    path = ROOT / "site" / "help.md"
+    if not path.exists():
+        return None
+    meta, body = parse_front_matter(path.read_text(encoding="utf-8"), "site/help.md")
+    for m in MARKER_RE.finditer(COMMENT_RE.sub("", body)):
+        problem("error" if release else "warn", "site/help.md", f"editor marker in text: ⟨{m.group(1)[:50]}⟩")
+    counts, wanted, redo = photo_lists(rows, dossiers, meta.get("redo"))
+    url = str(meta.get("photo_request_url", "")).strip()
+    button = (f'<p><a class="button" href="{html.escape(url)}" rel="noopener">Upload stone photographs</a></p>'
+              if url else "")
+    with_req = [d for d in dossiers if d["grid"] in file_requests]
+    pages = ("<ul class=\"cols\">" + "".join(
+        f'<li><a href="../stone/{d["slug"]}/index.html">{html.escape(d["grid"])} — {html.escape(str(d["meta"].get("name_carved", d["slug"])))}</a></li>'
+        for d in sorted(with_req, key=lambda d: (d["grid"][0], int(d["grid"][1:])))) + "</ul>")
+    fills = {"{{photo_counts}}": counts, "{{photo_wanted}}": wanted, "{{photo_redo}}": redo,
+             "{{photo_button}}": button, "{{pages_with_requests}}": pages}
+    html_body = render_markdown(body, prefix, "site/help.md")
+    for k, v in fills.items():
+        html_body = html_body.replace(f"<p>{k}</p>", v).replace(k, v)
+    researchers = meta.get("researchers") or []
+    if isinstance(researchers, str):
+        researchers = [researchers]
+    return page(str(meta.get("title", "How to help")), html_body, prefix, researchers,
+                str(meta.get("last_revised", "")), release, kind="help", path="help/")
+
 # ----------------------------------------------------------------------------
 # Link check
 # ----------------------------------------------------------------------------
@@ -684,6 +758,10 @@ def main():
         dest.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy(ROOT / rel, dest)
     (out / "map" / "index.html").write_text(render_map(rows, dossiers, args.release), encoding="utf-8")
+    help_html = render_help(rows, dossiers, file_requests, args.release)
+    if help_html:
+        (out / "help").mkdir()
+        (out / "help" / "index.html").write_text(help_html, encoding="utf-8")
     (out / "index.html").write_text(
         '<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">'
         f'<title>{SITE_NAME}</title><meta http-equiv="refresh" content="0; url=map/index.html">'
