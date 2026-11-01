@@ -275,6 +275,9 @@ def render_markdown(body, prefix, where, records=None):
 RECORD_RE = re.compile(r"^`([^`]+)`\s*(?:—|-|–)\s*(.*)$")
 
 
+INLINE_SHOWN = set()   # records/... paths a page already shows inline in its text (set per page)
+
+
 def render_record_item(text, prefix, where, records):
     """A bullet under '## The records': `records/G3/file` — caption [n] ⟨note⟩."""
     m = RECORD_RE.match(text.strip())
@@ -297,6 +300,8 @@ def render_record_item(text, prefix, where, records):
         src = prefix + rel
         if os.path.basename(rel).lower().startswith("stone") and rel.lower().endswith((".jpg", ".jpeg", ".png", ".webp")):
             parts.append(f'<p class="doc"><a href="{src}">Headstone photograph</a> (shown above) — {inline(caption, prefix)}</p>')
+        elif rel in INLINE_SHOWN:
+            parts.append(f'<p class="doc"><a href="{src}">{html.escape(os.path.basename(rel))}</a> (shown above) — {inline(caption, prefix)}</p>')
         elif rel.lower().endswith((".jpg", ".jpeg", ".png", ".webp", ".gif")):
             parts.append(f'<figure><a href="{src}"><img src="{src}" loading="lazy" '
                          f'alt="{html.escape(caption_text, quote=True)}"></a>'
@@ -634,6 +639,8 @@ def render_stone(d, reg_by_grid, release, file_requests=None):
             stone_md = s
         else:
             rest.append(s)
+    INLINE_SHOWN.clear()
+    INLINE_SHOWN.update(m.group(1) for m in re.finditer(r"!\[.*\]\(\.\./\.\./(records/[^)\s]+)\)", raw))
     body_html = render_markdown("".join(rest), prefix, where, records=records)
     # Register cross-check
     reg = reg_by_grid.get(d["grid"])

@@ -14,11 +14,11 @@ birthplace: ""                 # no source names it
 died: "1883-03-13"
 death_place: "Providence, R.I., at his house, 44 Union St. [24]; City burial ledger gives 52 Meeting St. [2]; see conflict note"
 interred: "1886-09-08"         # reinterment in this lot; first burial 1883-03-18, Colored Free Ground 555
-city_lot_ref: "Prov. G.A.R. Lot, Grave 23 (orig. Colored Free Ground 555)"   # publication of ledger entry: confirm with A. Heppner
+city_lot_ref: "Prov. G.A.R. Lot, Grave 23 (orig. Colored Free Ground 555)"   # ledger publication approved by A. Heppner, 1 Nov 2026
 status: "draft"                # CMSR and court-martial located; narrative drafted; civil life researched; no second reader yet
 researchers: ["Bernard Brennan"]
 second_reader: ""
-last_revised: "2026-10-30"
+last_revised: "2026-11-01"
 records_dir: records/G3/
 ---
 
@@ -32,13 +32,35 @@ Zebedee Howland was a barber in Providence for more than thirty years. [3][4] In
 
 He enlisted in the 14th Rhode Island Heavy Artillery (Colored) as a private on August 27, 1863. [8] On November 5 he was appointed sergeant major, the senior enlisted soldier of the regiment. [9]
 
-In June 1864, at Carrollton, Louisiana, a court-martial of white officers tried him on two charges. They arose when he arranged the sergeants of a guard detail and told the acting adjutant, Lieutenant Zephaniah Brown, that the captains would each want a copy. Brown testified that Howland "gave me the idea that he was instructing me in my duty." Howland pleaded not guilty and wrote two statements in his defence. The court found him guilty and reduced him to the ranks. [10][11]
+In June 1864, at Carrollton, Louisiana, a court-martial of white officers tried him on two charges from one morning, June 5, at Camp Parapet. The first was that he failed to pass two orders from the acting adjutant, Lieutenant Zephaniah Brown, to two sergeants. The second was that, sent to carry the day's orders to each company, he came back before finishing and told Brown he ought to make out a copy for each captain, as they had no time to copy it. [10]
 
-Twelve days after the reduction took effect, his company made him a sergeant again. [8] In December, at Fort Jackson, his captain had him reduced a second time, by order and without a hearing, "for incompetency and continual neglect of duty." [12] In July 1865 a regimental court fined him for a day's absence without leave. [13] He mustered out on October 2, 1865, a private. [8]
+![The charges and specifications, as read at his arraignment. Court-martial case file LL 2229, National Archives. [10]](../../records/G3/nara-ll2229-charges.jpg)
+
+Asked whether Howland's manner was disrespectful, Brown answered: "He gave me the idea that he was instructing me in my duties." [10]
+
+![Lieutenant Brown's testimony. LL 2229. [10]](../../records/G3/nara-ll2229-brown-testimony.jpg)
+
+Howland pleaded not guilty and submitted two statements over his signature. In the second he wrote that a captain had said to him, "we ought to have a copy of these orders"; that he went back at once and told the adjutant so; and that Brown "told me to go to my Quarters under arrest." [10]
+
+![Howland's statement in answer to the second charge, signed "Zebedee Howland, Sergeant Major." LL 2229. [10]](../../records/G3/nara-ll2229-statement-b.jpg)
+
+The court found him guilty on both charges and sentenced him "to be reduced to the ranks, and forfeit all pay for a period of two months." Brigadier General T. W. Sherman approved the sentence on June 29. [10][11]
+
+![Findings, sentence and approval, June 29, 1864. LL 2229. [10]](../../records/G3/nara-ll2229-sentence.jpg)
+
+Twelve days after the reduction took effect, his company made him a sergeant again. [8] In December, at Fort Jackson, his captain had him reduced a second time, by order and without a hearing, "for incompetency and continual neglect of duty." [12]
+
+![Special Orders No. 36, Fort Jackson, December 15, 1864: "At the request of Capt. J. W. Fry, Co. A, Sergt. Zebedee Howland is hereby reduced to the ranks." Regimental order book, National Archives. [12]](../../records/G3/nara-so36-1864.jpg)
+
+In July 1865 a regimental court fined him half a month's pay for absence without leave; he pleaded guilty. [13] He mustered out on October 2, 1865, a private. [8]
+
+![General Orders No. 6, Brashear City, July 1865, item VII: "Private Zebedee Howland of Co. A … Charge absent without leave." Regimental order book, National Archives. [13]](../../records/G3/nara-go6-1865.jpg)
 
 In Providence he returned to his shop. [3] He rose to major commanding the Burnside National Guards, a Black militia company; in 1875 the State enrolled the Guards in the Rhode Island Militia. [14][15] He belonged to Ives Post No. 13 of the Grand Army of the Republic, and on Decoration Day 1875 was one of the state G.A.R.'s assistant inspectors in the parade. [16]
 
 His wife Esther died in February 1883. [17] On March 13 he died suddenly at his house, 44 Union Street. A newspaper gave the cause as heart disease. [24] The City buried him at its own expense in the Colored Free Ground. A state law of 1885 required the City to move honorably discharged soldiers out of pauper ground. [25] On September 8, 1886, his body was raised and reburied here, in the Prescott Post lot. The clerk wrote one word beside the order: "Soldier." [2]
+
+![The City's burial ledger, March 1883: Howland's struck entry, ditto marks for "Colored Free Ground 555," and the red note "Soldier. Raised Sept. 8/86 & Int. in Prov. G.A.R. Lot Grave 23. Chg. City." [See the whole page](../../records/G3/1883-burial-ledger.jpg). Courtesy City of Providence, Department of Parks, North Burial Ground. [2]](../../records/G3/1883-burial-ledger-detail.jpg)
 
 His stone gives his company and regiment. It does not give his rank. [18]
 
@@ -71,14 +93,19 @@ The stone gives his company and omits the rank of sergeant major. He held that r
 ## The records
 
 - `records/G3/stone-2026.jpg` — Headstone, G3, 2026 (IMG_1211). [18]
+- `records/G3/1883-burial-ledger-detail.jpg` — City burial ledger, March 1883, detail of the place-of-interment column with Howland's struck entry and the 1886 annotation. Courtesy City of Providence. [2]
 - `records/G3/1883-burial-ledger.jpg` — City burial ledger (Superintendent’s Record of Burials, North Burial Ground), page for March 1883, with the red annotation of 8 September 1886 recording his removal to the Prescott Post lot (IMG_2550). Hosted with the approval of the City of Providence, 1 Nov 2026. [2]
 - `records/G3/1883-death-notice.jpg` — Newspaper notice of his death, March 1883. [24]  ⟨paper and date; public domain if pre-1930⟩
 - `records/G3/1875-morning-star.jpg` — *Providence Morning Star*, 31 May 1875, p. 1, detail: Howland listed as assistant inspector, Ives Post No. 13. [16]
 - `records/G3/1886-council-report.jpg` — City Council Report No. 272 and Resolution No. 273, June 1886, on enlarging the Prescott Post lot. [25]
 - `records/G3/cmsr-*.pdf` — Compiled military service record, NARA RG 94. [8]  ⟨BB: scans from Aug. 2026 trip⟩
-- `records/G3/cm-LL2229-*.pdf` — Court-martial case file LL 2229, NARA RG 153, including Howland's two defence statements. [10]  ⟨BB: scans⟩
+- `records/G3/nara-ll2229-charges.jpg` — LL 2229: arraignment, charges and specifications (NARA IMG_1195). [10]
+- `records/G3/nara-ll2229-brown-testimony.jpg` — LL 2229: testimony of 1st Lt. Zephaniah Brown, acting adjutant (NARA IMG_1199). [10]
+- `records/G3/nara-ll2229-statement-b.jpg` — LL 2229: Howland's statement in answer to the second charge, signed (NARA IMG_1225). [10]
+- `records/G3/nara-ll2229-sentence.jpg` — LL 2229: findings, sentence, and approval by Brig. Gen. T. W. Sherman, 29 June 1864 (NARA IMG_1222). [10]
 - `records/G3/go19-1864.pdf` — General Orders No. 19, 4 July 1864, publishing the sentence. [11]
-- `records/G3/so36-1864.pdf` — Special Orders No. 36, 1st Battalion, Fort Jackson, 15 Dec. 1864. [12]
+- `records/G3/nara-so36-1864.jpg` — Special Orders No. 36, 1st Battalion, Fort Jackson, 15 Dec. 1864 (NARA IMG_1260). [12]
+- `records/G3/nara-go6-1865.jpg` — General Orders No. 6, 1st Battalion, Brashear City, July 1865, item VII (NARA IMG_1277). [13]
 - `records/G3/directory-*.jpg` — Providence directory entries, 1852–1862. [3]  ⟨public domain; scan or link⟩
 
 ## What we don't know
@@ -89,7 +116,6 @@ The stone gives his company and omits the rank of sergeant major. He held that r
 - His parents. "Son of" Lydia A. Howland Brown (d. 1844) and grandson of Philip Howland (d. 1820) are a working hypothesis from death notices. [1]
 - What he was doing from October 1862 to July 1863, about five months away from Providence in a unit or commissary role that predates the 14th, and whether as a soldier or a civilian. A draft record of 1 June 1863 precedes his enlistment by two months and has not been reconciled with it. [1][6]
 - Where he was from January to May 1864: with Company A at Matagorda Island, or on the regimental staff at New Orleans. [1]
-- The wording of the two charges and specifications. [10]  ⟨BB: transcribe from LL 2229⟩
 - When he joined Ives Post, and the date of his Masonic membership. He was a member by May 1875. [16]
 - When he held the majority of the Burnside National Guards. In May 1875 the Guards marched under Col. J. M. Munroe, and Howland marched with Ives Post. [14][16]
 - Whether he held municipal office. The claim has circulated; no document supports it. It is not on this page.
@@ -111,10 +137,10 @@ Conflicts: Birth year: [1] gives 1828, [2] implies c. 1825, [24] implies c. 1833
 7. William H. Chenery, *The Fourteenth Regiment Rhode Island Heavy Artillery (Colored) in the War to Preserve the Union, 1861–1865* (Providence: Snow & Farnham, 1898), 10, 40, 154. ⟨verify page wording⟩
 8. Compiled Military Service Record of Zebedee Howland, Co. A, 14th Rhode Island Heavy Artillery (11th U.S. Colored Heavy Artillery). National Archives, Washington, D.C., RG 94, Records of the Adjutant General's Office, Compiled Military Service Records of Volunteer Union Soldiers Who Served with the United States Colored Troops, ⟨entry and file⟩; including muster rolls (enlisted 27 Aug. 1863; reduced 19 July 1864; sergeant 31 July 1864; mustered out 2 Oct. 1865) and the regimental letter book entry on pay at three grades. Consulted by Bernard Brennan, Aug. 2026.
 9. 14th R.I. Heavy Artillery, General Orders No. 13, 5 Nov. 1863 (appointing Howland sergeant major); 1st Battalion, General Orders No. 1, Dutch Island, 7 Dec. 1863 (Sgt. Lewis J. Fry acting battalion sergeant major). NARA RG 94, Regimental Books, 11th U.S. Colored Heavy Artillery, ⟨volume⟩.
-10. Proceedings of a General Court-Martial in the case of Sgt. Maj. Zebedee Howland, 14th R.I. Heavy Artillery, convened by Special Orders No. 131, Defences of New Orleans, 2 June 1864; tried at Carrollton, La., 10–16 June 1864; Capt. Henry K. Southwick, judge advocate; testimony of 1st Lt. Zephaniah Brown; two written statements of the accused. National Archives, Washington, D.C., RG 153, Records of the Office of the Judge Advocate General (Army), Court-Martial Case Files, file LL 2229. Consulted by Bernard Brennan, Aug. 2026.
+10. Proceedings of a General Court-Martial in the case of Sgt. Maj. Zebedee Howland, 14th R.I. Heavy Artillery, convened by Special Orders No. 131, Defences of New Orleans, 2 June 1864; tried at Carrollton, La., 10–16 June 1864; Capt. Henry K. Southwick, judge advocate; testimony of 1st Lt. Zephaniah Brown; two written statements of the accused. National Archives, Washington, D.C., RG 153, Records of the Office of the Judge Advocate General (Army), Court-Martial Case Files, file LL 2229. Consulted and photographed by Bernard Brennan, 12 Aug. 2026 (NARA IMG_1192–1226; pages shown here: IMG_1195, 1199, 1222, 1225). The file wrapper dates the trial "June 10–15" and names the regiment by its federal designation at the time, 8th U.S. Heavy Artillery (Colored).
 11. General Orders No. 19, Defences of New Orleans, 4 July 1864, publishing the sentence as approved by Brig. Gen. T. W. Sherman, 29 June 1864. ⟨in LL 2229 or RG 393⟩
-12. Special Orders No. 36, 1st Battalion, 11th U.S. Colored Heavy Artillery, Fort Jackson, La., 15 Dec. 1864, signed Zephaniah Brown, adjutant, at the request of Capt. Fry, Co. A. NARA RG 94, Regimental Books, ⟨volume⟩. The Descriptive Book dates the reduction 13 Dec.
-13. General Orders No. 6, 11th U.S. Colored Heavy Artillery, Brashear City, La., 11 July 1865 (regimental court-martial; absence without leave 5 July; forfeiture of one half of one month's pay). NARA RG 94, Regimental Books, ⟨volume⟩.
+12. Special Orders No. 36, 1st Battalion, 11th U.S. Colored Heavy Artillery, Fort Jackson, La., 15 Dec. 1864, signed Zephaniah Brown, adjutant, at the request of Capt. J. W. Fry, Co. A. NARA, RG 94, Records of the Adjutant General's Office, Book Records of Volunteer Union Organizations, 11th U.S. Colored Heavy Artillery, Entries 112–115 (PI-17), order book ⟨volume⟩. Photograph by Bernard Brennan, 12 Aug. 2026 (NARA IMG_1260). The Descriptive Book dates the reduction 13 Dec.
+13. General Orders No. 6, 1st Battalion, 11th U.S. Colored Heavy Artillery, Brashear City, La., July 1865, item VII (regimental court-martial; absence without leave 5 July; plea guilty; forfeiture of one half of one month's pay). NARA, RG 94, Book Records of Volunteer Union Organizations, 11th U.S. Colored Heavy Artillery, Entries 112–115 (PI-17), order book ⟨volume⟩. Photograph by Bernard Brennan, 12 Aug. 2026 (NARA IMG_1277). ⟨date: the order book reads July 18 [?] in IMG_1277; this entry had 11 July; reconcile⟩
 14. *Providence Morning Star*, 31 Oct. 1871 (Burnside National Guards parade in honor of Maj. Howland, with the What Cheer Band). ⟨page⟩  ⟨BB: source for captaincy and for "major commanding by 1867"⟩
 15. Rhode Island Militia, General Orders No. 5, 1 May 1875 (Burnside National Guards enrolled as Sixth Battalion of Infantry). ⟨Adjutant General's report or order book⟩
 16. "The Laureled Dead," *Providence Morning Star*, 31 May 1875, 1, order of procession for Decoration Day, 29 May 1875: "Zebedee Howland, Ives Post, No. 13," among the Department's assistant inspectors; Ives Post No. 13, Commander David Howard, forty men; Burnside National Guards, Col. J. M. Munroe commanding.

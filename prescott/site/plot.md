@@ -39,7 +39,7 @@ In 1885 the General Assembly passed a law: honorably discharged soldiers and sai
 
 Zebedee Howland, sergeant major of the 14th Rhode Island, had died in March 1883. The City buried him in the Colored Free Ground. On September 8, 1886, ten weeks after the City authorized the enlargement, his body was raised and reburied here, at the City's charge. The clerk struck the old entry and wrote "Soldier" beside it. [6] His stone is at G3, and [his page](../stone/G3-howland/index.html) tells his story.
 
-![The stone of Zebedee Howland, G3: ZEBEDEE HOWLAND / Co. A. 14th R.I.H.Arty. / Died March 13, 1883. [Read his page →](../stone/G3-howland/index.html)](../records/G3/stone-2026-close.jpg)
+![The stone of Zebedee Howland, G3: ZEBEDEE HOWLAND / Co. A. 14th R.I.H.Arty. / Died March 13, 1883. [Read his page →](../stone/G3-howland/index.html)](../records/G3/headstone-close-2026.jpg)
 
 Howland's is the one case documented so far. The 1885 law makes it likely there were others, Black and white. The City's burial ledgers will show how many.
 
