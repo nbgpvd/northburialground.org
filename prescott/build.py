@@ -363,6 +363,9 @@ footer.site { max-width:40rem; margin:2rem auto 0; padding:1rem; border-top:3px 
             padding:.1rem .45rem; border-radius:.2rem; font-size:.95rem; }
 .status { font-size:.9rem; border-left:4px solid var(--rule); padding:.3rem .6rem; margin:.8rem 0; background:#f3f1ec; }
 .status b { text-transform:capitalize; }
+section.help { margin:1.6rem 0; padding:.9rem 1rem; border:1px solid var(--rule); background:#f3f1ec; }
+section.help h2 { margin-top:0; }
+a.button { display:inline-block; padding:.6rem 1rem; border:1px solid currentColor; border-radius:4px; text-decoration:none; font-weight:600; }
 nav.jump { display:flex; flex-wrap:wrap; gap:.3rem .9rem; font-size:.95rem; margin:.4rem 0 1rem; }
 nav.jump a { white-space:nowrap; }
 ul.records { list-style:none; padding:0; }
@@ -428,6 +431,22 @@ def load_register():
     return rows
 
 
+def load_file_requests():
+    """file-requests.csv: grid, upload_url, status (open|closed) ... -> {grid: url} for open requests."""
+    path = ROOT / "file-requests.csv"
+    out = {}
+    if not path.exists():
+        return out
+    with open(path, newline="", encoding="utf-8") as f:
+        for r in csv.DictReader(f):
+            grid, url, status = (r.get("grid") or "").strip(), (r.get("upload_url") or "").strip(), (r.get("status") or "").strip()
+            if grid and url and status == "open":
+                if not url.startswith("https://www.dropbox.com/request/"):
+                    problem("warn", "file-requests.csv", f"{grid}: upload_url is not a Dropbox file request: {url}")
+                out[grid] = url
+    return out
+
+
 def load_dossiers():
     dossiers = []
     for path in sorted((ROOT / "veterans").glob("*.md")):
@@ -455,7 +474,17 @@ def load_dossiers():
 # Renderers
 # ----------------------------------------------------------------------------
 
-def render_stone(d, reg_by_grid, release):
+def help_block(name, url):
+    name = html.escape(name)
+    return (f'<section class="help" id="help"><h2>Help research this man</h2>'
+            f'<p>Do you have a record of {name} — a census page, a pension card, a city-directory entry, '
+            f'a newspaper item, a family story? You can upload it to the project without an account. '
+            f'Please say what the record is, where you found it, and why you believe it is this man. '
+            f'Every contributor is credited on this page.</p>'
+            f'<p><a class="button" href="{html.escape(url)}" rel="noopener">Upload a record for {name}</a></p></section>')
+
+
+def render_stone(d, reg_by_grid, release, file_requests=None):
     meta, prefix, where = d["meta"], "../../", d["file"]
     records = set()
     body_html = render_markdown(d["body"], prefix, where, records=records)
@@ -496,6 +525,14 @@ def render_stone(d, reg_by_grid, release):
     researchers = meta.get("researchers") or []
     if isinstance(researchers, str):
         researchers = [researchers]
+    url = (file_requests or {}).get(d["grid"])
+    if url:
+        # Insert before the Credits heading so the ask sits with the open questions, not after the footer line.
+        name = str(meta.get("name_full") or meta.get("name_carved") or d["slug"]).strip()
+        block = help_block(name, url)
+        i = body_html.find('<h2 id="credits">')
+        body_html = body_html[:i] + block + body_html[i:] if i >= 0 else body_html + block
+        head[-1] = head[-1].replace("</nav>", '<a href="#help">Help</a></nav>')
     return page(str(meta.get("name_carved", d["slug"])), "\n".join(head) + "\n" + body_html, prefix,
                 researchers, str(meta.get("last_revised", "")), release, kind="stone",
                 path=f"stone/{d['slug']}/"), records
@@ -631,10 +668,13 @@ def main():
     rows = load_register()
     reg_by_grid = {r["grid"]: r for r in rows}
     dossiers = load_dossiers()
+    file_requests = load_file_requests()
+    for grid in sorted(set(file_requests) - {d["grid"] for d in dossiers}):
+        problem("warn", "file-requests.csv", f"{grid}: open request but no dossier page to show it on")
 
     hosted = set()
     for d in dossiers:
-        html_text, records = render_stone(d, reg_by_grid, args.release)
+        html_text, records = render_stone(d, reg_by_grid, args.release, file_requests)
         dest = out / "stone" / d["slug"]
         dest.mkdir(parents=True)
         (dest / "index.html").write_text(html_text, encoding="utf-8")
