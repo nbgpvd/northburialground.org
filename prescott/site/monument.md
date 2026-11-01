@@ -9,7 +9,7 @@ researchers: ["Bernard Brennan"]
 
 ![The cut face of the base: PRESCOTT POST / No. 1. G.A.R. / A.D. 1875. Photograph 2026. [1]](../records/_monument/monument-inscription-2026.jpg)
 
-At the centre of the lot stands a granite base with an old cannon set upright on it. The base is cut on one face: PRESCOTT POST / No. 1. G.A.R. / A.D. 1875. [1] Everything else about it comes from the City's records, an Act of Congress, and the newspaper that reported the day it was dedicated.
+At the centre of [the Prescott Post lot](../map/index.html) stands a granite base with an old cannon set upright on it. The base is cut on one face: PRESCOTT POST / No. 1. G.A.R. / A.D. 1875. [1] Everything else about it comes from the City's records, an Act of Congress, and the newspaper that reported the day it was dedicated.
 
 ## The lot, 1871
 
@@ -53,6 +53,8 @@ At a later date the Council took up the headstones themselves. Alderman Reynolds
 - **The deed.** Resolution 287 required the lot to be deeded to the Post. The deed, and whether the Post ever held title or the City retained it, has not been found.
 - **When the headstones were replaced.** The Reynolds resolution is undated in the clipping we hold. The newspaper and year need to be identified from the clipping's source, and the resolution found in the Council's printed records.
 - **What stood here before 1886.** The monument was moved; the first lot was fifty by fifty, then forty by sixty. Where it stood in the original lot, and whether any graves of 1876–1886 were disturbed by the move, is not known.
+
+[← Back to the lot](../map/index.html)
 
 ## The records
 

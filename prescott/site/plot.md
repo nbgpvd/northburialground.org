@@ -7,6 +7,8 @@ researchers: ["Bernard Brennan"]
 
 # The Prescott Post lot
 
+![The lot from its downhill end, looking up the slope over the rows to the monument: an old cannon set upright on a granite base. [About the monument →](../monument/index.html) Photograph by Bernard Brennan, 2026.](../records/_site/lot-from-row-n-2026.jpg)
+
 You are standing in a burial lot of the Grand Army of the Republic, the organization of Union veterans. The monument at its centre reads "Prescott Post, No. 1, G.A.R., A.D. 1875." [1] It has [a page of its own](../monument/index.html). Around it stand about three hundred small white government headstones in rows. [2] The earliest death carved on them is 1876; the latest are in the 1930s. [2]
 
 ## How the lot began

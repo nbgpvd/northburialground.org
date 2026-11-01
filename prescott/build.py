@@ -218,7 +218,7 @@ def render_markdown(body, prefix, where, records=None):
             close_list()
             alt, src = m.group(1), m.group(2)
             out.append(f'<figure><a href="{html.escape(src, quote=True)}"><img src="{html.escape(src, quote=True)}" loading="lazy" '
-                       f'alt="{html.escape(re.sub(r"\[\d+\]", "", alt).strip(), quote=True)}"></a>'
+                       f'alt="{html.escape(re.sub(r"\[\d+\]", "", re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", alt)).strip(), quote=True)}"></a>'
                        + (f"<figcaption>{inline(alt, prefix)}</figcaption>" if alt else "") + "</figure>")
             i += 1
             continue
