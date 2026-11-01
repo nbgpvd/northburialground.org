@@ -897,7 +897,8 @@ def main():
     dossiers = load_dossiers()
     file_requests = load_file_requests()
     for grid in sorted(set(file_requests) - {d["grid"] for d in dossiers}):
-        problem("warn", "file-requests.csv", f"{grid}: open request but no dossier page to show it on")
+        if not grid.startswith("_"):      # rows beginning "_" are general requests (e.g. _photos), not stones
+            problem("warn", "file-requests.csv", f"{grid}: open request but no dossier page to show it on")
 
     hosted = set()
     for d in dossiers:

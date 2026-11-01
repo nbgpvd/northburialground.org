@@ -3,7 +3,7 @@ title: "How to help"
 slug: /help/
 last_revised: "2026-11-01"
 researchers: ["Bernard Brennan"]
-photo_request_url: "https://www.dropbox.com/request/tzm2s3hlgp4hr54c6nok"
+photo_request_url: "https://www.dropbox.com/request/s4dna8el8drmefset37r"   # round 2 (slope wording); round 1 tzm2s3hlgp4hr54c6nok retired 2026-11-01
 # Stones whose photograph leaves something unread. "GRID — reason", kept by hand.
 redo:
   - "C14 — date line below ground"
