@@ -19,8 +19,6 @@ The same holds for the plainest-seeming facts. A man's race, his regiment, the w
 
 We publish what the records show, including desertion, courts-martial, pauper burial, illness, and names and dates the stone gets wrong. We publish it plainly and in its context, and we stop there: no diagnosis, no moral, no guess at motive. A man who deserted in 1864 and came back has both facts on his page, and the reader draws the conclusion.
 
-Where a man's family has been found, nothing is published about him until they have been told what the page will say.
-
 ## 3. Conflicts are shown, not settled quietly
 
 When two records disagree — a stone and a muster roll, an index card and a pension file — the page shows both and says which the editor weights and why. When the record is silent, the page says so. A reader should never have to wonder whether a date was found or chosen.
