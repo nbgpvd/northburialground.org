@@ -26,7 +26,7 @@ records_dir: records/D20/
 
 ## Life
 
-The stone in grave D20 of the Prescott Post lot has been read only as far as the word TAFFT; the man it names is not yet identified. No date of death has been read from it. [1]
+The stone in grave D20 of the Prescott Post lot has been read only as far as TAFFT; the man it names is not yet identified. No date of death has been read from it. [1]
 
 The PV001 list has a Henry S. Tafft, U.S. Signal Corps, died 1909, and the index has a Henry S. Tafft in the Signal Corps, U.S. Volunteers. Until the stone is raised and read, he is a candidate, not an identification. [2]
 
@@ -42,7 +42,7 @@ As recorded on the plot survey sheet; the stone has not been photographed and th
 
 ## The records
 
-- `records/D20/stone-2026.jpg` — Headstone of Tafft, grid D20, Prescott Post lot, 2026. [1]
+- `records/D20/stone-2026.jpg` — Headstone of Tafft, grid D20, Prescott Post lot, photographed 2026. [1]
 
 ## What we don't know
 

@@ -26,7 +26,7 @@ Private, Co. C, 28th Maine Infantry · died 1928-01-18
 
 ## Life
 
-Elijah E. Ferrin lies in grave A1 of the Prescott Post lot. The plot survey records his stone as naming his unit as Company C of the 28th Maine Infantry, and gives his death as January 18, 1928. [1]
+Elijah E. Ferrin lies in grave A1 of the Prescott Post lot. His stone names his unit as Company C of the 28th Maine Infantry, and gives his death as January 18, 1928. [1]
 
 The index has no Elijah E. Ferrin in the 28th Maine; the only Ferrin it lists in that regiment is an Eaton Ferrin. The identity behind the stone is not yet confirmed. [2]
 
@@ -36,15 +36,16 @@ His service record, any pension file, and his life before and after the war have
 
 ## The stone
 
-Not yet photographed. The plot survey sheet records: Elijah E. Ferrin, Co. C, 28th Maine Infantry, Private, died January 18, 1928. A photograph is wanted; see the help page. [1]
+ELIJAH E. FERRIN / Pvt. Co. C 28 Maine Inf. / Died Jan. 18, 1928
+
+Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph by B. Brennan, June 23, 2026. [1]
 
 ## The records
 
-- `records/A1/stone-2026.jpg` — Headstone of Elijah E. Ferrin, grid A1, Prescott Post lot, 2026. [1]
+- `records/A1/stone-2026.jpg` — Headstone of Elijah E. Ferrin, grid A1, Prescott Post lot, photographed June 23, 2026. [1]
 
 ## What we don't know
 
-- What exactly does the stone say? It has not yet been photographed; the name, unit and date here are from the survey sheet.
 - When and where did he enlist, and what did his company do? His compiled military service record (National Archives, RG 94) will say.
 - Did he or his widow apply for a pension? The General Index to Pension Files (NARA T288/T289) has not yet been searched for him.
 - Where was he born, and how did he come to Providence?
@@ -54,7 +55,7 @@ Not yet photographed. The plot survey sheet records: Elijah E. Ferrin, Co. C, 28
 
 ## Sources
 
-1. Prescott Post plot survey sheet, grave A1, compiled by Bernard Brennan, 2026: name, unit and date of death as read on site. The stone has not yet been photographed.
+1. Gravestone of Elijah E. Ferrin, grave A1, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, June 23, 2026; transcription as recorded in the plot register.
 2. National Park Service, Civil War Soldiers and Sailors Database, search for "Elijah E. Ferrin" (28th Maine Infantry); accessed October 31, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
 3. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for Elijah E. Ferrin.
 

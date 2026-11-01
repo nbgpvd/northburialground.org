@@ -1,6 +1,6 @@
 ---
 grid: "I6"
-name_carved: "Diggs"
+name_carved: "[HENR]Y C. DIGGS"
 name_full: "Diggs"
 variants: ["Diggs [stone]", "two men named Diggs in the 11th U.S. Colored Heavy Artillery: John Diggs, Company M [NPS index]"]
 unit: "14th Rhode Island Heavy Artillery"
@@ -20,15 +20,15 @@ last_revised: "2026-11-01"
 records_dir: records/I6/
 ---
 
-# Diggs
+# [HENR]Y C. DIGGS
 
 14th Rhode Island Heavy Artillery
 
 ## Life
 
-Diggs lies in grave I6 of the Prescott Post lot. The plot survey records his stone as naming his unit as 14th Rhode Island Heavy Artillery, and gives his death as September 30 of a year the survey could not read; the PV001 list gives 1891. [1]
+Diggs lies in grave I6 of the Prescott Post lot. His stone names his unit as 14th Rhode Island Heavy Artillery, and gives his death as September 30 of a year the survey could not read; the PV001 list gives 1891. [1]
 
-The National Park Service's index of Civil War soldiers, which files the 14th Rhode Island under its later name, the 11th U.S. Colored Heavy Artillery, lists two men named Diggs in the 11th U.S. Colored Heavy Artillery: John Diggs, Company M, private in, corporal out, and Henry C. Diggs, Company H, private in and out; both microfilm M589 roll 24. [2] The PV001 list has Henry C. Diggs, Company H, died 1891, which favours him; the stone's given name has not been read.
+The National Park Service's index of Civil War soldiers, which files the 14th Rhode Island under its later name, the 11th U.S. Colored Heavy Artillery, lists two men named Diggs in the 11th U.S. Colored Heavy Artillery: John Diggs, Company M, private in, corporal out, and Henry C. Diggs, Company H, private in and out; both microfilm M589 roll 24. [2] The photograph reads the given name's last letter as Y and the middle initial as C, which favours Henry C. Diggs, Company H; the PV001 list has him dying in 1891.
 
 A 2022 list of Civil War veterans buried at North Burial Ground gives his death as 1891. [3]
 
@@ -36,17 +36,16 @@ His service record, any pension file, and his life before and after the war have
 
 ## The stone
 
-DIGGS / 14th R.I.H.A. / Died Sept. 30, 18[??]
+[HENR]Y C. DIGGS / [Co. H] 14th R.I.H.A. / Died Sept. 30, 18[??]
 
-As recorded on the plot survey sheet; the stone has not been photographed and the rest of the inscription has not been read. [1]
+Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph by B. Brennan, June 20, 2025. [1]
 
 ## The records
 
-- `records/I6/stone-2026.jpg` — Headstone of Diggs, grid I6, Prescott Post lot, 2026. [1]
+- `records/I6/stone-2026.jpg` — Headstone of Diggs, grid I6, Prescott Post lot, photographed June 20, 2025. [1]
 
 ## What we don't know
 
-- What exactly does the stone say? It has not yet been photographed; the name, unit and date here are from the survey sheet.
 - When and where did he enlist, and what did his company do? His compiled military service record (National Archives, RG 94) will say.
 - Did he or his widow apply for a pension? The General Index to Pension Files (NARA T288/T289) has not yet been searched for him.
 - Where was he born, and how did he come to Providence?
@@ -56,7 +55,7 @@ As recorded on the plot survey sheet; the stone has not been photographed and th
 
 ## Sources
 
-1. Prescott Post plot survey sheet, grave I6, compiled by Bernard Brennan, 2026: name, unit and date of death as read on site. The stone has not yet been photographed.
+1. Gravestone of Diggs, grave I6, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, June 20, 2025; transcription as recorded in the plot register.
 2. National Park Service, Civil War Soldiers and Sailors Database, search for "Diggs" (14th Rhode Island Heavy Artillery); accessed October 31, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
 3. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for Diggs.
 

@@ -1,15 +1,15 @@
 ---
 grid: "E18"
-name_carved: "Chafee"
-name_full: "Chafee"
-variants: ["Chafee [stone]"]
-unit: ""
-company: ""
-rank_highest: ""
+name_carved: "JAMES H. CHAFEE"
+name_full: "James H. Chafee"
+variants: ["James H. Chafee [stone]"]
+unit: "12th Rhode Island Volunteers"
+company: "B"
+rank_highest: "Private [stone; NPS index]"
 rank_at_discharge: ""
 born: ""
 birthplace: ""
-died: ""
+died: "1906-08-25"
 death_place: ""
 interred: ""
 city_lot_ref: ""
@@ -20,15 +20,15 @@ last_revised: "2026-11-01"
 records_dir: records/E18/
 ---
 
-# Chafee
+# JAMES H. CHAFEE
 
-
+Private, Co. B, 12th Rhode Island Volunteers · died 1906-08-25
 
 ## Life
 
-The stone in grave E18 of the Prescott Post lot has been read only as far as the word CHAFEE; the man it names is not yet identified. No date of death has been read from it. [1]
+James H. Chafee lies in grave E18 of the Prescott Post lot. His stone names his unit as Company B of the 12th Rhode Island Volunteers, and gives his death as August 25, 1906. [1]
 
-The PV001 list has a James H. Chafee, 12th Rhode Island Volunteers, Company B, died 1906, and the index has a James H. Chafee in the 12th Rhode Island Infantry. A death in 1906 fits this row's dates. He is a candidate, not an identification. [2]
+The National Park Service's index of Civil War soldiers lists Chafee, James H., 12th Rhode Island Infantry, Company B — a candidate noted from an index search for Rhode Island, detail card not yet opened. [2] The stone confirms the PV001 list's James H. Chafee, 12th Rhode Island Volunteers, Company B, died 1906.
 
 A 2022 list of Civil War veterans buried at North Burial Ground gives his death as 1906. [3]
 
@@ -36,18 +36,16 @@ His service record, any pension file, and his life before and after the war have
 
 ## The stone
 
-CHAFEE / [rest not read]
+JAMES H. CHAFEE / Priv. Co. B 12th R.I. Vol. / Died Aug. 25, 1906
 
-As recorded on the plot survey sheet; the stone has not been photographed and the rest of the inscription has not been read. [1]
+Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph by B. Brennan, October 30, 2026. [1]
 
 ## The records
 
-- `records/E18/stone-2026.jpg` — Headstone of Chafee, grid E18, Prescott Post lot, 2026. [1]
+- `records/E18/stone-2026.jpg` — Headstone of James H. Chafee, grid E18, Prescott Post lot, photographed October 30, 2026. [1]
 
 ## What we don't know
 
-- Only the surname has been read from the stone.
-- What exactly does the stone say? It has not yet been photographed; the name, unit and date here are from the survey sheet.
 - When and where did he enlist, and what did his company do? His compiled military service record (National Archives, RG 94) will say.
 - Did he or his widow apply for a pension? The General Index to Pension Files (NARA T288/T289) has not yet been searched for him.
 - Where was he born, and how did he come to Providence?
@@ -57,9 +55,9 @@ As recorded on the plot survey sheet; the stone has not been photographed and th
 
 ## Sources
 
-1. Prescott Post plot survey sheet, grave E18, compiled by Bernard Brennan, 2026: name, unit and date of death as read on site. The stone has not yet been photographed.
-2. National Park Service, Civil War Soldiers and Sailors Database, search for "Chafee" (); accessed October 31, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
-3. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for Chafee.
+1. Gravestone of James H. Chafee, grave E18, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, October 30, 2026; transcription as recorded in the plot register.
+2. National Park Service, Civil War Soldiers and Sailors Database, search for "James H. Chafee" (12th Rhode Island Volunteers); accessed October 31, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
+3. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for James H. Chafee.
 
 ## Credits
 

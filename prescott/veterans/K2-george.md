@@ -26,7 +26,7 @@ Co. G, 31st U.S. Colored Infantry · died 1897-11-05
 
 ## Life
 
-Thomas George lies in grave K2 of the Prescott Post lot. The plot survey records his stone as naming his unit as Company G of the 31st U.S. Colored Infantry, and gives his death as November 5, 1897. [1]
+Thomas George lies in grave K2 of the Prescott Post lot. His stone names his unit as Company G of the 31st U.S. Colored Infantry, and gives his death as November 5, 1897. [1]
 
 No Thomas George was found in the index for the 31st U.S. Colored Infantry (there is one in the 110th); the spelling on his service record may differ. [2]
 
@@ -36,15 +36,16 @@ His service record, any pension file, and his life before and after the war have
 
 ## The stone
 
-Not yet photographed. The plot survey sheet records: Thomas George, Co. G, 31st U.S. Colored Infantry, died November 5, 1897. A photograph is wanted; see the help page. [1]
+THOMAS GEORGE / Co. G 31st U.S. Col. T[ps]. / Died Nov. 5, 189?
+
+Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph by B. Brennan, April 7, 2025. [1]
 
 ## The records
 
-- `records/K2/stone-2026.jpg` — Headstone of Thomas George, grid K2, Prescott Post lot, 2026. [1]
+- `records/K2/stone-2026.jpg` — Headstone of Thomas George, grid K2, Prescott Post lot, photographed April 7, 2025. [1]
 
 ## What we don't know
 
-- What exactly does the stone say? It has not yet been photographed; the name, unit and date here are from the survey sheet.
 - When and where did he enlist, and what did his company do? His compiled military service record (National Archives, RG 94) will say.
 - Did he or his widow apply for a pension? The General Index to Pension Files (NARA T288/T289) has not yet been searched for him.
 - Where was he born, and how did he come to Providence?
@@ -54,7 +55,7 @@ Not yet photographed. The plot survey sheet records: Thomas George, Co. G, 31st 
 
 ## Sources
 
-1. Prescott Post plot survey sheet, grave K2, compiled by Bernard Brennan, 2026: name, unit and date of death as read on site. The stone has not yet been photographed.
+1. Gravestone of Thomas George, grave K2, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, April 7, 2025; transcription as recorded in the plot register.
 2. National Park Service, Civil War Soldiers and Sailors Database, search for "Thomas George" (31st US Colored Infantry); accessed October 31, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
 3. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for Thomas George.
 

@@ -3,13 +3,13 @@ grid: "E13"
 name_carved: "HENRY FRAWLEY"
 name_full: "Henry Frawley"
 variants: ["Henry Frawley [stone]"]
-unit: "47th & 58th Mass"
+unit: "7th, 47th & 58th Mass"
 company: ""
 rank_highest: ""
 rank_at_discharge: ""
 born: ""
 birthplace: ""
-died: "1902-02-05"
+died: "1907-02-05"
 death_place: ""
 interred: ""
 city_lot_ref: ""
@@ -22,11 +22,11 @@ records_dir: records/E13/
 
 # HENRY FRAWLEY
 
-47th & 58th Mass · died 1902-02-05
+7th, 47th & 58th Mass · died 1907-02-05
 
 ## Life
 
-Henry Frawley lies in grave E13 of the Prescott Post lot. His stone names his unit as 47th & 58th Mass, and gives his death as February 5, 1902. [1]
+Henry Frawley lies in grave E13 of the Prescott Post lot. His stone names his unit as 7th, 47th & 58th Mass, and gives his death as February 5, 1907. [1]
 
 The National Park Service's index of Civil War soldiers lists Frawley, Henry, 47th Massachusetts Infantry (Militia), Company C, and 58th Massachusetts Infantry, Company C (filed as Frowly), private in and out, microfilm M544 roll 14. [2] The index files him under both regiments named on the stone.
 
@@ -36,19 +36,18 @@ His service record, any pension file, and his life before and after the war have
 
 ## The stone
 
-HENRY FRAWLEY / Co. ? 4?th & 58th Mass Vol. / Died Feb. 5, 1902
+HENRY FRAWLEY / 7th 4?th 58th Mass Vol. / Died Feb. 5, 1907
 
-Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph IMG_2600 (B. Brennan). [1]
+Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph by B. Brennan, October 16, 2025. [1]
 
 ## The records
 
-- `records/E13/stone-2026.jpg` — Headstone of Henry Frawley, grid E13, Prescott Post lot, 2026 (IMG_2600). [1]
+- `records/E13/stone-2026.jpg` — Headstone of Henry Frawley, grid E13, Prescott Post lot, photographed October 16, 2025. [1]
 
 ## What we don't know
 
-- Did he serve in both regiments, and when? The 47th was a nine-month militia regiment of 1862–63 and the 58th was raised in 1864; his service record will show whether both enlistments are his.
-- The survey sheet had the name as "Henry Frank"; the photograph reads FRAWLEY. The company letter and the first regiment's number are only partly legible.
-- The PV001 list gives his death as 1907 and adds a 7th Massachusetts; the stone reads 1902. A death in 1902 fits the dates in row F better than row E, so his grid position should be re-verified on site.
+- Did he serve in all three regiments, and when? The 7th and the 47th (a nine-month militia regiment of 1862–63) and the 58th (raised in 1864) are all named on the stone; his service record will show which enlistments are his.
+- The survey sheet had the name as "Henry Frank" and the year as 1902; the photographs read FRAWLEY and 1907. The middle regiment's number reads 42 or 47; the index has him in the 47th. A death in 1907 fits row E's dates, so the earlier doubt about his grid position is withdrawn.
 - When and where did he enlist, and what did his company do? His compiled military service record (National Archives, RG 94) will say.
 - Did he or his widow apply for a pension? The General Index to Pension Files (NARA T288/T289) has not yet been searched for him.
 - Where was he born, and how did he come to Providence?
@@ -58,8 +57,8 @@ Transcription as recorded in the plot register from the photograph; square brack
 
 ## Sources
 
-1. Gravestone of Henry Frawley, grave E13, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan (IMG_2600), 2026; transcription as recorded in the plot register.
-2. National Park Service, Civil War Soldiers and Sailors Database, search for "Henry Frawley" (47th & 58th Mass); accessed October 31, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
+1. Gravestone of Henry Frawley, grave E13, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, October 16, 2025; transcription as recorded in the plot register.
+2. National Park Service, Civil War Soldiers and Sailors Database, search for "Henry Frawley" (7th, 47th & 58th Mass); accessed October 31, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
 3. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for Henry Frawley.
 
 ## Credits

@@ -26,7 +26,7 @@ Sergeant, Co. A, 14th Rhode Island Heavy Artillery · died 1902-06-04
 
 ## Life
 
-John A. Jenkins lies in grave F22 of the Prescott Post lot. The plot survey records his stone as naming his unit as Company A of the 14th Rhode Island Heavy Artillery, and gives his death as June 4, 1902. [1]
+John A. Jenkins lies in grave F22 of the Prescott Post lot. His stone names his unit as Company A of the 14th Rhode Island Heavy Artillery, and gives his death as June 4, 1902. [1]
 
 The National Park Service's index of Civil War soldiers, which files the 14th Rhode Island under its later name, the 11th U.S. Colored Heavy Artillery, lists Jenkins, John A., 11th U.S. Colored Heavy Artillery, Company A, sergeant in, private out, microfilm M589 roll 46. [2] He entered as a sergeant and left as a private; the service record will say why. Chenery lists him twice, in the Company A roster and at p. 20.
 
@@ -36,15 +36,16 @@ His service record, any pension file, and his life before and after the war have
 
 ## The stone
 
-Not yet photographed. The plot survey sheet records: John A. Jenkins, Co. A, 14th Rhode Island Heavy Artillery, Sergeant, died June 4, 1902. A photograph is wanted; see the help page. [1]
+JOHN A. JENKINS / Co. A 14th R.I.H.Art. / Died June 4, 1902
+
+Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph by B. Brennan, April 7, 2025. [1]
 
 ## The records
 
-- `records/F22/stone-2026.jpg` — Headstone of John A. Jenkins, grid F22, Prescott Post lot, 2026. [1]
+- `records/F22/stone-2026.jpg` — Headstone of John A. Jenkins, grid F22, Prescott Post lot, photographed April 7, 2025. [1]
 
 ## What we don't know
 
-- What exactly does the stone say? It has not yet been photographed; the name, unit and date here are from the survey sheet.
 - When and where did he enlist, and what did his company do? His compiled military service record (National Archives, RG 94) will say.
 - Did he or his widow apply for a pension? The General Index to Pension Files (NARA T288/T289) has not yet been searched for him.
 - Where was he born, and how did he come to Providence?
@@ -54,7 +55,7 @@ Not yet photographed. The plot survey sheet records: John A. Jenkins, Co. A, 14t
 
 ## Sources
 
-1. Prescott Post plot survey sheet, grave F22, compiled by Bernard Brennan, 2026: name, unit and date of death as read on site. The stone has not yet been photographed.
+1. Gravestone of John A. Jenkins, grave F22, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, April 7, 2025; transcription as recorded in the plot register.
 2. National Park Service, Civil War Soldiers and Sailors Database, search for "John A. Jenkins" (14th Rhode Island Heavy Artillery); accessed October 31, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
 3. William H. Chenery, *The Fourteenth Regiment Rhode Island Heavy Artillery (Colored) in the War to Preserve the Union, 1861–1865* (Providence: Snow & Farnham, 1898), 156 and 20.
 

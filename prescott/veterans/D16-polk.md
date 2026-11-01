@@ -26,7 +26,7 @@ records_dir: records/D16/
 
 ## Life
 
-The stone in grave D16 of the Prescott Post lot has been read only as far as the word POLK; the man it names is not yet identified. No date of death has been read from it. [1]
+The stone in grave D16 of the Prescott Post lot has been read only as far as POLK; the man it names is not yet identified. No date of death has been read from it. [1]
 
 The PV001 list has a James H. Polk of the 14th Rhode Island Heavy Artillery, died 1910, and the index has a James K. Polk in the 11th U.S. Colored Heavy Artillery. Until the stone is raised and read, he is a candidate, not an identification. [2]
 
@@ -42,7 +42,7 @@ As recorded on the plot survey sheet; the stone has not been photographed and th
 
 ## The records
 
-- `records/D16/stone-2026.jpg` — Headstone of Polk, grid D16, Prescott Post lot, 2026. [1]
+- `records/D16/stone-2026.jpg` — Headstone of Polk, grid D16, Prescott Post lot, photographed 2026. [1]
 
 ## What we don't know
 

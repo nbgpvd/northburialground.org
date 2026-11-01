@@ -38,11 +38,11 @@ His service record, any pension file, and his life before and after the war have
 
 J. EDWARD BROWN / Co. E. 29 Conn. Inf / Died May 8, 1924
 
-Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph IMG_0859 (B. Brennan). [1]
+Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph by B. Brennan, October 30, 2026. [1]
 
 ## The records
 
-- `records/A6/stone-2026.jpg` — Headstone of J. Edward Brown, grid A6, Prescott Post lot, 2026 (IMG_0859). [1]
+- `records/A6/stone-2026.jpg` — Headstone of J. Edward Brown, grid A6, Prescott Post lot, photographed October 30, 2026. [1]
 
 ## What we don't know
 
@@ -55,7 +55,7 @@ Transcription as recorded in the plot register from the photograph; square brack
 
 ## Sources
 
-1. Gravestone of J. Edward Brown, grave A6, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan (IMG_0859), 2026; transcription as recorded in the plot register.
+1. Gravestone of J. Edward Brown, grave A6, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, October 30, 2026; transcription as recorded in the plot register.
 2. National Park Service, Civil War Soldiers and Sailors Database, search for "J. Edward Brown" (29th Connecticut Infantry); accessed October 31, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
 3. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for J. Edward Brown.
 

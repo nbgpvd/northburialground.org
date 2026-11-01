@@ -26,7 +26,7 @@ US Navy · died 1923-01-23
 
 ## Life
 
-Henry C. Childs lies in grave A7 of the Prescott Post lot. The plot survey records his stone as naming his unit as US Navy, and gives his death as January 23, 1923. [1]
+Henry C. Childs lies in grave A7 of the Prescott Post lot. His stone names his unit as US Navy, and gives his death as January 23, 1923. [1]
 
 The National Park Service's index of Civil War soldiers and sailors has not yet been searched for him.
 
@@ -36,16 +36,17 @@ His service record, any pension file, and his life before and after the war have
 
 ## The stone
 
-Not yet photographed. The plot survey sheet records: Henry C. Childs, US Navy, died January 23, 1923. A photograph is wanted; see the help page. [1]
+HENRY C. CHILDS / U.S. Navy / Died Jan. 23, 192?
+
+Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph by B. Brennan, October 30, 2026. [1]
 
 ## The records
 
-- `records/A7/stone-2026.jpg` — Headstone of Henry C. Childs, grid A7, Prescott Post lot, 2026. [1]
+- `records/A7/stone-2026.jpg` — Headstone of Henry C. Childs, grid A7, Prescott Post lot, photographed October 30, 2026. [1]
 
 ## What we don't know
 
 - Which ship or ships did he serve on? The Navy's enlistment records and the NPS sailors index have not yet been searched.
-- What exactly does the stone say? It has not yet been photographed; the name, unit and date here are from the survey sheet.
 - When and where did he enlist, and what did his company do? His compiled military service record (National Archives, RG 94) will say.
 - Did he or his widow apply for a pension? The General Index to Pension Files (NARA T288/T289) has not yet been searched for him.
 - Where was he born, and how did he come to Providence?
@@ -55,7 +56,7 @@ Not yet photographed. The plot survey sheet records: Henry C. Childs, US Navy, d
 
 ## Sources
 
-1. Prescott Post plot survey sheet, grave A7, compiled by Bernard Brennan, 2026: name, unit and date of death as read on site. The stone has not yet been photographed.
+1. Gravestone of Henry C. Childs, grave A7, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, October 30, 2026; transcription as recorded in the plot register.
 2. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for Henry C. Childs.
 
 ## Credits

@@ -6,12 +6,37 @@ researchers: ["Bernard Brennan"]
 photo_request_url: "https://www.dropbox.com/request/s4dna8el8drmefset37r"   # round 2 (slope wording); round 1 tzm2s3hlgp4hr54c6nok retired 2026-11-01
 # Stones whose photograph leaves something unread. "GRID — reason", kept by hand.
 redo:
+  - "A4 — date line under fallen leaves"
   - "C14 — date line below ground"
-  - "E13 — company letter and the first regiment's number partly legible; grid position to confirm"
+  - "E1 — month of death under earth"
+  - "E3 — lower half of the stone under earth; no date"
+  - "E4 — given name and date under earth"
+  - "E5 — year of death worn"
+  - "E6 — unit and date under earth"
+  - "E8 — photographed in hard shadow, mostly buried; the name itself is uncertain"
+  - "E9 — right half of the stone under earth; rank and date not visible"
+  - "E10 — three-quarters under earth; only JEREMIAH exposed"
+  - "E11 — right half under earth; surname read with reservation"
+  - "E12 — day and year of death partly unread"
+  - "E13 — the middle regiment's number reads 42 or 47"
+  - "E14 — year of death under grass"
+  - "E15 — surname under earth; only JAMES A. L exposed"
+  - "E16 — only the name line exposed"
+  - "E17 — only the name line exposed"
+  - "E19 — surname under a flag when photographed"
+  - "E20 — date line under earth"
+  - "E22 — mostly under earth"
+  - "E23 — lower half under earth"
+  - "E24 — date under grass"
+  - "F5 — last digit of the year illegible"
+  - "F16 — month and year partly unread"
+  - "I2 — badly worn; given name unread"
+  - "I6 — given name partly unread"
   - "I9 — year of death illegible"
   - "I21 — last digit of the year illegible"
   - "I23 — year of death illegible"
   - "J2 — day of death reads 14 or 15"
+  - "K2 — last digit of the year under grass"
   - "L20 — day and year of death illegible"
   - "L24 — stone partly buried; first letters of the name and the date line"
   - "M4 — marker half-buried; company letter and date line"
@@ -21,14 +46,10 @@ redo:
   - "M11 — date line not read"
   - "M15 — last digit of the year illegible"
   - "M23 — year of death illegible"
+  - "N3 — month and day of death in shadow"
   - "N15 — month of death partly hidden by grass"
   - "A17 — position in the row inferred from the date sequence; confirm the stone is at A17"
   - "N9 — position in the row inferred; confirm the stone is at N9"
-  - "N10 — read only from a photograph of the whole row: JOSEPH S. CASS…, 1st R.I.; name and date need a close-up"
-  - "N11 — read only from a photograph of the whole row: OTHEL… N. GO…E, Co. A, 1st R.I. C…; name needs a close-up"
-  - "N12 — read from a photograph of the whole row; close-up wanted"
-  - "N13 — read from a photograph of the whole row; close-up wanted"
-  - "N14 — read from a photograph of the whole row; last letter of the surname and the state need a close-up"
 ---
 
 # How to help
@@ -60,6 +81,14 @@ How to shoot:
 Our photograph of each of these leaves something unread — a buried date line, a sunk marker, a weathered word. A better angle, better light, or a visit after the grass is cut may settle it.
 
 {{photo_redo}}
+
+### Stones photographed but not yet placed
+
+Three stones have been photographed whose place in the lot we have not fixed. If you can stand at one of them and tell us its row and column, that settles it.
+
+- [Samuel M. Warner](../records/_unplaced/warner-stone.jpg) — Co. E, 3d R.I. Heavy Artillery, died July 24, 1895. Photographed April 2, 2024, from a distance; the stone to its right begins JOH…. A death in 1895 belongs with row J. He is not on the survey sheet.
+- [James M. Clark](../records/_unplaced/clark-james-m-stone.jpg) — U.S. Navy. Photographed June 20, 2025, a few seconds after the Diggs (I6) and Gibbs (I2) stones, and before a blank one; the survey sheet records I1 as a Navy stone, so I1 is the likely place. To be confirmed on site.
+- [William A. Lewis](../records/_unplaced/lewis-william-a-stone.jpg) — Co. C, 2nd R.I. Vols. Photographed October 30, 2026, between Ira Smith (E23) and Joshua F. Hammond (E24). The survey sheet has twenty-four stones in row E; the photographs show twenty-five. Which numbering is right has to be settled before this stone gets a page, because the page addresses carry the grid.
 
 ## 2. Find a record of a man
 

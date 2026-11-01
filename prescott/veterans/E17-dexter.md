@@ -1,8 +1,8 @@
 ---
 grid: "E17"
-name_carved: "Dexter"
-name_full: "Dexter"
-variants: ["Dexter [stone]"]
+name_carved: "[CHA]RLES A. DEXT[ER]"
+name_full: "Charles A. Dexter"
+variants: ["Charles A. Dexter [stone]"]
 unit: ""
 company: ""
 rank_highest: ""
@@ -20,32 +20,31 @@ last_revised: "2026-11-01"
 records_dir: records/E17/
 ---
 
-# Dexter
+# [CHA]RLES A. DEXT[ER]
 
 
 
 ## Life
 
-The stone in grave E17 of the Prescott Post lot has been read only as far as the word DEXTER; the man it names is not yet identified. No date of death has been read from it. [1]
+The stone in grave E17 of the Prescott Post lot has been read only as far as [CHA]RLES A. DEXT[ER]; the man it names is not yet identified. No date of death has been read from it. [1]
 
-The PV001 list has two candidates: Charles A. Dexter, Rhode Island militia, Company B, died 1906, and James H. Dexter, U.S. Navy, died 1897. The index has a Charles A. Dexter in the 1st Rhode Island Light Artillery and the three-months' 1st Rhode Island Infantry. A death in 1906 fits this row's dates. No identification is made. [2]
+The stone's CHARLES A. DEXTER matches the PV001 list's Charles A. Dexter, Rhode Island militia, Company B, died 1906; the index has a Charles A. Dexter in the 1st Rhode Island Light Artillery and the three-months' 1st Rhode Island Infantry. The unit and date lines are under earth. [2]
 
 His service record, any pension file, and his life before and after the war have not yet been researched. This page will grow as the records are read.
 
 ## The stone
 
-DEXTER / [rest not read]
+[CHA]RLES A. DEXT[ER] / [lower lines under earth]
 
-As recorded on the plot survey sheet; the stone has not been photographed and the rest of the inscription has not been read. [1]
+Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph by B. Brennan, October 30, 2026. [1]
 
 ## The records
 
-- `records/E17/stone-2026.jpg` — Headstone of Dexter, grid E17, Prescott Post lot, 2026. [1]
+- `records/E17/stone-2026.jpg` — Headstone of Charles A. Dexter, grid E17, Prescott Post lot, photographed October 30, 2026. [1]
 
 ## What we don't know
 
-- Only the surname has been read from the stone.
-- What exactly does the stone say? It has not yet been photographed; the name, unit and date here are from the survey sheet.
+- Only the top line of the stone is exposed; the unit and date are under earth.
 - When and where did he enlist, and what did his company do? His compiled military service record (National Archives, RG 94) will say.
 - Did he or his widow apply for a pension? The General Index to Pension Files (NARA T288/T289) has not yet been searched for him.
 - Where was he born, and how did he come to Providence?
@@ -55,8 +54,8 @@ As recorded on the plot survey sheet; the stone has not been photographed and th
 
 ## Sources
 
-1. Prescott Post plot survey sheet, grave E17, compiled by Bernard Brennan, 2026: name, unit and date of death as read on site. The stone has not yet been photographed.
-2. National Park Service, Civil War Soldiers and Sailors Database, search for "Dexter" (); accessed October 31, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
+1. Gravestone of Charles A. Dexter, grave E17, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, October 30, 2026; transcription as recorded in the plot register.
+2. National Park Service, Civil War Soldiers and Sailors Database, search for "Charles A. Dexter" (); accessed October 31, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
 
 ## Credits
 

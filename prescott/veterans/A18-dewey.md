@@ -26,7 +26,7 @@ Co. F, 10th Connecticut Volunteers · died 1919-12-27
 
 ## Life
 
-Charles W Dewey lies in grave A18 of the Prescott Post lot. The plot survey records his stone as naming his unit as Company F of the 10th Connecticut Volunteers, and gives his death as December 27, 1919. [1]
+Charles W Dewey lies in grave A18 of the Prescott Post lot. His stone names his unit as Company F of the 10th Connecticut Volunteers, and gives his death as December 27, 1919. [1]
 
 The National Park Service's index of Civil War soldiers lists Dewey, Charles W., 10th Connecticut Infantry, Company F, private in and out, microfilm M535 roll 5 (a second card, Charles B., is filed with it). [2]
 
@@ -34,15 +34,16 @@ His service record, any pension file, and his life before and after the war have
 
 ## The stone
 
-Not yet photographed. The plot survey sheet records: Charles W Dewey, Co. F, 10th Connecticut Volunteers, died December 27, 1919. A photograph is wanted; see the help page. [1]
+CHARLES W. DEWEY / Co. F 10 Conn. Vol. / Died Dec. 27, 1919
+
+Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph by B. Brennan, October 30, 2026. [1]
 
 ## The records
 
-- `records/A18/stone-2026.jpg` — Headstone of Charles W Dewey, grid A18, Prescott Post lot, 2026. [1]
+- `records/A18/stone-2026.jpg` — Headstone of Charles W Dewey, grid A18, Prescott Post lot, photographed October 30, 2026. [1]
 
 ## What we don't know
 
-- What exactly does the stone say? It has not yet been photographed; the name, unit and date here are from the survey sheet.
 - When and where did he enlist, and what did his company do? His compiled military service record (National Archives, RG 94) will say.
 - Did he or his widow apply for a pension? The General Index to Pension Files (NARA T288/T289) has not yet been searched for him.
 - Where was he born, and how did he come to Providence?
@@ -52,7 +53,7 @@ Not yet photographed. The plot survey sheet records: Charles W Dewey, Co. F, 10t
 
 ## Sources
 
-1. Prescott Post plot survey sheet, grave A18, compiled by Bernard Brennan, 2026: name, unit and date of death as read on site. The stone has not yet been photographed.
+1. Gravestone of Charles W Dewey, grave A18, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, October 30, 2026; transcription as recorded in the plot register.
 2. National Park Service, Civil War Soldiers and Sailors Database, search for "Charles W Dewey" (10th Connecticut Volunteers); accessed October 31, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
 
 ## Credits

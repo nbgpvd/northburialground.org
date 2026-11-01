@@ -34,17 +34,16 @@ His service record, any pension file, and his life before and after the war have
 
 ## The stone
 
-JEREMIAH DUPON[T] / Pvt. Co. E. 15th Reg. [Me.] / Died Aug. 14, 1937
+JEREMIAH DUPONT / Pvt. Co. E 15th Reg. (Me.) / Died Aug. 14, 1937
 
-Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph IMG_1425 (detail) (B. Brennan). [1]
+Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph by B. Brennan, October 30, 2026. [1]
 
 ## The records
 
-- `records/N14/stone-2026.jpg` — Headstone of Jeremiah Dupont, grid N14, Prescott Post lot, 2026 (IMG_1425 (detail)). [1]
+- `records/N14/stone-2026.jpg` — Headstone of Jeremiah Dupont, grid N14, Prescott Post lot, photographed October 30, 2026. [1]
 
 ## What we don't know
 
-- The last letter of the surname is at a broken edge of the stone and is read as T; the regiment's state is read as Maine from the letters "ME" and from the survey sheet. A close photograph is wanted.
 - If this is the 15th Maine Infantry, he was among the last men buried in the lot, 62 years after it was dedicated.
 - When and where did he enlist, and what did his company do? His compiled military service record (National Archives, RG 94) will say.
 - Did he or his widow apply for a pension? The General Index to Pension Files (NARA T288/T289) has not yet been searched for him.
@@ -55,7 +54,7 @@ Transcription as recorded in the plot register from the photograph; square brack
 
 ## Sources
 
-1. Gravestone of Jeremiah Dupont, grave N14, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan (IMG_1425 (detail)), 2026; transcription as recorded in the plot register.
+1. Gravestone of Jeremiah Dupont, grave N14, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, October 30, 2026; transcription as recorded in the plot register.
 
 ## Credits
 

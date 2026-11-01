@@ -26,7 +26,7 @@ records_dir: records/E10/
 
 ## Life
 
-The stone in grave E10 of the Prescott Post lot has been read only as far as the word JEREMIAH; the man it names is not yet identified. No date of death has been read from it. [1]
+The stone in grave E10 of the Prescott Post lot has been read only as far as JEREMIAH; the man it names is not yet identified. No date of death has been read from it. [1]
 
 "Jeremiah" may be a given name rather than a surname: the PV001 list has no veteran surnamed Jeremiah, but it has a Jeremiah Lee, U.S. Navy, died 1907, and others. Until the stone is raised and read, no identification is made. [2]
 
@@ -34,18 +34,17 @@ His service record, any pension file, and his life before and after the war have
 
 ## The stone
 
-JEREMIAH / [marker sunk; the rest below ground]
+JEREMIAH / [the rest under earth]
 
-As recorded on the plot survey sheet; the stone has not been photographed and the rest of the inscription has not been read. [1]
+Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph by B. Brennan, October 30, 2026. [1]
 
 ## The records
 
-- `records/E10/stone-2026.jpg` — Headstone of Jeremiah, grid E10, Prescott Post lot, 2026. [1]
+- `records/E10/stone-2026.jpg` — Headstone of Jeremiah, grid E10, Prescott Post lot, photographed October 30, 2026. [1]
 
 ## What we don't know
 
-- Only one word has been read. The marker is sunk; the City's staff would need to clear it before the rest can be read.
-- What exactly does the stone say? It has not yet been photographed; the name, unit and date here are from the survey sheet.
+- Only the first line has been read. Three-quarters of the stone is under earth; the City's staff would need to clear it before the rest can be read.
 - When and where did he enlist, and what did his company do? His compiled military service record (National Archives, RG 94) will say.
 - Did he or his widow apply for a pension? The General Index to Pension Files (NARA T288/T289) has not yet been searched for him.
 - Where was he born, and how did he come to Providence?
@@ -55,7 +54,7 @@ As recorded on the plot survey sheet; the stone has not been photographed and th
 
 ## Sources
 
-1. Prescott Post plot survey sheet, grave E10, compiled by Bernard Brennan, 2026: name, unit and date of death as read on site. The stone has not yet been photographed.
+1. Gravestone of Jeremiah, grave E10, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, October 30, 2026; transcription as recorded in the plot register.
 2. National Park Service, Civil War Soldiers and Sailors Database, search for "Jeremiah" (); accessed October 31, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
 
 ## Credits

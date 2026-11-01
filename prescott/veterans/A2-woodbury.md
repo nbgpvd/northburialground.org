@@ -26,7 +26,7 @@ Co. B, 7th New Hampshire Infantry · died 1926-04-08
 
 ## Life
 
-George C. Woodbury lies in grave A2 of the Prescott Post lot. The plot survey records his stone as naming his unit as Company B of the 7th New Hampshire Infantry, and gives his death as April 8, 1926. [1]
+George C. Woodbury lies in grave A2 of the Prescott Post lot. His stone names his unit as Company B of the 7th New Hampshire Infantry, and gives his death as April 8, 1926. [1]
 
 The National Park Service's index of Civil War soldiers lists Woodbury, George C., 7th New Hampshire Infantry, Company B, private in and out, microfilm M549 roll 13. [2]
 
@@ -34,15 +34,16 @@ His service record, any pension file, and his life before and after the war have
 
 ## The stone
 
-Not yet photographed. The plot survey sheet records: George C. Woodbury, Co. B, 7th New Hampshire Infantry, died April 8, 1926. A photograph is wanted; see the help page. [1]
+GEORGE C. WOODBURY / Co. B 7 N.H. Inf. / Died Apr. 8, 1926
+
+Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph by B. Brennan, October 30, 2026. [1]
 
 ## The records
 
-- `records/A2/stone-2026.jpg` — Headstone of George C. Woodbury, grid A2, Prescott Post lot, 2026. [1]
+- `records/A2/stone-2026.jpg` — Headstone of George C. Woodbury, grid A2, Prescott Post lot, photographed October 30, 2026. [1]
 
 ## What we don't know
 
-- What exactly does the stone say? It has not yet been photographed; the name, unit and date here are from the survey sheet.
 - When and where did he enlist, and what did his company do? His compiled military service record (National Archives, RG 94) will say.
 - Did he or his widow apply for a pension? The General Index to Pension Files (NARA T288/T289) has not yet been searched for him.
 - Where was he born, and how did he come to Providence?
@@ -52,7 +53,7 @@ Not yet photographed. The plot survey sheet records: George C. Woodbury, Co. B, 
 
 ## Sources
 
-1. Prescott Post plot survey sheet, grave A2, compiled by Bernard Brennan, 2026: name, unit and date of death as read on site. The stone has not yet been photographed.
+1. Gravestone of George C. Woodbury, grave A2, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, October 30, 2026; transcription as recorded in the plot register.
 2. National Park Service, Civil War Soldiers and Sailors Database, search for "George C. Woodbury" (7th New Hampshire Infantry); accessed October 31, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
 
 ## Credits

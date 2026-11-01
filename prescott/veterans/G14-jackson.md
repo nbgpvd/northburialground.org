@@ -26,7 +26,7 @@ Private, Co. B, 14th Rhode Island Heavy Artillery · died 1876-04-09
 
 ## Life
 
-Theodore H. Jackson lies in grave G14 of the Prescott Post lot. The plot survey records his stone as naming his unit as Company B of the 14th Rhode Island Heavy Artillery, and gives his death as April 9, 1876. [1]
+Theodore H. Jackson lies in grave G14 of the Prescott Post lot. His stone names his unit as Company B of the 14th Rhode Island Heavy Artillery, and gives his death as April 9, 1876. [1]
 
 The National Park Service's index of Civil War soldiers, which files the 14th Rhode Island under its later name, the 11th U.S. Colored Heavy Artillery, lists Jackson, Theodore, 11th U.S. Colored Heavy Artillery, Company B, private in and out, microfilm M589 roll 45. [2]
 
@@ -36,16 +36,17 @@ His service record, any pension file, and his life before and after the war have
 
 ## The stone
 
-Not yet photographed. The plot survey sheet records: Theodore H. Jackson, Co. B, 14th Rhode Island Heavy Artillery, Private, died April 9, 1876. A photograph is wanted; see the help page. [1]
+THEODORE H. JACKSON / Co. B 14th R.I.H.Art. / Died Apr. 9, 1876
+
+Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph by B. Brennan, April 7, 2025. [1]
 
 ## The records
 
-- `records/G14/stone-2026.jpg` — Headstone of Theodore H. Jackson, grid G14, Prescott Post lot, 2026. [1]
+- `records/G14/stone-2026.jpg` — Headstone of Theodore H. Jackson, grid G14, Prescott Post lot, photographed April 7, 2025. [1]
 
 ## What we don't know
 
 - His 1876 death is the earliest yet read in the lot, a year after it was dedicated. The register carries a note "died in Louisiana?" with no source; if he died where the regiment served, how he came to be buried here is a question. The PV001 list gives a birth about 1833.
-- What exactly does the stone say? It has not yet been photographed; the name, unit and date here are from the survey sheet.
 - When and where did he enlist, and what did his company do? His compiled military service record (National Archives, RG 94) will say.
 - Did he or his widow apply for a pension? The General Index to Pension Files (NARA T288/T289) has not yet been searched for him.
 - Where was he born, and how did he come to Providence?
@@ -55,7 +56,7 @@ Not yet photographed. The plot survey sheet records: Theodore H. Jackson, Co. B,
 
 ## Sources
 
-1. Prescott Post plot survey sheet, grave G14, compiled by Bernard Brennan, 2026: name, unit and date of death as read on site. The stone has not yet been photographed.
+1. Gravestone of Theodore H. Jackson, grave G14, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, April 7, 2025; transcription as recorded in the plot register.
 2. National Park Service, Civil War Soldiers and Sailors Database, search for "Theodore H. Jackson" (14th Rhode Island Heavy Artillery); accessed October 31, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
 3. William H. Chenery, *The Fourteenth Regiment Rhode Island Heavy Artillery (Colored) in the War to Preserve the Union, 1861–1865* (Providence: Snow & Farnham, 1898), 170.
 

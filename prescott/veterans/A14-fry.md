@@ -26,7 +26,7 @@ Co. F, 5th Massachusetts Cavalry · died 1921-01-29
 
 ## Life
 
-William T. Fry lies in grave A14 of the Prescott Post lot. The plot survey records his stone as naming his unit as Company F of the 5th Massachusetts Cavalry, and gives his death as January 29, 1921. [1]
+William T. Fry lies in grave A14 of the Prescott Post lot. His stone names his unit as Company F of the 5th Massachusetts Cavalry, and gives his death as January 29, 1921. [1]
 
 No William T. Fry was found in the index for the 5th Massachusetts Cavalry (it lists an Alfred Fry); the spelling on his service record may differ. [2]
 
@@ -34,15 +34,16 @@ His service record, any pension file, and his life before and after the war have
 
 ## The stone
 
-Not yet photographed. The plot survey sheet records: William T. Fry, Co. F, 5th Massachusetts Cavalry, died January 29, 1921. A photograph is wanted; see the help page. [1]
+WILLIAM T. FRY / Co. F 5 Mass. Cav. / Died Jan. 29, 1921
+
+Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph by B. Brennan, October 30, 2026. [1]
 
 ## The records
 
-- `records/A14/stone-2026.jpg` — Headstone of William T. Fry, grid A14, Prescott Post lot, 2026. [1]
+- `records/A14/stone-2026.jpg` — Headstone of William T. Fry, grid A14, Prescott Post lot, photographed October 30, 2026. [1]
 
 ## What we don't know
 
-- What exactly does the stone say? It has not yet been photographed; the name, unit and date here are from the survey sheet.
 - When and where did he enlist, and what did his company do? His compiled military service record (National Archives, RG 94) will say.
 - Did he or his widow apply for a pension? The General Index to Pension Files (NARA T288/T289) has not yet been searched for him.
 - Where was he born, and how did he come to Providence?
@@ -52,7 +53,7 @@ Not yet photographed. The plot survey sheet records: William T. Fry, Co. F, 5th 
 
 ## Sources
 
-1. Prescott Post plot survey sheet, grave A14, compiled by Bernard Brennan, 2026: name, unit and date of death as read on site. The stone has not yet been photographed.
+1. Gravestone of William T. Fry, grave A14, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, October 30, 2026; transcription as recorded in the plot register.
 2. National Park Service, Civil War Soldiers and Sailors Database, search for "William T. Fry" (5th Massachusetts Cavalry); accessed October 31, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
 
 ## Credits

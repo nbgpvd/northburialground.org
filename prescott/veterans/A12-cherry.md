@@ -28,7 +28,7 @@ US Navy · died 1921-12-06
 
 James Cherry lies in grave A12 of the Prescott Post lot. His stone names his unit as US Navy, and gives his death as December 6, 1921. [1]
 
-The Navy's records for him have not yet been searched.
+The National Park Service's index of Civil War soldiers and sailors has not yet been searched for him.
 
 A 2022 list of Civil War veterans buried at North Burial Ground gives his death as 1921. [2]
 
@@ -38,11 +38,11 @@ His service record, any pension file, and his life before and after the war have
 
 JAMES CHERRY / U.S. NAVY / Died Dec. 6, 1921
 
-Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph IMG_1746 (B. Brennan). [1]
+Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph by B. Brennan, October 30, 2026. [1]
 
 ## The records
 
-- `records/A12/stone-2026.jpg` — Headstone of James Cherry, grid A12, Prescott Post lot, 2026 (IMG_1746). [1]
+- `records/A12/stone-2026.jpg` — Headstone of James Cherry, grid A12, Prescott Post lot, photographed October 30, 2026. [1]
 
 ## What we don't know
 
@@ -56,7 +56,7 @@ Transcription as recorded in the plot register from the photograph; square brack
 
 ## Sources
 
-1. Gravestone of James Cherry, grave A12, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan (IMG_1746), 2026; transcription as recorded in the plot register.
+1. Gravestone of James Cherry, grave A12, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, October 30, 2026; transcription as recorded in the plot register.
 2. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for James Cherry.
 
 ## Credits

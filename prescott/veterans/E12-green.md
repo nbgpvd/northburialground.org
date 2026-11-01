@@ -26,7 +26,7 @@ Private, Co. C, 14th Rhode Island Heavy Artillery
 
 ## Life
 
-Sylvanus Green lies in grave E12 of the Prescott Post lot. The plot survey records his stone as naming his unit as Company C of the 14th Rhode Island Heavy Artillery. No date of death has been read from the stone. [1]
+Sylvanus Green lies in grave E12 of the Prescott Post lot. His stone names his unit as Company C of the 14th Rhode Island Heavy Artillery, and gives his death as a day in May of a year read only as 19--; the PV001 list gives 1907. [1]
 
 The National Park Service's index of Civil War soldiers, which files the 14th Rhode Island under its later name, the 11th U.S. Colored Heavy Artillery, lists Green, Sylvanus, 11th U.S. Colored Heavy Artillery, Company C, private in and out, microfilm M589 roll 34. [2]
 
@@ -38,15 +38,16 @@ His service record, any pension file, and his life before and after the war have
 
 ## The stone
 
-Not yet photographed. The plot survey sheet records: Sylvanus Green, Co. C, 14th Rhode Island Heavy Artillery, Private. A photograph is wanted; see the help page. [1]
+SYLVANUS GREE[N] / Co. C 14th R.I. Art. / Died May [?], 19[0?]
+
+Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph by B. Brennan, October 30, 2026. [1]
 
 ## The records
 
-- `records/E12/stone-2026.jpg` — Headstone of Sylvanus Green, grid E12, Prescott Post lot, 2026. [1]
+- `records/E12/stone-2026.jpg` — Headstone of Sylvanus Green, grid E12, Prescott Post lot, photographed October 30, 2026. [1]
 
 ## What we don't know
 
-- What exactly does the stone say? It has not yet been photographed; the name, unit and date here are from the survey sheet.
 - When and where did he enlist, and what did his company do? His compiled military service record (National Archives, RG 94) will say.
 - Did he or his widow apply for a pension? The General Index to Pension Files (NARA T288/T289) has not yet been searched for him.
 - Where was he born, and how did he come to Providence?
@@ -56,7 +57,7 @@ Not yet photographed. The plot survey sheet records: Sylvanus Green, Co. C, 14th
 
 ## Sources
 
-1. Prescott Post plot survey sheet, grave E12, compiled by Bernard Brennan, 2026: name, unit and date of death as read on site. The stone has not yet been photographed.
+1. Gravestone of Sylvanus Green, grave E12, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, October 30, 2026; transcription as recorded in the plot register.
 2. National Park Service, Civil War Soldiers and Sailors Database, search for "Sylvanus Green" (14th Rhode Island Heavy Artillery); accessed October 31, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
 3. William H. Chenery, *The Fourteenth Regiment Rhode Island Heavy Artillery (Colored) in the War to Preserve the Union, 1861–1865* (Providence: Snow & Farnham, 1898), 178.
 4. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for Sylvanus Green.

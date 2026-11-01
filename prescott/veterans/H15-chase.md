@@ -26,7 +26,7 @@ records_dir: records/H15/
 
 ## Life
 
-Joseph N. Chase lies in grave H15 of the Prescott Post lot. The plot survey records his stone as naming his unit as 9th U.S. Colored Infantry, and gives his death as June 1 of a year in the 1880s, the last digit not read. [1]
+Joseph N. Chase lies in grave H15 of the Prescott Post lot. His stone names his unit as 9th U.S. Colored Infantry, and gives his death as June 1 of a year in the 1880s, the last digit not read. [1]
 
 The National Park Service's index of Civil War soldiers lists Chase, Joseph (no middle initial), 9th U.S. Colored Infantry, Company H, private in and out, microfilm M589 roll 16 — a probable match. [2]
 
@@ -34,16 +34,17 @@ His service record, any pension file, and his life before and after the war have
 
 ## The stone
 
-Not yet photographed. The plot survey sheet records: Joseph N. Chase, 9th U.S. Colored Infantry, died June 1 of a year in the 1880s, the last digit not read. A photograph is wanted; see the help page. [1]
+[JOS]EPH N. CHAS[E] / [Co.] H 9th U.S.C.[T.] / [Die]d June 1, 188[?]
+
+Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph by B. Brennan, April 2, 2024. [1]
 
 ## The records
 
-- `records/H15/stone-2026.jpg` — Headstone of Joseph N. Chase, grid H15, Prescott Post lot, 2026. [1]
+- `records/H15/stone-2026.jpg` — Headstone of Joseph N. Chase, grid H15, Prescott Post lot, photographed April 2, 2024. [1]
 
 ## What we don't know
 
 - He is not on the PV001 list.
-- What exactly does the stone say? It has not yet been photographed; the name, unit and date here are from the survey sheet.
 - When and where did he enlist, and what did his company do? His compiled military service record (National Archives, RG 94) will say.
 - Did he or his widow apply for a pension? The General Index to Pension Files (NARA T288/T289) has not yet been searched for him.
 - Where was he born, and how did he come to Providence?
@@ -53,7 +54,7 @@ Not yet photographed. The plot survey sheet records: Joseph N. Chase, 9th U.S. C
 
 ## Sources
 
-1. Prescott Post plot survey sheet, grave H15, compiled by Bernard Brennan, 2026: name, unit and date of death as read on site. The stone has not yet been photographed.
+1. Gravestone of Joseph N. Chase, grave H15, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, April 2, 2024; transcription as recorded in the plot register.
 2. National Park Service, Civil War Soldiers and Sailors Database, search for "Joseph N. Chase" (9th US Colored Infantry); accessed October 31, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
 
 ## Credits

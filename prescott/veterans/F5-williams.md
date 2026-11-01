@@ -26,7 +26,7 @@ Private, Co. I, 14th Rhode Island Heavy Artillery
 
 ## Life
 
-Benjamin F. Williams lies in grave F5 of the Prescott Post lot. The plot survey records his stone as naming his unit as Company I of the 14th Rhode Island Heavy Artillery, and gives his death as November 2 of a year the survey could not read; the PV001 list gives 1904. [1]
+Benjamin F. Williams lies in grave F5 of the Prescott Post lot. His stone names his unit as Company I of the 14th Rhode Island Heavy Artillery, and gives his death as November 2 of a year the survey could not read; the PV001 list gives 1904. [1]
 
 The National Park Service's index of Civil War soldiers, which files the 14th Rhode Island under its later name, the 11th U.S. Colored Heavy Artillery, lists Williams, Benjamin (no middle initial), 11th U.S. Colored Heavy Artillery, Company I, private in and out, microfilm M589 roll 94. [2]
 
@@ -38,15 +38,16 @@ His service record, any pension file, and his life before and after the war have
 
 ## The stone
 
-Not yet photographed. The plot survey sheet records: Benjamin F. Williams, Co. I, 14th Rhode Island Heavy Artillery, Private, died November 2 of a year the survey could not read; the PV001 list gives 1904. A photograph is wanted; see the help page. [1]
+BENJAMIN F. WILLIAMS / Co. I 14th R.I.H.Art. / Died Nov. 2, 190[?]
+
+Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph by B. Brennan, April 7, 2025. [1]
 
 ## The records
 
-- `records/F5/stone-2026.jpg` — Headstone of Benjamin F. Williams, grid F5, Prescott Post lot, 2026. [1]
+- `records/F5/stone-2026.jpg` — Headstone of Benjamin F. Williams, grid F5, Prescott Post lot, photographed April 7, 2025. [1]
 
 ## What we don't know
 
-- What exactly does the stone say? It has not yet been photographed; the name, unit and date here are from the survey sheet.
 - When and where did he enlist, and what did his company do? His compiled military service record (National Archives, RG 94) will say.
 - Did he or his widow apply for a pension? The General Index to Pension Files (NARA T288/T289) has not yet been searched for him.
 - Where was he born, and how did he come to Providence?
@@ -56,7 +57,7 @@ Not yet photographed. The plot survey sheet records: Benjamin F. Williams, Co. I
 
 ## Sources
 
-1. Prescott Post plot survey sheet, grave F5, compiled by Bernard Brennan, 2026: name, unit and date of death as read on site. The stone has not yet been photographed.
+1. Gravestone of Benjamin F. Williams, grave F5, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, April 7, 2025; transcription as recorded in the plot register.
 2. National Park Service, Civil War Soldiers and Sailors Database, search for "Benjamin F. Williams" (14th Rhode Island Heavy Artillery); accessed October 31, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
 3. William H. Chenery, *The Fourteenth Regiment Rhode Island Heavy Artillery (Colored) in the War to Preserve the Union, 1861–1865* (Providence: Snow & Farnham, 1898), 236.
 4. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for Benjamin F. Williams.

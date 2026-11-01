@@ -1,8 +1,8 @@
 ---
 grid: "E16"
-name_carved: "Carl"
-name_full: "Carl"
-variants: ["Carl [stone]"]
+name_carved: "GEO. C. CARL"
+name_full: "George C. Carl"
+variants: ["George C. Carl [stone]"]
 unit: ""
 company: ""
 rank_highest: ""
@@ -20,15 +20,15 @@ last_revised: "2026-11-01"
 records_dir: records/E16/
 ---
 
-# Carl
+# GEO. C. CARL
 
 
 
 ## Life
 
-The stone in grave E16 of the Prescott Post lot has been read only as far as the word CARL; the man it names is not yet identified. No date of death has been read from it. [1]
+The stone in grave E16 of the Prescott Post lot has been read only as far as GEO. C. CARL; the man it names is not yet identified. No date of death has been read from it. [1]
 
-The PV001 list has a George C. Carl, died 1906, with no unit given. The index search for Rhode Island found no Carl. "Carl" could also be a given name. No identification is made. [2]
+The stone's GEO. C. CARL matches the PV001 list's George C. Carl, died 1906, with no unit given. The index search for Rhode Island found no Carl. The unit and date lines are under earth. [2]
 
 A 2022 list of Civil War veterans buried at North Burial Ground gives his death as 1906. [3]
 
@@ -36,18 +36,17 @@ His service record, any pension file, and his life before and after the war have
 
 ## The stone
 
-CARL / [rest not read]
+GEO. C. CARL / [lower lines under earth]
 
-As recorded on the plot survey sheet; the stone has not been photographed and the rest of the inscription has not been read. [1]
+Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph by B. Brennan, October 30, 2026. [1]
 
 ## The records
 
-- `records/E16/stone-2026.jpg` — Headstone of Carl, grid E16, Prescott Post lot, 2026. [1]
+- `records/E16/stone-2026.jpg` — Headstone of George C. Carl, grid E16, Prescott Post lot, photographed October 30, 2026. [1]
 
 ## What we don't know
 
-- Only one word has been read from the stone.
-- What exactly does the stone say? It has not yet been photographed; the name, unit and date here are from the survey sheet.
+- Only the top line of the stone is exposed; the unit and date are under earth.
 - When and where did he enlist, and what did his company do? His compiled military service record (National Archives, RG 94) will say.
 - Did he or his widow apply for a pension? The General Index to Pension Files (NARA T288/T289) has not yet been searched for him.
 - Where was he born, and how did he come to Providence?
@@ -57,9 +56,9 @@ As recorded on the plot survey sheet; the stone has not been photographed and th
 
 ## Sources
 
-1. Prescott Post plot survey sheet, grave E16, compiled by Bernard Brennan, 2026: name, unit and date of death as read on site. The stone has not yet been photographed.
-2. National Park Service, Civil War Soldiers and Sailors Database, search for "Carl" (); accessed October 31, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
-3. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for Carl.
+1. Gravestone of George C. Carl, grave E16, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, October 30, 2026; transcription as recorded in the plot register.
+2. National Park Service, Civil War Soldiers and Sailors Database, search for "George C. Carl" (); accessed October 31, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
+3. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for George C. Carl.
 
 ## Credits
 

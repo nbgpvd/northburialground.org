@@ -36,11 +36,11 @@ His service record, any pension file, and his life before and after the war have
 
 ALEXANDER JONES / Pvt. Co. G. 2 U.S. Col. Inf. / Died Jan. 11, 1927
 
-Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph IMG_1747 (B. Brennan). [1]
+Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph by B. Brennan, October 22, 2026. [1]
 
 ## The records
 
-- `records/A19/stone-2026.jpg` — Headstone of Alexander Jones, grid A19, Prescott Post lot, 2026 (IMG_1747). [1]
+- `records/A19/stone-2026.jpg` — Headstone of Alexander Jones, grid A19, Prescott Post lot, photographed October 22, 2026. [1]
 
 ## What we don't know
 
@@ -53,7 +53,7 @@ Transcription as recorded in the plot register from the photograph; square brack
 
 ## Sources
 
-1. Gravestone of Alexander Jones, grave A19, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan (IMG_1747), 2026; transcription as recorded in the plot register.
+1. Gravestone of Alexander Jones, grave A19, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, October 22, 2026; transcription as recorded in the plot register.
 2. National Park Service, Civil War Soldiers and Sailors Database, search for "Alexander Jones" (2nd US Colored Infantry); accessed October 31, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
 
 ## Credits

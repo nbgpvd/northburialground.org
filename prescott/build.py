@@ -907,6 +907,9 @@ def main():
         dest.mkdir(parents=True)
         (dest / "index.html").write_text(html_text, encoding="utf-8")
         hosted |= records
+    # Photographs of stones not yet matched to a grid position are shown on the help page.
+    for p in sorted((ROOT / "records" / "_unplaced").glob("*.jpg")):
+        hosted.add(os.path.relpath(p, ROOT).replace(os.sep, "/"))
     for rel in sorted(hosted):
         dest = out / rel
         dest.parent.mkdir(parents=True, exist_ok=True)

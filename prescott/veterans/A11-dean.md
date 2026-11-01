@@ -26,7 +26,7 @@ Co. A, 1st Connecticut Volunteers · died 1922-01-15
 
 ## Life
 
-Lewis O. Dean lies in grave A11 of the Prescott Post lot. The plot survey records his stone as naming his unit as Company A of the 1st Connecticut Volunteers, and gives his death as January 15, 1922. [1]
+Lewis O. Dean lies in grave A11 of the Prescott Post lot. His stone names his unit as Company A of the 1st Connecticut Volunteers, and gives his death as January 15, 1922. [1]
 
 The National Park Service's index of Civil War soldiers lists Dean, Lewis O., 1st Connecticut Cavalry, Company A, private in and out, microfilm M535 roll 4. [2] The sheet records "1st Connecticut Volunteers"; the cavalry card fits. A Lewis Dean (or Deane) also appears in the 1st Connecticut Heavy Artillery, Companies H and A — the same man or another, unresolved.
 
@@ -34,15 +34,16 @@ His service record, any pension file, and his life before and after the war have
 
 ## The stone
 
-Not yet photographed. The plot survey sheet records: Lewis O. Dean, Co. A, 1st Connecticut Volunteers, died January 15, 1922. A photograph is wanted; see the help page. [1]
+LEWIS O. DEAN / Co. A 1 Conn. Vol. / Died Jan. 15, 1922
+
+Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph by B. Brennan, October 30, 2026. [1]
 
 ## The records
 
-- `records/A11/stone-2026.jpg` — Headstone of Lewis O. Dean, grid A11, Prescott Post lot, 2026. [1]
+- `records/A11/stone-2026.jpg` — Headstone of Lewis O. Dean, grid A11, Prescott Post lot, photographed October 30, 2026. [1]
 
 ## What we don't know
 
-- What exactly does the stone say? It has not yet been photographed; the name, unit and date here are from the survey sheet.
 - When and where did he enlist, and what did his company do? His compiled military service record (National Archives, RG 94) will say.
 - Did he or his widow apply for a pension? The General Index to Pension Files (NARA T288/T289) has not yet been searched for him.
 - Where was he born, and how did he come to Providence?
@@ -52,7 +53,7 @@ Not yet photographed. The plot survey sheet records: Lewis O. Dean, Co. A, 1st C
 
 ## Sources
 
-1. Prescott Post plot survey sheet, grave A11, compiled by Bernard Brennan, 2026: name, unit and date of death as read on site. The stone has not yet been photographed.
+1. Gravestone of Lewis O. Dean, grave A11, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, October 30, 2026; transcription as recorded in the plot register.
 2. National Park Service, Civil War Soldiers and Sailors Database, search for "Lewis O. Dean" (1st Connecticut Volunteers); accessed October 31, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
 
 ## Credits

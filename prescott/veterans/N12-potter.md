@@ -36,15 +36,14 @@ His service record, any pension file, and his life before and after the war have
 
 ISAAC E. POTTER / Landsman U.S. Navy / Died Sept. 1, 1935
 
-Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph IMG_1425 (detail) (B. Brennan). [1]
+Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph by B. Brennan, October 30, 2026. [1]
 
 ## The records
 
-- `records/N12/stone-2026.jpg` — Headstone of Isaac E. Potter, grid N12, Prescott Post lot, 2026 (IMG_1425 (detail)). [1]
+- `records/N12/stone-2026.jpg` — Headstone of Isaac E. Potter, grid N12, Prescott Post lot, photographed October 30, 2026. [1]
 
 ## What we don't know
 
-- The photograph is a detail from a view of the whole row; a close photograph of the stone is wanted.
 - Which ship or ships did he serve on? The Navy's enlistment records and the NPS sailors index have not yet been searched.
 - When and where did he enlist, and what did his company do? His compiled military service record (National Archives, RG 94) will say.
 - Did he or his widow apply for a pension? The General Index to Pension Files (NARA T288/T289) has not yet been searched for him.
@@ -55,7 +54,7 @@ Transcription as recorded in the plot register from the photograph; square brack
 
 ## Sources
 
-1. Gravestone of Isaac E. Potter, grave N12, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan (IMG_1425 (detail)), 2026; transcription as recorded in the plot register.
+1. Gravestone of Isaac E. Potter, grave N12, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, October 30, 2026; transcription as recorded in the plot register.
 
 ## Credits
 

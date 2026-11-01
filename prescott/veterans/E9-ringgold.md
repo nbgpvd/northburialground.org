@@ -34,10 +34,13 @@ Louisa died before him. [12] He died at 55 South Main Street on January 5, 1909,
 
 ## The stone
 
-Not yet photographed. The plot survey sheet reads: Benjamin Ringgold, 14th R.I.H.A., Co. G, Corporal. [1] Transcribe line by line as carved, note condition, and check whether the rank and a death date are cut, before release.
+BENJAMIN RINGGOLD / [Co. G.] 14th R.I. H. Art. / [lower lines below ground]
+
+Transcription from the photograph of October 30, 2026; square brackets mark letters not legible or below ground. The right-hand portion of the stone is under earth, so whether a rank or a date of death is cut on it cannot yet be seen. The survey sheet reads: Benjamin Ringgold, 14th R.I.H.A., Co. G, Corporal. [1]
 
 ## The records
 
+- `records/E9/stone-2026.jpg` — Headstone of Benjamin Ringgold, grid E9, Prescott Post lot, photographed October 30, 2026; partly under earth. [1]
 - `records/E9/cmsr-descriptive-book.jpg` — Company Descriptive Book card, "Benjamin Ringold," Co. G, 11th U.S. Colored Heavy Artillery: age 25, born Baltimore, Maryland, farmer; enlisted Providence, October 20, 1863. NARA, RG 94, M1818 roll 208. [2]
 - `records/E9/1870-census.jpg` — 1870 census, Providence, 7th Ward, p. 1: Benjamin Ringold, 30, domestic servant, born Maryland, and Louisa, 28, born Virginia (lines 3–4). NARA, M593. [5]
 - `records/E9/1880-census.jpg` — 1880 census, Providence, E.D. 29, p. 24: Benjamin Ringgold, 40, life insurance agent, and Louisa, 40 (lines 41–42). NARA, T9. [7]
@@ -59,7 +62,7 @@ Not yet photographed. The plot survey sheet reads: Benjamin Ringgold, 14th R.I.H
 
 ## Sources
 
-1. Prescott Post plot survey sheet, grave E9, compiled by Bernard Brennan, 2026 (stone not yet photographed).
+1. Gravestone of Benjamin Ringgold, grave E9, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, October 30, 2026; Prescott Post plot survey sheet, grave E9, compiled by Bernard Brennan, 2026.
 2. Company Descriptive Book card, "Benjamin Ringold," Co. G, 11th U.S. Colored Heavy Artillery, Compiled Military Service Records of Volunteer Union Soldiers Who Served with the United States Colored Troops: Artillery Organizations, National Archives microfilm publication M1818, roll 208, frame 568; Records of the Adjutant General's Office, Record Group 94, National Archives, Washington, D.C.
 3. Historical Data Systems, abstract of *Register of Rhode Island Volunteers 1861–1865* for Benjamin Ringgold, Co. G, 14th Heavy Artillery, in *U.S., Civil War Soldier Records and Profiles, 1861–1865* (Ancestry.com, 2009), record 976963, accessed November 1, 2026. Secondary; to be verified against the printed Register.
 4. National Park Service, Civil War Soldiers and Sailors Database, "Ringgold, Benjamin," 11th Regiment, U.S. Colored Heavy Artillery, Company G, private to corporal; index to National Archives microfilm M589, roll 73; https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm, accessed October 31, 2026.

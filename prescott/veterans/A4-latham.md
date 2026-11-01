@@ -26,7 +26,7 @@ Co. A, 1st Rhode Island Cavalry · died 1925-03-25
 
 ## Life
 
-Charles F. Latham lies in grave A4 of the Prescott Post lot. The plot survey records his stone as naming his unit as Company A of the 1st Rhode Island Cavalry, and gives his death as March 25, 1925. [1]
+Charles F. Latham lies in grave A4 of the Prescott Post lot. His stone names his unit as Company A of the 1st Rhode Island Cavalry, and gives his death as March 25, 1925. [1]
 
 The National Park Service's index of Civil War soldiers lists Latham, Charles F., 1st Rhode Island Cavalry, Company A, private in and out, microfilm M555 roll 4. [2]
 
@@ -34,15 +34,16 @@ His service record, any pension file, and his life before and after the war have
 
 ## The stone
 
-Not yet photographed. The plot survey sheet records: Charles F. Latham, Co. A, 1st Rhode Island Cavalry, died March 25, 1925. A photograph is wanted; see the help page. [1]
+CHARLES F. LATHAM / Co. A 1 R.I. Cav. / [date line under leaves]
+
+Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph by B. Brennan, October 30, 2026. [1] The date line was under fallen leaves when photographed; the survey sheet read it as March 25, 1925.
 
 ## The records
 
-- `records/A4/stone-2026.jpg` — Headstone of Charles F. Latham, grid A4, Prescott Post lot, 2026. [1]
+- `records/A4/stone-2026.jpg` — Headstone of Charles F. Latham, grid A4, Prescott Post lot, photographed October 30, 2026. [1]
 
 ## What we don't know
 
-- What exactly does the stone say? It has not yet been photographed; the name, unit and date here are from the survey sheet.
 - When and where did he enlist, and what did his company do? His compiled military service record (National Archives, RG 94) will say.
 - Did he or his widow apply for a pension? The General Index to Pension Files (NARA T288/T289) has not yet been searched for him.
 - Where was he born, and how did he come to Providence?
@@ -52,7 +53,7 @@ Not yet photographed. The plot survey sheet records: Charles F. Latham, Co. A, 1
 
 ## Sources
 
-1. Prescott Post plot survey sheet, grave A4, compiled by Bernard Brennan, 2026: name, unit and date of death as read on site. The stone has not yet been photographed.
+1. Gravestone of Charles F. Latham, grave A4, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, October 30, 2026; transcription as recorded in the plot register.
 2. National Park Service, Civil War Soldiers and Sailors Database, search for "Charles F. Latham" (1st Rhode Island Cavalry); accessed October 31, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
 
 ## Credits

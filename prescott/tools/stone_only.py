@@ -236,9 +236,122 @@ STONES = {
  "K2": dict(carved=None, photo=None, nps=None, nps_note="No Thomas George was found in the index for the 31st U.S. Colored Infantry (there is one in the 110th); the spelling on his service record may differ.", chenery=None, pv001="1897", died_text="November 5, 1897"),
 }
 
+# ---- Photo dump of 1 Nov 2026 (Dropbox photo-dump, 115 frames, 2023-2026): photographs matched to grid
+#      positions by what is carved and by their order in the shooting sequence. photo = date and time of the frame.
+STONES["A1"].update(carved="ELIJAH E. FERRIN / Pvt. Co. C 28 Maine Inf. / Died Jan. 18, 1928", photo="2026-06-23 13:08")
+STONES["A2"].update(carved="GEORGE C. WOODBURY / Co. B 7 N.H. Inf. / Died Apr. 8, 1926", photo="2026-10-30 13:38")
+STONES["A3"].update(carved="JAMES K. WESTON / Co. B 2 Cal. Cav. / Died Jan. 2, 1926", photo="2026-10-30 13:38")
+STONES["A4"].update(carved="CHARLES F. LATHAM / Co. A 1 R.I. Cav. / [date line under leaves]", photo="2026-10-30 13:38",
+    stone_note="The date line was under fallen leaves when photographed; the survey sheet read it as March 25, 1925.")
+STONES["A5"].update(carved="JOHN H. LEMONS / Co. M 14 R.I. Art. / [Died Feb.] 28, 1925", photo="2026-10-30 13:38")
+STONES["A6"].update(photo="2026-10-30 13:38")
+STONES["A7"].update(carved="HENRY C. CHILDS / U.S. Navy / Died Jan. 23, 192?", photo="2026-10-30 13:38")
+STONES["A10"].update(carved="NEWTON H. BRIGGS / U.S. Navy / Died April 7, 1922", photo="2026-10-30 13:38")
+STONES["A11"].update(carved="LEWIS O. DEAN / Co. A 1 Conn. Vol. / Died Jan. 15, 1922", photo="2026-10-30 13:38")
+STONES["A12"].update(photo="2026-10-30 13:38")
+STONES["A13"].update(carved="EDWARD S. SIMPSON / Co. F 55 Mass. Vol. / Died Oct. 24, 1921", photo="2026-10-30 13:39")
+STONES["A14"].update(carved="WILLIAM T. FRY / Co. F 5 Mass. Cav. / Died Jan. 29, 1921", photo="2026-10-30 13:39")
+STONES["A15"].update(carved="ARTHUR A. CLAUS / Co. [G] 25 Mass. & Co. G 29 Mass. / Died Dec. 10, 1920", photo="2026-10-30 13:39",
+    stone_note="The stone reads 25 Mass., as the survey sheet did; the index card's 35th is therefore the index's reading, not the stone's.")
+STONES["A16"].update(carved="ROBERT CROSSLEY / Co. A 2 R.I. Vol. / Died Aug. 30, 1920", photo="2026-10-30 13:39")
+STONES["A17"].update(photo="2026-10-22 09:31")
+STONES["A18"].update(carved="CHARLES W. DEWEY / Co. F 10 Conn. Vol. / Died Dec. 27, 1919", photo="2026-10-30 13:39")
+STONES["A19"].update(photo="2026-10-22 09:32")
+STONES["E1"].update(carved="LONZO H. KNIGHT / Co. D 2d R.I. Vol. / Died A[??]. 24, 1909", photo="2026-10-30 14:05",
+    died_text="the 24th of a month in 1909 (the month is under earth; April or August)")
+STONES["E12"].update(carved="SYLVANUS GREE[N] / Co. C 14th R.I. Art. / Died May [?], 19[0?]", photo="2026-10-30 14:07",
+    died_text="a day in May of a year read only as 19--; the PV001 list gives 1907")
+STONES["E13"].update(carved="HENRY FRAWLEY / 7th 4?th 58th Mass Vol. / Died Feb. 5, 1907", photo="2025-10-16 14:45", pv001="1907",
+    died_text="February 5, 1907",
+    notes=["Did he serve in all three regiments, and when? The 7th and the 47th (a nine-month militia regiment of 1862–63) and the 58th (raised in 1864) are all named on the stone; his service record will show which enlistments are his.",
+           "The survey sheet had the name as \"Henry Frank\" and the year as 1902; the photographs read FRAWLEY and 1907. The middle regiment's number reads 42 or 47; the index has him in the 47th. A death in 1907 fits row E's dates, so the earlier doubt about his grid position is withdrawn."])
+STONES["E16"].update(carved="GEO. C. CARL / [lower lines under earth]", photo="2026-10-30 14:07",
+    nps_note="The stone's GEO. C. CARL matches the PV001 list's George C. Carl, died 1906, with no unit given. The index search for Rhode Island found no Carl. The unit and date lines are under earth.",
+    notes=["Only the top line of the stone is exposed; the unit and date are under earth."])
+STONES["E17"].update(carved="[CHA]RLES A. DEXT[ER] / [lower lines under earth]", photo="2026-10-30 14:07",
+    nps_note="The stone's CHARLES A. DEXTER matches the PV001 list's Charles A. Dexter, Rhode Island militia, Company B, died 1906; the index has a Charles A. Dexter in the 1st Rhode Island Light Artillery and the three-months' 1st Rhode Island Infantry. The unit and date lines are under earth.",
+    notes=["Only the top line of the stone is exposed; the unit and date are under earth."])
+STONES["E18"].update(carved="JAMES H. CHAFEE / Priv. Co. B 12th R.I. Vol. / Died Aug. 25, 1906", photo="2026-10-30 14:07",
+    nps="Chafee, James H., 12th Rhode Island Infantry, Company B — a candidate noted from an index search for Rhode Island, detail card not yet opened",
+    nps_note="The stone confirms the PV001 list's James H. Chafee, 12th Rhode Island Volunteers, Company B, died 1906.", died_text="August 25, 1906", notes=[])
+STONES["E24"].update(carved="JOSHUA F. HAMMOND / 28th Co. Indp. Battery N.Y. / Died [date under grass]", photo="2026-10-30 14:08")
+STONES["F5"].update(carved="BENJAMIN F. WILLIAMS / Co. I 14th R.I.H.Art. / Died Nov. 2, 190[?]", photo="2025-04-07 12:43")
+STONES["F8"].update(carved="EDWARD SILVEY / Co. E 14th R.I.H.Art. / Died Aug. 3, 1904", photo="2025-04-07 12:43")
+STONES["F16"].update(carved="WILLIAM BURR / Co. C 14th R.I.H.A. / [Died ???.] 14, 190[?]", photo="2025-04-07 12:44",
+    died_text="the 14th of a month in the 1900s; the PV001 list gives 1903")
+STONES["F22"].update(carved="JOHN A. JENKINS / Co. A 14th R.I.H.Art. / Died June 4, 1902", photo="2025-04-07 12:46")
+STONES["G14"].update(carved="THEODORE H. JACKSON / Co. B 14th R.I.H.Art. / Died Apr. 9, 1876", photo="2025-04-07 12:49")
+STONES["H15"].update(carved="[JOS]EPH N. CHAS[E] / [Co.] H 9th U.S.C.[T.] / [Die]d June 1, 188[?]", photo="2024-04-02 14:44")
+STONES["H20"].update(carved="GEORGE H. BLACK / Co. A 14th R.I.H.Art. / Died May 14, 1887", photo="2025-04-07 12:52")
+STONES["I2"].update(carved="[????] GIBBS / [Co. ?] U.S.C.[T.] / [worn]", photo="2025-04-07 12:53",
+    notes=["The stone is badly worn and partly sunk; the given name has not been read."])
+STONES["I6"].update(carved="[HENR]Y C. DIGGS / [Co. H] 14th R.I.H.A. / Died Sept. 30, 18[??]", photo="2025-06-20 15:01",
+    nps_note="The photograph reads the given name's last letter as Y and the middle initial as C, which favours Henry C. Diggs, Company H; the PV001 list has him dying in 1891.")
+STONES["J7"].update(carved="ROBERT LEWIS / Co. I 14th R.I.H.Art. / Died July 27, 1894", photo="2025-04-07 12:59")
+STONES["J15"].update(carved="EMANUEL PARKER / [Co.] H 5th U.S.C. Cav. / Died April 8, 1898", photo="2024-04-02 14:43")
+STONES["K2"].update(carved="THOMAS GEORGE / Co. G 31st U.S. Col. T[ps]. / Died Nov. 5, 189?", photo="2025-04-07 13:01")
+STONES["N9"].update(photo="2026-10-22 09:33")
+STONES["N12"].update(photo="2026-10-30 13:56", notes=["Which ship or ships did he serve on? The Navy's enlistment records and the NPS sailors index have not yet been searched."])
+STONES["N13"].update(photo="2026-10-30 13:57", notes=[])
+STONES["N14"].update(carved="JEREMIAH DUPONT / Pvt. Co. E 15th Reg. (Me.) / Died Aug. 14, 1937", photo="2026-10-30 13:57",
+    notes=["If this is the 15th Maine Infantry, he was among the last men buried in the lot, 62 years after it was dedicated."])
+STONES["E10"].update(carved="JEREMIAH / [the rest under earth]", photo="2026-10-30 14:06",
+    notes=["Only the first line has been read. Three-quarters of the stone is under earth; the City's staff would need to clear it before the rest can be read."])
+
+# Newly read stones (first photographs, 30 Oct 2026). NPS not yet searched for any of them.
+_unsearched = dict(nps="unsearched", chenery=None, pv001=None)
+STONES.update({
+ "E2": dict(carved="BENJAMIN W. FOSTER / Priv. 1st R.I. Art. / Died Ma[?]. 18, 1909", photo="2026-10-30 14:06", died_text="the 18th of March or May 1909", **_unsearched),
+ "E3": dict(carved="WILLIAM BURROUGHS / U.S. Navy / [lower half under earth]", photo="2026-10-30 14:06", died_text=None, **_unsearched,
+    notes=["The lower half of the stone is under earth; no date has been read.", "Which ship or ships did he serve on? The Navy's enlistment records and the NPS sailors index have not yet been searched."]),
+ "E4": dict(carved="[JOH]N LAMBERT / [Co. ?] 11th R.I. Vol. / [under earth]", photo="2026-10-30 14:06", died_text=None, **_unsearched,
+    notes=["The left and lower parts of the stone are under earth; the given name is read as John from its last letter and the space before it, and no date has been read."]),
+ "E5": dict(carved="THEODORE MACE / U.S. Navy / Died Jan. 10, 19[??]", photo="2026-10-30 14:06", died_text="January 10 of a year in the 1900s, the last digits worn", **_unsearched,
+    notes=["The surname may continue past the worn edge (Mace or Macey). Which ship or ships did he serve on? The Navy's records have not yet been searched."]),
+ "E6": dict(carved="BARTLETT B. MATTHEWS / [Co. ?] 43[d] U.S. V[ol.] / [under earth]", photo="2026-10-30 14:06", died_text=None, **_unsearched,
+    notes=["The lower right of the stone is under earth. The unit line is read with the survey sheet's \"43rd US Vol\"; which regiment that is (a 43rd U.S. Colored Infantry existed; so did state 43rds) is for the records to settle."]),
+ "E7": dict(carved="RICHARD PIERCE / Priv. Troop C 1st R.I. Cav. / [date line worn]", photo="2026-10-30 14:06", died_text=None, **_unsearched),
+ "E8": dict(carved="[???]R M[c]KENNEY / Co. H 2[?]th Maine Inf. / Died [???] 1909", photo="2026-10-30 14:06", died_text="a day in 1909", slug="mckenney", **_unsearched,
+    notes=["The stone was photographed in hard shadow and is mostly under earth; the surname is read as McKenney with reservation, the given name is not read, and the regiment's number reads 2-th. A photograph in flat light, with the earth cleared, is wanted."]),
+ "E11": dict(carved="CHARLES H. SAN[D]ER[S] / [Co.] A [???] / [under earth]", photo="2026-10-30 14:07", died_text=None, slug="sanders", **_unsearched,
+    notes=["The surname is read with reservation: the letters visible are SAN·ER·, consistent with Sanders (or Sanborn). The right half of the stone is under earth."]),
+ "E14": dict(carved="EDWARD GERALD / Co. H 1st Conn. H. Arty / Died March 2, [under grass]", photo="2026-10-30 14:07", died_text="March 2 of a year not yet read", **_unsearched),
+ "E15": dict(carved="JAMES A. L[?????] / [Co. ?] [???] / [under earth]", photo="2026-10-30 14:07", died_text=None, slug="james-a-l", **_unsearched,
+    notes=["Only JAMES A. L and part of a unit line are exposed; the surname is under earth. A photograph with the earth cleared is wanted."]),
+ "E19": dict(carved="WILLIAM W. [??????] / Co. D 11th R.I. Art. / Died May 5, 1906", photo="2026-10-30 14:07", died_text="May 5, 1906", slug="william-w", **_unsearched,
+    notes=["A flag lay across the surname when the stone was photographed. The unit as carved, \"11th R.I. Art.\", is the 14th Rhode Island Heavy Artillery under its later federal designation, the 11th U.S. Colored Heavy Artillery; Chenery's Company D roster should give candidates for a William W.", "A photograph without the flag is wanted."]),
+ "E20": dict(carved="JOHN VANYEA / Co. D 142d N.Y. Vol. / [date line under earth]", photo="2026-10-30 14:08", died_text=None, **_unsearched),
+ "E21": dict(carved="CHARLES L. RUMENAPP / Co. F 2d Penn. Cav. / Died May 14, 1905", photo="2026-10-30 14:08", died_text="May 14, 1905", **_unsearched),
+ "E22": dict(carved="[JOH]N H. SPENCER / [Co. ?] [??] Conn. Vols. / [under earth]", photo="2026-10-30 14:08", died_text=None, **_unsearched,
+    notes=["Most of the stone is under earth; the given name is read as John from its last letter, and the regiment's number and the date are not exposed."]),
+ "E23": dict(carved="IRA SMITH / [Co.] K 5th Mass. C[av.] / [under earth]", photo="2026-10-30 14:08", died_text=None, **_unsearched),
+ "N1": dict(carved="ASA A. ANDREWS / Pvt. Co. H 5 U.S. Art. / Died Feb. 27, 1928", photo="2026-10-30 13:50", died_text="February 27, 1928", **_unsearched,
+    notes=["The 5th U.S. Artillery was a regular-army regiment. Whether his service was in the Civil War or later is not yet established."]),
+ "N3": dict(carved="PVT. JOEL HOLBROOK / Co. G 4 Mass. Art. / Died [???] 1928", photo="2026-10-30 13:50", died_text="a day in 1928, the month and day in shadow in the photograph", **_unsearched),
+ "N4": dict(carved="OLIVER COGGESHALL / Pvt. Troop B 3 R.I. Cav. / Died Apr. 28, 1928", photo="2026-10-30 13:51", died_text="April 28, 1928", **_unsearched),
+ "N5": dict(carved="WILLIAM G. BAKER / Pvt. Co. F 1 R.I. Inf. / Died Nov. 29, 1929", photo="2026-10-30 13:51", died_text="November 29, 1929", **_unsearched),
+ "N6": dict(carved="GEORGE W. STODDARD / Co. A 3rd R.I. Art. / Died Apr. 5, 1930", photo="2026-10-30 13:55", died_text="April 5, 1930", **_unsearched),
+ "N7": dict(carved="SAMUEL E. WHITE / Co. F 11th R.I. Inf. / Died Nov. 20, 1930", photo="2026-10-30 13:56", died_text="November 20, 1930", **_unsearched),
+ "N8": dict(carved="JOHN S. BROWN / U.S. Navy / Died Dec. 30, 1930", photo="2026-10-30 13:56", died_text="December 30, 1930", **_unsearched,
+    notes=["Which ship or ships did he serve on? The Navy's enlistment records and the NPS sailors index have not yet been searched."]),
+ "N10": dict(carved="JOSEPH S. CASSEN / Pvt. Bat. B 1st R.I. Art. / Died April 19, 1933", photo="2026-10-30 13:56", died_text="April 19, 1933", **_unsearched),
+ "N11": dict(carved="OTHELLO W. GODFREY / Pvt. Co. A 1st R.I. Cav. / Died Dec. 3, 1934", photo="2026-10-30 13:56", died_text="December 3, 1934", **_unsearched),
+})
+
 CHENERY = ("William H. Chenery, *The Fourteenth Regiment Rhode Island Heavy Artillery (Colored) in the War "
            "to Preserve the Union, 1861–1865* (Providence: Snow & Farnham, 1898)")
 NPS_URL = "https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm"
+
+
+MONTHS = "January February March April May June July August September October November December".split()
+
+
+def photo_when(photo):
+    """'IMG_1234' -> '2026 (IMG_1234)'; '2025-04-07 12:43' -> 'April 7, 2025'."""
+    m = re.match(r"(\d{4})-(\d{2})-(\d{2})", photo or "")
+    if m:
+        return f"{MONTHS[int(m.group(2))-1]} {int(m.group(3))}, {m.group(1)}"
+    return f"2026 ({photo})"
 
 
 def slug(name_full):
@@ -265,7 +378,7 @@ def company_phrase(unit, company, rank):
 def make(r, s):
     grid, carved, full = r["grid"], r["name_carved"], r["name_full"]
     unit, co, rank, status = r["unit"], r["company"], r["rank"], r["status"]
-    sl = slug(full)
+    sl = s.get("slug") or slug(full)
     srcs = []
     sheet_only = not s.get("photo")
     if sheet_only:
@@ -273,7 +386,7 @@ def make(r, s):
                     f"The stone has not yet been photographed.")
     else:
         srcs.append(f"Gravestone of {full}, grave {grid}, Prescott Post plot, North Burial Ground, Providence, Rhode Island. "
-                    f"Photograph by Bernard Brennan ({s['photo']}), 2026; transcription as recorded in the plot register.")
+                    f"Photograph by Bernard Brennan, {photo_when(s['photo'])}; transcription as recorded in the plot register.")
     n_stone = 1
     n_nps = n_chen = n_pv = None
     if s.get("nps") != "unsearched":
@@ -294,7 +407,7 @@ def make(r, s):
     if unit_c:
         first += f"Company {co} of the {unit_c}" if co else unit_c
     else:
-        first = f"The stone in grave {grid} of the Prescott Post lot has been read only as far as the word {carved.upper()}; the man it names is not yet identified"
+        first = f"The stone in grave {grid} of the Prescott Post lot has been read only as far as {carved.upper()}; the man it names is not yet identified"
     first += (f", and gives his death as {s['died_text']}. [{n_stone}]" if s.get("died_text") else f". No date of death has been read from it. [{n_stone}]")
     life.append(first)
     if s.get("nps") == "unsearched":
@@ -337,7 +450,8 @@ def make(r, s):
                          f". A photograph is wanted; see the help page. [{n_stone}]")
     else:
         stone_section = (f"{s['carved']}\n\nTranscription as recorded in the plot register from the photograph; square brackets mark "
-                         f"letters not legible or below ground. Photograph {s['photo']} (B. Brennan). [{n_stone}]")
+                         f"letters not legible or below ground. Photograph by B. Brennan, {photo_when(s['photo'])}. [{n_stone}]"
+                         + (f" {s['stone_note']}" if s.get("stone_note") else ""))
     rank_line = f'"{rank} [stone; NPS index]"' if rank else '""'
     variants = [f"{full} [stone]"]
     if s.get("nps") and s["nps"] not in ("unsearched",):
@@ -387,7 +501,7 @@ records_dir: records/{grid}/
 
 ## The records
 
-- `records/{grid}/stone-2026.jpg` — Headstone of {full}, grid {grid}, Prescott Post lot, 2026{(' (' + s['photo'] + ')') if s.get('photo') else ''}. [{n_stone}]
+- `records/{grid}/stone-2026.jpg` — Headstone of {full}, grid {grid}, Prescott Post lot, photographed {photo_when(s['photo']) if s.get('photo') else '2026'}. [{n_stone}]
 
 ## What we don't know
 

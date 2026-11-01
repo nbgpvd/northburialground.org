@@ -36,11 +36,11 @@ His service record, any pension file, and his life before and after the war have
 
 CHARLES H. GARDNER / U.S. Hvy. Art. / Died March 7, 1932
 
-Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph IMG_1748 (B. Brennan). [1]
+Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph by B. Brennan, October 22, 2026. [1]
 
 ## The records
 
-- `records/N9/stone-2026.jpg` — Headstone of Charles H. Gardner, grid N9, Prescott Post lot, 2026 (IMG_1748). [1]
+- `records/N9/stone-2026.jpg` — Headstone of Charles H. Gardner, grid N9, Prescott Post lot, photographed October 22, 2026. [1]
 
 ## What we don't know
 
@@ -55,7 +55,7 @@ Transcription as recorded in the plot register from the photograph; square brack
 
 ## Sources
 
-1. Gravestone of Charles H. Gardner, grave N9, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan (IMG_1748), 2026; transcription as recorded in the plot register.
+1. Gravestone of Charles H. Gardner, grave N9, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, October 22, 2026; transcription as recorded in the plot register.
 
 ## Credits
 

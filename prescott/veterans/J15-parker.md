@@ -26,7 +26,7 @@ Co. H, 5th U.S. Colored Cavalry · died 1898-04-08
 
 ## Life
 
-Emanuel Parker lies in grave J15 of the Prescott Post lot. The plot survey records his stone as naming his unit as Company H of the 5th U.S. Colored Cavalry, and gives his death as April 8, 1898. [1]
+Emanuel Parker lies in grave J15 of the Prescott Post lot. His stone names his unit as Company H of the 5th U.S. Colored Cavalry, and gives his death as April 8, 1898. [1]
 
 No Emanuel Parker was found in the index for the 5th U.S. Colored Cavalry (it has a James and a Richard Parker); the spelling on his service record may differ. [2]
 
@@ -34,15 +34,16 @@ His service record, any pension file, and his life before and after the war have
 
 ## The stone
 
-Not yet photographed. The plot survey sheet records: Emanuel Parker, Co. H, 5th U.S. Colored Cavalry, died April 8, 1898. A photograph is wanted; see the help page. [1]
+EMANUEL PARKER / [Co.] H 5th U.S.C. Cav. / Died April 8, 1898
+
+Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph by B. Brennan, April 2, 2024. [1]
 
 ## The records
 
-- `records/J15/stone-2026.jpg` — Headstone of Emanuel Parker, grid J15, Prescott Post lot, 2026. [1]
+- `records/J15/stone-2026.jpg` — Headstone of Emanuel Parker, grid J15, Prescott Post lot, photographed April 2, 2024. [1]
 
 ## What we don't know
 
-- What exactly does the stone say? It has not yet been photographed; the name, unit and date here are from the survey sheet.
 - When and where did he enlist, and what did his company do? His compiled military service record (National Archives, RG 94) will say.
 - Did he or his widow apply for a pension? The General Index to Pension Files (NARA T288/T289) has not yet been searched for him.
 - Where was he born, and how did he come to Providence?
@@ -52,7 +53,7 @@ Not yet photographed. The plot survey sheet records: Emanuel Parker, Co. H, 5th 
 
 ## Sources
 
-1. Prescott Post plot survey sheet, grave J15, compiled by Bernard Brennan, 2026: name, unit and date of death as read on site. The stone has not yet been photographed.
+1. Gravestone of Emanuel Parker, grave J15, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, April 2, 2024; transcription as recorded in the plot register.
 2. National Park Service, Civil War Soldiers and Sailors Database, search for "Emanuel Parker" (5th US Colored Cavalry); accessed October 31, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
 
 ## Credits

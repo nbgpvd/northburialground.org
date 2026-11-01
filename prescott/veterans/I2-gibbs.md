@@ -26,7 +26,7 @@ records_dir: records/I2/
 
 ## Life
 
-Gibbs lies in grave I2 of the Prescott Post lot. The plot survey records his stone as naming his unit as 3rd U.S. Colored Infantry. No date of death has been read from it. [1]
+Gibbs lies in grave I2 of the Prescott Post lot. His stone names his unit as 3rd U.S. Colored Infantry. No date of death has been read from it. [1]
 
 The survey recorded the unit as the 3rd U.S. Colored Infantry. The PV001 list has a Franklin A. Gibbs, 3rd U.S.C.T., Company A, not found in the index; the only Gibbs the index shows in the 3rd U.S. Colored Infantry is a Warren Gibbs, Company G. Unresolved. [2]
 
@@ -34,18 +34,17 @@ His service record, any pension file, and his life before and after the war have
 
 ## The stone
 
-GIBBS / [marker sunk; the rest below ground]
+[????] GIBBS / [Co. ?] U.S.C.[T.] / [worn]
 
-As recorded on the plot survey sheet; the stone has not been photographed and the rest of the inscription has not been read. [1]
+Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph by B. Brennan, April 7, 2025. [1]
 
 ## The records
 
-- `records/I2/stone-2026.jpg` — Headstone of Gibbs, grid I2, Prescott Post lot, 2026. [1]
+- `records/I2/stone-2026.jpg` — Headstone of Gibbs, grid I2, Prescott Post lot, photographed April 7, 2025. [1]
 
 ## What we don't know
 
-- Only the surname and unit have been read. The marker is sunk; the City's staff would need to clear it before the rest can be read.
-- What exactly does the stone say? It has not yet been photographed; the name, unit and date here are from the survey sheet.
+- The stone is badly worn and partly sunk; the given name has not been read.
 - When and where did he enlist, and what did his company do? His compiled military service record (National Archives, RG 94) will say.
 - Did he or his widow apply for a pension? The General Index to Pension Files (NARA T288/T289) has not yet been searched for him.
 - Where was he born, and how did he come to Providence?
@@ -55,7 +54,7 @@ As recorded on the plot survey sheet; the stone has not been photographed and th
 
 ## Sources
 
-1. Prescott Post plot survey sheet, grave I2, compiled by Bernard Brennan, 2026: name, unit and date of death as read on site. The stone has not yet been photographed.
+1. Gravestone of Gibbs, grave I2, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, April 7, 2025; transcription as recorded in the plot register.
 2. National Park Service, Civil War Soldiers and Sailors Database, search for "Gibbs" (3rd US Colored Infantry); accessed October 31, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
 
 ## Credits

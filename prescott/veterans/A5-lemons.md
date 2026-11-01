@@ -26,7 +26,7 @@ Private, Co. M, 14th Rhode Island Heavy Artillery · died 1925-02-28
 
 ## Life
 
-John H. Lemons lies in grave A5 of the Prescott Post lot. The plot survey records his stone as naming his unit as Company M of the 14th Rhode Island Heavy Artillery, and gives his death as February 28, 1925. [1]
+John H. Lemons lies in grave A5 of the Prescott Post lot. His stone names his unit as Company M of the 14th Rhode Island Heavy Artillery, and gives his death as February 28, 1925. [1]
 
 No John H. Lemons (or Lemmons) was found in the index under the 11th U.S. Colored Heavy Artillery or Rhode Island; the spelling on his service record may differ. [2]
 
@@ -38,15 +38,16 @@ His service record, any pension file, and his life before and after the war have
 
 ## The stone
 
-Not yet photographed. The plot survey sheet records: John H. Lemons, Co. M, 14th Rhode Island Heavy Artillery, Private, died February 28, 1925. A photograph is wanted; see the help page. [1]
+JOHN H. LEMONS / Co. M 14 R.I. Art. / [Died Feb.] 28, 1925
+
+Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph by B. Brennan, October 30, 2026. [1]
 
 ## The records
 
-- `records/A5/stone-2026.jpg` — Headstone of John H. Lemons, grid A5, Prescott Post lot, 2026. [1]
+- `records/A5/stone-2026.jpg` — Headstone of John H. Lemons, grid A5, Prescott Post lot, photographed October 30, 2026. [1]
 
 ## What we don't know
 
-- What exactly does the stone say? It has not yet been photographed; the name, unit and date here are from the survey sheet.
 - When and where did he enlist, and what did his company do? His compiled military service record (National Archives, RG 94) will say.
 - Did he or his widow apply for a pension? The General Index to Pension Files (NARA T288/T289) has not yet been searched for him.
 - Where was he born, and how did he come to Providence?
@@ -56,7 +57,7 @@ Not yet photographed. The plot survey sheet records: John H. Lemons, Co. M, 14th
 
 ## Sources
 
-1. Prescott Post plot survey sheet, grave A5, compiled by Bernard Brennan, 2026: name, unit and date of death as read on site. The stone has not yet been photographed.
+1. Gravestone of John H. Lemons, grave A5, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, October 30, 2026; transcription as recorded in the plot register.
 2. National Park Service, Civil War Soldiers and Sailors Database, search for "John H. Lemons" (14th Rhode Island Heavy Artillery); accessed October 31, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
 3. William H. Chenery, *The Fourteenth Regiment Rhode Island Heavy Artillery (Colored) in the War to Preserve the Union, 1861–1865* (Providence: Snow & Farnham, 1898), 262.
 4. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for John H. Lemons.

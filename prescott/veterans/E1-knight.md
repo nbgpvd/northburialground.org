@@ -9,7 +9,7 @@ rank_highest: ""
 rank_at_discharge: ""
 born: ""
 birthplace: ""
-died: ""
+died: "1909-0?-24"
 death_place: ""
 interred: ""
 city_lot_ref: ""
@@ -26,7 +26,7 @@ Co. D, 2nd Rhode Island Volunteers
 
 ## Life
 
-Lonzo H. Knight lies in grave E1 of the Prescott Post lot. The plot survey records his stone as naming his unit as Company D of the 2nd Rhode Island Volunteers. No date of death has been read from the stone. [1]
+Lonzo H. Knight lies in grave E1 of the Prescott Post lot. His stone names his unit as Company D of the 2nd Rhode Island Volunteers, and gives his death as the 24th of a month in 1909 (the month is under earth; April or August). [1]
 
 The National Park Service's index of Civil War soldiers lists Knight, Alonzo H., 2nd Rhode Island Infantry, Company D, private in and out, microfilm M555 roll 4. [2] The survey sheet read the given name as Lonzo; the index and the PV001 list have Alonzo.
 
@@ -36,15 +36,16 @@ His service record, any pension file, and his life before and after the war have
 
 ## The stone
 
-Not yet photographed. The plot survey sheet records: Lonzo H. Knight, Co. D, 2nd Rhode Island Volunteers. A photograph is wanted; see the help page. [1]
+LONZO H. KNIGHT / Co. D 2d R.I. Vol. / Died A[??]. 24, 1909
+
+Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph by B. Brennan, October 30, 2026. [1]
 
 ## The records
 
-- `records/E1/stone-2026.jpg` — Headstone of Lonzo H. Knight, grid E1, Prescott Post lot, 2026. [1]
+- `records/E1/stone-2026.jpg` — Headstone of Lonzo H. Knight, grid E1, Prescott Post lot, photographed October 30, 2026. [1]
 
 ## What we don't know
 
-- What exactly does the stone say? It has not yet been photographed; the name, unit and date here are from the survey sheet.
 - When and where did he enlist, and what did his company do? His compiled military service record (National Archives, RG 94) will say.
 - Did he or his widow apply for a pension? The General Index to Pension Files (NARA T288/T289) has not yet been searched for him.
 - Where was he born, and how did he come to Providence?
@@ -54,7 +55,7 @@ Not yet photographed. The plot survey sheet records: Lonzo H. Knight, Co. D, 2nd
 
 ## Sources
 
-1. Prescott Post plot survey sheet, grave E1, compiled by Bernard Brennan, 2026: name, unit and date of death as read on site. The stone has not yet been photographed.
+1. Gravestone of Lonzo H. Knight, grave E1, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, October 30, 2026; transcription as recorded in the plot register.
 2. National Park Service, Civil War Soldiers and Sailors Database, search for "Lonzo H. Knight" (2nd Rhode Island Volunteers); accessed October 31, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
 3. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for Lonzo H. Knight.
 
