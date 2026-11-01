@@ -214,7 +214,7 @@ STONES = {
  "E18": dict(carved="CHAFEE / [rest not read]", photo=None, nps=None,
     nps_note="The PV001 list has a James H. Chafee, 12th Rhode Island Volunteers, Company B, died 1906, and the index has a James H. Chafee in the 12th Rhode Island Infantry. A death in 1906 fits this row's dates. He is a candidate, not an identification.", chenery=None, pv001="1906", died_text=None,
     notes=["Only the surname has been read from the stone."]),
- "E24": dict(carved=None, photo=None, nps="Hammond, Joshua F., 28th Independent Battery, New York Light Artillery, private in and out, microfilm M551 roll 58", chenery=None, pv001="1905", died_text=None),
+ "E25": dict(carved=None, photo=None, nps="Hammond, Joshua F., 28th Independent Battery, New York Light Artillery, private in and out, microfilm M551 roll 58", chenery=None, pv001="1905", died_text=None),
  "F5": dict(carved=None, photo=None, nps="Williams, Benjamin (no middle initial), 11th U.S. Colored Heavy Artillery, Company I, private in and out, microfilm M589 roll 94", chenery="236", pv001="1904", died_text="November 2 of a year the survey could not read; the PV001 list gives 1904"),
  "F8": dict(carved=None, photo=None, nps="Silvey, Edward, 11th U.S. Colored Heavy Artillery, Company E, private in and out, microfilm M589 roll 79", chenery="199", pv001=None, died_text="August 3, 1904"),
  "F16": dict(carved=None, photo=None, nps="Burr, William, 11th U.S. Colored Heavy Artillery, Company C, private in and out, microfilm M589 roll 13", chenery="177", pv001="1903", died_text=None),
@@ -274,7 +274,8 @@ STONES["E17"].update(carved="[CHA]RLES A. DEXT[ER] / [lower lines under earth]",
 STONES["E18"].update(carved="JAMES H. CHAFEE / Priv. Co. B 12th R.I. Vol. / Died Aug. 25, 1906", photo="2026-10-30 14:07",
     nps="Chafee, James H., 12th Rhode Island Infantry, Company B — a candidate noted from an index search for Rhode Island, detail card not yet opened",
     nps_note="The stone confirms the PV001 list's James H. Chafee, 12th Rhode Island Volunteers, Company B, died 1906.", died_text="August 25, 1906", notes=[])
-STONES["E24"].update(carved="JOSHUA F. HAMMOND / 28th Co. Indp. Battery N.Y. / Died [date under grass]", photo="2026-10-30 14:08")
+STONES["E25"].update(carved="JOSHUA F. HAMMOND / 28th Co. Indp. Battery N.Y. / Died [date under grass]", photo="2026-10-30 14:08",
+    notes=["This stone was E24 until November 1, 2026. The photographs of October 30 show a stone the survey sheet missed, William A. Lewis, between Ira Smith (E23) and this one, so row E has twenty-five stones and this is E25."])
 STONES["F5"].update(carved="BENJAMIN F. WILLIAMS / Co. I 14th R.I.H.Art. / Died Nov. 2, 190[?]", photo="2025-04-07 12:43")
 STONES["F8"].update(carved="EDWARD SILVEY / Co. E 14th R.I.H.Art. / Died Aug. 3, 1904", photo="2025-04-07 12:43")
 STONES["F16"].update(carved="WILLIAM BURR / Co. C 14th R.I.H.A. / [Died ???.] 14, 190[?]", photo="2025-04-07 12:44",
@@ -301,6 +302,10 @@ STONES["E10"].update(carved="JEREMIAH / [the rest under earth]", photo="2026-10-
 # Newly read stones (first photographs, 30 Oct 2026). NPS not yet searched for any of them.
 _unsearched = dict(nps="unsearched", chenery=None, pv001=None)
 STONES.update({
+ "E24": dict(carved="WILLIAM A. LEWIS / Co. C 2nd R.I. Vols. / [date under grass]", photo="2026-10-30 14:08", died_text=None, nps="unsearched", chenery=None, pv001=None,
+    notes=["This stone is not on the plot survey sheet; it was found in the photographs of October 30, 2026, between Ira Smith (E23) and Joshua F. Hammond, who was renumbered from E24 to E25 to make room for it.", "The date line is under grass."]),
+ "I1": dict(carved="JAMES M. CLARK / U.S. N[avy] / [worn]", photo="2025-06-20 15:02", died_text=None, nps="unsearched", chenery=None, pv001=None,
+    notes=["His place at I1 rests on the order of the photographs of June 20, 2025 (Diggs at I6, Gibbs at I2, then this stone, then an uninscribed one) and on the survey sheet's reading of I1 as a Navy stone; confirmed by B. Brennan on November 1, 2026.", "Which ship or ships did he serve on? The Navy's enlistment records and the NPS sailors index have not yet been searched."]),
  "E2": dict(carved="BENJAMIN W. FOSTER / Priv. 1st R.I. Art. / Died Ma[?]. 18, 1909", photo="2026-10-30 14:06", died_text="the 18th of March or May 1909", **_unsearched),
  "E3": dict(carved="WILLIAM BURROUGHS / U.S. Navy / [lower half under earth]", photo="2026-10-30 14:06", died_text=None, **_unsearched,
     notes=["The lower half of the stone is under earth; no date has been read.", "Which ship or ships did he serve on? The Navy's enlistment records and the NPS sailors index have not yet been searched."]),

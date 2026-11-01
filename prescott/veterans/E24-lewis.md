@@ -1,10 +1,10 @@
 ---
 grid: "E24"
-name_carved: "Joshua F. Hammond"
-name_full: "Joshua F. Hammond"
-variants: ["Joshua F. Hammond [stone]"]
-unit: "28th Co (??) Battery NY"
-company: ""
+name_carved: "WILLIAM A. LEWIS"
+name_full: "William A. Lewis"
+variants: ["William A. Lewis [stone]"]
+unit: "2nd Rhode Island Volunteers"
+company: "C"
 rank_highest: ""
 rank_at_discharge: ""
 born: ""
@@ -20,32 +20,32 @@ last_revised: "2026-11-01"
 records_dir: records/E24/
 ---
 
-# Joshua F. Hammond
+# WILLIAM A. LEWIS
 
-28th Co (??) Battery NY
+Co. C, 2nd Rhode Island Volunteers
 
 ## Life
 
-Joshua F. Hammond lies in grave E24 of the Prescott Post lot. His stone names his unit as 28th Co (??) Battery NY. No date of death has been read from it. [1]
+William A. Lewis lies in grave E24 of the Prescott Post lot. His stone names his unit as Company C of the 2nd Rhode Island Volunteers. No date of death has been read from it. [1]
 
-The National Park Service's index of Civil War soldiers lists Hammond, Joshua F., 28th Independent Battery, New York Light Artillery, private in and out, microfilm M551 roll 58. [2]
-
-A 2022 list of Civil War veterans buried at North Burial Ground gives his death as 1905. [3]
+The National Park Service's index of Civil War soldiers and sailors has not yet been searched for him.
 
 His service record, any pension file, and his life before and after the war have not yet been researched. This page will grow as the records are read.
 
 ## The stone
 
-JOSHUA F. HAMMOND / 28th Co. Indp. Battery N.Y. / Died [date under grass]
+WILLIAM A. LEWIS / Co. C 2nd R.I. Vols. / [date under grass]
 
 Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph by B. Brennan, October 30, 2026. [1]
 
 ## The records
 
-- `records/E24/stone-2026.jpg` — Headstone of Joshua F. Hammond, grid E24, Prescott Post lot, photographed October 30, 2026. [1]
+- `records/E24/stone-2026.jpg` — Headstone of William A. Lewis, grid E24, Prescott Post lot, photographed October 30, 2026. [1]
 
 ## What we don't know
 
+- This stone is not on the plot survey sheet; it was found in the photographs of October 30, 2026, between Ira Smith (E23) and Joshua F. Hammond, who was renumbered from E24 to E25 to make room for it.
+- The date line is under grass.
 - When and where did he enlist, and what did his company do? His compiled military service record (National Archives, RG 94) will say.
 - Did he or his widow apply for a pension? The General Index to Pension Files (NARA T288/T289) has not yet been searched for him.
 - Where was he born, and how did he come to Providence?
@@ -55,9 +55,7 @@ Transcription as recorded in the plot register from the photograph; square brack
 
 ## Sources
 
-1. Gravestone of Joshua F. Hammond, grave E24, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, October 30, 2026; transcription as recorded in the plot register.
-2. National Park Service, Civil War Soldiers and Sailors Database, search for "Joshua F. Hammond" (28th Co (??) Battery NY); accessed October 31, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
-3. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for Joshua F. Hammond.
+1. Gravestone of William A. Lewis, grave E24, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, October 30, 2026; transcription as recorded in the plot register.
 
 ## Credits
 

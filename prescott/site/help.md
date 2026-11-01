@@ -82,13 +82,9 @@ Our photograph of each of these leaves something unread — a buried date line, 
 
 {{photo_redo}}
 
-### Stones photographed but not yet placed
+### A stone photographed but not yet placed
 
-Three stones have been photographed whose place in the lot we have not fixed. If you can stand at one of them and tell us its row and column, that settles it.
-
-- [Samuel M. Warner](../records/_unplaced/warner-stone.jpg) — Co. E, 3d R.I. Heavy Artillery, died July 24, 1895. Photographed April 2, 2024, from a distance; the stone to its right begins JOH…. A death in 1895 belongs with row J. He is not on the survey sheet.
-- [James M. Clark](../records/_unplaced/clark-james-m-stone.jpg) — U.S. Navy. Photographed June 20, 2025, a few seconds after the Diggs (I6) and Gibbs (I2) stones, and before a blank one; the survey sheet records I1 as a Navy stone, so I1 is the likely place. To be confirmed on site.
-- [William A. Lewis](../records/_unplaced/lewis-william-a-stone.jpg) — Co. C, 2nd R.I. Vols. Photographed October 30, 2026, between Ira Smith (E23) and Joshua F. Hammond (E24). The survey sheet has twenty-four stones in row E; the photographs show twenty-five. Which numbering is right has to be settled before this stone gets a page, because the page addresses carry the grid.
+- [Samuel M. Warner](../records/_unplaced/warner-stone.jpg) — Co. E, 3d R.I. Heavy Artillery, died July 24, 1895. Photographed April 2, 2024, from a distance; the stone to its right begins JOH…. A death in 1895 belongs with row J. He is not on the survey sheet. If you can stand at the stone and tell us its row and column, that settles it.
 
 ## 2. Find a record of a man
 

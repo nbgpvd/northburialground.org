@@ -914,6 +914,14 @@ def main():
         dest = out / rel
         dest.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy(ROOT / rel, dest)
+    # Pages whose address changed (grid renumbering). Old address -> new slug. Keep these forever: QR codes may carry them.
+    for old, new in {"E24-hammond": "E25-hammond"}.items():
+        d = out / "stone" / old
+        d.mkdir(parents=True, exist_ok=True)
+        (d / "index.html").write_text(
+            f'<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>Moved</title>'
+            f'<meta http-equiv="refresh" content="0; url=../{new}/"><link rel="canonical" href="../{new}/"></head>'
+            f'<body><p>This page has moved to <a href="../{new}/">../{new}/</a>.</p></body></html>', encoding="utf-8")
     (out / "map" / "index.html").write_text(render_map(rows, dossiers, args.release), encoding="utf-8")
     help_html = render_help(rows, dossiers, file_requests, args.release)
     if help_html:
