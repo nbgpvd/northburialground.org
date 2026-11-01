@@ -71,7 +71,7 @@ The stone gives his company and omits the rank of sergeant major. He held that r
 ## The records
 
 - `records/G3/stone-2026.jpg` — Headstone, G3, 2026 (IMG_1211). [18]
-- `records/G3/1883-burial-ledger.jpg` — City burial ledger, 18 March 1883, with red annotation of 8 September 1886 (IMG_2550). [2]  ⟨A. Heppner's approval to host⟩
+- `records/G3/1883-burial-ledger.jpg` — City burial ledger (Superintendent’s Record of Burials, North Burial Ground), page for March 1883, with the red annotation of 8 September 1886 recording his removal to the Prescott Post lot (IMG_2550). Hosted with the approval of the City of Providence, 1 Nov 2026. [2]
 - `records/G3/1883-death-notice.jpg` — Newspaper notice of his death, March 1883. [24]  ⟨paper and date; public domain if pre-1930⟩
 - `records/G3/1875-morning-star.jpg` — *Providence Morning Star*, 31 May 1875, p. 1, detail: Howland listed as assistant inspector, Ives Post No. 13. [16]
 - `records/G3/1886-council-report.jpg` — City Council Report No. 272 and Resolution No. 273, June 1886, on enlarging the Prescott Post lot. [25]
