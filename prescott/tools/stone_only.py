@@ -170,6 +170,70 @@ STONES = {
     chenery=None, pv001=None, died_text="August 30, 1920"),
  "A18": dict(carved=None, photo=None, nps="Dewey, Charles W., 10th Connecticut Infantry, Company F, private in and out, microfilm M535 roll 5 (a second card, Charles B., is filed with it)",
     chenery=None, pv001=None, died_text="December 27, 1919"),
+ # ---- Rest of the lot, 1 Nov 2026. No photographs yet unless photo is set.
+ "B1": dict(carved=None, photo=None, nps=None, nps_note="No Daniel W. Deane was found in the index for the 22nd Massachusetts; the spelling on his service record may differ.", chenery=None, pv001="1919", died_text="March 27, 1919"),
+ "B17": dict(carved=None, photo=None, nps="Johnson, William L., 11th U.S. Colored Heavy Artillery, Company L, private in and out, microfilm M589 roll 48", chenery="252", pv001=None, died_text="August 11, 1916"),
+ "B21": dict(carved=None, photo=None, nps="unsearched", chenery=None, pv001="1916", died_text="May 22, 1916",
+    notes=["The 23rd U.S. Infantry was a regular-army regiment raised in 1866. His service may be after the Civil War; the records will say."]),
+ "B25": dict(carved=None, photo=None, nps="Homan, John G., 15th New York Infantry (National Guard, thirty days' service, 1864), Company F, private in and out, microfilm M551 roll 66", chenery=None, pv001=None, died_text="November 28, 1915"),
+ "C1": dict(carved=None, photo=None, nps="Jackson, Charles A., 11th U.S. Colored Heavy Artillery, Company B, private in, corporal out, microfilm M589 roll 44 — the card that fits the stone; a second Charles A. Jackson is in Company E of the same regiment",
+    nps_note="The survey sheet names the unit as the 11th U.S. Heavy Artillery, which is the 14th Rhode Island under its later designation.", chenery=None, pv001="1905", died_text="November 11, 1915",
+    notes=["The PV001 list gives his death as March 29, 1905; the survey sheet reads November 11, 1915 on the stone. One of them is wrong; the stone will settle it."]),
+ "C23": dict(carved=None, photo=None, nps="Williams, Theodore, 11th U.S. Colored Heavy Artillery, Company L, private in and out, microfilm M589 roll 95", chenery="255", pv001=None, died_text="January 20, 1912"),
+ "C24": dict(carved=None, photo=None, nps="Butler, Wm. H. (also filed as Henry W. and Henry J.), 2nd U.S. Colored Infantry, Company H, private in and out, microfilm M589 roll 14 — a probable match",
+    nps_note="The stone and the PV001 list give the middle initial as I; the index card gives H. Unit and company agree.", chenery=None, pv001=None, died_text="January 15, 1912"),
+ "D1": dict(carved=None, photo=None, nps="McGraw, Thomas H., 9th Maine Infantry, Company A, private in, corporal out, microfilm M543 roll 14", chenery=None, pv001=None, died_text=None),
+ "D4": dict(carved=None, photo=None, nps="Parker, Joseph R., 11th U.S. Colored Heavy Artillery, Company M, private in, corporal out, microfilm M589 roll 66",
+    nps_note="The survey sheet read the company as \"U\"; the index card settles it as M.", chenery="258", pv001=None, died_text=None),
+ "D7": dict(carved=None, photo=None, nps="Lee, Adam, 11th U.S. Colored Heavy Artillery, Company L, private in, corporal out, microfilm M589 roll 53", chenery="248", pv001=None, died_text=None),
+ "D8": dict(carved=None, photo=None, nps="Mackbee, Jeff, 23rd U.S. Colored Infantry, Company E, private in and out, microfilm M589 roll 56", chenery=None, pv001="1910", died_text=None),
+ "D9": dict(carved=None, photo=None, nps=None, nps_note="No Joseph Devendor (or Devender, Devendore) was found in the index for the 20th U.S. Colored Infantry, which has a John and a Henry Devendorf; the spelling on his service record may differ.", chenery=None, pv001="1910", died_text=None),
+ "D10": dict(carved=None, photo=None, nps="Stafford, Charles H., 11th U.S. Colored Heavy Artillery, Company B, private in and out, microfilm M589 roll 82",
+    nps_note="The survey sheet read the name as Stratford; the index, the PV001 list and Chenery's errata have Stafford. The sheet and the PV001 list put him in Company D, the index card in Company B. Both questions are for the stone and the service record.", chenery="172 (errata)", pv001="1911", died_text=None),
+ "D14": dict(carved=None, photo=None, nps="White, Jacob, 2nd U.S. Colored Cavalry, Company F, private in and out, microfilm M589 roll 93", chenery=None, pv001="1910", died_text=None),
+ "D15": dict(carved=None, photo=None, nps="Johnson, James E., 28th U.S. Colored Infantry, two cards: Company D, private in and out, and one with no company (\"unassigned recruits\"); microfilm M589 roll 47", chenery=None, pv001="1910", died_text=None,
+    notes=["Which company he served in, and whether both cards are his, is for the service record."]),
+ "D16": dict(carved="POLK / [marker sunk; the rest below ground]", photo=None, nps=None,
+    nps_note="The PV001 list has a James H. Polk of the 14th Rhode Island Heavy Artillery, died 1910, and the index has a James K. Polk in the 11th U.S. Colored Heavy Artillery. Until the stone is raised and read, he is a candidate, not an identification.", chenery=None, pv001="1910", died_text=None,
+    notes=["Only the surname has been read. The marker is sunk; the City's staff would need to clear it before the rest can be read."]),
+ "D20": dict(carved="TAFFT / [marker sunk; the rest below ground]", photo=None, nps=None,
+    nps_note="The PV001 list has a Henry S. Tafft, U.S. Signal Corps, died 1909, and the index has a Henry S. Tafft in the Signal Corps, U.S. Volunteers. Until the stone is raised and read, he is a candidate, not an identification.", chenery=None, pv001="1909", died_text=None,
+    notes=["Only the surname has been read. The marker is sunk; the City's staff would need to clear it before the rest can be read."]),
+ "E1": dict(carved=None, photo=None, nps="Knight, Alonzo H., 2nd Rhode Island Infantry, Company D, private in and out, microfilm M555 roll 4",
+    nps_note="The survey sheet read the given name as Lonzo; the index and the PV001 list have Alonzo.", chenery=None, pv001="1909", died_text=None),
+ "E10": dict(carved="JEREMIAH / [marker sunk; the rest below ground]", photo=None, nps=None,
+    nps_note="\"Jeremiah\" may be a given name rather than a surname: the PV001 list has no veteran surnamed Jeremiah, but it has a Jeremiah Lee, U.S. Navy, died 1907, and others. Until the stone is raised and read, no identification is made.", chenery=None, pv001=None, died_text=None,
+    notes=["Only one word has been read. The marker is sunk; the City's staff would need to clear it before the rest can be read."]),
+ "E12": dict(carved=None, photo=None, nps="Green, Sylvanus, 11th U.S. Colored Heavy Artillery, Company C, private in and out, microfilm M589 roll 34", chenery="178", pv001="1907", died_text=None),
+ "E16": dict(carved="CARL / [rest not read]", photo=None, nps=None,
+    nps_note="The PV001 list has a George C. Carl, died 1906, with no unit given. The index search for Rhode Island found no Carl. \"Carl\" could also be a given name. No identification is made.", chenery=None, pv001="1906", died_text=None,
+    notes=["Only one word has been read from the stone."]),
+ "E17": dict(carved="DEXTER / [rest not read]", photo=None, nps=None,
+    nps_note="The PV001 list has two candidates: Charles A. Dexter, Rhode Island militia, Company B, died 1906, and James H. Dexter, U.S. Navy, died 1897. The index has a Charles A. Dexter in the 1st Rhode Island Light Artillery and the three-months' 1st Rhode Island Infantry. A death in 1906 fits this row's dates. No identification is made.", chenery=None, pv001=None, died_text=None,
+    notes=["Only the surname has been read from the stone."]),
+ "E18": dict(carved="CHAFEE / [rest not read]", photo=None, nps=None,
+    nps_note="The PV001 list has a James H. Chafee, 12th Rhode Island Volunteers, Company B, died 1906, and the index has a James H. Chafee in the 12th Rhode Island Infantry. A death in 1906 fits this row's dates. He is a candidate, not an identification.", chenery=None, pv001="1906", died_text=None,
+    notes=["Only the surname has been read from the stone."]),
+ "E24": dict(carved=None, photo=None, nps="Hammond, Joshua F., 28th Independent Battery, New York Light Artillery, private in and out, microfilm M551 roll 58", chenery=None, pv001="1905", died_text=None),
+ "F5": dict(carved=None, photo=None, nps="Williams, Benjamin (no middle initial), 11th U.S. Colored Heavy Artillery, Company I, private in and out, microfilm M589 roll 94", chenery="236", pv001="1904", died_text="November 2 of a year the survey could not read; the PV001 list gives 1904"),
+ "F8": dict(carved=None, photo=None, nps="Silvey, Edward, 11th U.S. Colored Heavy Artillery, Company E, private in and out, microfilm M589 roll 79", chenery="199", pv001=None, died_text="August 3, 1904"),
+ "F16": dict(carved=None, photo=None, nps="Burr, William, 11th U.S. Colored Heavy Artillery, Company C, private in and out, microfilm M589 roll 13", chenery="177", pv001="1903", died_text=None),
+ "F22": dict(carved=None, photo=None, nps="Jenkins, John A., 11th U.S. Colored Heavy Artillery, Company A, sergeant in, private out, microfilm M589 roll 46",
+    nps_note="He entered as a sergeant and left as a private; the service record will say why. Chenery lists him twice, in the Company A roster and at p. 20.", chenery="156 and 20", pv001=None, died_text="June 4, 1902"),
+ "G11": dict(carved=None, photo=None, nps="Hunter, Henry, 11th U.S. Colored Heavy Artillery, Company B, private in and out, microfilm M589 roll 43", chenery="170", pv001=None, died_text="November 14, 1885"),
+ "G14": dict(carved=None, photo=None, nps="Jackson, Theodore, 11th U.S. Colored Heavy Artillery, Company B, private in and out, microfilm M589 roll 45", chenery="170", pv001=None, died_text="April 9, 1876",
+    notes=["His 1876 death is the earliest yet read in the lot, a year after it was dedicated. The register carries a note \"died in Louisiana?\" with no source; if he died where the regiment served, how he came to be buried here is a question. The PV001 list gives a birth about 1833."]),
+ "H15": dict(carved=None, photo=None, nps="Chase, Joseph (no middle initial), 9th U.S. Colored Infantry, Company H, private in and out, microfilm M589 roll 16 — a probable match", chenery=None, pv001=None, died_text="June 1 of a year in the 1880s, the last digit not read",
+    notes=["He is not on the PV001 list."]),
+ "H20": dict(carved=None, photo=None, nps="Black, George H., 11th U.S. Colored Heavy Artillery, Company A, corporal in, sergeant out, microfilm M589 roll 7", chenery="156 and 10", pv001=None, died_text="May 14, 1887"),
+ "I2": dict(carved="GIBBS / [marker sunk; the rest below ground]", photo=None, nps=None,
+    nps_note="The survey recorded the unit as the 3rd U.S. Colored Infantry. The PV001 list has a Franklin A. Gibbs, 3rd U.S.C.T., Company A, not found in the index; the only Gibbs the index shows in the 3rd U.S. Colored Infantry is a Warren Gibbs, Company G. Unresolved.", chenery=None, pv001=None, died_text=None,
+    notes=["Only the surname and unit have been read. The marker is sunk; the City's staff would need to clear it before the rest can be read."]),
+ "I6": dict(carved="DIGGS / 14th R.I.H.A. / Died Sept. 30, 18[??]", photo=None, nps="two men named Diggs in the 11th U.S. Colored Heavy Artillery: John Diggs, Company M, private in, corporal out, and Henry C. Diggs, Company H, private in and out; both microfilm M589 roll 24",
+    nps_note="The PV001 list has Henry C. Diggs, Company H, died 1891, which favours him; the stone's given name has not been read.", chenery=None, pv001="1891", died_text="September 30 of a year the survey could not read; the PV001 list gives 1891"),
+ "J7": dict(carved=None, photo=None, nps="Lewis, Robert, 11th U.S. Colored Heavy Artillery, Company I, private in and out, microfilm M589 roll 54", chenery="234", pv001=None, died_text="July 27, 1894"),
+ "J15": dict(carved=None, photo=None, nps=None, nps_note="No Emanuel Parker was found in the index for the 5th U.S. Colored Cavalry (it has a James and a Richard Parker); the spelling on his service record may differ.", chenery=None, pv001=None, died_text="April 8, 1898"),
+ "K2": dict(carved=None, photo=None, nps=None, nps_note="No Thomas George was found in the index for the 31st U.S. Colored Infantry (there is one in the 110th); the spelling on his service record may differ.", chenery=None, pv001="1897", died_text="November 5, 1897"),
 }
 
 CHENERY = ("William H. Chenery, *The Fourteenth Regiment Rhode Island Heavy Artillery (Colored) in the War "
@@ -227,8 +291,11 @@ def make(r, s):
     life = []
     unit_c = unit.replace(" (USCT)", "").replace("US Colored", "U.S. Colored")
     first = f"{full} lies in grave {grid} of the Prescott Post lot. " + ("The plot survey records his stone as naming his unit as " if sheet_only else "His stone names his unit as ")
-    first += f"Company {co} of the {unit_c}" if co else unit_c
-    first += f", and gives his death as {s['died_text']}. [{n_stone}]"
+    if unit_c:
+        first += f"Company {co} of the {unit_c}" if co else unit_c
+    else:
+        first = f"The stone in grave {grid} of the Prescott Post lot has been read only as far as the word {carved.upper()}; the man it names is not yet identified"
+    first += (f", and gives his death as {s['died_text']}. [{n_stone}]" if s.get("died_text") else f". No date of death has been read from it. [{n_stone}]")
     life.append(first)
     if s.get("nps") == "unsearched":
         life.append("The National Park Service's index of Civil War soldiers and sailors has not yet been searched for him.")
@@ -261,7 +328,10 @@ def make(r, s):
         "When was he buried here, and what does the City's interment record say? The City lot record has not yet been matched.",
     ]
 
-    if sheet_only:
+    if sheet_only and s.get("carved"):
+        stone_section = (f"{s['carved']}\n\nAs recorded on the plot survey sheet; the stone has not been photographed and the rest of the "
+                         f"inscription has not been read. [{n_stone}]")
+    elif sheet_only:
         sheet_bits = [carved] + ([f"Co. {co}" if co else ""]) + [unit_c] + ([rank] if rank else []) + ([f"died {s['died_text']}"] if s.get("died_text") else [])
         stone_section = ("Not yet photographed. The plot survey sheet records: " + ", ".join(b for b in sheet_bits if b) +
                          f". A photograph is wanted; see the help page. [{n_stone}]")
