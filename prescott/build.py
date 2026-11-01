@@ -350,7 +350,7 @@ def page(title, body_html, prefix, researchers, revised, release, extra_head="",
 </main>
 <footer class="site">
   <p>{credits}{CITY_CREDIT}{revised_txt}</p>
-  <p><a href="{prefix}map/index.html">Plot map</a> · <a href="{prefix}help/index.html">How to help</a> · <a href="{prefix}register.csv">Register (CSV)</a></p>
+  <p><a href="{prefix}map/index.html">Plot map</a> · <a href="{prefix}help/index.html">How to help</a> · <a href="{prefix}standards/index.html">Standards</a> · <a href="{prefix}register.csv">Register (CSV)</a></p>
 </footer>
 </div>
 </body>
@@ -849,7 +849,7 @@ def render_help(rows, dossiers, file_requests, release):
         for d in sorted(with_req, key=lambda d: (d["grid"][0], int(d["grid"][1:])))) + "</ul>")
     fills = {"{{photo_counts}}": counts, "{{photo_wanted}}": wanted, "{{photo_redo}}": redo,
              "{{photo_button}}": button, "{{pages_with_requests}}": pages}
-    html_body = render_markdown(body, prefix, "site/help.md")
+    html_body = f'<h1>{html.escape(str(meta.get("title", "How to help")))}</h1>' + render_markdown(body, prefix, "site/help.md")
     for k, v in fills.items():
         html_body = html_body.replace(f"<p>{k}</p>", v).replace(k, v)
     researchers = meta.get("researchers") or []
@@ -857,6 +857,31 @@ def render_help(rows, dossiers, file_requests, release):
         researchers = [researchers]
     return page(str(meta.get("title", "How to help")), html_body, prefix, researchers,
                 str(meta.get("last_revised", "")), release, kind="help", path="help/")
+
+def render_site_pages(out, release):
+    """Any site/*.md other than plot.md and help.md becomes a plain page at its front-matter slug."""
+    for path in sorted((ROOT / "site").glob("*.md")):
+        if path.name in ("plot.md", "help.md"):
+            continue
+        where = f"site/{path.name}"
+        meta, body = parse_front_matter(path.read_text(encoding="utf-8"), where)
+        for m in MARKER_RE.finditer(COMMENT_RE.sub("", body)):
+            problem("error" if release else "warn", where, f"editor marker in text: ⟨{m.group(1)[:50]}⟩")
+        slug = str(meta.get("slug", "/" + path.stem + "/")).strip("/")
+        if not slug:
+            problem("error", where, "slug is empty")
+            continue
+        prefix = "../" * (slug.count("/") + 1)
+        html_body = f'<h1>{html.escape(str(meta.get("title", path.stem)))}</h1>' + render_markdown(body, prefix, where)
+        researchers = meta.get("researchers") or []
+        if isinstance(researchers, str):
+            researchers = [researchers]
+        dest = out / slug
+        dest.mkdir(parents=True, exist_ok=True)
+        (dest / "index.html").write_text(
+            page(str(meta.get("title", path.stem)), html_body, prefix, researchers,
+                 str(meta.get("last_revised", "")), release, kind="help", path=slug + "/"), encoding="utf-8")
+
 
 # ----------------------------------------------------------------------------
 # Link check
@@ -923,6 +948,7 @@ def main():
             f'<meta http-equiv="refresh" content="0; url=../{new}/"><link rel="canonical" href="../{new}/"></head>'
             f'<body><p>This page has moved to <a href="../{new}/">../{new}/</a>.</p></body></html>', encoding="utf-8")
     (out / "map" / "index.html").write_text(render_map(rows, dossiers, args.release), encoding="utf-8")
+    render_site_pages(out, args.release)
     help_html = render_help(rows, dossiers, file_requests, args.release)
     if help_html:
         (out / "help").mkdir()
