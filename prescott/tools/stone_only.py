@@ -116,6 +116,25 @@ STONES = {
  "N2": dict(carved="WILLIAM McCLOUD / Pvt. Co. H. 3 U.S. Col. Inf. / Died Mar. 16, 1928", photo="IMG_1240",
     nps=None, nps_note="No William McCloud or McLeod was found in the index for the 3rd U.S. Colored Infantry; the spelling on his service record may differ.",
     chenery=None, pv001="1928", died_text="March 16, 1928"),
+ "A17": dict(carved="NATHANIEL MOS[E]LEY / Co. I. 1 U.S. Cav. / Died Dec. 3, 1919", photo="IMG_1745",
+    nps="unsearched", chenery=None, pv001=None, died_text="December 3, 1919",
+    notes=["His place in the row is inferred, not surveyed: the stone was photographed between A12 and A19, and a December 1919 death fits the one unrecorded place between A16 (August 1920) and A18 (December 1919). It should be confirmed on site.",
+           "The 1st U.S. Cavalry was a regular-army regiment. Whether his service in it was in the Civil War or later is not yet established."]),
+ "N9": dict(carved="CHARLES H. GARDNER / U.S. Hvy. Art. / Died March 7, 1932", photo="IMG_1748",
+    nps="unsearched", chenery=None, pv001=None, died_text="March 7, 1932",
+    notes=["His place in the row is inferred, not surveyed: the survey sheet read this stone only as \"U.S. H.A.\", and a death in 1932 falls where row N's dates put it, between N2 (1928) and N12 (1935). It should be confirmed on site.",
+           "The stone names no regiment, only \"U.S. Hvy. Art.\" Which regiment, and whether his service was in the Civil War or later, is not yet established."]),
+ "N12": dict(carved="ISAAC E. POTTER / Landsman U.S. Navy / Died Sept. 1, 1935", photo="IMG_1425 (detail)",
+    nps="unsearched", chenery=None, pv001=None, died_text="September 1, 1935",
+    notes=["The photograph is a detail from a view of the whole row; a close photograph of the stone is wanted.",
+           "Which ship or ships did he serve on? The Navy's enlistment records and the NPS sailors index have not yet been searched."]),
+ "N13": dict(carved="HENRY J. GEER / Cpl. Co. H. 1st N.H. Cav. / Died June 2, 1936", photo="IMG_1425 (detail)",
+    nps="unsearched", chenery=None, pv001=None, died_text="June 2, 1936",
+    notes=["The photograph is a detail from a view of the whole row; a close photograph of the stone is wanted."]),
+ "N14": dict(carved="JEREMIAH DUPON[T] / Pvt. Co. E. 15th Reg. [Me.] / Died Aug. 14, 1937", photo="IMG_1425 (detail)",
+    nps="unsearched", chenery=None, pv001=None, died_text="August 14, 1937",
+    notes=["The last letter of the surname is at a broken edge of the stone and is read as T; the regiment's state is read as Maine from the letters \"ME\" and from the survey sheet. A close photograph is wanted.",
+           "If this is the 15th Maine Infantry, he was among the last men buried in the lot, 62 years after it was dedicated."]),
 }
 
 CHENERY = ("William H. Chenery, *The Fourteenth Regiment Rhode Island Heavy Artillery (Colored) in the War "
@@ -172,7 +191,7 @@ def make(r, s):
     first += f", and gives his death as {s['died_text']}. [{n_stone}]"
     life.append(first)
     if s.get("nps") == "unsearched":
-        life.append("The Navy's records for him have not yet been searched.")
+        life.append("The National Park Service's index of Civil War soldiers and sailors has not yet been searched for him.")
     elif s.get("nps"):
         lead = ("The National Park Service's index of Civil War soldiers, which files the 14th Rhode Island under its later "
                 "name, the 11th U.S. Colored Heavy Artillery, lists " if is14(unit)

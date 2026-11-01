@@ -22,6 +22,13 @@ redo:
   - "M15 — last digit of the year illegible"
   - "M23 — year of death illegible"
   - "N15 — month of death partly hidden by grass"
+  - "A17 — position in the row inferred from the date sequence; confirm the stone is at A17"
+  - "N9 — position in the row inferred; confirm the stone is at N9"
+  - "N10 — read only from a photograph of the whole row: JOSEPH S. CASS…, 1st R.I.; name and date need a close-up"
+  - "N11 — read only from a photograph of the whole row: OTHEL… N. GO…E, Co. A, 1st R.I. C…; name needs a close-up"
+  - "N12 — read from a photograph of the whole row; close-up wanted"
+  - "N13 — read from a photograph of the whole row; close-up wanted"
+  - "N14 — read from a photograph of the whole row; last letter of the surname and the state need a close-up"
 ---
 
 # How to help
