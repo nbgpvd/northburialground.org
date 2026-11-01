@@ -7,7 +7,7 @@ researchers: ["Bernard Brennan"]
 
 # The Prescott Post lot
 
-You are standing in a burial lot of the Grand Army of the Republic, the organization of Union veterans. The monument at its centre reads "Prescott Post, No. 1, G.A.R., A.D. 1875." [1] Around it stand about three hundred small white government headstones in rows. [2] The earliest death carved on them is 1876; the latest are in the 1930s. [2]
+You are standing in a burial lot of the Grand Army of the Republic, the organization of Union veterans. The monument at its centre reads "Prescott Post, No. 1, G.A.R., A.D. 1875." [1] It has [a page of its own](../monument/index.html). Around it stand about three hundred small white government headstones in rows. [2] The earliest death carved on them is 1876; the latest are in the 1930s. [2]
 
 ## How the lot began
 

@@ -350,7 +350,7 @@ def page(title, body_html, prefix, researchers, revised, release, extra_head="",
 </main>
 <footer class="site">
   <p>{credits}{CITY_CREDIT}{revised_txt}</p>
-  <p><a href="{prefix}map/index.html">Plot map</a> · <a href="{prefix}help/index.html">How to help</a> · <a href="{prefix}standards/index.html">Standards</a> · <a href="{prefix}register.csv">Register (CSV)</a></p>
+  <p><a href="{prefix}map/index.html">Plot map</a> · <a href="{prefix}monument/index.html">The monument</a> · <a href="{prefix}help/index.html">How to help</a> · <a href="{prefix}standards/index.html">Standards</a> · <a href="{prefix}register.csv">Register (CSV)</a></p>
 </footer>
 </div>
 </body>
@@ -933,8 +933,10 @@ def main():
         (dest / "index.html").write_text(html_text, encoding="utf-8")
         hosted |= records
     # Photographs of stones not yet matched to a grid position are shown on the help page.
-    for p in sorted((ROOT / "records" / "_unplaced").glob("*.jpg")):
-        hosted.add(os.path.relpath(p, ROOT).replace(os.sep, "/"))
+    # ...and records that belong to site pages rather than stones live in records/_<name>/.
+    for p in sorted((ROOT / "records").glob("_*/*")):
+        if p.suffix.lower() in (".jpg", ".jpeg", ".png", ".pdf"):
+            hosted.add(os.path.relpath(p, ROOT).replace(os.sep, "/"))
     for rel in sorted(hosted):
         dest = out / rel
         dest.parent.mkdir(parents=True, exist_ok=True)
