@@ -32,7 +32,7 @@ About three hundred Union veterans lie in this lot. We are trying to learn who e
 
 {{photo_counts}}
 
-Every photograph must come with its **grid position**: the row letter and column number from the [plot map](../map/index.html). A1 is the top-left stone as you face the rows from the road. Put it in the filename (`F5_2026-11-08.jpg`) or in a note with the upload. If you are not sure, photograph the neighbouring stones as well and we will work it out.
+Every photograph must come with its **grid position**: the row letter and column number from the [plot map](../map/index.html). Row A is the uphill row; A1 is its western end, the top-left stone on the plan. Put it in the filename (`F5_2026-11-08.jpg`) or in a note with the upload. If you are not sure, photograph the neighbouring stones as well and we will work it out.
 
 How to shoot:
 

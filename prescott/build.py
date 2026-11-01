@@ -752,9 +752,9 @@ def render_map(rows, dossiers, release):
     n_ident = sum(1 for r in rows if place_kind(r) in "idc")
     head = f"""
 <h1>The lot, row by row</h1>
-<p class="lede">Row A is nearest the road. Pick a row to see its stones.</p>
+<p class="lede">The lot is on a slope. Row A is at the top; the rows run downhill from there. Pick a row to see its stones.</p>
 <div class="lotmap">
-  <div class="compass"><span>West · 1</span><b>Road side ↑</b><span>{ncol} · East</span></div>
+  <div class="compass"><span>West · 1</span><b>Uphill ↑</b><span>{ncol} · East</span></div>
   {"".join(maprows)}
   <p class="note">Schematic: places in order, not to scale. The monument stands in rows J and K; its exact place among their stones is still being fixed. {len(rows)} positions surveyed; {n_named} names read; {n_ident} men identified; {len(dossiers)} pages.</p>
 </div>

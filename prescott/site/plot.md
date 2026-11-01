@@ -35,7 +35,7 @@ Howland's is the one case documented so far. The 1885 law makes it likely there 
 
 ## How the rows were filled
 
-The dates on the stones run in order. Deaths of the 1870s and 1880s are in the rows nearest the monument. From there the dates run outward in both directions, a row at a time: the 1890s, the 1900s, the 1910s, and in the rows nearest the road the 1920s and 1930s. [2] From the 1890s on, the Post buried its men in the order they died, each in the next grave.
+The dates on the stones run in order. Deaths of the 1870s and 1880s are in the rows nearest the monument. From there the dates run outward in both directions, a row at a time: the 1890s, the 1900s, the 1910s, and in the uphill rows the 1920s and 1930s. [2] From the 1890s on, the Post buried its men in the order they died, each in the next grave.
 
 The oldest rows are less simple. The lot was enlarged and its monument re-centred after 1886, and men who had died years earlier were brought in that year. Where a man in those rows lies may depend on when he was reburied, not when he died. Nothing in the record found so far shows anyone was placed by race. The Post's own records, if they survive, are where that will be settled.
 
