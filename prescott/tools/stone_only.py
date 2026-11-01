@@ -135,6 +135,41 @@ STONES = {
     nps="unsearched", chenery=None, pv001=None, died_text="August 14, 1937",
     notes=["The last letter of the surname is at a broken edge of the stone and is read as T; the regiment's state is read as Maine from the letters \"ME\" and from the survey sheet. A close photograph is wanted.",
            "If this is the 15th Maine Infantry, he was among the last men buried in the lot, 62 years after it was dedicated."]),
+ # ---- Row A, read from the survey sheet only (no photograph yet). photo=None.
+ "A1": dict(carved=None, photo=None, nps=None,
+    nps_note="The index has no Elijah E. Ferrin in the 28th Maine; the only Ferrin it lists in that regiment is an Eaton Ferrin. The identity behind the stone is not yet confirmed.",
+    chenery=None, pv001="1928", died_text="January 18, 1928"),
+ "A2": dict(carved=None, photo=None, nps="Woodbury, George C., 7th New Hampshire Infantry, Company B, private in and out, microfilm M549 roll 13",
+    chenery=None, pv001=None, died_text="April 8, 1926"),
+ "A3": dict(carved=None, photo=None, nps="Weston, James (no middle initial), 2nd California Cavalry, Company B, private in and out, microfilm M533 roll 7",
+    nps_note="The index gives no middle initial; the sheet records James K. A California cavalryman buried in Providence is worth explaining.",
+    chenery=None, pv001=None, died_text="January 2, 1926"),
+ "A4": dict(carved=None, photo=None, nps="Latham, Charles F., 1st Rhode Island Cavalry, Company A, private in and out, microfilm M555 roll 4",
+    chenery=None, pv001=None, died_text="March 25, 1925"),
+ "A5": dict(carved=None, photo=None, nps=None,
+    nps_note="No John H. Lemons (or Lemmons) was found in the index under the 11th U.S. Colored Heavy Artillery or Rhode Island; the spelling on his service record may differ.",
+    chenery="262", pv001="1925", died_text="February 28, 1925"),
+ "A7": dict(carved=None, photo=None, nps="unsearched", chenery=None, pv001="1923", died_text="January 23, 1923",
+    notes=["Which ship or ships did he serve on? The Navy's enlistment records and the NPS sailors index have not yet been searched."]),
+ "A10": dict(carved=None, photo=None, nps="unsearched", chenery=None, pv001="1922", died_text="April 7, 1922",
+    notes=["Which ship or ships did he serve on? The Navy's enlistment records and the NPS sailors index have not yet been searched."]),
+ "A11": dict(carved=None, photo=None, nps="Dean, Lewis O., 1st Connecticut Cavalry, Company A, private in and out, microfilm M535 roll 4",
+    nps_note="The sheet records \"1st Connecticut Volunteers\"; the cavalry card fits. A Lewis Dean (or Deane) also appears in the 1st Connecticut Heavy Artillery, Companies H and A — the same man or another, unresolved.",
+    chenery=None, pv001=None, died_text="January 15, 1922"),
+ "A13": dict(carved=None, photo=None, nps=None,
+    nps_note="No Edward S. Simpson was found in the index for the 55th Massachusetts; the spelling on his service record may differ.",
+    chenery=None, pv001="1921", died_text="October 24, 1921"),
+ "A14": dict(carved=None, photo=None, nps=None,
+    nps_note="No William T. Fry was found in the index for the 5th Massachusetts Cavalry (it lists an Alfred Fry); the spelling on his service record may differ.",
+    chenery=None, pv001=None, died_text="January 29, 1921"),
+ "A15": dict(carved=None, photo=None, nps="Claus, Arthur (also filed as Clouse and Clause), 35th Massachusetts Infantry, Company G, private in and out, with a cross-reference to the 29th Massachusetts; microfilm M544 roll 7",
+    nps_note="The sheet records \"25th & 29th Mass.\"; the index has him in the 35th and the 29th. Whether the sheet misread 35 as 25 is for the stone to settle.",
+    chenery=None, pv001=None, died_text="December 10, 1920"),
+ "A16": dict(carved=None, photo=None, nps="Crosby, Robert (also filed as Crosley), 2nd Rhode Island Infantry, Company A, private in and out, microfilm M555 roll 2 — a probable match",
+    nps_note="A Robert Crossley (or Crosley) also appears in the 1st Rhode Island Light Artillery, Battery C, corporal to sergeant — the same man or another, unresolved.",
+    chenery=None, pv001=None, died_text="August 30, 1920"),
+ "A18": dict(carved=None, photo=None, nps="Dewey, Charles W., 10th Connecticut Infantry, Company F, private in and out, microfilm M535 roll 5 (a second card, Charles B., is filed with it)",
+    chenery=None, pv001=None, died_text="December 27, 1919"),
 }
 
 CHENERY = ("William H. Chenery, *The Fourteenth Regiment Rhode Island Heavy Artillery (Colored) in the War "
@@ -168,8 +203,13 @@ def make(r, s):
     unit, co, rank, status = r["unit"], r["company"], r["rank"], r["status"]
     sl = slug(full)
     srcs = []
-    srcs.append(f"Gravestone of {full}, grave {grid}, Prescott Post plot, North Burial Ground, Providence, Rhode Island. "
-                f"Photograph by Bernard Brennan ({s['photo']}), 2026; transcription as recorded in the plot register.")
+    sheet_only = not s.get("photo")
+    if sheet_only:
+        srcs.append(f"Prescott Post plot survey sheet, grave {grid}, compiled by Bernard Brennan, 2026: name, unit and date of death as read on site. "
+                    f"The stone has not yet been photographed.")
+    else:
+        srcs.append(f"Gravestone of {full}, grave {grid}, Prescott Post plot, North Burial Ground, Providence, Rhode Island. "
+                    f"Photograph by Bernard Brennan ({s['photo']}), 2026; transcription as recorded in the plot register.")
     n_stone = 1
     n_nps = n_chen = n_pv = None
     if s.get("nps") != "unsearched":
@@ -186,7 +226,7 @@ def make(r, s):
     # ---- Life
     life = []
     unit_c = unit.replace(" (USCT)", "").replace("US Colored", "U.S. Colored")
-    first = f"{full} lies in grave {grid} of the Prescott Post lot. His stone names his unit as "
+    first = f"{full} lies in grave {grid} of the Prescott Post lot. " + ("The plot survey records his stone as naming his unit as " if sheet_only else "His stone names his unit as ")
     first += f"Company {co} of the {unit_c}" if co else unit_c
     first += f", and gives his death as {s['died_text']}. [{n_stone}]"
     life.append(first)
@@ -210,6 +250,8 @@ def make(r, s):
     wdk = []
     for n in s.get("notes", []):
         wdk.append(n)
+    if sheet_only:
+        wdk.append("What exactly does the stone say? It has not yet been photographed; the name, unit and date here are from the survey sheet.")
     wdk += [
         "When and where did he enlist, and what did his company do? His compiled military service record (National Archives, RG 94) will say.",
         "Did he or his widow apply for a pension? The General Index to Pension Files (NARA T288/T289) has not yet been searched for him.",
@@ -219,6 +261,13 @@ def make(r, s):
         "When was he buried here, and what does the City's interment record say? The City lot record has not yet been matched.",
     ]
 
+    if sheet_only:
+        sheet_bits = [carved] + ([f"Co. {co}" if co else ""]) + [unit_c] + ([rank] if rank else []) + ([f"died {s['died_text']}"] if s.get("died_text") else [])
+        stone_section = ("Not yet photographed. The plot survey sheet records: " + ", ".join(b for b in sheet_bits if b) +
+                         f". A photograph is wanted; see the help page. [{n_stone}]")
+    else:
+        stone_section = (f"{s['carved']}\n\nTranscription as recorded in the plot register from the photograph; square brackets mark "
+                         f"letters not legible or below ground. Photograph {s['photo']} (B. Brennan). [{n_stone}]")
     rank_line = f'"{rank} [stone; NPS index]"' if rank else '""'
     variants = [f"{full} [stone]"]
     if s.get("nps") and s["nps"] not in ("unsearched",):
@@ -264,13 +313,11 @@ records_dir: records/{grid}/
 
 ## The stone
 
-{s['carved']}
-
-Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph {s['photo']} (B. Brennan). [{n_stone}]
+{stone_section}
 
 ## The records
 
-- `records/{grid}/stone-2026.jpg` — Headstone of {full}, grid {grid}, Prescott Post lot, 2026 ({s['photo']}). [{n_stone}]
+- `records/{grid}/stone-2026.jpg` — Headstone of {full}, grid {grid}, Prescott Post lot, 2026{(' (' + s['photo'] + ')') if s.get('photo') else ''}. [{n_stone}]
 
 ## What we don't know
 
