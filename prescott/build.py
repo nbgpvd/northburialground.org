@@ -343,14 +343,14 @@ def page(title, body_html, prefix, researchers, revised, release, extra_head="",
 {banner}
 <header class="site">
   <a class="home" href="{prefix}map/index.html">Prescott Post lot</a>
-  <a class="maplink" href="{prefix}map/index.html">{MAP_ICON}<span>Map</span></a>
+  <a class="maplink" href="{prefix}map/index.html#rows">{MAP_ICON}<span>Map</span></a>
 </header>
 <main>
 {body_html}
 </main>
 <footer class="site">
   <p>{credits}{CITY_CREDIT}{revised_txt}</p>
-  <p><a href="{prefix}map/index.html">Plot map</a> · <a href="{prefix}monument/index.html">The monument</a> · <a href="{prefix}help/index.html">How to help</a> · <a href="{prefix}standards/index.html">Standards</a> · <a href="{prefix}register.csv">Register (CSV)</a></p>
+  <p><a href="{prefix}map/index.html#rows">Plot map</a> · <a href="{prefix}monument/index.html">The monument</a> · <a href="{prefix}help/index.html">How to help</a> · <a href="{prefix}standards/index.html">Standards</a> · <a href="{prefix}register.csv">Register (CSV)</a></p>
 </footer>
 </div>
 </body>
@@ -750,8 +750,13 @@ def render_map(rows, dossiers, release):
 
     n_named = sum(1 for r in rows if r["name_carved"])
     n_ident = sum(1 for r in rows if place_kind(r) in "idc")
+    intro = f"""
+<h1>{html.escape(str(meta.get("title", "The Prescott Post lot")))}</h1>
+<div class="essay" id="about">
+"""
     head = f"""
-<h1>The lot, row by row</h1>
+</div>
+<h2 id="rows">The lot, row by row</h2>
 <p class="lede">The lot is on a slope. Row A is at the top; the rows run downhill from there. Pick a row to see its stones.</p>
 <div class="lotmap">
   <div class="compass"><span>West · 1</span><b>Uphill ↑</b><span>{ncol} · East</span></div>
@@ -761,8 +766,6 @@ def render_map(rows, dossiers, release):
 <div class="legend"><span><i class="cell s"></i>Stone read</span><span><i class="cell i"></i>Identified</span><span><i class="cell d"></i>Life drafted</span><span><i class="cell c"></i>Complete</span><span><i class="cell e"></i>Not yet read</span><span><i class="cell m"></i>Monument</span><span><i class="cell f"></i>Flagpole</span></div>
 <div class="chooser"><p class="eyebrow">Choose a row</p><div class="chips">{chips}</div></div>
 {"".join(lists)}
-<div class="essay">
-<h2 id="about">About the lot</h2>
 """
     script = """
 <script>
@@ -782,7 +785,12 @@ def render_map(rows, dossiers, release):
     researchers = meta.get("researchers") or []
     if isinstance(researchers, str):
         researchers = [researchers]
-    return page("Plot map", head + essay + "</div>" + script, prefix, researchers,
+    # The essay's Sources belong after the map, so the map is not separated from the text by the notes.
+    cut = essay.find('<h2 id="sources">')
+    essay_text, essay_sources = (essay[:cut], essay[cut:]) if cut >= 0 else (essay, "")
+    if essay_sources:
+        essay_sources = '<div class="essay">' + essay_sources + "</div>"
+    return page("Plot map", intro + essay_text + head + essay_sources + script, prefix, researchers,
                 str(meta.get("last_revised", "")), release, kind="map", path="map/")
 
 
