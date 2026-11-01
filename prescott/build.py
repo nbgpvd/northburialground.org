@@ -211,6 +211,17 @@ def render_markdown(body, prefix, where, records=None):
             out.append(f'<h{level} id="{slug}">{inline(text, prefix)}</h{level}>')
             i += 1
             continue
+        m = re.match(r"^!\[(.*)\]\(([^)\s]+)\)\s*$", stripped)
+        if m:
+            # A block-level image: ![caption](../records/...) -> figure with caption; the image links to itself.
+            flush_para()
+            close_list()
+            alt, src = m.group(1), m.group(2)
+            out.append(f'<figure><a href="{html.escape(src, quote=True)}"><img src="{html.escape(src, quote=True)}" loading="lazy" '
+                       f'alt="{html.escape(re.sub(r"\[\d+\]", "", alt).strip(), quote=True)}"></a>'
+                       + (f"<figcaption>{inline(alt, prefix)}</figcaption>" if alt else "") + "</figure>")
+            i += 1
+            continue
         m = re.match(r"^(\d+)\.\s+(.*)$", stripped)
         if m:
             flush_para()
