@@ -284,7 +284,9 @@ def render_record_item(text, prefix, where, records):
         if not caption_text or not has_cite:
             problem("error", where, f"hosted record {rel} lacks a caption or a [n] citation")
         src = prefix + rel
-        if rel.lower().endswith((".jpg", ".jpeg", ".png", ".webp", ".gif")):
+        if os.path.basename(rel).lower().startswith("stone") and rel.lower().endswith((".jpg", ".jpeg", ".png", ".webp")):
+            parts.append(f'<p class="doc"><a href="{src}">Headstone photograph</a> (shown above) — {inline(caption, prefix)}</p>')
+        elif rel.lower().endswith((".jpg", ".jpeg", ".png", ".webp", ".gif")):
             parts.append(f'<figure><a href="{src}"><img src="{src}" loading="lazy" '
                          f'alt="{html.escape(caption_text, quote=True)}"></a>'
                          f"<figcaption>{inline(caption, prefix)}</figcaption></figure>")
@@ -298,6 +300,21 @@ def render_record_item(text, prefix, where, records):
 # Page shell
 # ----------------------------------------------------------------------------
 
+def fmt_date(iso):
+    """2026-10-31 -> October 31, 2026 (falls back to the input)."""
+    m = re.match(r"^(\d{4})-(\d{2})-(\d{2})$", str(iso).strip())
+    if not m:
+        return str(iso)
+    months = ["January", "February", "March", "April", "May", "June", "July", "August",
+              "September", "October", "November", "December"]
+    return f"{months[int(m.group(2)) - 1]} {int(m.group(3))}, {m.group(1)}"
+
+
+MAP_ICON = ('<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" '
+            'stroke-linejoin="round" aria-hidden="true"><path d="M3 6l6-3 6 3 6-3v15l-6 3-6-3-6 3z"/>'
+            '<path d="M9 3v15M15 6v15"/></svg>')
+
+
 def page(title, body_html, prefix, researchers, revised, release, extra_head="", kind="page", path=""):
     """path is the page's location under SITE_URL, e.g. 'stone/G3-howland/' or 'map/'."""
     canonical = f'<link rel="canonical" href="{SITE_URL}{path}">'
@@ -307,22 +324,26 @@ def page(title, body_html, prefix, researchers, revised, release, extra_head="",
     credits = ""
     if researchers:
         credits = "Research by " + html.escape(", ".join(researchers)) + ". "
-    revised_txt = f" Revised {html.escape(revised)}." if revised else ""
+    revised_txt = f" Revised {html.escape(fmt_date(revised))}." if revised else ""
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{html.escape(title)} — {SITE_NAME}</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700;800&amp;family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&amp;display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{prefix}assets/style.css">
 {canonical}
 {extra_head}
 </head>
 <body class="{kind}">
+<div class="column">
 {banner}
 <header class="site">
-  <a class="home" href="{prefix}map/index.html">{SITE_NAME}</a>
-  <span class="place">North Burial Ground, Providence</span>
+  <a class="home" href="{prefix}map/index.html">Prescott Post lot</a>
+  <a class="maplink" href="{prefix}map/index.html">{MAP_ICON}<span>Map</span></a>
 </header>
 <main>
 {body_html}
@@ -331,80 +352,129 @@ def page(title, body_html, prefix, researchers, revised, release, extra_head="",
   <p>{credits}{CITY_CREDIT}{revised_txt}</p>
   <p><a href="{prefix}map/index.html">Plot map</a> · <a href="{prefix}help/index.html">How to help</a> · <a href="{prefix}register.csv">Register (CSV)</a></p>
 </footer>
+</div>
 </body>
 </html>
 """
 
 
 STYLE = """
-/* Phone first, bright sun: black on white, large type, no light grey text. */
-:root { --ink:#111; --paper:#fff; --rule:#444; --link:#0a3d7a; --accent:#1f3a5f;
-        --stone:#e9e6df; --stone2:#cfcac0; --ident:#8aa6c9; --page:#1f3a5f; --todo:#ffe66d; }
+/* Prescott Post Digital Companion — phone first, bright sun. Tokens from the design canvas. */
+:root { --ink:#16181B; --muted:#4A4F55; --paper:#fff; --bg:#E9EBEE; --rule:#D8DBDF; --panel:#F2F3F5;
+        --navy:#1E3A66; --navy-dark:#122744; --ident:#6F7F99; --stone:#C3C8CE; --dash:#7A8088;
+        --monument:#E08A1E; --gold:#C9A227; --todo:#ffe66d;
+        --sans:"Public Sans", -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        --serif:"Source Serif 4", Georgia, "Times New Roman", serif; }
 * { box-sizing:border-box; }
-html { font-size:112.5%; }
-body { margin:0; background:var(--paper); color:var(--ink);
-       font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height:1.5; }
-main { max-width:40rem; margin:0 auto; padding:0 1rem 2rem; }
-h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; line-height:1.15; color:var(--ink); }
-h1 { font-size:1.9rem; margin:.6rem 0 .2rem; letter-spacing:.01em; }
-h2 { font-size:1.3rem; margin:1.8rem 0 .5rem; border-bottom:2px solid var(--rule); padding-bottom:.2rem; }
+html { font-size:112.5%; -webkit-text-size-adjust:100%; }
+body { margin:0; background:var(--bg); color:var(--ink); font-family:var(--sans); line-height:1.5; }
+.column { max-width:520px; margin:0 auto; background:var(--paper); min-height:100vh; box-shadow:0 0 0 1px var(--rule); }
+a { color:var(--navy); }
+a:hover { color:var(--navy-dark); }
+main { padding:0 20px 2rem; }
+header.site { display:flex; align-items:center; justify-content:space-between; padding:18px 20px 14px; border-bottom:1px solid var(--rule); }
+header.site .home { font-weight:700; font-size:.82rem; letter-spacing:.09em; text-transform:uppercase; color:var(--ink); text-decoration:none; }
+header.site .maplink { display:inline-flex; align-items:center; gap:6px; font-weight:700; font-size:1.05rem; text-decoration:none; }
+footer.site { padding:1.2rem 20px 2rem; border-top:1px solid var(--rule); font-size:.85rem; color:var(--muted); }
+footer.site a { color:var(--navy); }
+.banner { background:var(--todo); color:var(--ink); font-size:.8rem; padding:.4rem 20px; }
+
+h1 { font-family:var(--serif); font-weight:700; font-size:2.15rem; line-height:1.1; letter-spacing:.01em; margin:.5rem 0 .6rem; }
+h2 { font-family:var(--serif); font-weight:700; font-size:1.5rem; line-height:1.2; margin:2rem 0 .6rem; padding-bottom:.3rem; border-bottom:2px solid var(--ink); }
+h3 { font-family:var(--sans); font-weight:700; font-size:1.05rem; margin:1.4rem 0 .4rem; }
 p { margin:.6rem 0; }
-a { color:var(--link); }
-a.cite { text-decoration:none; font-size:.8em; vertical-align:super; line-height:0; padding:0 .05em; }
-mark.todo { background:var(--todo); color:var(--ink); padding:0 .15em; }
-code { font-family: ui-monospace, Menlo, Consolas, monospace; font-size:.9em; }
-header.site { display:flex; flex-wrap:wrap; gap:.25rem 1rem; align-items:baseline; justify-content:space-between;
-              max-width:40rem; margin:0 auto; padding:.7rem 1rem; border-bottom:3px solid var(--ink); }
-header.site .home { font-family:Georgia, serif; font-weight:bold; text-decoration:none; color:var(--ink); }
-header.site .place { font-size:.9rem; }
-footer.site { max-width:40rem; margin:2rem auto 0; padding:1rem; border-top:3px solid var(--ink); font-size:.9rem; }
-.banner { background:var(--todo); color:var(--ink); text-align:center; padding:.4rem 1rem; font-size:.9rem; }
-.lede { font-size:1.05rem; margin:.2rem 0 .8rem; }
-.grid-ref { display:inline-block; font-family:ui-monospace, Menlo, monospace; background:var(--ink); color:#fff;
-            padding:.1rem .45rem; border-radius:.2rem; font-size:.95rem; }
-.status { font-size:.9rem; border-left:4px solid var(--rule); padding:.3rem .6rem; margin:.8rem 0; background:#f3f1ec; }
-.status b { text-transform:capitalize; }
-ul.cols { columns:2 14rem; padding-left:1.2rem; }
-ul.cols li { break-inside:avoid; }
-section.help { margin:1.6rem 0; padding:.9rem 1rem; border:1px solid var(--rule); background:#f3f1ec; }
-section.help h2 { margin-top:0; }
-a.button { display:inline-block; padding:.6rem 1rem; border:1px solid currentColor; border-radius:4px; text-decoration:none; font-weight:600; }
-nav.jump { display:flex; flex-wrap:wrap; gap:.3rem .9rem; font-size:.95rem; margin:.4rem 0 1rem; }
-nav.jump a { white-space:nowrap; }
+p.lede { font-size:1.15rem; line-height:1.4; margin:0 0 1rem; }
+p.gridline { display:flex; align-items:center; gap:12px; margin:1.3rem 0 .2rem; color:var(--muted); font-size:1.05rem; }
+.chip { display:inline-block; background:var(--ink); color:#fff; font-weight:800; font-size:1.05rem; padding:.35rem .9rem; border-radius:8px; letter-spacing:.02em; }
+code { font-family:ui-monospace, Menlo, monospace; font-size:.9em; }
+mark.todo { background:var(--todo); padding:0 .15em; }
+img { max-width:100%; height:auto; }
+
+/* research-status bar */
+.progress { margin:1rem 0 1.2rem; }
+.progress .segs { display:flex; gap:6px; }
+.progress .seg { flex:1 1 0; height:9px; border-radius:5px; background:var(--rule); }
+.progress .seg.on { background:var(--navy); }
+.progress .labs { display:flex; gap:6px; margin-top:.35rem; font-size:.9rem; color:var(--muted); }
+.progress .labs span { flex:1 1 0; }
+.progress .labs span:nth-child(2) { text-align:left; }
+.progress .labs .cur { color:var(--navy); font-weight:700; }
+.progress .cap { margin:.5rem 0 0; color:var(--muted); font-size:.95rem; }
+
+/* pill navigation */
+nav.jump { display:flex; flex-wrap:wrap; gap:10px; margin:.2rem 0 1.4rem; }
+nav.jump a { display:inline-block; background:var(--panel); color:var(--navy); font-weight:600; font-size:1.05rem;
+             padding:.6rem 1.1rem; border-radius:999px; text-decoration:none; white-space:nowrap; }
+
+/* the stone card */
+section.stone { border:1px solid var(--rule); border-radius:14px; overflow:hidden; margin:0 0 1.6rem; background:var(--paper); }
+section.stone .hero { display:block; width:100%; height:300px; object-fit:cover; object-position:center 45%; }
+section.stone .nophoto { display:flex; align-items:center; justify-content:center; min-height:120px; background:var(--panel); color:var(--muted); font-style:italic; }
+section.stone .stone-body { padding:14px 18px 12px; }
+.eyebrow { font-size:.78rem; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:var(--muted); margin:0 0 .4rem; }
+p.carved { font-family:var(--serif); font-weight:700; font-size:1.3rem; line-height:1.35; margin:0 0 .6rem; }
+section.stone .stone-body p:last-child { margin-bottom:0; }
+section.stone .stone-body p:not(.carved):not(.eyebrow) { font-size:.98rem; color:var(--ink); }
+
+/* records */
 ul.records { list-style:none; padding:0; }
 ul.records li.record { margin:0 0 1.2rem; }
 ul.records li.missing { margin:.4rem 0; }
 ul.records .path { font-family:ui-monospace, Menlo, monospace; font-size:.85em; }
 ul.records .note { font-style:italic; }
-figure { margin:0; }
-figure img { width:100%; height:auto; border:1px solid var(--rule); display:block; }
-figcaption { font-size:.9rem; margin-top:.3rem; }
-ol.sources { padding-left:1.6rem; font-size:.95rem; }
-ol.sources li { margin:.4rem 0; }
-ol.sources li:target { background:var(--todo); }
-/* map */
-.mapwrap { overflow-x:auto; -webkit-overflow-scrolling:touch; border:1px solid var(--rule); margin:.6rem 0; }
-svg.plot { display:block; min-width:640px; width:100%; height:auto; font-family:ui-monospace, Menlo, monospace; }
-svg.plot .cell { stroke:var(--rule); stroke-width:1; }
-svg.plot .blank { fill:#fff; stroke:#999; }
-svg.plot .stone-only { fill:var(--stone); }
-svg.plot .named { fill:var(--stone2); }
-svg.plot .identified { fill:var(--ident); }
-svg.plot .page { fill:var(--page); }
-svg.plot a .page { cursor:pointer; }
-svg.plot .flagpole { fill:var(--ink); }
-svg.plot .lbl { font-size:11px; fill:var(--ink); }
-svg.plot .here { stroke:#c00; stroke-width:3; fill:none; }
-.legend { display:flex; flex-wrap:wrap; gap:.4rem 1rem; font-size:.9rem; margin:.3rem 0 .6rem; }
-.legend span::before { content:""; display:inline-block; width:.9em; height:.9em; border:1px solid var(--rule);
-                       margin-right:.35em; vertical-align:-.1em; }
-.legend .l-page::before { background:var(--page); } .legend .l-ident::before { background:var(--ident); }
-.legend .l-named::before { background:var(--stone2); } .legend .l-stone::before { background:var(--stone); }
-.legend .l-blank::before { background:#fff; }
-#picked { min-height:3.2rem; border:1px solid var(--rule); padding:.5rem .7rem; margin:.4rem 0 1rem; background:#f3f1ec; }
-#picked b { font-family:Georgia, serif; }
-ul.pages { padding-left:1.2rem; }
+figure { margin:.6rem 0 1rem; }
+figure img { width:100%; height:auto; border:1px solid var(--rule); border-radius:8px; display:block; }
+figcaption { font-size:.9rem; margin-top:.35rem; color:var(--muted); }
+p.doc { font-size:.95rem; }
+ol.sources { padding-left:1.4rem; font-size:.95rem; }
+ol.sources li { margin:.5rem 0; }
+a.cite { text-decoration:none; font-weight:700; padding:0 1px; }
+ul.cols { columns:2 14rem; padding-left:1.2rem; }
+ul.cols li { break-inside:avoid; }
+section.help { margin:1.6rem 0; padding:1rem 1.1rem; border:1px solid var(--rule); border-radius:14px; background:var(--panel); }
+section.help h2 { margin-top:0; border:0; padding:0; font-size:1.35rem; }
+a.button { display:inline-flex; align-items:center; justify-content:center; min-height:48px; padding:.6rem 1.1rem; border-radius:10px;
+           background:var(--navy); color:#fff; text-decoration:none; font-weight:700; }
+a.button:hover { background:var(--navy-dark); color:#fff; }
+
+/* map page */
+.lotmap { background:var(--panel); border-radius:14px; padding:14px 12px 10px; margin:1rem 0 .8rem; }
+.lotmap .compass { display:flex; justify-content:space-between; font-size:.9rem; color:var(--muted); margin:0 2px 8px 24px; }
+.lotmap .compass b { font-weight:600; color:var(--ink); }
+.maprow { display:flex; align-items:center; gap:8px; padding:3px 2px; border-radius:6px; }
+.maprow.on { background:#fff; box-shadow:inset 0 0 0 2px var(--navy); }
+.maprow .maplabel { width:14px; text-align:center; font-size:.8rem; font-weight:600; color:var(--muted); }
+.maprow.on .maplabel { color:var(--navy); font-weight:800; }
+.maprow .cells { display:flex; gap:2px; align-items:flex-end; }
+.cell { display:block; width:11px; height:17px; border-radius:5px 5px 2px 2px; background:var(--stone); }
+.cell.i { background:var(--ident); } .cell.d { background:var(--navy); } .cell.c { background:var(--ink); box-shadow:0 0 0 2px var(--gold); }
+.cell.e { background:transparent; border:1.5px dashed var(--dash); }
+.cell.f { width:11px; height:11px; border-radius:50%; border:2px solid var(--ink); background:#fff; }
+.cell.m { background:var(--monument); border-radius:2px; } .cell.gap { background:transparent; }
+.lotmap .note { font-size:.9rem; color:var(--muted); margin:.6rem 2px 0; }
+.legend { display:flex; flex-wrap:wrap; gap:.5rem 1.1rem; font-size:.95rem; margin:.6rem 0 1.4rem; }
+.legend span { display:inline-flex; align-items:center; gap:6px; }
+.chooser { margin:1.2rem 0 .4rem; }
+.chooser .eyebrow { margin-bottom:.5rem; }
+.chips { display:flex; flex-wrap:wrap; gap:8px; }
+.chips button { height:44px; min-width:44px; padding:0 .8rem; border-radius:10px; font:700 1.05rem var(--sans); cursor:pointer;
+                border:2px solid var(--stone); background:#fff; color:var(--ink); }
+.chips button[aria-pressed="true"] { background:var(--navy); color:#fff; border-color:var(--navy); }
+.rowlist .rowhead { display:flex; align-items:baseline; justify-content:space-between; padding:1.2rem 0 .5rem; border-bottom:2px solid var(--ink); }
+.rowlist .rowhead h2 { margin:0; border:0; padding:0; font-size:1.5rem; }
+.rowlist .rowhead span { font-size:.9rem; color:var(--muted); }
+.place { display:flex; align-items:center; gap:14px; min-height:60px; padding:8px 0; border-bottom:1px solid var(--rule); color:var(--ink); text-decoration:none; }
+.place .code { flex:0 0 44px; font-weight:700; color:var(--muted); }
+.place.linked .code { color:var(--navy); }
+.place .what { flex:1 1 auto; display:flex; flex-direction:column; gap:2px; }
+.place .name { font-weight:600; }
+.place .name.unnamed { font-weight:400; font-style:italic; color:var(--muted); }
+.place .st { font-size:.85rem; color:var(--muted); }
+.place svg { flex:0 0 auto; }
+.essay h2 { margin-top:2rem; }
 """
+
+
 
 
 # ----------------------------------------------------------------------------
@@ -487,16 +557,73 @@ def help_block(name, url):
             f'<p><a class="button" href="{html.escape(url)}" rel="noopener">Upload a record for {name}</a></p></section>')
 
 
+STATUS_STEP = {"stone-only": 1, "identified": 2, "draft": 3, "complete": 4}
+STATUS_CAPTION = {
+    "stone-only": "Name read from the stone; the records not yet searched.",
+    "identified": "Identified in the records; his life not yet written.",
+    "draft": "Awaiting a second reader.",
+    "complete": "Checked by a second reader.",
+}
+NAV_SHORT = {"Life": "Life", "The records": "Records", "What we don't know": "Unknowns", "Sources": "Sources",
+             "A reading of the record": "Reading", "The stone": "Stone"}
+
+
+def status_bar(status, revised):
+    n = STATUS_STEP.get(status, 0)
+    labels = ["Stone read", "Identified", "Life drafted", "Complete"]
+    segs = "".join(f'<span class="seg{" on" if i < n else ""}"></span>' for i in range(4))
+    labs = "".join(f'<span class="{"cur" if i == n - 1 else ""}">{l}</span>' for i, l in enumerate(labels))
+    cap = STATUS_CAPTION.get(status, "")
+    rev = f" Revised {html.escape(fmt_date(revised))}." if revised else ""
+    return (f'<div class="progress" role="group" aria-label="Research status: {html.escape(status)}">'
+            f'<div class="segs">{segs}</div><div class="labs">{labs}</div><p class="cap">{cap}{rev}</p></div>')
+
+
+def stone_card(stone_md, grid, name, prefix, where):
+    """'## The stone' section -> photo + 'The stone reads' + note. Returns html (or '')."""
+    if not stone_md:
+        return ""
+    text = "\n".join(stone_md.split("\n")[1:]).strip()
+    paras = [x.strip() for x in re.split(r"\n\s*\n", text) if x.strip()]
+    transcription, note_paras = "", paras
+    if paras and " / " in paras[0] and not paras[0].lower().startswith("not yet"):
+        transcription, note_paras = paras[0], paras[1:]
+    photos = sorted(glob.glob(str(ROOT / "records" / grid / "stone*.jpg")))
+    if photos:
+        rel = os.path.relpath(photos[0], ROOT).replace(os.sep, "/")
+        img = (f'<a href="{prefix}{rel}"><img class="hero" src="{prefix}{rel}" '
+               f'alt="Headstone of {html.escape(name, quote=True)}, grave {grid}"></a>')
+    else:
+        img = '<div class="hero nophoto">No photograph of this stone yet</div>'
+    carved = ""
+    if transcription:
+        carved = ('<p class="eyebrow">The stone reads</p><p class="carved">'
+                  + "<br>".join(inline(x.strip(), prefix) for x in transcription.split(" / ")) + "</p>")
+    note = render_markdown("\n\n".join(note_paras), prefix, where) if note_paras else ""
+    return f'<section class="stone" id="the-stone">{img}<div class="stone-body">{carved}{note}</div></section>'
+
+
 def render_stone(d, reg_by_grid, release, file_requests=None):
     meta, prefix, where = d["meta"], "../../", d["file"]
     records = set()
-    body_html = render_markdown(d["body"], prefix, where, records=records)
+    raw = COMMENT_RE.sub("", d["body"])
     # Markers (editor's notes) in published text
-    for m in MARKER_RE.finditer(COMMENT_RE.sub("", d["body"])):
+    for m in MARKER_RE.finditer(raw):
         problem("error" if release else "warn", where, f"editor marker in text: ⟨{m.group(1)[:50]}⟩")
     for k, v in meta.items():
         if isinstance(v, str) and MARKER_RE.search(v):
             problem("error" if release else "warn", where, f"editor marker in front matter {k}")
+    # Split the body: preamble (H1 + one-line subtitle), '## The stone', and the rest in order.
+    parts = re.split(r"^(?=## )", raw, flags=re.M)
+    pre, secs = parts[0], parts[1:]
+    subtitle = " ".join(l.strip() for l in pre.split("\n") if l.strip() and not l.startswith("# "))
+    stone_md, rest = None, []
+    for s in secs:
+        if s.lower().startswith("## the stone"):
+            stone_md = s
+        else:
+            rest.append(s)
+    body_html = render_markdown("".join(rest), prefix, where, records=records)
     # Register cross-check
     reg = reg_by_grid.get(d["grid"])
     if not reg:
@@ -507,131 +634,157 @@ def render_stone(d, reg_by_grid, release, file_requests=None):
         if reg["status"] != meta.get("status"):
             problem("warn", where, f"status {meta.get('status')!r} differs from register {reg['status']!r} "
                                    "(register should be updated to match the dossier)")
+    name = str(meta.get("name_full") or meta.get("name_carved") or d["slug"]).strip()
+    card = stone_card(stone_md, d["grid"], name, prefix, where)
     # Citations resolve?
-    cited = set(re.findall(r"\[(\d+)\](?!\()", COMMENT_RE.sub("", d["body"])))
+    cited = set(re.findall(r"\[(\d+)\](?!\()", raw))
     defined = set(re.findall(r'id="src-(\d+)"', body_html))
     for n in sorted(cited - defined, key=int):
         problem("error", where, f"citation [{n}] has no Sources entry")
 
     title = html.escape(str(meta.get("name_carved", d["slug"])))
     status = meta.get("status", "")
-    gloss = STATUS_GLOSS.get(status, "")
-    head = [f'<p class="lede"><span class="grid-ref">{d["grid"]}</span></p>',
-            f"<h1>{title}</h1>"]
-    # First paragraph of the body is the one-line subtitle; render_markdown already emitted it.
-    head.append(f'<div class="status">Research status: <b>{html.escape(status)}</b> — {html.escape(gloss)}.</div>')
-    short = {"The records": "Records", "What we don't know": "Not known", "A reading of the record": "Reading"}
+    row, col = d["grid"][0], d["grid"][1:]
+    head = [f'<p class="gridline"><span class="chip">{d["grid"]}</span> Row {row}, place {col}</p>',
+            f"<h1>{title}</h1>",
+            f'<p class="lede">{inline(subtitle, prefix)}</p>' if subtitle else "",
+            status_bar(status, str(meta.get("last_revised", "")))]
     h2s = re.findall(r'<h2 id="([^"]+)">(.*?)</h2>', body_html)
-    head.append('<nav class="jump">' + "".join(
-        f'<a href="#{hid}">{html.escape(short.get(html.unescape(re.sub("<[^>]+>", "", t)), html.unescape(re.sub("<[^>]+>", "", t))))}</a>'
-        for hid, t in h2s if hid != "credits") + "</nav>")
-    researchers = meta.get("researchers") or []
-    if isinstance(researchers, str):
-        researchers = [researchers]
+    nav_items = []
+    for hid, t_ in h2s:
+        if hid == "credits":
+            continue
+        label = html.unescape(re.sub("<[^>]+>", "", t_))
+        nav_items.append(f'<a href="#{hid}">{html.escape(NAV_SHORT.get(label, label))}</a>')
     url = (file_requests or {}).get(d["grid"])
     if url:
-        # Insert before the Credits heading so the ask sits with the open questions, not after the footer line.
-        name = str(meta.get("name_full") or meta.get("name_carved") or d["slug"]).strip()
         block = help_block(name, url)
         i = body_html.find('<h2 id="credits">')
         body_html = body_html[:i] + block + body_html[i:] if i >= 0 else body_html + block
-        head[-1] = head[-1].replace("</nav>", '<a href="#help">Help</a></nav>')
-    return page(str(meta.get("name_carved", d["slug"])), "\n".join(head) + "\n" + body_html, prefix,
+        nav_items.append('<a href="#help">Help</a>')
+    head.append('<nav class="jump">' + "".join(nav_items) + "</nav>")
+    researchers = meta.get("researchers") or []
+    if isinstance(researchers, str):
+        researchers = [researchers]
+    return page(str(meta.get("name_carved", d["slug"])), "\n".join(h for h in head if h) + "\n" + card + body_html, prefix,
                 researchers, str(meta.get("last_revised", "")), release, kind="stone",
                 path=f"stone/{d['slug']}/"), records
 
 
+CHEVRON = ('<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1E3A66" stroke-width="2.2" '
+           'stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>')
+KIND_TEXT = {"s": "Stone read · not yet researched", "i": "Identified", "d": "Life drafted", "c": "Complete",
+             "e": "No inscription recorded yet", "f": "Flagpole · not a grave"}
+MONUMENT_AFTER = 10          # the monument stands in rows J and K, after place 10 (schematic)
+MONUMENT_ROWS = ("J", "K")
+
+
+def place_kind(r):
+    notes = r["notes"].lower()
+    if "flagpole" in notes:
+        return "f"
+    if not r["name_carved"] and not r["unit"]:
+        return "e"
+    return {"stone-only": "s", "identified": "i", "draft": "d", "complete": "c"}.get(r["status"], "s")
+
+
 def render_map(rows, dossiers, release):
     prefix = "../"
-    by_slug = {d["grid"]: d for d in dossiers}
+    by_grid = {d["grid"]: d for d in dossiers}
     plot_path = ROOT / "site" / "plot.md"
     meta, body = parse_front_matter(plot_path.read_text(encoding="utf-8"), "site/plot.md")
     for m in MARKER_RE.finditer(COMMENT_RE.sub("", body)):
         problem("error" if release else "warn", "site/plot.md", f"editor marker in text: ⟨{m.group(1)[:50]}⟩")
     essay = render_markdown(body, prefix, "site/plot.md")
 
-    # --- SVG grid. A1 top-left; letters are rows, numbers are columns.
-    letters = sorted({r["_row"] for r in rows}) or ["A"]   # an empty register still builds
+    letters = sorted({r["_row"] for r in rows}) or ["A"]
     ncol = max((r["_col"] for r in rows), default=1)
-    cw, ch, left, top = 24, 28, 28, 22
-    W, H = left + ncol * cw + 6, top + len(letters) * ch + 6
-    svg = [f'<svg class="plot" viewBox="0 0 {W} {H}" xmlns="http://www.w3.org/2000/svg" '
-           f'role="img" aria-label="Plan of the Prescott Post lot, rows A to {letters[-1]}, columns 1 to {ncol}">']
-    for c in range(1, ncol + 1):
-        svg.append(f'<text class="lbl" x="{left + (c - 1) * cw + cw / 2:.0f}" y="14" text-anchor="middle">{c}</text>')
-    for ri, L in enumerate(letters):
-        svg.append(f'<text class="lbl" x="10" y="{top + ri * ch + ch / 2 + 4:.0f}" text-anchor="middle">{L}</text>')
-    for r in rows:
-        ri = letters.index(r["_row"])
-        x, y = left + (r["_col"] - 1) * cw + 2, top + ri * ch + 2
-        w, h = cw - 4, ch - 4
-        note = r["notes"].lower()
-        d = by_slug.get(r["grid"])
-        if "flagpole" in note:
-            svg.append(f'<circle class="flagpole" cx="{x + w / 2}" cy="{y + h / 2}" r="5"><title>{r["grid"]}: flagpole</title></circle>')
-            continue
-        if d:
-            cls = "page"
-        elif r["status"] == "identified":
-            cls = "identified"
-        elif r["name_carved"]:
-            cls = "named"
-        elif r["status"] == "stone-only":
-            cls = "stone-only"
-        else:
-            cls = "blank"
-        label = r["name_carved"] or (r["unit"] and f"stone reads: {r['unit']}") or "not yet transcribed"
-        detail = " · ".join(x for x in [r["unit"] if r["name_carved"] else "", f"Co. {r['company']}" if r["company"] else "",
-                                        r["rank"], f"d. {r['died']}" if r["died"] else ""] if x)
-        data = (f'data-grid="{r["grid"]}" data-name="{html.escape(label, quote=True)}" '
-                f'data-detail="{html.escape(detail, quote=True)}" data-status="{r["status"]}"')
-        rect = (f'<rect class="cell {cls}" {data} x="{x}" y="{y}" width="{w}" height="{h}" rx="2">'
-                f'<title>{r["grid"]}: {html.escape(label)}</title></rect>')
-        if d:
-            svg.append(f'<a href="{prefix}stone/{d["slug"]}/index.html">{rect}</a>')
-        else:
-            svg.append(rect)
-    svg.append("</svg>")
+    by_rc = {(r["_row"], r["_col"]): r for r in rows}
 
-    pages_list = "".join(
-        f'<li><a href="{prefix}stone/{d["slug"]}/index.html">{html.escape(str(d["meta"].get("name_carved", d["slug"])))}</a> '
-        f'<span class="grid-ref">{d["grid"]}</span> — {html.escape(str(d["meta"].get("unit", "")).split(";")[0])}</li>'
-        for d in sorted(dossiers, key=lambda d: (d["grid"][0], int(d["grid"][1:]))))
+    # --- schematic rows
+    maprows = []
+    for L in letters:
+        cells = []
+        if L == letters[-1]:                      # last row sits one place east of the others (survey sheet)
+            cells.append('<span class="cell gap"></span>')
+        cols = [c for (rr, c) in by_rc if rr == L]
+        for n in range(1, max(cols) + 1 if cols else 1):
+            if L in MONUMENT_ROWS and n == MONUMENT_AFTER + 1:
+                cells += ['<span class="cell gap"></span>', '<span class="cell m"></span>',
+                          '<span class="cell m"></span>', '<span class="cell gap"></span>']
+            r = by_rc.get((L, n))
+            k = place_kind(r) if r else "e"
+            cells.append(f'<span class="cell {k}" title="{L}{n}"></span>')
+        maprows.append(f'<div class="maprow" data-row="{L}"><span class="maplabel">{L}</span>'
+                       f'<div class="cells">{"".join(cells)}</div></div>')
+
+    # --- chips and per-row lists
+    chips = "".join(f'<button type="button" class="rowchip" data-row="{L}" aria-pressed="false">{L}</button>' for L in letters)
+    lists = []
+    for L in letters:
+        rr = sorted((r for r in rows if r["_row"] == L), key=lambda r: r["_col"])
+        total = sum(1 for r in rr if place_kind(r) != "f")
+        ident = sum(1 for r in rr if place_kind(r) in "idc")
+        items = []
+        for r in rr:
+            k = place_kind(r)
+            code = r["grid"]
+            d = by_grid.get(code)
+            if r["name_carved"]:
+                nm, cls = html.escape(r["name_carved"]), "name"
+            elif k == "f":
+                nm, cls = "Flagpole", "name unnamed"
+            elif r["unit"]:
+                nm, cls = html.escape(r["unit"]) + " · name not yet read", "name unnamed"
+            else:
+                nm, cls = "Stone not yet read", "name unnamed"
+            st = KIND_TEXT[k]
+            inner = (f'<span class="code">{code}</span><span class="what"><span class="{cls}">{nm}</span>'
+                     f'<span class="st">{st}</span></span>')
+            if d:
+                items.append(f'<a class="place linked" href="../stone/{d["slug"]}/index.html">{inner}{CHEVRON}</a>')
+            else:
+                items.append(f'<div class="place">{inner}</div>')
+        lists.append(f'<div class="rowlist" data-row="{L}" hidden><div class="rowhead"><h2>Row {L}</h2>'
+                     f'<span>{total} places · {ident} identified</span></div>{"".join(items)}</div>')
+
     n_named = sum(1 for r in rows if r["name_carved"])
-    n_ident = sum(1 for r in rows if r["status"] == "identified") + len(dossiers)
-
+    n_ident = sum(1 for r in rows if place_kind(r) in "idc")
     head = f"""
-<h1>{html.escape(str(meta.get("title", "The Prescott Post lot")))}</h1>
-<p class="lede">Find your row (letter) and column (number) on the plan. A1 is the top-left stone as you face the rows from the road. Tap a stone to see what the register has; dark stones have a page.</p>
-<div class="mapwrap">{"".join(svg)}</div>
-<div class="legend"><span class="l-page">has a page</span><span class="l-ident">identified</span><span class="l-named">name read</span><span class="l-stone">stone read in part</span><span class="l-blank">not yet read</span></div>
-<div id="picked" aria-live="polite"><b>Tap a stone.</b> {len(rows)} positions surveyed; {n_named} names read; {n_ident} men identified; {len(dossiers)} page{"s" if len(dossiers) != 1 else ""} written.</div>
-<h2 id="pages">Stones with a page</h2>
-<ul class="pages">{pages_list}</ul>
+<h1>The lot, row by row</h1>
+<p class="lede">Row A is nearest the road. Pick a row to see its stones.</p>
+<div class="lotmap">
+  <div class="compass"><span>West · 1</span><b>Road side ↑</b><span>{ncol} · East</span></div>
+  {"".join(maprows)}
+  <p class="note">Schematic: places in order, not to scale. The monument stands in rows J and K; its exact place among their stones is still being fixed. {len(rows)} positions surveyed; {n_named} names read; {n_ident} men identified; {len(dossiers)} pages.</p>
+</div>
+<div class="legend"><span><i class="cell s"></i>Stone read</span><span><i class="cell i"></i>Identified</span><span><i class="cell d"></i>Life drafted</span><span><i class="cell c"></i>Complete</span><span><i class="cell e"></i>Not yet read</span><span><i class="cell m"></i>Monument</span></div>
+<div class="chooser"><p class="eyebrow">Choose a row</p><div class="chips">{chips}</div></div>
+{"".join(lists)}
+<div class="essay">
+<h2 id="about">About the lot</h2>
 """
     script = """
 <script>
 (function(){
-  var box=document.getElementById('picked'); if(!box) return;
-  document.querySelectorAll('svg.plot rect.cell').forEach(function(r){
-    r.addEventListener('click',function(ev){
-      var d=r.dataset, link=r.closest('a');
-      box.innerHTML='<b>'+d.grid+' — '+d.name+'</b>'+(d.detail?'<br>'+d.detail:'')+
-        '<br><small>status: '+(d.status||'unsurveyed')+(link?' · <a href="'+link.getAttribute('href')+'">open page</a>':'')+'</small>';
-      document.querySelectorAll('svg.plot .here').forEach(function(h){h.remove();});
-      var h=document.createElementNS('http://www.w3.org/2000/svg','rect');
-      ['x','y','width','height','rx'].forEach(function(a){h.setAttribute(a,r.getAttribute(a));});
-      h.setAttribute('class','here'); r.parentNode.insertBefore(h, r.nextSibling);
-      if(link){ ev.preventDefault(); }
-    });
-  });
+  function pick(L){
+    document.querySelectorAll('.rowchip').forEach(function(b){ b.setAttribute('aria-pressed', b.dataset.row===L); });
+    document.querySelectorAll('.rowlist').forEach(function(d){ d.hidden = d.dataset.row!==L; });
+    document.querySelectorAll('.maprow').forEach(function(r){ r.classList.toggle('on', r.dataset.row===L); });
+    try { history.replaceState(null, '', '#row-'+L); } catch(e){}
+  }
+  document.querySelectorAll('.rowchip').forEach(function(b){ b.addEventListener('click', function(){ pick(b.dataset.row); }); });
+  document.querySelectorAll('.maprow').forEach(function(r){ r.addEventListener('click', function(){ pick(r.dataset.row); }); });
+  var m = (location.hash||'').match(/^#row-([A-Z])$/);
+  pick(m && document.querySelector('.rowlist[data-row="'+m[1]+'"]') ? m[1] : 'A');
 })();
 </script>"""
     researchers = meta.get("researchers") or []
     if isinstance(researchers, str):
         researchers = [researchers]
-    return page(str(meta.get("title", "Plot map")), head + essay + script, prefix, researchers,
+    return page("Plot map", head + essay + "</div>" + script, prefix, researchers,
                 str(meta.get("last_revised", "")), release, kind="map", path="map/")
+
 
 
 
