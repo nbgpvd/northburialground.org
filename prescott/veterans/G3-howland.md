@@ -97,7 +97,7 @@ The stone gives his company and omits the rank of sergeant major. He held that r
 - `records/G3/1883-burial-ledger.jpg` — City burial ledger (Superintendent’s Record of Burials, North Burial Ground), page for March 1883, with the red annotation of 8 September 1886 recording his removal to the Prescott Post lot (IMG_2550). Hosted with the approval of the City of Providence, 1 Nov 2026. [2]
 - `records/G3/1883-death-notice.jpg` — Newspaper notice of his death, March 1883. [24]  ⟨paper and date; public domain if pre-1930⟩
 - `records/G3/1875-morning-star.jpg` — *Providence Morning Star*, 31 May 1875, p. 1, detail: Howland listed as assistant inspector, Ives Post No. 13. [16]
-- `records/G3/1886-council-report.jpg` — City Council Report No. 272 and Resolution No. 273, June 1886, on enlarging the Prescott Post lot. [25]
+- `records/_monument/1886-report-272-resolution-273.jpg` — City Council Report No. 272 and Resolution No. 273, June 1886, on enlarging the Prescott Post lot, as printed. [25]
 - `records/G3/cmsr-*.pdf` — Compiled military service record, NARA RG 94. [8]  ⟨BB: scans from Aug. 2026 trip⟩
 - `records/G3/nara-ll2229-charges.jpg` — LL 2229: arraignment, charges and specifications (NARA IMG_1195). [10]
 - `records/G3/nara-ll2229-brown-testimony.jpg` — LL 2229: testimony of 1st Lt. Zephaniah Brown, acting adjutant (NARA IMG_1199). [10]
@@ -158,4 +158,4 @@ Conflicts: Birth year: [1] gives 1828, [2] implies c. 1825, [24] implies c. 1833
 
 ## Credits
 
-Researched and written by Bernard Brennan. Second reader: none yet. Burial records courtesy of the City of Providence, Department of Parks, North Burial Ground (Annalisa Heppner, director). Revised 2026-10-30.
+Researched and written by Bernard Brennan. Second reader: none yet. Burial records courtesy of the City of Providence, Department of Parks, North Burial Ground (Annalisa Heppner, director). Revised 2026-11-01.
