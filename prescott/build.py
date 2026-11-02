@@ -788,16 +788,21 @@ def render_map(rows, dossiers, release):
     script = """
 <script>
 (function(){
-  function pick(L){
+  // pick(L, true) is a user choice and records it in the URL; pick(L) on load must NOT touch
+  // the URL, or it clobbers an incoming #rows fragment before the browser has scrolled to it.
+  function pick(L, byUser){
     document.querySelectorAll('.rowchip').forEach(function(b){ b.setAttribute('aria-pressed', b.dataset.row===L); });
     document.querySelectorAll('.rowlist').forEach(function(d){ d.hidden = d.dataset.row!==L; });
     document.querySelectorAll('.maprow').forEach(function(r){ r.classList.toggle('on', r.dataset.row===L); });
-    try { history.replaceState(null, '', '#row-'+L); } catch(e){}
+    if (byUser) { try { history.replaceState(null, '', '#row-'+L); } catch(e){} }
   }
-  document.querySelectorAll('.rowchip').forEach(function(b){ b.addEventListener('click', function(){ pick(b.dataset.row); }); });
-  document.querySelectorAll('.maprow').forEach(function(r){ r.addEventListener('click', function(){ pick(r.dataset.row); }); });
+  document.querySelectorAll('.rowchip').forEach(function(b){ b.addEventListener('click', function(){ pick(b.dataset.row, true); }); });
+  document.querySelectorAll('.maprow').forEach(function(r){ r.addEventListener('click', function(){ pick(r.dataset.row, true); }); });
   var m = (location.hash||'').match(/^#row-([A-Z])$/);
-  pick(m && document.querySelector('.rowlist[data-row="'+m[1]+'"]') ? m[1] : 'A');
+  var L = m && document.querySelector('.rowlist[data-row="'+m[1]+'"]') ? m[1] : 'A';
+  pick(L);
+  // #row-X is not an element id, so bring the map into view ourselves.
+  if (m) { var h = document.getElementById('rows'); if (h) h.scrollIntoView(); }
 })();
 </script>"""
     researchers = meta.get("researchers") or []
