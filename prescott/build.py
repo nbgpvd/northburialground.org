@@ -367,6 +367,7 @@ def page(title, body_html, prefix, researchers, revised, release, extra_head="",
 <footer class="site">
   <p>{credits}{CITY_CREDIT}{revised_txt}</p>
   <p><a href="{prefix}map/index.html#rows">Plot map</a> · <a href="{prefix}monument/index.html">The monument</a> · <a href="{prefix}help/index.html">How to help</a> · <a href="{prefix}standards/index.html">Standards</a> · <a href="{prefix}register.csv">Register (CSV)</a></p>
+  <p class="org">Part of the <a href="/">North Burial Ground Foundation</a> (in formation).</p>
 </footer>
 </div>
 </body>
@@ -393,6 +394,7 @@ header.site .home { font-weight:700; font-size:.82rem; letter-spacing:.09em; tex
 header.site .maplink { display:inline-flex; align-items:center; gap:6px; font-weight:700; font-size:1.05rem; text-decoration:none; }
 footer.site { padding:1.2rem 20px 2rem; border-top:1px solid var(--rule); font-size:.85rem; color:var(--muted); }
 footer.site a { color:var(--navy); }
+footer.site .org { margin-top:.9rem; padding-top:.7rem; border-top:1px solid var(--rule); }
 .banner { background:var(--todo); color:var(--ink); font-size:.8rem; padding:.4rem 20px; }
 
 h1 { font-family:var(--serif); font-weight:700; font-size:2.15rem; line-height:1.1; letter-spacing:.01em; margin:.5rem 0 .6rem; }
@@ -924,6 +926,11 @@ def check_links(out):
         for m in re.finditer(r'(?:href|src)="([^"#]+)(#[^"]*)?"', text):
             href = m.group(1)
             if href.startswith(("http://", "https://", "mailto:", "data:")):
+                continue
+            if href.startswith("/"):
+                # Site-absolute: points outside this project's output tree
+                # (e.g. the foundation root at /). Cannot be checked from here;
+                # pathlib would resolve it against the filesystem root.
                 continue
             target = (p.parent / href).resolve()
             if not target.exists():
