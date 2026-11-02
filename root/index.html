@@ -3,28 +3,89 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>North Burial Ground, Providence</title>
+<title>North Burial Ground Foundation — Providence, Rhode Island</title>
+<meta name="description" content="The North Burial Ground Foundation (in formation) supports the preservation, maintenance and study of North Burial Ground, Providence, Rhode Island, in coordination with the City of Providence.">
 <link rel="canonical" href="https://northburialground.org/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700;800&amp;family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&amp;display=swap" rel="stylesheet">
 <style>
-  body { margin:0; color:#111; background:#fff; font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; line-height:1.5; font-size:112.5%; }
-  main { max-width:40rem; margin:0 auto; padding:2rem 1rem; }
-  h1 { font-family:Georgia,"Times New Roman",serif; font-size:2rem; line-height:1.15; margin:0 0 .4rem; }
-  .sub { margin:0 0 1.6rem; }
-  a { color:#0a3d7a; }
-  footer { max-width:40rem; margin:2rem auto 0; padding:1rem; border-top:3px solid #111; font-size:.9rem; }
+/* Shares the Prescott companion's tokens so the root and /prescott/ read as one site. */
+:root { --ink:#16181B; --muted:#4A4F55; --paper:#fff; --bg:#E9EBEE; --rule:#D8DBDF; --panel:#F2F3F5;
+        --navy:#1E3A66; --navy-dark:#122744; --gold:#C9A227;
+        --sans:"Public Sans", -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        --serif:"Source Serif 4", Georgia, "Times New Roman", serif; }
+* { box-sizing:border-box; }
+html { font-size:112.5%; -webkit-text-size-adjust:100%; }
+body { margin:0; background:var(--bg); color:var(--ink); font-family:var(--sans); line-height:1.5; }
+.column { max-width:520px; margin:0 auto; background:var(--paper); min-height:100vh; box-shadow:0 0 0 1px var(--rule); }
+a { color:var(--navy); }
+a:hover { color:var(--navy-dark); }
+header.site { display:flex; align-items:center; justify-content:space-between; gap:12px; padding:18px 20px 14px; border-bottom:1px solid var(--rule); }
+header.site .home { font-weight:700; font-size:.82rem; letter-spacing:.09em; text-transform:uppercase; color:var(--ink); text-decoration:none; }
+header.site .status { font-size:.78rem; font-weight:700; letter-spacing:.06em; text-transform:uppercase; color:var(--navy);
+                      border:2px solid var(--navy); border-radius:999px; padding:.2rem .7rem; white-space:nowrap; }
+main { padding:0 20px 2rem; }
+p.eyebrow { margin:1.4rem 0 0; color:var(--muted); font-weight:600; font-size:.95rem; letter-spacing:.02em; }
+h1 { font-family:var(--serif); font-weight:700; font-size:2.15rem; line-height:1.1; letter-spacing:.01em; margin:.3rem 0 .8rem; }
+h2 { font-family:var(--serif); font-weight:700; font-size:1.5rem; line-height:1.2; margin:2rem 0 .6rem; padding-bottom:.3rem; border-bottom:2px solid var(--ink); }
+p { margin:.6rem 0; }
+p.lede { font-size:1.15rem; line-height:1.4; margin:0 0 1rem; }
+ul.aims { list-style:none; margin:0; padding:0; }
+ul.aims li { padding:.7rem 0; border-bottom:1px solid var(--rule); }
+ul.aims li:last-child { border-bottom:0; }
+ul.aims b { display:block; font-weight:700; }
+.project { display:block; border:1px solid var(--rule); border-radius:14px; padding:1rem 1.1rem; margin:1rem 0; text-decoration:none; color:var(--ink); background:var(--paper); }
+.project:hover { border-color:var(--navy); color:var(--ink); }
+.project .kicker { display:inline-block; background:var(--ink); color:#fff; font-weight:800; font-size:.8rem; letter-spacing:.06em; text-transform:uppercase; padding:.25rem .7rem; border-radius:8px; }
+.project .name { display:block; font-family:var(--serif); font-weight:700; font-size:1.3rem; line-height:1.3; margin:.6rem 0 .3rem; color:var(--navy); }
+.project p { margin:.2rem 0 0; color:var(--muted); font-size:.98rem; }
+.project .go { display:block; margin-top:.6rem; font-weight:700; color:var(--navy); }
+.note { background:var(--panel); border-left:4px solid var(--gold); padding:.8rem 1rem; border-radius:0 10px 10px 0; margin:1rem 0; font-size:.98rem; }
+footer.site { padding:1.2rem 20px 2rem; border-top:1px solid var(--rule); font-size:.85rem; color:var(--muted); }
+footer.site a { color:var(--navy); }
 </style>
 </head>
 <body>
+<div class="column">
+<header class="site">
+  <a class="home" href="/">North Burial Ground</a>
+  <span class="status">In formation</span>
+</header>
 <main>
-<h1>North Burial Ground</h1>
-<p class="sub">Providence, Rhode Island — est. 1700</p>
-<p>This site is maintained by the North Burial Ground Foundation (in formation), an independent effort to support the preservation, maintenance and study of the cemetery, in coordination with the City of Providence.</p>
-<ul>
-  <li><a href="/prescott/">The Prescott Post lot</a> — a digital companion to the Civil War veterans' plot (in progress).</li>
+<p class="eyebrow">Providence, Rhode Island · founded 1700</p>
+<h1>North Burial Ground Foundation</h1>
+<p class="lede">An independent nonprofit being organized to support the preservation, maintenance, improvement and study of North Burial Ground, Providence’s municipal cemetery, in coordination with the City of Providence.</p>
+
+<h2>What the Foundation is for</h2>
+<ul class="aims">
+  <li><b>Care of the grounds</b> Tools, equipment and volunteer hands for the people who keep the cemetery, and for the repair and resetting of stones.</li>
+  <li><b>Study of the people buried here</b> Documented, cited research into the lives recorded on the stones, published free for anyone standing in front of one.</li>
+  <li><b>Gathering at the cemetery</b> Support for public events on the grounds, beginning with the annual Juneteenth observance at the Prescott Post lot.</li>
 </ul>
+
+<h2>Projects</h2>
+<a class="project" href="/prescott/">
+  <span class="kicker">First project</span>
+  <span class="name">Prescott Post Digital Companion</span>
+  <p>The Civil War veterans’ lot: about 300 stones, Black and white soldiers and sailors buried in the same rows. A short, sourced life of each man, reachable from his stone.</p>
+  <span class="go">Open the companion →</span>
+</a>
+<p>Further research projects on the cemetery and the people in it will appear here as they are built.</p>
+
+<h2>Where things stand</h2>
+<div class="note">
+  <p>The Foundation is being organized and is not yet incorporated. It is <b>not accepting donations</b> until it is. This page will carry the mission, board, giving and contact information once they exist.</p>
+</div>
+<p>In the meantime the most useful help is with the research: photographs of stones, family papers, and records of the men in the Prescott Post lot. See <a href="/prescott/help/">how to help</a>.</p>
+
+<h2>Who is behind this</h2>
+<p>Organizer: Bernard Brennan, Providence. Research and editorial decisions on this site are his as investigator and editor of record. Work on the grounds and the records is done with the knowledge and cooperation of the City of Providence, Department of Parks, which owns and operates North Burial Ground.</p>
 </main>
-<footer>
-<p>Records courtesy of the City of Providence, Department of Parks, North Burial Ground.</p>
+<footer class="site">
+  <p>Records courtesy of the City of Providence, Department of Parks, North Burial Ground.</p>
+  <p>This site is maintained by the North Burial Ground Foundation (in formation). Page revised 1 November 2026.</p>
 </footer>
+</div>
 </body>
 </html>
