@@ -343,6 +343,76 @@ STONES.update({
  "N11": dict(carved="OTHELLO W. GODFREY / Pvt. Co. A 1st R.I. Cav. / Died Dec. 3, 1934", photo="2026-10-30 13:56", died_text="December 3, 1934", **_unsearched),
 })
 
+
+# Row B, read on site 2 Nov 2026 (close and oblique frames, contrast-enhanced where noted) and checked the same
+# afternoon against the PV001 list and the NPS index (cards opened; URLs in register notes).
+_rb = dict(chenery=None, nps_accessed="November 2, 2026")
+_ph = "2026-11-02 12:45"
+STONES.update({
+ "B2": dict(carved="RICHARD NIGH[TINGALE] / Co. G 30 N.Y. Vol. / Died Mar. 24, 1919", photo=_ph, died_text="March 24, 1919", pv001="1919", **_rb,
+    nps=None, nps_note="No Richard Nightingale was found in the index for the 30th New York Infantry; the index has men of that name only in other regiments.",
+    notes=["Only RICHARD NIGH can be read on the stone; the rest of the surname is worn away. \"Nightingale\" comes from the PV001 list, which records a Richard Nightingale, about 1840–1919, of the 30th New York Volunteers. His service record will confirm it."]),
+ "B4": dict(carved="ROBERT W. SMAL[L] / Co. I 2 R.I. Vol. / Died Nov. 4, 1918", photo=_ph, died_text="November 4, 1918", pv001="1918", **_rb,
+    nps="Small, Robert W., 2nd Rhode Island Infantry, Company I, private in, first lieutenant and regimental quartermaster out, field and staff, microfilm M555 roll 6",
+    nps_note="The stone gives no rank.",
+    notes=["The index shows him leaving the regiment as its quartermaster, an officer. When was he promoted, and from what rank? His service record will say."]),
+ "B5": dict(carved="ALEXANDER G. S[MITH] / Co. C 17 Mass. Vol. / Died Nov. 4, 1918", photo=_ph, died_text="November 4, 1918", pv001="1919", **_rb,
+    nps="Smith, Alexander G., 2nd Massachusetts Heavy Artillery, Company E, private in and out, with the note \"See also 17 Mass. Inf.\", microfilm M544 roll 37",
+    nps_note="The stone names the 17th Massachusetts; the index card for that regiment has not yet been opened.",
+    notes=["Only ALEXANDER G. S can be read in the surname; \"Smith\" comes from the PV001 list, which records an Alexander G. Smith of the 17th Massachusetts.",
+           "The stone gives 1918 and the PV001 list 1919. The stone is followed here; his death record will settle it."]),
+ "B6": dict(carved="THOMAS A[RR] / U.S. Navy / Died Oct. 13, 1918", photo=_ph, died_text="October 13, 1918", pv001="1918", nps="unsearched", chenery=None,
+    notes=["Only THOMAS A and a worn R can be read in the surname; \"Arr\" comes from the PV001 list, which records a Thomas Arr, U.S. Navy, died 1918.",
+           "Which ship or ships did he serve on? The Navy's enlistment records and the NPS sailors index have not yet been searched."]),
+ "B8": dict(carved="[MA]SON B. FRANKLIN / Co. H 2 R.I. Vol. / Died Jan. 30, 1918", photo=_ph, died_text="January 30, 1918", pv001="1918", **_rb,
+    nps="Franklin, Mason B., 2nd Rhode Island Infantry, Company H, private in and out, microfilm M555 roll 3"),
+ "B9": dict(carved="CHARLES H. KENDALL / Co. B 2 R.I. Vol. / Died Oct. 22, 1917", photo=_ph, died_text="October 22, 1917", pv001="1917", **_rb,
+    nps="Kendall, Charles (also filed as Charles H. Kendall), 2nd Rhode Island Infantry, Companies E and B, private in and out, microfilm M555 roll 4"),
+ "B10": dict(carved="[RI]CHARD H. [F]REEMA[N] / Co. K 29 Conn. Vol. / [Died] May 8, 1917", photo=_ph, died_text="May 8, 1917", pv001="1917", **_rb,
+    nps=None, nps_note="No Richard Freeman was found in the index for the 29th Connecticut Infantry; the index has other men named Freeman in that regiment, and his record may be filed under another spelling.",
+    notes=["The name was read from an enhanced photograph; the first letters of the given name and of the surname are worn. The PV001 list records a Richard H. Freeman, Company K, 29th Connecticut Volunteers, died 1917, which agrees with the stone.",
+           "His service in the 29th rests on his stone and the PV001 list until his service record is found."]),
+ "B11": dict(carved="JOHN S. GAY / Co. A 20 Mass. Vol. / Died Apr. 24, 1917", photo=_ph, died_text="April 24, 1917", pv001="1917", **_rb,
+    nps="Gay, John S., 20th Massachusetts Infantry, Company A, private in and out, microfilm M544 roll 15"),
+ "B12": dict(carved="JOHN T. WALKER / Co. C 2 U.S. Cav. / Died Jan. 30, 1917", photo=_ph, died_text="January 30, 1917", pv001="1917", **_rb,
+    nps=None, nps_note="No John T. Walker was found in the index for the 2nd U.S. Cavalry, whose regular-army records the index covers only in part.",
+    notes=["The 2nd U.S. Cavalry was a regular-army regiment. Whether his service in it was in the Civil War or later is not yet established."]),
+ "B13": dict(carved="JOHN R. NORTHU[P] / Co. H 4 R.I. Vol. / [Died ???.] 21, 19[1?]", photo=_ph, died_text="the 21st of a month in the 1910s (the month is under earth); the PV001 list gives 1917", pv001="1917", **_rb,
+    nps="Northup, John R., 4th Rhode Island Infantry, Company H, private in and out, microfilm M555 roll 5",
+    nps_note="A second card under the same name has not yet been opened."),
+ "B14": dict(carved="THEODORE KUH[N] / Co. D 2 N.J. Vol. / Died Jan. 2, 191[?]", photo=_ph, died_text="January 2 of a year in the 1910s, the last digit under earth; the PV001 list gives 1917", pv001="1917", **_rb,
+    nps="Kuhn, Theodore, 2nd New Jersey Infantry (three months, 1861), Company D, private in and out, microfilm M550 roll 13"),
+ "B15": dict(carved="THOMAS E. WEST / 7 N.Y. Cav. / [Died ???.] 1916", photo=_ph, died_text="a day in 1916", pv001="1916", **_rb,
+    nps="West, Thomas, 7th New York Cavalry, Company A, private in and out, microfilm M551 roll 150",
+    nps_note="The card has no middle initial, so the match is probable, not certain.",
+    notes=["Half the stone is under earth; the month and day of death are not exposed."]),
+ "B16": dict(carved="ALLEN P. PECK / Co. I 9 R.I. Vol. / [date line under earth]", photo=_ph, died_text=None, pv001="1916", **_rb,
+    nps="Peck, Allen P., 9th Rhode Island Infantry, Company I, private in and out, microfilm M555 roll 6",
+    notes=["The 9th Rhode Island was a three-month regiment of 1862.", "The date line is under earth."]),
+ "B18": dict(carved="JOSEPH H. CORNELL / [Co.] C 11 R.I. Vol. / [date line under earth]", photo=_ph, died_text=None, pv001=None, **_rb,
+    nps="Cornell, Joseph H., 11th Rhode Island Infantry, Company G, private in and out, with the note \"See also 3 R.I. Cavy.\", microfilm M555 roll 2",
+    nps_note="The company letter on the stone was read as C; the index gives G.",
+    notes=["The PV001 list has a Joseph H. Cornell, 11th Rhode Island, Company G, who died on March 30, 1905. That date does not fit this row, where the burials run from 1915 to 1919. Is this the same man? The stone's date line, now under earth, is the test.",
+           "The 11th Rhode Island was a nine-month regiment of 1862–63; the index note points to later service in the 3rd Rhode Island Cavalry."]),
+ "B19": dict(carved="JOHN HAWKESWORTH / Co. E 1 Mass. Vol. / [Died J]une 1[?], 19[1?]", photo=_ph, died_text="a day in June of a year in the 1910s; the PV001 list gives 1916", pv001="1916", **_rb,
+    nps="Hawkesworth, John (filed under Hawksworth), 1st Massachusetts Heavy Artillery, Company E, private in and out, microfilm M544 roll 18",
+    nps_note="The stone says 1st Massachusetts Volunteers; the card says heavy artillery. His service record will say which."),
+ "B20": dict(carved="CHARLES D. KATES / Co. A [1?] Mass. [Vol.] / [Died ???] 1916", photo=_ph, died_text="a day in 1916", pv001="1916", **_rb,
+    nps=None, nps_note="No Charles D. Kates was found in the index for a Massachusetts regiment.",
+    notes=["The regiment's number is worn; the PV001 list gives the 1st Massachusetts Volunteers, Company A.", "Lichen covers the right half of the stone. It should not be scrubbed."]),
+ "B22": dict(carved="CHARLES H. SMITH / Co. C 33 Reg. M[ass.] / [date line not read]", photo=_ph, died_text=None, pv001=None, **_rb,
+    nps="Smith, Charles H., 33rd Massachusetts Infantry, Company F, private in and out, microfilm M544 roll 37",
+    nps_note="The card gives Company F; the stone reads C. Which Charles H. Smith this is has not been established.",
+    notes=["The PV001 list has a Charles H. Smith of the 33rd Massachusetts who died in 1890. That date does not fit this row, where the burials run from 1915 to 1919. The stone's date line has not been read.",
+           "The surname was first read as Small; an enhanced photograph reads SMITH."]),
+ "B23": dict(carved="[WI]LL[IAM] E. SMITH / Co. H 11 R.I. V[ol.] / [date line not read]", photo=_ph, died_text=None, pv001="1918", **_rb,
+    nps="Smith, William E., 11th Rhode Island Infantry, Company H, private in and out, microfilm M555 roll 6",
+    notes=["The stone is badly worn. Only LL, E. SMITH and the unit line can be read; \"William\" comes from the PV001 list and the index, both of which have a William E. Smith in Company H of the 11th Rhode Island. The identification is probable, not certain.",
+           "The PV001 list gives his death as March 27, 1918, which is later than his neighbours' (1915–1916). The stone's date line has not been read."]),
+ "B24": dict(carved="ISAIAH B. MONRO[E] / Co. G 2 R.I. Vol. / [Di]ed Jan. 8, 1916", photo=_ph, died_text="January 8, 1916", pv001="1916", **_rb,
+    nps="Munroe, Isaiah B. (filed under Isaiah B. Monroe), 2nd Rhode Island Infantry, Company G, private in and out, microfilm M555 roll 5"),
+})
+
 CHENERY = ("William H. Chenery, *The Fourteenth Regiment Rhode Island Heavy Artillery (Colored) in the War "
            "to Preserve the Union, 1861–1865* (Providence: Snow & Farnham, 1898)")
 NPS_URL = "https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm"
@@ -396,7 +466,7 @@ def make(r, s):
     n_nps = n_chen = n_pv = None
     if s.get("nps") != "unsearched":
         srcs.append(f"National Park Service, Civil War Soldiers and Sailors Database, search for \"{full}\" "
-                    f"({unit.replace(' (USCT)', '')}); accessed October 31, 2026, {NPS_URL}.")
+                    f"({unit.replace(' (USCT)', '')}); accessed {s.get('nps_accessed', 'October 31, 2026')}, {NPS_URL}.")
         n_nps = len(srcs)
     if s.get("chenery"):
         srcs.append(f"{CHENERY}, {s['chenery']}.")
