@@ -331,6 +331,18 @@ MAP_ICON = ('<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke=
             '<path d="M9 3v15M15 6v15"/></svg>')
 
 
+SITE_NAV = [("map/", "Plot map", "map/index.html#rows"), ("monument/", "The monument", "monument/index.html"),
+            ("help/", "How to help", "help/index.html"), ("standards/", "Standards", "standards/index.html")]
+
+
+def site_nav(prefix, path):
+    """Wide-screen header links (hidden on phones, where the Map button and the footer carry them)."""
+    cur = ' aria-current="page"'
+    links = [f'<a href="{prefix}{href}"{cur if path == p_ else ""}>{label}</a>' for p_, label, href in SITE_NAV]
+    links.append('<a class="org" href="/">Foundation</a>')
+    return "".join(links)
+
+
 def page(title, body_html, prefix, researchers, revised, release, extra_head="", kind="page", path=""):
     """path is the page's location under SITE_URL, e.g. 'stone/G3-howland/' or 'map/'."""
     canonical = f'<link rel="canonical" href="{SITE_URL}{path}">'
@@ -360,6 +372,7 @@ def page(title, body_html, prefix, researchers, revised, release, extra_head="",
 <header class="site">
   <a class="home" href="{prefix}map/index.html">Prescott Post lot</a>
   <a class="maplink" href="{prefix}map/index.html#rows">{MAP_ICON}<span>Map</span></a>
+  <nav class="sitenav" aria-label="Site">{site_nav(prefix, path)}</nav>
 </header>
 <main>
 {body_html}
@@ -490,6 +503,61 @@ a.button:hover { background:var(--navy-dark); color:#fff; }
 .place .st { font-size:.85rem; color:var(--muted); }
 .place svg { flex:0 0 auto; }
 .essay h2 { margin-top:2rem; }
+header.site .sitenav { display:none; }
+[hidden] { display:none !important; }
+
+/* ---- Wider screens. Same pages, same URLs (QR codes depend on them); only the layout changes. ---- */
+@media (min-width: 720px) {
+  .column { max-width:760px; }
+  main { padding:0 40px 2.5rem; }
+  header.site, footer.site { padding-left:40px; padding-right:40px; }
+  .banner { padding-left:40px; }
+}
+@media (min-width: 1000px) {
+  html { font-size:106.25%; }
+  .column { max-width:1200px; }
+  main { padding:0 56px 3rem; }
+  header.site { padding:22px 56px 18px; }
+  footer.site { padding:1.4rem 56px 2.4rem; }
+  .banner { padding-left:56px; }
+  header.site .maplink { display:none; }
+  header.site .sitenav { display:flex; align-items:center; gap:1.6rem; }
+  header.site .sitenav a { font-weight:600; font-size:1rem; text-decoration:none; color:var(--ink); padding:.3rem 0; border-bottom:2px solid transparent; }
+  header.site .sitenav a:hover { color:var(--navy); border-bottom-color:var(--navy); }
+  header.site .sitenav a[aria-current="page"] { color:var(--navy); border-bottom-color:var(--navy); }
+  header.site .sitenav a.org { color:var(--muted); font-weight:500; padding-left:1.6rem; border-left:1px solid var(--rule); border-bottom:0; }
+  h1 { font-size:2.9rem; margin-top:1rem; }
+  /* reading pages keep a comfortable line length */
+  body:not(.stone) main > *:not(.mapgrid) { max-width:46rem; }
+
+  /* stone page: text on the left, the stone kept in view on the right */
+  .stone-layout { display:grid; grid-template-columns:minmax(0, 1fr) 400px; grid-template-rows:auto 1fr;
+                  grid-template-areas:"head aside" "text aside"; column-gap:56px; }
+  .stone-head { grid-area:head; }
+  .stone-text { grid-area:text; max-width:46rem; }
+  .stone-aside { grid-area:aside; align-self:start; position:sticky; top:24px; margin-top:1.4rem; }
+  .stone-aside section.stone { margin:0; }
+  .stone-aside section.stone .hero { height:auto; max-height:62vh; object-fit:cover; }
+  .stone-layout > .stone-text:first-child { grid-column:1 / -1; }
+  .stone-layout:not(:has(.stone-aside)) { grid-template-columns:minmax(0, 1fr); grid-template-areas:"head" "text"; }
+  .stone-text > h2:first-child { margin-top:1.4rem; }
+
+  /* map page: schematic and row chooser beside the list of the chosen row */
+  .mapgrid { display:grid; grid-template-columns:540px minmax(0, 1fr); column-gap:56px; align-items:start; margin-top:1rem; }
+  .mapside { position:sticky; top:24px; }
+  .mapside .lotmap { margin-top:0; padding:18px 16px 12px; }
+  .maprow { cursor:pointer; }
+  .maprow:hover { background:#fff; }
+  .maprow .cells { gap:3px; }
+  .cell { width:14px; height:21px; }
+  .cell.f { width:14px; height:14px; }
+  .mapside .legend { font-size:.9rem; }
+  .mapside .chips button { height:40px; min-width:40px; }
+  .maplists .rowlist .rowhead { padding-top:0; }
+  .place { min-height:52px; }
+  a.place:hover { background:var(--panel); }
+  ul.cols { columns:3 13rem; }
+}
 """
 
 
@@ -686,7 +754,10 @@ def render_stone(d, reg_by_grid, release, file_requests=None):
     researchers = meta.get("researchers") or []
     if isinstance(researchers, str):
         researchers = [researchers]
-    return page(str(meta.get("name_carved", d["slug"])), "\n".join(h for h in head if h) + "\n" + card + body_html, prefix,
+    layout = ('<div class="stone-layout"><div class="stone-head">' + "\n".join(h for h in head if h) + "</div>\n"
+              + (f'<aside class="stone-aside">{card}</aside>\n' if card else "")
+              + f'<div class="stone-text">{body_html}</div></div>')
+    return page(str(meta.get("name_carved", d["slug"])), layout, prefix,
                 researchers, str(meta.get("last_revised", "")), release, kind="stone",
                 path=f"stone/{d['slug']}/"), records
 
@@ -778,6 +849,7 @@ def render_map(rows, dossiers, release):
 </div>
 <h2 id="rows">The lot, row by row</h2>
 <p class="lede">The lot is on a slope. Row A is at the top; the rows run downhill from there. Pick a row to see its stones.</p>
+<div class="mapgrid"><div class="mapside">
 <div class="lotmap">
   <div class="compass"><span>West · 1</span><b>Uphill ↑</b><span>{ncol} · East</span></div>
   {"".join(maprows)}
@@ -785,7 +857,7 @@ def render_map(rows, dossiers, release):
 </div>
 <div class="legend"><span><i class="cell s"></i>Stone read</span><span><i class="cell i"></i>Identified</span><span><i class="cell d"></i>Life drafted</span><span><i class="cell c"></i>Complete</span><span><i class="cell e"></i>Not yet read</span><span><i class="cell m"></i>Monument</span><span><i class="cell f"></i>Flagpole</span></div>
 <div class="chooser"><p class="eyebrow">Choose a row</p><div class="chips">{chips}</div></div>
-{"".join(lists)}
+</div><div class="maplists">{"".join(lists)}</div></div>
 """
     script = """
 <script>

@@ -44,19 +44,59 @@ ul.aims b { display:block; font-weight:700; }
 .note { background:var(--panel); border-left:4px solid var(--gold); padding:.8rem 1rem; border-radius:0 10px 10px 0; margin:1rem 0; font-size:.98rem; }
 footer.site { padding:1.2rem 20px 2rem; border-top:1px solid var(--rule); font-size:.85rem; color:var(--muted); }
 footer.site a { color:var(--navy); }
+header.site nav { display:none; }
+
+/* ---- Wider screens. One page, one URL; only the layout changes. ---- */
+@media (min-width: 720px) {
+  .column { max-width:760px; }
+  main { padding:0 40px 2.5rem; }
+  header.site, footer.site { padding-left:40px; padding-right:40px; }
+}
+@media (min-width: 1000px) {
+  html { font-size:106.25%; }
+  .column { max-width:1200px; }
+  header.site { padding:22px 56px 18px; gap:2rem; }
+  header.site .home { margin-right:auto; }
+  header.site nav { display:flex; gap:1.6rem; }
+  header.site nav a { font-weight:600; font-size:1rem; text-decoration:none; color:var(--ink); padding:.3rem 0; border-bottom:2px solid transparent; }
+  header.site nav a:hover { color:var(--navy); border-bottom-color:var(--navy); }
+  main { padding:0 56px 3rem; }
+  footer.site { padding:1.4rem 56px 2.4rem; }
+  .intro { padding:2.4rem 0 2.2rem; border-bottom:1px solid var(--rule); margin-bottom:.6rem; }
+  .intro p.eyebrow { margin-top:0; }
+  h1 { font-size:3.4rem; max-width:52rem; }
+  .intro p.lede { font-size:1.45rem; max-width:44rem; }
+  .intro > p:not(.lede):not(.eyebrow) { max-width:46rem; }
+  .layout { display:grid; grid-template-columns:minmax(0, 1fr) 340px; column-gap:64px; align-items:start; }
+  .layout .side { position:sticky; top:24px; margin-top:2rem; }
+  .layout .side h2 { font-size:1.25rem; margin-top:1.6rem; }
+  .layout .side h2:first-child { margin-top:0; }
+  .layout .side p { font-size:.95rem; }
+  ul.aims { display:grid; grid-template-columns:1fr 1fr; gap:14px; }
+  ul.aims li, ul.aims li:last-child { border:1px solid var(--rule); border-radius:14px; padding:1rem 1.1rem; background:var(--panel); }
+  .project { display:grid; grid-template-columns:auto 1fr; column-gap:1.2rem; padding:1.4rem 1.5rem; }
+  .project .kicker { grid-row:1 / span 3; align-self:start; margin-top:.7rem; }
+  .project .name { font-size:1.6rem; margin-top:.4rem; }
+  .project:hover .go { text-decoration:underline; }
+}
 </style>
 </head>
 <body>
 <div class="column">
 <header class="site">
   <a class="home" href="/">North Burial Ground Foundation</a>
+  <nav aria-label="Site"><a href="/prescott/">Prescott Post companion</a><a href="/prescott/help/">How to help</a></nav>
   <span class="status">In formation</span>
 </header>
 <main>
+<div class="intro">
 <p class="eyebrow">Providence, Rhode Island</p>
 <h1>North Burial Ground Foundation</h1>
 <p class="lede">An independent nonprofit being organized to support the preservation, maintenance, improvement and study of North Burial Ground, in coordination with the City of Providence.</p>
 <p><b>The Foundation is not the cemetery.</b> North Burial Ground is Providence’s municipal cemetery — about 110 acres, more than 100,000 people, in use since 1700 and still active — and it is owned and operated by the City. The Foundation is a separate body, newly organized to support it. This site is the Foundation’s.</p>
+</div>
+<div class="layout">
+<div class="primary">
 
 <h2>What the Foundation is for</h2>
 <ul class="aims">
@@ -79,6 +119,8 @@ footer.site a { color:var(--navy); }
 </a>
 <p>Other parts of the ground will follow as the register reaches them: the Free Ground and the Friends’ Ground, the oldest sections, and the lots that the City’s own walking tours already visit.</p>
 
+</div>
+<aside class="side">
 <h2>Where things stand</h2>
 <div class="note">
   <p>The Foundation is being organized and is not yet incorporated. It is <b>not accepting donations</b> until it is. This page will carry the mission, board, giving and contact information once they exist.</p>
@@ -87,6 +129,8 @@ footer.site a { color:var(--navy); }
 
 <h2>Who is behind this</h2>
 <p>Organizer: Bernard Brennan, Rhode Island. Research and editorial decisions on this site are his as investigator and editor of record. Work on the grounds and the records is done with the knowledge and cooperation of the City of Providence, Department of Parks, which owns and operates North Burial Ground.</p>
+</aside>
+</div>
 </main>
 <footer class="site">
   <p>Records courtesy of the City of Providence, Department of Parks, North Burial Ground.</p>
