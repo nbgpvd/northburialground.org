@@ -48,7 +48,6 @@ redo:
   - "M23 — year of death illegible"
   - "N3 — month and day of death in shadow"
   - "N15 — month of death partly hidden by grass"
-  - "A17 — position in the row inferred from the date sequence; confirm the stone is at A17"
   - "N9 — position in the row inferred; confirm the stone is at N9"
 ---
 

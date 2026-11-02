@@ -116,9 +116,9 @@ STONES = {
  "N2": dict(carved="WILLIAM McCLOUD / Pvt. Co. H. 3 U.S. Col. Inf. / Died Mar. 16, 1928", photo="IMG_1240",
     nps=None, nps_note="No William McCloud or McLeod was found in the index for the 3rd U.S. Colored Infantry; the spelling on his service record may differ.",
     chenery=None, pv001="1928", died_text="March 16, 1928"),
- "A17": dict(carved="NATHANIEL MOS[E]LEY / Co. I. 1 U.S. Cav. / Died Dec. 3, 1919", photo="IMG_1745",
-    nps="unsearched", chenery=None, pv001=None, died_text="December 3, 1919",
-    notes=["His place in the row is inferred, not surveyed: the stone was photographed between A12 and A19, and a December 1919 death fits the one unrecorded place between A16 (August 1920) and A18 (December 1919). It should be confirmed on site.",
+ "B3": dict(carved="NATHANIEL MOS[E]LEY / Co. I. 1 U.S. Cav. / Died Dec. 3, 1918", photo="IMG_1745",
+    nps="unsearched", chenery=None, pv001=None, died_text="December 3, 1918",
+    notes=["His stone was first placed at A17 by inference from the date sequence. On site on November 2, 2026, it proved to be the third stone in row B, so his page moved from A17 to B3; the old address still leads here. The year was first read as 1919; two close photographs and a side view all read 1918.",
            "The 1st U.S. Cavalry was a regular-army regiment. Whether his service in it was in the Civil War or later is not yet established."]),
  "N9": dict(carved="CHARLES H. GARDNER / U.S. Hvy. Art. / Died March 7, 1932", photo="IMG_1748",
     nps="unsearched", chenery=None, pv001=None, died_text="March 7, 1932",
@@ -254,7 +254,7 @@ STONES["A14"].update(carved="WILLIAM T. FRY / Co. F 5 Mass. Cav. / Died Jan. 29,
 STONES["A15"].update(carved="ARTHUR A. CLAUS / Co. [G] 25 Mass. & Co. G 29 Mass. / Died Dec. 10, 1920", photo="2026-10-30 13:39",
     stone_note="The stone reads 25 Mass., as the survey sheet did; the index card's 35th is therefore the index's reading, not the stone's.")
 STONES["A16"].update(carved="ROBERT CROSSLEY / Co. A 2 R.I. Vol. / Died Aug. 30, 1920", photo="2026-10-30 13:39")
-STONES["A17"].update(photo="2026-10-22 09:31")
+STONES["B3"].update(photo="2026-10-22 09:31")
 STONES["A18"].update(carved="CHARLES W. DEWEY / Co. F 10 Conn. Vol. / Died Dec. 27, 1919", photo="2026-10-30 13:39")
 STONES["A19"].update(photo="2026-10-22 09:32")
 STONES["E1"].update(carved="LONZO H. KNIGHT / Co. D 2d R.I. Vol. / Died A[??]. 24, 1909", photo="2026-10-30 14:05",
