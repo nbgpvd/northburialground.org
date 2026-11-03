@@ -35,6 +35,9 @@ import sys
 from collections import defaultdict
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))  # explicit, so it also works under python3 -I
+import nps_cache
+
 DATE = r"\d{1,2}/\d{1,2}/\d{4}|\d{4}c?"
 
 # ---------------------------------------------------------------- PV001
@@ -248,15 +251,23 @@ h1{{font-size:22px;margin:4px 0}} .sub{{color:#555;font-size:14px;margin-bottom:
 .st{{font-size:13px;color:#555}} .win{{font-size:14px;color:#555}}
 ul{{margin:4px 0 4px 18px;padding:0}} li{{margin:2px 0}} .t1{{font-weight:600}} .t2{{color:#555}}
 .todo{{background:#fff6d6;border-radius:6px;padding:4px 8px;margin-top:6px;font-size:15px}}
+.nps{{font-size:12px;border-radius:4px;padding:0 6px;white-space:nowrap}} .nps.ok{{background:#e1f0e1;color:#245c24}} .nps.no{{background:#eee;color:#555}}
 .known{{margin:4px 0}} .none{{color:#888;font-style:italic}}
 </style>
 <h1>Row {e(row)} &mdash; field sheet</h1>
 <div class="sub">Built {today} from register.csv and the RI VETS PV001 list. Candidates are leads, not identifications:
 confirm against the stone and a record. Shoot oblique from downhill first, then close; view frames upright.</div>"""]
+    nps_reg = nps_cache.load_register(a.register)
+    nps_looks = nps_cache.load_lookups(a.lookups)
+    NPS_TAG = {"found": ("NPS: card on file", "ok"), "none": ("NPS: searched, no card", "ok"),
+               "unsearched": ("NPS: not yet searched", "no"), "not-searched": ("NPS: not yet searched", "no")}
+
     def li(t):
         p = t[4]
+        state, _ = nps_cache.status_for(p["surname"], p["given"], nps_reg, nps_looks)
+        label, cls = NPS_TAG[state]
         return (f'<li class="{"t1" if t[0]==0 else "t2"}">{e(p["_name"])} &mdash; d. {e(p["death"] or "no date")}'
-                f'{" &mdash; " + e(p["unit"]) if p["unit"] else ""}</li>')
+                f'{" &mdash; " + e(p["unit"]) if p["unit"] else ""} <span class="nps {cls}">{label}</span></li>')
 
     for r, w, pats, cands, todo, mode in cards:
         known_bits = [x for x in (r["name_carved"], r["unit"], ("Co. " + r["company"]) if r["company"] else "",
@@ -311,6 +322,7 @@ def main():
     s.add_argument("--pv001", required=True)
     s.add_argument("--row", required=True)
     s.add_argument("--out", default="field")
+    s.add_argument("--lookups", default=None, help="refs/nps-lookups.csv (searches made for men not yet on a stone)")
     s.add_argument("--pad", type=int, default=1, help="years to widen the death-year window")
     s.add_argument("--max", type=int, default=12, help="candidates shown per stone")
     a = ap.parse_args()
