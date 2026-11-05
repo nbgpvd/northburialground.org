@@ -18,7 +18,7 @@ city_lot_ref: "Prov. G.A.R. Lot, Grave 23 (orig. Colored Free Ground 555)"   # l
 status: "draft"                # CMSR and court-martial located; narrative drafted; civil life researched; no second reader yet
 researchers: ["Bernard Brennan"]
 second_reader: ""
-last_revised: "2026-11-01"
+last_revised: "2026-11-03"
 records_dir: records/G3/
 ---
 
@@ -158,4 +158,4 @@ Conflicts: Birth year: [1] gives 1828, [2] implies c. 1825, [24] implies c. 1833
 
 ## Credits
 
-Researched and written by Bernard Brennan. Second reader: none yet. Burial records courtesy of the City of Providence, Department of Parks, North Burial Ground (Annalisa Heppner, director). Revised 2026-11-01.
+Researched and written by Bernard Brennan. Christopher Grady made an earlier research trip to the National Archives ⟨date of trip⟩ and photographed paper records for this research; the National Archives photographs shown on this page are the editor's own. Second reader: none yet. Burial records courtesy of the City of Providence, Department of Parks, North Burial Ground (Annalisa Heppner, director). Revised 2026-11-03.
