@@ -230,7 +230,7 @@ STONES = {
     nps_note="The survey recorded the unit as the 3rd U.S. Colored Infantry. The PV001 list has a Franklin A. Gibbs, 3rd U.S.C.T., Company A, not found in the index; the only Gibbs the index shows in the 3rd U.S. Colored Infantry is a Warren Gibbs, Company G. Unresolved.", chenery=None, pv001=None, died_text=None,
     notes=["Only the surname and unit have been read. The marker is sunk; the City's staff would need to clear it before the rest can be read."]),
  "I6": dict(carved="DIGGS / 14th R.I.H.A. / Died Sept. 30, 18[??]", photo=None, nps="two men named Diggs in the 11th U.S. Colored Heavy Artillery: John Diggs, Company M, private in, corporal out, and Henry C. Diggs, Company H, private in and out; both microfilm M589 roll 24",
-    nps_note="The PV001 list has Henry C. Diggs, Company H, died 1891, which favours him; the stone's given name has not been read.", chenery=None, pv001="1891", died_text="September 30 of a year the survey could not read; the PV001 list gives 1891"),
+    nps_note="The PV001 list has Henry C. Diggs, Company H, died 1891, which favors him; the stone's given name has not been read.", chenery=None, pv001="1891", died_text="September 30 of a year the survey could not read; the PV001 list gives 1891"),
  "J7": dict(carved=None, photo=None, nps="Lewis, Robert, 11th U.S. Colored Heavy Artillery, Company I, private in and out, microfilm M589 roll 54", chenery="234", pv001=None, died_text="July 27, 1894"),
  "J15": dict(carved=None, photo=None, nps=None, nps_note="No Emanuel Parker was found in the index for the 5th U.S. Colored Cavalry (it has a James and a Richard Parker); the spelling on his service record may differ.", chenery=None, pv001=None, died_text="April 8, 1898"),
  "K2": dict(carved=None, photo=None, nps=None, nps_note="No Thomas George was found in the index for the 31st U.S. Colored Infantry (there is one in the 110th); the spelling on his service record may differ.", chenery=None, pv001="1897", died_text="November 5, 1897"),
@@ -287,7 +287,7 @@ STONES["H20"].update(carved="GEORGE H. BLACK / Co. A 14th R.I.H.Art. / Died May 
 STONES["I2"].update(carved="[????] GIBBS / [Co. ?] U.S.C.[T.] / [worn]", photo="2025-04-07 12:53",
     notes=["The stone is badly worn and partly sunk; the given name has not been read."])
 STONES["I6"].update(carved="[HENR]Y C. DIGGS / [Co. H] 14th R.I.H.A. / Died Sept. 30, 18[??]", photo="2025-06-20 15:01",
-    nps_note="The photograph reads the given name's last letter as Y and the middle initial as C, which favours Henry C. Diggs, Company H; the PV001 list has him dying in 1891.")
+    nps_note="The photograph reads the given name's last letter as Y and the middle initial as C, which favors Henry C. Diggs, Company H; the PV001 list has him dying in 1891.")
 STONES["J7"].update(carved="ROBERT LEWIS / Co. I 14th R.I.H.Art. / Died July 27, 1894", photo="2025-04-07 12:59")
 STONES["J15"].update(carved="EMANUEL PARKER / [Co.] H 5th U.S.C. Cav. / Died April 8, 1898", photo="2024-04-02 14:43")
 STONES["K2"].update(carved="THOMAS GEORGE / Co. G 31st U.S. Col. T[ps]. / Died Nov. 5, 189?", photo="2025-04-07 13:01")
@@ -408,7 +408,7 @@ STONES.update({
  "B23": dict(carved="[WI]LL[IAM] E. SMITH / Co. H 11 R.I. V[ol.] / [date line not read]", photo=_ph, died_text=None, pv001="1918", **_rb,
     nps="Smith, William E., 11th Rhode Island Infantry, Company H, private in and out, microfilm M555 roll 6",
     notes=["The stone is badly worn. Only LL, E. SMITH and the unit line can be read; \"William\" comes from the PV001 list and the index, both of which have a William E. Smith in Company H of the 11th Rhode Island. The identification is probable, not certain.",
-           "The PV001 list gives his death as March 27, 1918, which is later than his neighbours' (1915–1916). The stone's date line has not been read."]),
+           "The PV001 list gives his death as March 27, 1918, which is later than his neighbors' (1915–1916). The stone's date line has not been read."]),
  "B24": dict(carved="ISAIAH B. MONRO[E] / Co. G 2 R.I. Vol. / [Di]ed Jan. 8, 1916", photo=_ph, died_text="January 8, 1916", pv001="1916", **_rb,
     nps="Munroe, Isaiah B. (filed under Isaiah B. Monroe), 2nd Rhode Island Infantry, Company G, private in and out, microfilm M555 roll 5"),
 })

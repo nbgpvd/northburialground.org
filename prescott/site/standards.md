@@ -13,7 +13,7 @@ This site puts a short life of each man buried in the Prescott Post lot at his s
 
 Every sentence in a man's *Life* section is traceable to a numbered entry in his *Sources*, cited in the text by a bracketed number. If no record supports a statement, it is not made. A field in the record with nothing to fill it is left blank, and the gap is named under *What we don't know*.
 
-The same holds for the plainest-seeming facts. A man's race, his regiment, the war he served in: none is stated as fact without a record that says it. The lot holds Black and white veterans in the same rows, and a dozen regiments on a single row. **Buried among is not served with.** A stone that reads "14th R.I. Art." is evidence of the regiment; a neighbour's stone is not.
+The same holds for the plainest-seeming facts. A man's race, his regiment, the war he served in: none is stated as fact without a record that says it. The lot holds Black and white veterans in the same rows, and a dozen regiments on a single row. **Buried among is not served with.** A stone that reads "14th R.I. Art." is evidence of the regiment; a neighbor's stone is not.
 
 ## 2. The record is published as it is
 

@@ -9,7 +9,7 @@ researchers: ["Bernard Brennan"]
 
 ![The lot from its downhill end, looking up the slope over the rows to the monument: an old cannon set upright on a granite base. [About the monument →](../monument/index.html) Photograph by Bernard Brennan, 2026.](../records/_lot/lot-from-row-n-2026.jpg)
 
-You are standing in a burial lot of the Grand Army of the Republic, the organization of Union veterans. The monument at its centre reads "Prescott Post, No. 1, G.A.R., A.D. 1875." [1] It has [a page of its own](../monument/index.html). Around it stand about three hundred small white government headstones in rows. [2] The earliest death carved on them is 1876; the latest are in the 1930s. [2]
+You are standing in a burial lot of the Grand Army of the Republic, the organization of Union veterans. The monument at its center reads "Prescott Post, No. 1, G.A.R., A.D. 1875." [1] It has [a page of its own](../monument/index.html). Around it stand about three hundred small white government headstones in rows. [2] The earliest death carved on them is 1876; the latest are in the 1930s. [2]
 
 ## How the lot began
 
@@ -33,7 +33,7 @@ The City kept its own burial grounds differently. In 1883 its free burials, for 
 
 ![The City's burial ledger, March 1883, place-of-interment column. Free burials are entered by series and grave number: "Colored Free Ground 553," "White Free Ground 1496," "Colored Free Ground 554." The struck line, ditto marks for "Colored Free Ground 555," is Zebedee Howland's; the red note beside it reads "Soldier. Raised Sept. 8/86 & Int. in Prov. G.A.R. Lot Grave 23. Chg. City." [See the whole page](../records/G3/1883-burial-ledger.jpg). Courtesy City of Providence, Department of Parks, North Burial Ground. [6]](../records/G3/1883-burial-ledger-detail.jpg)
 
-In 1885 the General Assembly passed a law: honorably discharged soldiers and sailors buried in pauper ground had to be moved out of it. [7] The City's committee on the North Burial Ground found this lot too small to take them. In June 1886 the City Council voted to enlarge it by annexing the Providence Police Association's lot, and to move the monument to the centre of the larger lot. [7]
+In 1885 the General Assembly passed a law: honorably discharged soldiers and sailors buried in pauper ground had to be moved out of it. [7] The City's committee on the North Burial Ground found this lot too small to take them. In June 1886 the City Council voted to enlarge it by annexing the Providence Police Association's lot, and to move the monument to the center of the larger lot. [7]
 
 ![The joint committee's report (No. 272) and the Council's Resolution No. 273 of June 28, 1886, as printed: the enlargement of the lot and the moving of the monument. [7]](../records/_monument/1886-report-272-resolution-273.jpg)
 
@@ -47,7 +47,7 @@ Howland's is the one case documented so far. The 1885 law makes it likely there 
 
 The dates on the stones run in order. Deaths of the 1870s and 1880s are in the rows nearest the monument. From there the dates run outward in both directions, a row at a time: the 1890s, the 1900s, the 1910s, and in the uphill rows the 1920s and 1930s. [2] From the 1890s on, the Post buried its men in the order they died, each in the next grave.
 
-The oldest rows are less simple. The lot was enlarged and its monument re-centred after 1886, and men who had died years earlier were brought in that year. Where a man in those rows lies may depend on when he was reburied, not when he died. Nothing in the record found so far shows anyone was placed by race. The Post's own records, if they survive, are where that will be settled.
+The oldest rows are less simple. The lot was enlarged and its monument re-centered after 1886, and men who had died years earlier were brought in that year. Where a man in those rows lies may depend on when he was reburied, not when he died. Nothing in the record found so far shows anyone was placed by race. The Post's own records, if they survive, are where that will be settled.
 
 ## A caution
 

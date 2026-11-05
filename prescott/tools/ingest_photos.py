@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""ingest_photos.py -- turn a dump of headstone photos into labelled, readable files.
+"""ingest_photos.py -- turn a dump of headstone photos into labeled, readable files.
 
 Two steps, so the one judgment (which frame is which stone) stays with a person
 or with Claude reading the contact sheets, and everything mechanical is scripted.
@@ -9,7 +9,7 @@ or with Claude reading the contact sheets, and everything mechanical is scripted
        upright using its EXIF orientation, sorts by time taken, and writes into
        <out>/ :
          work/S001.jpg ...     upright working copies (long edge 2000 px)
-         sheets/sheet-01.jpg   contact sheets, 6 frames each, labelled S001 + time
+         sheets/sheet-01.jpg   contact sheets, 6 frames each, labeled S001 + time
          map.csv               one row per frame: seq, source, taken, grid, view, notes
        Fill in `grid` and `view` in map.csv (by hand or by reading the sheets).
        Leave rows blank to skip them.  Views: close, oblique, wide, orient.
@@ -213,9 +213,9 @@ def apply(args):
         print(f"  {skipped_existing} already existed, skipped (use --force to redo)")
     if log_rows:
         print(f"  logged in {log_path}")
-    unlabelled = sum(1 for r in rows if not (r.get('grid') or '').strip() and not (r.get('view') or '').strip())
-    if unlabelled:
-        print(f"  {unlabelled} frame(s) left unlabelled in map.csv (skipped)")
+    unlabeled = sum(1 for r in rows if not (r.get('grid') or '').strip() and not (r.get('view') or '').strip())
+    if unlabeled:
+        print(f"  {unlabeled} frame(s) left unlabeled in map.csv (skipped)")
     for p in problems:
         print("  PROBLEM:", p)
     if problems:
@@ -231,7 +231,7 @@ def main():
     s.add_argument("--out", help="output folder (default <src>/../_derived/<batch>)")
     s.add_argument("--force", action="store_true", help="rebuild even if map.csv exists")
     s.set_defaults(fn=scan)
-    a = sub.add_parser("apply", help="name and enhance the frames labelled in map.csv")
+    a = sub.add_parser("apply", help="name and enhance the frames labeled in map.csv")
     a.add_argument("batch_dir")
     a.add_argument("--force", action="store_true", help="redo files that already exist")
     a.set_defaults(fn=apply)

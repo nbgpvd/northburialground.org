@@ -94,7 +94,7 @@ The bank signature book, the marriage register and the directories are cited in 
 - **The undated directory pages.** Four pages (pp. 138, 149, 178, 218) carry no year; by their page numbers they fall between about 1870 and 1883. Confirm the years from Ancestry's image data. One page (p. 252) is in the folder twice as two scans. [5]
 - **Whether "J." stands for James.** Only the 1890 marriage register spells it out. [6]
 - **Felix and Emily Jackson.** His parents are named once, in 1890. No record of them has been looked for. [6]
-- **Lilac Street.** The 1890 schedule lists him on the same page as Charles C. Ringgold, Jefferson White, Anthony Shepard and Ambrose Clark of the 14th Rhode Island Heavy Artillery, who lies in this plot at L24. Whether they were neighbours by chance or by community is for the city directories to show. [3]
+- **Lilac Street.** The 1890 schedule lists him on the same page as Charles C. Ringgold, Jefferson White, Anthony Shepard and Ambrose Clark of the 14th Rhode Island Heavy Artillery, who lies in this plot at L24. Whether they were neighbors by chance or by community is for the city directories to show. [3]
 
 ## Sources
 

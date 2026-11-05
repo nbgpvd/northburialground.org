@@ -28,7 +28,7 @@ records_dir: records/I6/
 
 Diggs lies in grave I6 of the Prescott Post lot. His stone names his unit as 14th Rhode Island Heavy Artillery, and gives his death as September 30 of a year the survey could not read; the PV001 list gives 1891. [1]
 
-The National Park Service's index of Civil War soldiers, which files the 14th Rhode Island under its later name, the 11th U.S. Colored Heavy Artillery, lists two men named Diggs in the 11th U.S. Colored Heavy Artillery: John Diggs, Company M, private in, corporal out, and Henry C. Diggs, Company H, private in and out; both microfilm M589 roll 24. [2] The photograph reads the given name's last letter as Y and the middle initial as C, which favours Henry C. Diggs, Company H; the PV001 list has him dying in 1891.
+The National Park Service's index of Civil War soldiers, which files the 14th Rhode Island under its later name, the 11th U.S. Colored Heavy Artillery, lists two men named Diggs in the 11th U.S. Colored Heavy Artillery: John Diggs, Company M, private in, corporal out, and Henry C. Diggs, Company H, private in and out; both microfilm M589 roll 24. [2] The photograph reads the given name's last letter as Y and the middle initial as C, which favors Henry C. Diggs, Company H; the PV001 list has him dying in 1891.
 
 A 2022 list of Civil War veterans buried at North Burial Ground gives his death as 1891. [3]
 

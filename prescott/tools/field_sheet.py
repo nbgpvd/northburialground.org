@@ -17,7 +17,7 @@ so the visit is confirm-or-refute and the date lines get read on site.
      or Safari) and field/field-candidates-C-<date>.csv.
 
 For each position it shows what the register already holds, the death-year window
-implied by the neighbouring stones, and the PV001 Civil War men who fit that
+implied by the neighboring stones, and the PV001 Civil War men who fit that
 window and the unit the register has for the stone (if any). Candidates are
 LEADS, not identifications: standards.md says a name is not stated as fact until
 a stone and a record agree. Use --pad to widen the window (default 1 year).
@@ -282,7 +282,7 @@ confirm against the stone and a record. Shoot oblique from downhill first, then 
             else:
                 parts.append('<div class="none">Surname not found in PV001 Civil War list.</div>')
         elif mode == "narrowed":
-            parts.append(f'<div class="win">Death {w[0]}–{w[1]} (neighbours); unit: {e(r["unit"])}</div>' if w
+            parts.append(f'<div class="win">Death {w[0]}–{w[1]} (neighbors); unit: {e(r["unit"])}</div>' if w
                          else f'<div class="win">Unit: {e(r["unit"])}</div>')
             if cands:
                 parts.append("<ul>" + "".join(li(t) for t in cands[: a.max]) + "</ul>")
@@ -291,7 +291,7 @@ confirm against the stone and a record. Shoot oblique from downhill first, then 
             else:
                 parts.append('<div class="none">No PV001 man with that unit in that window: a finding.</div>')
         else:
-            parts.append(f'<div class="win">Nothing to filter on. Death {w[0]}–{w[1]} (neighbours); see the pool below.</div>'
+            parts.append(f'<div class="win">Nothing to filter on. Death {w[0]}–{w[1]} (neighbors); see the pool below.</div>'
                          if w else '<div class="win">Nothing to filter on.</div>')
         for t in todo:
             parts.append(f'<div class="todo">&#9744; {e(t)}</div>')

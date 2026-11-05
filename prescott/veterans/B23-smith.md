@@ -47,7 +47,7 @@ Transcription as recorded in the plot register from the photograph; square brack
 ## What we don't know
 
 - The stone is badly worn. Only LL, E. SMITH and the unit line can be read; "William" comes from the PV001 list and the index, both of which have a William E. Smith in Company H of the 11th Rhode Island. The identification is probable, not certain.
-- The PV001 list gives his death as March 27, 1918, which is later than his neighbours' (1915–1916). The stone's date line has not been read.
+- The PV001 list gives his death as March 27, 1918, which is later than his neighbors' (1915–1916). The stone's date line has not been read.
 - When and where did he enlist, and what did his company do? His compiled military service record (National Archives, RG 94) will say.
 - Did he or his widow apply for a pension? The General Index to Pension Files (NARA T288/T289) has not yet been searched for him.
 - Where was he born, and how did he come to Providence?

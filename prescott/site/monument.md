@@ -9,7 +9,7 @@ researchers: ["Bernard Brennan"]
 
 ![The cut face of the base: PRESCOTT POST / No. 1. G.A.R. / A.D. 1875. Photograph 2026. [1]](../records/_monument/monument-inscription-2026.jpg)
 
-At the centre of [the Prescott Post lot](../map/index.html) stands a granite base with an old cannon set upright on it. The base is cut on one face: PRESCOTT POST / No. 1. G.A.R. / A.D. 1875. [1] Everything else about it comes from the City's records, an Act of Congress, and the newspaper that reported the day it was dedicated.
+At the center of [the Prescott Post lot](../map/index.html) stands a granite base with an old cannon set upright on it. The base is cut on one face: PRESCOTT POST / No. 1. G.A.R. / A.D. 1875. [1] Everything else about it comes from the City's records, an Act of Congress, and the newspaper that reported the day it was dedicated.
 
 ## The lot, 1871
 
@@ -33,13 +33,13 @@ The Post dedicated the monument on Decoration Day, Saturday, May 29, 1875, march
 
 The newspaper measured the work. The monument stood eighteen feet high. The base, of smooth-cut Westerly granite, was seven and a half feet of that. The shaft was "an old 32-pound cannon, 10 feet 6 inches long, and weighing 7,530 pounds." A curb surrounded the lot, which when turfed, the reporter thought, "will be a very pleasant spot." [2] The committee's report, read that day, recorded that the City had granted a lot fifty feet square and four hundred dollars toward curbing it, and thanked Mayor Doyle and the City Council "for their generous gifts." [2]
 
-## Moved to the centre, 1886
+## Moved to the center, 1886
 
 The lot the Post was given in 1871 is not the lot you are standing in. In September 1885 the Mayor sent the Council a message about soldiers and sailors "buried in places used for the burial of paupers," because a statute passed by the General Assembly that May required that the bodies of honorably discharged soldiers and sailors in pauper ground be removed from it. The Council's joint committee on the North Burial Ground reported on June 7, 1886, that the Prescott Post lot — by then described as forty feet by sixty — was "none too large" for the men the city's Grand Army posts would themselves bury there. The committee recommended enlarging it by annexing the Providence Police Association's lot next to it, and giving the Police Association a lot nearer the French monument in exchange. Moving the monument "to the centre of said lot when enlarged," with grading and turfing, was estimated at four hundred and sixty dollars. [5]
 
 ![The joint committee's report of June 7, 1886 (No. 272), and Resolution No. 273 of June 28, 1886, as printed. [5] [6]](../records/_monument/1886-report-272-resolution-273.jpg)
 
-On June 28, 1886, by Resolution No. 273, the Council authorized the Commissioners of the North Burial Ground to enlarge the lot according to the city engineer's plans, including the exchange with the Police Association, at a cost of not more than five hundred dollars. [6] The monument was moved to the centre of the enlarged lot, where it stands now, and the men taken up from the pauper grounds that year were buried in the rows around it. How that reshaped the lot is told on the [plot page](../map/index.html).
+On June 28, 1886, by Resolution No. 273, the Council authorized the Commissioners of the North Burial Ground to enlarge the lot according to the city engineer's plans, including the exchange with the Police Association, at a cost of not more than five hundred dollars. [6] The monument was moved to the center of the enlarged lot, where it stands now, and the men taken up from the pauper grounds that year were buried in the rows around it. How that reshaped the lot is told on the [plot page](../map/index.html).
 
 ## The stones around it
 
