@@ -76,8 +76,8 @@ His stone gives his company and regiment. It does not give his rank. [18]
      The "rose to major commanding" sentence needs a date range: on 29 May 1875 the
      Morning Star puts Col. J. M. Munroe in command of the Guards [16]. Dated evidence for the
      title now runs 31 Oct. 1871 [14] and 13 Nov. 1873 [30].
-     Proposed, not added (BB to decide; Life is over the limit): "In June 1863 he gave his
-     former service as five months in the 11th Rhode Island." [6] -->
+     The 11th R.I. service (enrollment list No. 95) is uncorroborated; keep it out of Life
+     until a muster roll or other record confirms it. -->
 
 ## A reading of the record
 
@@ -139,7 +139,7 @@ Saved at the Providence Public Library, 9 Nov. 2026 (Ancestry Library Edition an
 - His birth year. The records put it anywhere from about 1825 to 1833; see the conflict note under Sources. [1][2][6][24][33][34]
 - Why the City ledger gives 52 Meeting Street. The death notice says he died at his house, 44 Union Street, and that is followed here; the ledger field may be an informant's or undertaker's address. His wife died six weeks earlier at 12 Manning Street, the street of the 1880 census and of the 1878 and 1880 deeds, so the family's own address is a third candidate. [2][21][24][28][34]
 - His parents. "Son of" Lydia A. Howland Brown (d. 1844) and grandson of Philip Howland (d. 1820) are a working hypothesis from death notices. The 1883 Rhode Island death registration index names his mother as Lydia; the image has not been seen. [1][32]
-- His service before the 14th. In June 1863 the 2nd District enrollment list gave his former service as "5 mos in 11th R.I. Reg." and his trade as butcher, of Cranston; that fits the earlier note of a commissary role, perhaps as a butcher. Whether he served as a soldier or a civilian, and in what company, is still to be confirmed in the 11th Rhode Island's rolls. [1][6]
+- Whether he served in the 11th Rhode Island. The only evidence is a note on the June 1863 2nd District enrollment list, which gives his former service as "5 mos in 11th R.I. Reg." and his trade as butcher, of Cranston. No muster roll or other record corroborates it, and whether he was a soldier, a civilian employee or neither is not known. The 11th R.I. rolls are still to be searched. [6]
 - Whether he was drawn in the draft. In June 1863 he was enrolled in Class I in two districts: as a barber of Manning Street in the 1st and as a butcher of Cranston in the 2nd. An enrollment list is not a draft record, and no record of the July 1863 draft drawing has been found. He enlisted on August 27. [6][8]
 - Where he was from January to May 1864: with Company A at Matagorda Island, or on the regimental staff at New Orleans. [1]
 - When he joined Ives Post, and the date of his Masonic membership. He was a member by May 1875. [16]
