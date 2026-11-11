@@ -13,7 +13,7 @@ the NPS index, Chenery (1898) and the PV001 list say. Everything else goes under
 import csv, re, sys, pathlib
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
-REV = "2026-11-01"
+REV = "2026-11-11"
 
 # grid: dict(carved=transcription as recorded (lines separated by " / "),
 #            photo="IMG_xxxx", nps=..., chenery=page or None, pv001=death year or None,
@@ -412,6 +412,55 @@ STONES.update({
  "B24": dict(carved="ISAIAH B. MONRO[E] / Co. G 2 R.I. Vol. / [Di]ed Jan. 8, 1916", photo=_ph, died_text="January 8, 1916", pv001="1916", **_rb,
     nps="Munroe, Isaiah B. (filed under Isaiah B. Monroe), 2nd Rhode Island Infantry, Company G, private in and out, microfilm M555 roll 5"),
 })
+
+# Row C, read on site 11 Nov 2026 (close frames, wet where noted; oblique and enhanced frames for C4) and checked
+# the same afternoon against the PV001 list. The NPS index has not been searched for the new names.
+_rc = dict(chenery=None, photo="2026-11-11 10:00")
+_un = dict(nps="unsearched", **_rc)
+STONES.update({
+ "C2": dict(carved="CONSTANTINE G. W. BISCHOFF / Co. F. 5 R.I. H. Art. / Died Nov. 9, 1915", died_text="November 9, 1915", pv001="1915", **_un,
+    notes=["The surname was read from the stone after it was wetted; the first initial reads G or C, and is given as G as read at the stone."]),
+ "C3": dict(carved="CHARLES N. DOWNE[S] / Co. C. 16 Maine Vol. / Died Aug. 27, 1915", died_text="August 27, 1915", pv001="1915", **_un,
+    notes=["The last letter of the surname runs off the worn edge; the PV001 list has a Charles N. Downes, Company C, 16th Maine, died 1915."]),
+ "C4": dict(carved="[?????] [?]. CON[????] / Co. H. 4 R.I. Vol. / Died Apr. 12, 1915", died_text="April 12, 1915", pv001="1915", **_un,
+    notes=["The top line is nearly worn away. Only CON can be read with confidence; the given name looks about five letters long, and there may be a middle initial. \"James Conley\" is a provisional reading made at the stone, and the PV001 list has a James Conley, Company H, 4th Rhode Island Volunteers, died 1915. The company roster of the 4th Rhode Island will confirm it or not.",
+           "A photograph in low, raking light on an overcast day may recover more of the name."]),
+ "C5": dict(carved="FREDERICK LEWI[S] / Co. H. 37 U.S. Inf. / Died May 16, 1915", died_text="May 16, 1915", pv001="1915", **_un,
+    notes=["The 37th U.S. Infantry was a regular-army regiment that existed from 1866 to 1869. Whether he also served in the Civil War is not yet established."]),
+ "C6": dict(carved="CHARLES H. SMITH / Co. H. 3 R.I. Cav. / [Died] Mar. 7, 1915", died_text="March 7, 1915", pv001="1916", **_un,
+    notes=["The PV001 list has a Charles H. Smith of the 3rd Rhode Island Cavalry who died in 1916; the stone reads 1915. Is this the same man, and which year is right? His death record will settle it.",
+           "The list has other Charles H. Smiths, one of whom also died in 1915 (1st Rhode Island Militia and 5th Rhode Island Battery). With so common a name, the unit on the stone is the best guide."]),
+ "C7": dict(carved="JOSEPH E. BROOKS / Co. A. 1 R.I. Lt. Art. / Died Feb. 13, 1915", died_text="February 13, 1915", pv001="1915", **_un,
+    notes=["The stone says Company A; the 1st Rhode Island Light Artillery was organized in batteries, so this is Battery A."]),
+ "C8": dict(carved="JOHN SMITH / 68 N. York Vol. / Died Aug. 10, 1914", died_text="August 10, 1914", pv001="1914", **_un,
+    notes=["The stone gives no company. With so common a name, the regiment is the only guide to his service record."]),
+ "C9": dict(carved="ROBERT HOLLIDAY / Co. A. 168 N. York Vol. / Died July 24, 1914", died_text="July 24, 1914", pv001="1914", **_un),
+ "C10": dict(carved="JAMES MULLE[N] / U.S. Navy / Feb. 8, 1914", died_text="February 8, 1914", pv001="1914", **_un,
+    notes=["Which ship or ships did he serve on? The Navy's enlistment records and the NPS sailors index have not yet been searched."]),
+ "C11": dict(carved="EUGENE K. ELLIS / Co. H. 12 Maine Inf. / Jan. 13, 1914", died_text="January 13, 1914", pv001="1914", **_un),
+ "C12": dict(carved="JAMES M. PIERC[E] / Bat. F. 1 R.I. L.A. / Jan. 9, 191[4?]", died_text="January 9, 1914", pv001="1914", **_un,
+    notes=["Soil covers the end of the surname and the last digit of the year; 1914 is read from the PV001 list and the order of the row."]),
+ "C13": dict(carved="GEORGE W. HARVE[Y] / Co. D. 2 R.I. Vol. / Aug. 20, 1913", died_text="August 20, 1913", pv001="1913", **_un),
+ "C15": dict(carved="PHILIP H. L. GILBERT / Co. G. 1 Mass. H. Art. / June 29, 1913", died_text="June 29, 1913", pv001="1913", **_un),
+ "C16": dict(carved="LEO FRAZIER / Co. A. 17 Vt. Inf. / Apr. 18, 1913", died_text="April 18, 1913", pv001="1913", **_un,
+    notes=["There is a wide gap after LEO, partly under grass. Was he Leo or Leon? The regiment's roster will say."]),
+ "C17": dict(carved="DANIEL McCRILLIS / Co. B. 1 Mass. Cav. / Mar. 8, 1913", died_text="March 8, 1913", pv001="1913", **_un,
+    notes=["The PV001 list gives him a middle initial I; the stone has none."]),
+ "C18": dict(carved="[E]LIAS H. MATHEWSO[N] / Bat. E. 1 R.I. L. Art. / Died Oct. 12, 1912", died_text="October 12, 1912", pv001="1912", **_un,
+    notes=["The stone gives his middle initial as H; the PV001 list gives Elias E. Mathewson. The stone is followed here; his service record will settle it."]),
+ "C19": dict(carved="BENJAMIN BENSO[N] / Co. K. 13 Conn. Vol. / Died Nov. 7, 1912", died_text="November 7, 1912", pv001="1912", **_un),
+ "C20": dict(carved="JOSEPH D. TAYLOR / Co. D. 4 R.I. Vol. / Died May 15, 1912", died_text="May 15, 1912", pv001="1912", **_un),
+ "C21": dict(carved="WILLIAM H. SMITH / Co. H. 29. Conn. Vol. / Died Apr. 24, 1912", died_text="April 24, 1912", pv001="1912", **_un,
+    notes=["With so common a name, the regiment and company on the stone are the guide to his service record."]),
+ "C22": dict(carved="JOHN CRAWFORD / Co. B. 198 Penn. Vols. / Died Feb. 4, 1912", died_text="February 4, 1912", pv001="1912", **_un),
+ "C25": dict(carved="[TH]OMAS HALL / Co. E. 1 Mass. Heavy Art. / Died Dec. 8, 1911", died_text="December 8, 1911", pv001="1911", **_un),
+})
+STONES["C1"].update(carved="[CH]ARLES A. JACKSO[N] / Co. B. 11 U.S. H. Art. / Died Nov. 11, 1915", photo="2026-11-11 10:00",
+    nps_note="The stone names the unit as the 11th U.S. Heavy Artillery, which is the 14th Rhode Island under its later designation.",
+    notes=["The PV001 list gives his death as March 29, 1905. The stone reads November 11, 1915, and the stone is followed here."])
+STONES["C23"].update(carved="[THEO]DORE WILLIAM[S] / Co. L. 14 R.I. H. Art. / Died Jan. 20, 1912", photo="2026-11-11 10:00", pv001="1912")
+STONES["C24"].update(carved="WILLIAM I. BUTLER / Co. H. 2 U.S. Inf. Col. / Died Jan. 15, 1912", photo="2026-11-11 10:00",
+    nps_note="The stone gives the middle initial as I, a single narrow stroke with no room for an H; the index card gives H. Unit and company agree.")
 
 CHENERY = ("William H. Chenery, *The Fourteenth Regiment Rhode Island Heavy Artillery (Colored) in the War "
            "to Preserve the Union, 1861–1865* (Providence: Snow & Farnham, 1898)")

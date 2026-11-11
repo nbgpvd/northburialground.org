@@ -19,7 +19,7 @@ city_lot_ref: ""                          # City lot record not yet matched
 status: "draft"                           # CMSR located (3 of 17 cards read); pension not yet located; narrative drafted; civil life researched 1871–1910; no second reader
 researchers: ["Bernard Brennan"]
 second_reader: ""
-last_revised: "2026-11-01"
+last_revised: "2026-11-11"
 records_dir: records/C14/
 ---
 
@@ -39,20 +39,21 @@ On December 10, 1890, a widower working as a teamster, he married Melvina H. Bea
 
 From 1903 the directories have him a mason again, at 93 Wadsworth Street, and they keep him there through 1910. [9][10][11][12]
 
-He died on July 31, 1913. [13]
+He died on July 31, 1913. [1][13]
 
 <!-- 262 words. -->
 
 ## The stone
 
-ISRAEL JACKSON / CO. F. 1 U.S. COL. TR[OOPS] / [date line below ground]
+ISRAEL JACKSON / Co. F. 1 U.S. Col. Tr. / July 31, 1913
 
-White marble, lying flat and sunk at the foot, so that the lower part of the second line and any date line are buried. Lettering filled with soil; the name and the first line of the unit are legible. Photograph IMG_1297 (B. Brennan). [1]
+White marble, lying flat. In the first photograph (IMG_1297) the foot of the stone was sunk and the date line buried; on November 11, 2026 the date line was photographed in full and reads July 31, 1913. Photographs by B. Brennan. [1]
 
-The stone's "1 U.S. COL. TR." and the Army's "1 U.S. Col'd Inf." name the same regiment. [2] The register and survey sheet read the stone as "Col. Inf."; the photograph reads "COL. TR" with the end of the line in the ground. Re-read on site, and clear the turf to read the date line: the survey sheet (PV001) gives a death in 1905, the register 1913, and the stone itself has not yet been read for a date. [1]
+The stone's "1 U.S. COL. TR." and the Army's "1 U.S. Col'd Inf." name the same regiment. [2] The register and survey sheet read the stone as "Col. Inf."; the photograph reads "COL. TR" with the end of the line in the ground. The stone's date, July 31, 1913, agrees with the register and against the PV001 list's 1905. [1][20]
 
 ## The records
 
+- `records/C14/stone-2026-11-11.jpg` — Headstone of Israel Jackson, grid C14, Prescott Post lot, photographed November 11, 2026, with the date line exposed. [1]
 - `records/C14/stone-2026.jpg` — Headstone of Israel Jackson, grid C14, Prescott Post lot, 2026 (IMG_1297). [1]
 - `records/C14/cmsr-*.jpg` — Compiled military service record, NARA RG 94: jacket, jacket reverse, Company Descriptive Book card (three of seventeen cards). [2]
 - `records/C14/1890-veterans-schedule.jpg` — 1890 special schedule of surviving soldiers, Providence, E.D. 66, line 31: "Jackson, Israel J.," Co. F, 1 U.S. Col. Vol., Lilac St.; wounded in right hip by piece of shell. NARA M123 roll 92. [3]
@@ -89,7 +90,7 @@ The bank signature book, the marriage register and the directories are cited in 
 - **His first wife, Rebecca A. Jackson.** She signed the bank book with him in the early 1870s, aged 39. Her maiden name, their marriage, and her death (before December 1890, when he was a widower) are not found. [4][6]
 - **The 1890 marriage against the 1900 census.** The register has the marriage on December 10, 1890; the census says the couple had been married seven years, which would be 1893. The register is weighted as the record made at the time. [6][7]
 - **Melvina's children.** Five born, one living in 1900. William Beams, 30, a barber born in Maryland, was in the house as "son." [7]
-- **His death.** The register and tree give July 31, 1913; the survey list (PV001) gives 1905; the stone's date line is in the ground. The tree's sources (VA Master Index card, Find a Grave, the Rhode Island Historical Cemetery Commission index) are not in the working folder; the death return has not been seen. [13][15]
+- **His death.** The stone, the register and the tree give July 31, 1913; the survey list (PV001) gives 1905, which the stone now rules out. The tree's sources (VA Master Index card, Find a Grave, the Rhode Island Historical Cemetery Commission index) are not in the working folder; the death return has not been seen. [13][15]
 - **When he was buried in this plot,** and the City's ledger entry.
 - **The undated directory pages.** Four pages (pp. 138, 149, 178, 218) carry no year; by their page numbers they fall between about 1870 and 1883. Confirm the years from Ancestry's image data. One page (p. 252) is in the folder twice as two scans. [5]
 - **Whether "J." stands for James.** Only the 1890 marriage register spells it out. [6]
@@ -100,7 +101,7 @@ The bank signature book, the marriage register and the directories are cited in 
 
 Conflicts. Birth year: Army, marriage and 1900 census agree on about 1843–44 against the bank's "37" in the early 1870s; the page says "early 1840s" and records the bank's figure. Birthplace: Montgomery County, Md. (Army, 1863) against Washington, D.C. (his own statements in 1890 and 1900); both are given, neither preferred. Marriage year: 1890 (register) over 1893 (1900 census). Death year: 1913 (register, tree) over 1905 (PV001), pending the death return and the stone's date line.
 
-1. Gravestone of Israel Jackson, grave C14, Prescott Post plot, North Burial Ground, Providence. Photograph by Bernard Brennan (IMG_1297), ⟨date⟩.
+1. Gravestone of Israel Jackson, grave C14, Prescott Post plot, North Burial Ground, Providence. Photographs by Bernard Brennan (IMG_1297, ⟨date⟩; and November 11, 2026, date line exposed).
 2. Compiled Military Service Record of Israel Jackson, Co. F, 1st U.S. Colored Infantry. National Archives, Washington, D.C., RG 94, Records of the Adjutant General's Office, Carded Records, Volunteer Organizations, Civil War, Compiled Military Service Records of Volunteer Union Soldiers Who Served with the United States Colored Troops: 1st USCI; NARA microfilm M1819, roll 8. Three of seventeen cards read: jacket ("Jackson, Israel, Co. F, 1 U.S. Col'd Inf., Private, Private"; card numbers 6243572, 6243654, 6243740, 6243839, 6243938, 6244041, 6244135, 6244229, 6244322, 6244412, 6244510, 6244602, 6244697, 6244790, 6244881, 6244974, 9058705); jacket reverse (pencil: "A. 1451065 P.O. …" and "2072486" ⟨read uncertain; probably pension references⟩); Company Descriptive Book card (age 19; 5 ft 7 in.; complexion black, eyes brown, hair black; born Montgomery Co., Md.; occupation waiter; enlisted June 21, 1863, Mason's Island, Va. ⟨sic; the island is in the District⟩, by Col. Birney, 3 years; remarks: "D. list sent to Raleigh Hospital May 20, 1865. D. list returned June 1865. Mustered out at Roanoke Island N.C. Sept. 29, 1865, per G.O. 179 C.S. Dept. of N.C."; copyist A. L. Ames). Read by Bernard Brennan and Claude from Ancestry.com, *U.S., Colored Troops Military Service Records, 1863–1865*, images m1819_8-0862 to -0864, 1 Nov. 2026. The tree also cites image -0865, not downloaded; the remaining cards (-0865 onward) are to be read.
 3. Special Schedule, Surviving Soldiers, Sailors, and Marines, and Widows, etc., 1890, Rhode Island, Providence, S.D. 139, E.D. 66, page ⟨not in frame⟩, line 31: house 145, family 234, "Jackson, Israel J.," private, Co. F, 1 U.S. Col. Vol., enlisted 21 June 1863, discharged 9 Sept. 1865, service 2 years 2 months 18 days; post-office address Lilac St., Prov. R.I.; disability "Wounded in Right Hip by piece [of] Shell." NARA M123, roll 92; Ancestry image RIM123_92-0380. Same page, lines 30, 32–34: Charles C. Ringgold (Co. D, 14 R.I.H.A.), Ambrose Clark (Co. M, 14 R.I.H.A., 35 Salem St.), Jefferson White (Co. E, 26 U.S. Col. Vol.), Anthony Shepard (Co. B, 23 U.S. Col. Vol.), all of Lilac or Salem Street.
 4. Providence Institution for Savings (Old Stone Bank), signature book, vol. 7, 1870–73, p. 187, entry of June ⟨day and year not on the page; the volume runs 1870–73⟩: "Israel J. Jackson or his wife Rebacca A. Jackson or the survivor of them — East Prov. ⟨read uncertain⟩ 6 Lilac st — Mason — 37 yrs old"; "Housekeeper 39." Rhode Island Historical Society, Old Stone Bank records; Ancestry, *Providence, Rhode Island, U.S., Old Stone Bank Records, 1844–1924*, image osbsb_07_1870-73_193.
