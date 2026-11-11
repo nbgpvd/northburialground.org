@@ -416,6 +416,11 @@ h3 { font-family:var(--sans); font-weight:700; font-size:1.05rem; margin:1.4rem 
 p { margin:.6rem 0; }
 p.lede { font-size:1.15rem; line-height:1.4; margin:0 0 1rem; }
 p.gridline { display:flex; align-items:center; gap:12px; margin:1.3rem 0 .2rem; color:var(--muted); font-size:1.05rem; }
+.where { white-space:nowrap; }
+.emblems { margin-left:auto; display:flex; gap:8px; }
+.emblem { display:inline-flex; flex-direction:column; align-items:center; gap:2px; font-size:.8rem; font-weight:700;
+          letter-spacing:.02em; color:var(--ink); line-height:1.1; text-align:center; }
+.emblem img { width:auto; height:32px; border:1px solid var(--rule); border-radius:2px; display:block; }
 .chip { display:inline-block; background:var(--ink); color:#fff; font-weight:800; font-size:1.05rem; padding:.35rem .9rem; border-radius:8px; letter-spacing:.02em; }
 code { font-family:ui-monospace, Menlo, monospace; font-size:.9em; }
 mark.todo { background:var(--todo); padding:0 .15em; }
@@ -640,6 +645,59 @@ def load_dossiers():
 # Renderers
 # ----------------------------------------------------------------------------
 
+# State emblems. A stone page whose unit names a state regiment carries that state's flag beside
+# the grid chip. The state is read from the dossier's `unit` field (first clause, before any ";"),
+# which rests on the stone or a record; federal units (U.S., USCT, Navy) carry none. A dossier can
+# override with `emblem: RI` (or several, "RI, MA") or suppress with `emblem: none`.
+# Flags are current official state flags (public domain, Wikimedia Commons), rendered small to
+# emblems/<XX>.png; provenance is in emblems/SOURCES.md.
+STATES = [  # (code, name, pattern matched against the unit text)
+    ("RI", "Rhode Island", r"\bRhode Island\b|\bR\.\s?I\.?(?=\s|$|,)"),
+    ("MA", "Massachusetts", r"\bMass(?:achusetts|\.)?\b"),
+    ("CT", "Connecticut", r"\bConn(?:ecticut|\.)?\b"),
+    ("ME", "Maine", r"\bMaine\b|\bMe\.(?=\s|$)"),
+    ("NH", "New Hampshire", r"\bNew Hampshire\b|\bN\.\s?H\.?(?=\s|$|,)"),
+    ("NY", "New York", r"\bNew York\b|\bN\.?\s?Y\.?(?=\s|$|,)"),
+    ("VT", "Vermont", r"\bVermont\b|\bVt\.?(?=\s|$|,)"),
+    ("NJ", "New Jersey", r"\bNew Jersey\b|\bN\.\s?J\.?(?=\s|$|,)"),
+    ("PA", "Pennsylvania", r"\bPennsylvania\b|\bPenn(?:a|\.)?(?=\s|$|,)|\bPa\.(?=\s|$)"),
+    ("MI", "Michigan", r"\bMichigan\b|\bMich\.?(?=\s|$|,)"),
+    ("CA", "California", r"\bCalifornia\b|\bCal\.(?=\s|$)"),
+    ("IL", "Illinois", r"\bIllinois\b|\bIll\.(?=\s|$)"),
+]
+STATE_NAME = {c: n for c, n, _ in STATES}
+STATE_ABBR = {"RI": "R.I.", "MA": "Mass.", "CT": "Conn.", "ME": "Me.", "NH": "N.H.", "NY": "N.Y.", "VT": "Vt.",
+              "NJ": "N.J.", "PA": "Pa.", "MI": "Mich.", "CA": "Cal.", "IL": "Ill."}   # as the stones cut them
+
+
+def unit_states(unit, override=""):
+    """State codes for a unit string, in order of first mention. Override wins if given."""
+    override = str(override or "").strip()
+    if override:
+        if override.lower() == "none":
+            return []
+        return [c.strip().upper() for c in re.split(r"[,\s]+", override) if c.strip()]
+    first = str(unit or "").split(";")[0]
+    hits = []
+    for c, _, pat in STATES:
+        m = re.search(pat, first)
+        if m:
+            hits.append((m.start(), c))
+    return [c for _, c in sorted(hits)]
+
+
+def emblem_html(codes, prefix, where):
+    out = []
+    for c in codes:
+        if c not in STATE_NAME or not (ROOT / "emblems" / f"{c}.png").exists():
+            problem("warn", where, f"no emblem for state code {c!r}")
+            continue
+        n = html.escape(STATE_NAME[c])
+        out.append(f'<span class="emblem" title="{n} regiment"><img src="{prefix}assets/emblems/{c}.png" '
+                   f'alt="Flag of {n}" height="32"><span aria-hidden="true">{STATE_ABBR.get(c, n)}</span></span>')
+    return f'<span class="emblems">{"".join(out)}</span>' if out else ""
+
+
 def help_block(name, url):
     name = html.escape(name)
     return (f'<section class="help" id="help"><h2>Help research this man</h2>'
@@ -740,7 +798,9 @@ def render_stone(d, reg_by_grid, release, file_requests=None):
     title = html.escape(str(meta.get("name_carved", d["slug"])))
     status = meta.get("status", "")
     row, col = d["grid"][0], d["grid"][1:]
-    head = [f'<p class="gridline"><span class="chip">{d["grid"]}</span> Row {row}, place {col}</p>',
+    unit = meta.get("unit") or (reg or {}).get("unit", "")
+    emblems = emblem_html(unit_states(unit, meta.get("emblem", "")), prefix, where)
+    head = [f'<p class="gridline"><span class="chip">{d["grid"]}</span> <span class="where">Row {row}, place {col}</span>{emblems}</p>',
             f"<h1>{title}</h1>",
             f'<p class="lede">{inline(subtitle, prefix)}</p>' if subtitle else "",
             status_bar(status, str(meta.get("last_revised", "")))]
@@ -1033,6 +1093,7 @@ def main():
     (out / "assets").mkdir(parents=True)
     (out / "map").mkdir()
     (out / "assets" / "style.css").write_text(STYLE.strip() + "\n", encoding="utf-8")
+    shutil.copytree(ROOT / "emblems", out / "assets" / "emblems", ignore=shutil.ignore_patterns("*.md"))
     shutil.copy(ROOT / "register.csv", out / "register.csv")
 
     rows = load_register()
