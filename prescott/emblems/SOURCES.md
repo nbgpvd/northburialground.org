@@ -47,5 +47,7 @@ Rendered on 11 Nov. 2026 to 320 px tall with `rsvg-convert -h 320 <XX>.svg`, the
 | RI | https://commons.wikimedia.org/wiki/File:Flag_of_Rhode_Island.svg |
 | VT | https://commons.wikimedia.org/wiki/File:Flag_of_Vermont.svg |
 | NC | https://commons.wikimedia.org/wiki/File:Flag_of_North_Carolina.svg |
+| MD | https://commons.wikimedia.org/wiki/File:Flag_of_Maryland.svg |
+| DE | https://commons.wikimedia.org/wiki/File:Flag_of_Delaware.svg |
 
 To add a state: render its flag the same way, add a row to `STATES` in `build.py`, and add it here.

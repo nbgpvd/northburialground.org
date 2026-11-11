@@ -674,6 +674,8 @@ STATES = [  # (code, name, pattern matched against the unit text)
     ("MI", "Michigan", r"\bMichigan\b|\bMich\.?(?=\s|$|,)"),
     ("CA", "California", r"\bCalifornia\b|\bCal\.(?=\s|$)"),
     ("IL", "Illinois", r"\bIllinois\b|\bIll\.(?=\s|$)"),
+    ("MD", "Maryland", r"\bMaryland\b|\bMd\.(?=\s|$|,)"),
+    ("DE", "Delaware", r"\bDelaware\b|\bDel\.(?=\s|$|,)"),
     ("NC", "North Carolina", r"\bNorth Carolina\b|\bN\.\s?C\.?(?=\s|$|,)"),
 ]
 STATE_NAME = {c: n for c, n, _ in STATES}
