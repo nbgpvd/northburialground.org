@@ -519,6 +519,11 @@ a.button:hover { background:var(--navy-dark); color:#fff; }
 .place .name { font-weight:600; }
 .place .name.unnamed { font-weight:400; font-style:italic; color:var(--muted); }
 .place .st { font-size:.85rem; color:var(--muted); }
+.place { position:relative; isolation:isolate; overflow:hidden; }
+.place .unit { font-size:.9rem; color:var(--ink); }
+.pflag { position:absolute; z-index:-1; top:0; bottom:0; right:0; width:40%; pointer-events:none;
+         -webkit-mask-image:linear-gradient(90deg, transparent 0, #000 60%); mask-image:linear-gradient(90deg, transparent 0, #000 60%); }
+.pflag img { position:absolute; right:0; top:50%; transform:translateY(-50%); width:100%; height:auto; max-width:none; opacity:.17; }
 .place svg { flex:0 0 auto; }
 .essay h2 { margin-top:2rem; }
 header.site .sitenav { display:none; }
@@ -657,7 +662,7 @@ def load_dossiers():
 # ";"); no unit, no flag. Front matter `emblem: XX` or `emblem: none` overrides.
 # Provenance: emblems/SOURCES.md. US.svg and USN.svg are drawn by tools/emblems.py.
 STATES = [  # (code, name, pattern matched against the unit text)
-    ("RI", "Rhode Island", r"\bRhode Island\b|\bR\.\s?I\.?(?=\s|$|,)"),
+    ("RI", "Rhode Island", r"\bRhode Island\b|\bRI\b|\bR\.\s?I\.?(?=\s|$|,)"),
     ("MA", "Massachusetts", r"\bMass(?:achusetts|\.)?\b"),
     ("CT", "Connecticut", r"\bConn(?:ecticut|\.)?\b"),
     ("ME", "Maine", r"\bMaine\b|\bMe\.(?=\s|$)"),
@@ -674,7 +679,7 @@ STATES = [  # (code, name, pattern matched against the unit text)
 STATE_NAME = {c: n for c, n, _ in STATES}
 STATE_NAME.update({"US": "United States", "USN": "United States Navy"})
 RI_USCHA = r"\b(?:8th|11th|8|11)\s+U\.?\s?S\.?\s+(?:Colou?red\s+)?H(?:eavy|vy|\.)\s*Art"
-NAVY = r"\bNavy\b|\bU\.\s?S\.\s?N\.?"
+NAVY = r"\bNavy\b|\bUSN\b|\bU\.\s?S\.\s?N\.?"
 
 
 def unit_states(unit, override=""):
@@ -698,6 +703,31 @@ def unit_states(unit, override=""):
     if m:
         hits.append((m.start(), "RI"))
     return [min(hits)[1]] if hits else ["US"]
+
+
+UNIT_TIDY = [   # display only: the register and dossiers keep the wording as recorded
+    (r"\s*\[\d+\]", ""),
+    (r"\bU\.?\s?S\.?(?=\s)", "U.S."),
+    (r"\(USCT\)", ""),
+    (r"\bUS Vol\b\.?", "U.S. Volunteers"),
+    (r"\bVol\b\.?", "Volunteers"),
+    (r"\bMass\b\.?", "Massachusetts"),
+    (r"\bConn\b\.?", "Connecticut"),
+    (r"\bUSN\b", "U.S. Navy"),
+    (r"\bNY\b", "New York"),
+    (r"\bRI\b", "Rhode Island"),
+    (r"\s*&\s*", " and "),
+    (r",\s*(?=\d+\w{2}\s+and\b)", ", "),
+    (r"\s{2,}", " "),
+]
+
+
+def tidy_unit(unit):
+    """A unit as a visitor should read it in a list: first clause, citations dropped, abbreviations spelled out."""
+    u = str(unit or "").split(";")[0]
+    for pat, rep in UNIT_TIDY:
+        u = re.sub(pat, rep, u)
+    return u.strip(" ,")
 
 
 def emblem_html(codes, prefix, where):
@@ -907,12 +937,23 @@ def render_map(rows, dossiers, release):
             elif k == "f":
                 nm, cls = "Flagpole", "name unnamed"
             elif r["unit"]:
-                nm, cls = html.escape(r["unit"]) + " · name not yet read", "name unnamed"
+                nm, cls = html.escape(tidy_unit(r["unit"])) + " · name not yet read", "name unnamed"
             else:
                 nm, cls = "Stone not yet read", "name unnamed"
             st = KIND_TEXT[k]
-            inner = (f'<span class="code">{code}</span><span class="what"><span class="{cls}">{nm}</span>'
-                     f'<span class="st">{st}</span></span>')
+            unit = str((d["meta"].get("unit") if d else "") or r["unit"] or "")
+            override = d["meta"].get("emblem", "") if d else ""
+            unit_line, flag = "", ""
+            if unit:
+                shown = tidy_unit(unit)
+                unit_line = f'<span class="unit">{html.escape(shown)}</span>' if r["name_carved"] else ""
+                codes = unit_states(unit, override)
+                if codes:
+                    f = codes[0] + (".svg" if codes[0] in ("US", "USN") else ".webp")
+                    if (ROOT / "emblems" / f).exists():
+                        flag = f'<span class="pflag" aria-hidden="true"><img src="{prefix}assets/emblems/{f}" alt="" loading="lazy"></span>'
+            inner = (f'{flag}<span class="code">{code}</span><span class="what"><span class="{cls}">{nm}</span>'
+                     f'{unit_line}<span class="st">{st}</span></span>')
             if d:
                 items.append(f'<a class="place linked" href="../stone/{d["slug"]}/index.html">{inner}{CHEVRON}</a>')
             else:
