@@ -2,7 +2,7 @@
 grid: "C19"
 name_carved: "BENJAMIN BENSO[N]"
 name_full: "Benjamin Benson"
-variants: ["Benjamin Benson [stone]"]
+variants: ["Benjamin Benson [stone]", "Benson, Benjamin E. [NPS index]"]
 unit: "13th Connecticut Volunteers"
 company: "K"
 rank_highest: ""
@@ -28,9 +28,9 @@ Co. K, 13th Connecticut Volunteers · died 1912-11-07
 
 Benjamin Benson lies in grave C19 of the Prescott Post lot. His stone names his unit as Company K of the 13th Connecticut Volunteers, and gives his death as November 7, 1912. [1]
 
-The National Park Service's index of Civil War soldiers and sailors has not yet been searched for him.
+The National Park Service's index of Civil War soldiers lists Benson, Benjamin E., 13th Connecticut Infantry, Company K, private in and out, microfilm M535 roll 2. [2] The index gives a middle initial E that the stone does not carry.
 
-A 2022 list of Civil War veterans buried at North Burial Ground gives his death as 1912. [2]
+A 2022 list of Civil War veterans buried at North Burial Ground gives his death as 1912. [3]
 
 His service record, any pension file, and his life before and after the war have not yet been researched. This page will grow as the records are read.
 
@@ -56,7 +56,8 @@ Transcription as recorded in the plot register from the photograph; square brack
 ## Sources
 
 1. Gravestone of Benjamin Benson, grave C19, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, November 11, 2026; transcription as recorded in the plot register.
-2. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for Benjamin Benson.
+2. National Park Service, Civil War Soldiers and Sailors Database, search for "Benjamin Benson" (13th Connecticut Volunteers); accessed November 11, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
+3. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for Benjamin Benson.
 
 ## Credits
 

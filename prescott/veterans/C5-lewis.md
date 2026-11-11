@@ -28,9 +28,9 @@ Co. H, 37th US Infantry · died 1915-05-16
 
 Frederick Lewis lies in grave C5 of the Prescott Post lot. His stone names his unit as Company H of the 37th US Infantry, and gives his death as May 16, 1915. [1]
 
-The National Park Service's index of Civil War soldiers and sailors has not yet been searched for him.
+The National Park Service's index of Civil War soldiers lists Lewis, Frederick, 37th U.S. Colored Infantry, Company H, private in and out, microfilm M589 roll 54. [2] The stone reads "37 U.S. Inf." with no further word. The only Frederick Lewis the index places in a 37th U.S. regiment is in Company H of the 37th U.S. Colored Infantry, the company the stone names. This is a probable match, not a certain one; his service record will settle it.
 
-A 2022 list of Civil War veterans buried at North Burial Ground gives his death as 1915. [2]
+A 2022 list of Civil War veterans buried at North Burial Ground gives his death as 1915. [3]
 
 His service record, any pension file, and his life before and after the war have not yet been researched. This page will grow as the records are read.
 
@@ -46,7 +46,6 @@ Transcription as recorded in the plot register from the photograph; square brack
 
 ## What we don't know
 
-- The 37th U.S. Infantry was a regular-army regiment that existed from 1866 to 1869. Whether he also served in the Civil War is not yet established.
 - When and where did he enlist, and what did his company do? His compiled military service record (National Archives, RG 94) will say.
 - Did he or his widow apply for a pension? The General Index to Pension Files (NARA T288/T289) has not yet been searched for him.
 - Where was he born, and how did he come to Providence?
@@ -57,7 +56,8 @@ Transcription as recorded in the plot register from the photograph; square brack
 ## Sources
 
 1. Gravestone of Frederick Lewis, grave C5, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, November 11, 2026; transcription as recorded in the plot register.
-2. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for Frederick Lewis.
+2. National Park Service, Civil War Soldiers and Sailors Database, search for "Frederick Lewis" (37th US Infantry); accessed November 11, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
+3. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for Frederick Lewis.
 
 ## Credits
 

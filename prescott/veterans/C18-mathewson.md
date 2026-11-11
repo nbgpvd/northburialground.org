@@ -28,9 +28,9 @@ Co. E, 1st Rhode Island Light Artillery · died 1912-10-12
 
 Elias H. Mathewson lies in grave C18 of the Prescott Post lot. His stone names his unit as Company E of the 1st Rhode Island Light Artillery, and gives his death as October 12, 1912. [1]
 
-The National Park Service's index of Civil War soldiers and sailors has not yet been searched for him.
+The National Park Service's index of Civil War soldiers lists Mathewson, Elias H., 1st Rhode Island Light Artillery, Battery E, private in and out, microfilm M555 roll 4. [2] The index gives his middle initial as H, as the stone does, against the PV001 list's E.
 
-A 2022 list of Civil War veterans buried at North Burial Ground gives his death as 1912. [2]
+A 2022 list of Civil War veterans buried at North Burial Ground gives his death as 1912. [3]
 
 His service record, any pension file, and his life before and after the war have not yet been researched. This page will grow as the records are read.
 
@@ -57,7 +57,8 @@ Transcription as recorded in the plot register from the photograph; square brack
 ## Sources
 
 1. Gravestone of Elias H. Mathewson, grave C18, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, November 11, 2026; transcription as recorded in the plot register.
-2. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for Elias H. Mathewson.
+2. National Park Service, Civil War Soldiers and Sailors Database, search for "Elias H. Mathewson" (1st Rhode Island Light Artillery); accessed November 11, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
+3. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for Elias H. Mathewson.
 
 ## Credits
 

@@ -28,9 +28,9 @@ Co. G, 1st Massachusetts Heavy Artillery · died 1913-06-29
 
 Philip H. L. Gilbert lies in grave C15 of the Prescott Post lot. His stone names his unit as Company G of the 1st Massachusetts Heavy Artillery, and gives his death as June 29, 1913. [1]
 
-The National Park Service's index of Civil War soldiers and sailors has not yet been searched for him.
+The National Park Service's index of Civil War soldiers lists Gilbert, Philip H. L., 1st Massachusetts Heavy Artillery, Company G, private in and out, microfilm M544 roll 15. [2] A second card reads his initials as H. C.; the stone reads H. L.
 
-A 2022 list of Civil War veterans buried at North Burial Ground gives his death as 1913. [2]
+A 2022 list of Civil War veterans buried at North Burial Ground gives his death as 1913. [3]
 
 His service record, any pension file, and his life before and after the war have not yet been researched. This page will grow as the records are read.
 
@@ -56,7 +56,8 @@ Transcription as recorded in the plot register from the photograph; square brack
 ## Sources
 
 1. Gravestone of Philip H. L. Gilbert, grave C15, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, November 11, 2026; transcription as recorded in the plot register.
-2. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for Philip H. L. Gilbert.
+2. National Park Service, Civil War Soldiers and Sailors Database, search for "Philip H. L. Gilbert" (1st Massachusetts Heavy Artillery); accessed November 11, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
+3. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for Philip H. L. Gilbert.
 
 ## Credits
 

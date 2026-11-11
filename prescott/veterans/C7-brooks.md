@@ -2,7 +2,7 @@
 grid: "C7"
 name_carved: "JOSEPH E. BROOKS"
 name_full: "Joseph E. Brooks"
-variants: ["Joseph E. Brooks [stone]"]
+variants: ["Joseph E. Brooks [stone]", "Brooks, Joseph (also filed as Joseph E. Brooks) [NPS index]"]
 unit: "1st Rhode Island Light Artillery"
 company: "A"
 rank_highest: ""
@@ -28,9 +28,9 @@ Co. A, 1st Rhode Island Light Artillery · died 1915-02-13
 
 Joseph E. Brooks lies in grave C7 of the Prescott Post lot. His stone names his unit as Company A of the 1st Rhode Island Light Artillery, and gives his death as February 13, 1915. [1]
 
-The National Park Service's index of Civil War soldiers and sailors has not yet been searched for him.
+The National Park Service's index of Civil War soldiers lists Brooks, Joseph (also filed as Joseph E. Brooks), 1st Rhode Island Light Artillery, Battery A, private in and out, microfilm M555 roll 1. [2] The index card's company note reads "Batt'y. A". A second Joseph Brooks of the same regiment served in Battery G.
 
-A 2022 list of Civil War veterans buried at North Burial Ground gives his death as 1915. [2]
+A 2022 list of Civil War veterans buried at North Burial Ground gives his death as 1915. [3]
 
 His service record, any pension file, and his life before and after the war have not yet been researched. This page will grow as the records are read.
 
@@ -57,7 +57,8 @@ Transcription as recorded in the plot register from the photograph; square brack
 ## Sources
 
 1. Gravestone of Joseph E. Brooks, grave C7, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, November 11, 2026; transcription as recorded in the plot register.
-2. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for Joseph E. Brooks.
+2. National Park Service, Civil War Soldiers and Sailors Database, search for "Joseph E. Brooks" (1st Rhode Island Light Artillery); accessed November 11, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
+3. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for Joseph E. Brooks.
 
 ## Credits
 

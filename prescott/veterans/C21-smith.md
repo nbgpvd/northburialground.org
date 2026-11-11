@@ -28,9 +28,9 @@ Co. H, 29th Connecticut Volunteers · died 1912-04-24
 
 William H. Smith lies in grave C21 of the Prescott Post lot. His stone names his unit as Company H of the 29th Connecticut Volunteers, and gives his death as April 24, 1912. [1]
 
-The National Park Service's index of Civil War soldiers and sailors has not yet been searched for him.
+The National Park Service's index of Civil War soldiers lists Smith, William H., 29th Connecticut Infantry (Colored), Company H, private in and out, microfilm M589 roll 81, African American Civil War Memorial plaque E-148. [2] The index has other William Smiths and William H. Smiths in the regiment; this card is the one in Company H, the company the stone names.
 
-A 2022 list of Civil War veterans buried at North Burial Ground gives his death as 1912. [2]
+A 2022 list of Civil War veterans buried at North Burial Ground gives his death as 1912. [3]
 
 His service record, any pension file, and his life before and after the war have not yet been researched. This page will grow as the records are read.
 
@@ -57,7 +57,8 @@ Transcription as recorded in the plot register from the photograph; square brack
 ## Sources
 
 1. Gravestone of William H. Smith, grave C21, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, November 11, 2026; transcription as recorded in the plot register.
-2. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for William H. Smith.
+2. National Park Service, Civil War Soldiers and Sailors Database, search for "William H. Smith" (29th Connecticut Volunteers); accessed November 11, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
+3. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for William H. Smith.
 
 ## Credits
 

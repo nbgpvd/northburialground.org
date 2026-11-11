@@ -28,9 +28,9 @@ Co. D, 2nd Rhode Island Volunteers · died 1913-08-20
 
 George W. Harvey lies in grave C13 of the Prescott Post lot. His stone names his unit as Company D of the 2nd Rhode Island Volunteers, and gives his death as August 20, 1913. [1]
 
-The National Park Service's index of Civil War soldiers and sailors has not yet been searched for him.
+The National Park Service's index of Civil War soldiers lists Harvey, George W., 2nd Rhode Island Infantry, Company D, private in and out, microfilm M555 roll 3. [2]
 
-A 2022 list of Civil War veterans buried at North Burial Ground gives his death as 1913. [2]
+A 2022 list of Civil War veterans buried at North Burial Ground gives his death as 1913. [3]
 
 His service record, any pension file, and his life before and after the war have not yet been researched. This page will grow as the records are read.
 
@@ -56,7 +56,8 @@ Transcription as recorded in the plot register from the photograph; square brack
 ## Sources
 
 1. Gravestone of George W. Harvey, grave C13, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, November 11, 2026; transcription as recorded in the plot register.
-2. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for George W. Harvey.
+2. National Park Service, Civil War Soldiers and Sailors Database, search for "George W. Harvey" (2nd Rhode Island Volunteers); accessed November 11, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
+3. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for George W. Harvey.
 
 ## Credits
 

@@ -28,9 +28,9 @@ Co. H, 3rd Rhode Island Cavalry · died 1915-03-07
 
 Charles H. Smith lies in grave C6 of the Prescott Post lot. His stone names his unit as Company H of the 3rd Rhode Island Cavalry, and gives his death as March 7, 1915. [1]
 
-The National Park Service's index of Civil War soldiers and sailors has not yet been searched for him.
+The National Park Service's index of Civil War soldiers lists Smith, Charles H., 3rd Rhode Island Cavalry, Company H, private in and out, microfilm M555 roll 6. [2] The index card agrees with the stone in name, regiment and company. The index also has a Charles E. Smith of the same regiment in Company D, a different man.
 
-A 2022 list of Civil War veterans buried at North Burial Ground gives his death as 1916. [2]
+A 2022 list of Civil War veterans buried at North Burial Ground gives his death as 1916. [3]
 
 His service record, any pension file, and his life before and after the war have not yet been researched. This page will grow as the records are read.
 
@@ -58,7 +58,8 @@ Transcription as recorded in the plot register from the photograph; square brack
 ## Sources
 
 1. Gravestone of Charles H. Smith, grave C6, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, November 11, 2026; transcription as recorded in the plot register.
-2. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for Charles H. Smith.
+2. National Park Service, Civil War Soldiers and Sailors Database, search for "Charles H. Smith" (3rd Rhode Island Cavalry); accessed November 11, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
+3. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for Charles H. Smith.
 
 ## Credits
 

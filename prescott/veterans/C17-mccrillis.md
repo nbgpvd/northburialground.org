@@ -28,9 +28,9 @@ Co. B, 1st Massachusetts Cavalry · died 1913-03-08
 
 Daniel McCrillis lies in grave C17 of the Prescott Post lot. His stone names his unit as Company B of the 1st Massachusetts Cavalry, and gives his death as March 8, 1913. [1]
 
-The National Park Service's index of Civil War soldiers and sailors has not yet been searched for him.
+No Daniel McCrillis was found in the index for any Massachusetts regiment. The index has Daniel McCrillises in the 3rd New Hampshire Infantry (Company I) and the 9th Maine Infantry (Daniel W., Company D), and a Daniel McCrellis in the 9th Michigan Cavalry; none is yet tied to this stone. [2]
 
-A 2022 list of Civil War veterans buried at North Burial Ground gives his death as 1913. [2]
+A 2022 list of Civil War veterans buried at North Burial Ground gives his death as 1913. [3]
 
 His service record, any pension file, and his life before and after the war have not yet been researched. This page will grow as the records are read.
 
@@ -57,7 +57,8 @@ Transcription as recorded in the plot register from the photograph; square brack
 ## Sources
 
 1. Gravestone of Daniel McCrillis, grave C17, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, November 11, 2026; transcription as recorded in the plot register.
-2. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for Daniel McCrillis.
+2. National Park Service, Civil War Soldiers and Sailors Database, search for "Daniel McCrillis" (1st Massachusetts Cavalry); accessed November 11, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
+3. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for Daniel McCrillis.
 
 ## Credits
 

@@ -2,7 +2,7 @@
 grid: "C9"
 name_carved: "ROBERT HOLLIDAY"
 name_full: "Robert Holliday"
-variants: ["Robert Holliday [stone]"]
+variants: ["Robert Holliday [stone]", "Holiday, Robert [NPS index]"]
 unit: "168th New York Volunteers"
 company: "A"
 rank_highest: ""
@@ -28,9 +28,9 @@ Co. A, 168th New York Volunteers · died 1914-07-24
 
 Robert Holliday lies in grave C9 of the Prescott Post lot. His stone names his unit as Company A of the 168th New York Volunteers, and gives his death as July 24, 1914. [1]
 
-The National Park Service's index of Civil War soldiers and sailors has not yet been searched for him.
+The National Park Service's index of Civil War soldiers lists Holiday, Robert, 168th New York Infantry, Company A, private in and out, microfilm M551 roll 66. [2] The index spells the surname Holiday; the stone spells it Holliday.
 
-A 2022 list of Civil War veterans buried at North Burial Ground gives his death as 1914. [2]
+A 2022 list of Civil War veterans buried at North Burial Ground gives his death as 1914. [3]
 
 His service record, any pension file, and his life before and after the war have not yet been researched. This page will grow as the records are read.
 
@@ -56,7 +56,8 @@ Transcription as recorded in the plot register from the photograph; square brack
 ## Sources
 
 1. Gravestone of Robert Holliday, grave C9, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, November 11, 2026; transcription as recorded in the plot register.
-2. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for Robert Holliday.
+2. National Park Service, Civil War Soldiers and Sailors Database, search for "Robert Holliday" (168th New York Volunteers); accessed November 11, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
+3. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for Robert Holliday.
 
 ## Credits
 

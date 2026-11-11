@@ -2,7 +2,7 @@
 grid: "C4"
 name_carved: "[?????] [?]. CON[????]"
 name_full: "James Conley"
-variants: ["James Conley [stone]"]
+variants: ["James Conley [stone]", "Conley, James (filed under Conly) [NPS index]"]
 unit: "4th Rhode Island Volunteers"
 company: "H"
 rank_highest: ""
@@ -28,9 +28,9 @@ Co. H, 4th Rhode Island Volunteers · died 1915-04-12
 
 The man in grave C4 of the Prescott Post lot is read, provisionally, as James Conley; only CON of his name can be read with confidence. His stone names his unit as Company H of the 4th Rhode Island Volunteers, and gives his death as April 12, 1915. [1]
 
-The National Park Service's index of Civil War soldiers and sailors has not yet been searched for him.
+The National Park Service's index of Civil War soldiers lists Conley, James (filed under Conly), 4th Rhode Island Infantry, Company H, private in and out, microfilm M555 roll 2. [2] He is the only James Conley the index places in Company H of the 4th Rhode Island. That agrees with the provisional reading of the stone, but an index card cannot confirm a name the stone no longer shows; the company roster or his service record must.
 
-A 2022 list of Civil War veterans buried at North Burial Ground gives his death as 1915. [2]
+A 2022 list of Civil War veterans buried at North Burial Ground gives his death as 1915. [3]
 
 His service record, any pension file, and his life before and after the war have not yet been researched. This page will grow as the records are read.
 
@@ -58,7 +58,8 @@ Transcription as recorded in the plot register from the photograph; square brack
 ## Sources
 
 1. Gravestone of James Conley, grave C4, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, November 11, 2026; transcription as recorded in the plot register.
-2. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for James Conley.
+2. National Park Service, Civil War Soldiers and Sailors Database, search for "James Conley" (4th Rhode Island Volunteers); accessed November 11, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
+3. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for James Conley.
 
 ## Credits
 

@@ -2,7 +2,7 @@
 grid: "C3"
 name_carved: "CHARLES N. DOWNE[S]"
 name_full: "Charles N. Downes"
-variants: ["Charles N. Downes [stone]"]
+variants: ["Charles N. Downes [stone]", "Downes, Charles N. (filed under Downs) [NPS index]"]
 unit: "16th Maine Volunteers"
 company: "C"
 rank_highest: ""
@@ -28,9 +28,9 @@ Co. C, 16th Maine Volunteers · died 1915-08-27
 
 Charles N. Downes lies in grave C3 of the Prescott Post lot. His stone names his unit as Company C of the 16th Maine Volunteers, and gives his death as August 27, 1915. [1]
 
-The National Park Service's index of Civil War soldiers and sailors has not yet been searched for him.
+The National Park Service's index of Civil War soldiers lists Downes, Charles N. (filed under Downs), 16th Maine Infantry, Company C, private, microfilm M543 roll 6. [2] The index has a second card for a Charles N. Downes in the 20th Maine Infantry; whether that is the same man, his service record will say.
 
-A 2022 list of Civil War veterans buried at North Burial Ground gives his death as 1915. [2]
+A 2022 list of Civil War veterans buried at North Burial Ground gives his death as 1915. [3]
 
 His service record, any pension file, and his life before and after the war have not yet been researched. This page will grow as the records are read.
 
@@ -57,7 +57,8 @@ Transcription as recorded in the plot register from the photograph; square brack
 ## Sources
 
 1. Gravestone of Charles N. Downes, grave C3, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, November 11, 2026; transcription as recorded in the plot register.
-2. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for Charles N. Downes.
+2. National Park Service, Civil War Soldiers and Sailors Database, search for "Charles N. Downes" (16th Maine Volunteers); accessed November 11, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
+3. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for Charles N. Downes.
 
 ## Credits
 

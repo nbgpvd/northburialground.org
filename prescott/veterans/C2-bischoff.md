@@ -2,7 +2,7 @@
 grid: "C2"
 name_carved: "CONSTANTINE G. W. BISCHOFF"
 name_full: "Constantine G. W. Bischoff"
-variants: ["Constantine G. W. Bischoff [stone]"]
+variants: ["Constantine G. W. Bischoff [stone]", "Bischoff, Constantine G. W. (filed under Bishoff) [NPS index]"]
 unit: "5th Rhode Island Heavy Artillery"
 company: "F"
 rank_highest: ""
@@ -28,9 +28,9 @@ Co. F, 5th Rhode Island Heavy Artillery · died 1915-11-09
 
 Constantine G. W. Bischoff lies in grave C2 of the Prescott Post lot. His stone names his unit as Company F of the 5th Rhode Island Heavy Artillery, and gives his death as November 9, 1915. [1]
 
-The National Park Service's index of Civil War soldiers and sailors has not yet been searched for him.
+The National Park Service's index of Civil War soldiers lists Bischoff, Constantine G. W. (filed under Bishoff), 5th Rhode Island Heavy Artillery, Company F, sergeant in, private out, microfilm M555 roll 1. [2] A second card for the same man and company gives his first rank as third sergeant. The index also has a Constantine Bischoff, Company H, 1st Rhode Island Infantry (three months, 1861), same roll; whether that is the same man his service records will say.
 
-A 2022 list of Civil War veterans buried at North Burial Ground gives his death as 1915. [2]
+A 2022 list of Civil War veterans buried at North Burial Ground gives his death as 1915. [3]
 
 His service record, any pension file, and his life before and after the war have not yet been researched. This page will grow as the records are read.
 
@@ -57,7 +57,8 @@ Transcription as recorded in the plot register from the photograph; square brack
 ## Sources
 
 1. Gravestone of Constantine G. W. Bischoff, grave C2, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, November 11, 2026; transcription as recorded in the plot register.
-2. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for Constantine G. W. Bischoff.
+2. National Park Service, Civil War Soldiers and Sailors Database, search for "Constantine G. W. Bischoff" (5th Rhode Island Heavy Artillery); accessed November 11, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
+3. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for Constantine G. W. Bischoff.
 
 ## Credits
 

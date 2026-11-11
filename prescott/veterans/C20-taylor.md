@@ -28,9 +28,9 @@ Co. D, 4th Rhode Island Volunteers · died 1912-05-15
 
 Joseph D. Taylor lies in grave C20 of the Prescott Post lot. His stone names his unit as Company D of the 4th Rhode Island Volunteers, and gives his death as May 15, 1912. [1]
 
-The National Park Service's index of Civil War soldiers and sailors has not yet been searched for him.
+The National Park Service's index of Civil War soldiers lists Taylor, Joseph D., 4th Rhode Island Infantry, Company D, private in and out, with the note "See also U.S. Navy", microfilm M555 roll 7. [2] The index card points to Navy service as well; that record has not been searched.
 
-A 2022 list of Civil War veterans buried at North Burial Ground gives his death as 1912. [2]
+A 2022 list of Civil War veterans buried at North Burial Ground gives his death as 1912. [3]
 
 His service record, any pension file, and his life before and after the war have not yet been researched. This page will grow as the records are read.
 
@@ -56,7 +56,8 @@ Transcription as recorded in the plot register from the photograph; square brack
 ## Sources
 
 1. Gravestone of Joseph D. Taylor, grave C20, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, November 11, 2026; transcription as recorded in the plot register.
-2. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for Joseph D. Taylor.
+2. National Park Service, Civil War Soldiers and Sailors Database, search for "Joseph D. Taylor" (4th Rhode Island Volunteers); accessed November 11, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
+3. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for Joseph D. Taylor.
 
 ## Credits
 

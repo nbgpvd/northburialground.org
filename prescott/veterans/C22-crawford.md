@@ -28,9 +28,9 @@ Co. B, 198th Pennsylvania Volunteers · died 1912-02-04
 
 John Crawford lies in grave C22 of the Prescott Post lot. His stone names his unit as Company B of the 198th Pennsylvania Volunteers, and gives his death as February 4, 1912. [1]
 
-The National Park Service's index of Civil War soldiers and sailors has not yet been searched for him.
+The National Park Service's index of Civil War soldiers lists Crawford, John, 198th Pennsylvania Infantry, Company B, private in and out, microfilm M554 roll 24. [2]
 
-A 2022 list of Civil War veterans buried at North Burial Ground gives his death as 1912. [2]
+A 2022 list of Civil War veterans buried at North Burial Ground gives his death as 1912. [3]
 
 His service record, any pension file, and his life before and after the war have not yet been researched. This page will grow as the records are read.
 
@@ -56,7 +56,8 @@ Transcription as recorded in the plot register from the photograph; square brack
 ## Sources
 
 1. Gravestone of John Crawford, grave C22, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, November 11, 2026; transcription as recorded in the plot register.
-2. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for John Crawford.
+2. National Park Service, Civil War Soldiers and Sailors Database, search for "John Crawford" (198th Pennsylvania Volunteers); accessed November 11, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
+3. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for John Crawford.
 
 ## Credits
 
