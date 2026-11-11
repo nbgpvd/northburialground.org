@@ -14,6 +14,14 @@ vfw4651.org home page). Read from the dossier's `unit` field (see `unit_states()
   (West Virginia) to July 4, 1865, when Nevada's star was added. No star pattern was fixed until 1912; five
   rows of seven is one common 35-star arrangement. Drawn by `tools/emblems.py`.
 
+- **State origin of a USCT regiment, by the editor's decision:** where a U.S. Colored Troops regiment began
+  under a state designation, or was raised by a state, the page carries that state's flag, set by `emblem:`
+  in the dossier and explained in a cited sentence in the man's Life section. As of 11 Nov 2026:
+  37th USCI (from the 3rd North Carolina Colored Infantry; C5), 54th USCI (from the 2nd Arkansas Infantry,
+  African Descent; M11), 117th USCI (organized at Covington, Ky.; the stone carves "Ken."; M20), 28th USCI
+  (raised by the State of Indiana; D15). Not applied, for now: the 20th and 26th USCI (raised in New York by
+  the Union League Club, not by the state) and the 31st (organized in New York; absorbed companies of the
+  30th Connecticut; depends on the man's company).
 - **Native state, by the editor's decision:** where a man served in a federal unit and a record documents
   his birth in a Southern state, the page may carry that state's flag instead of the national colors, set by
   `emblem:` in the dossier with the record cited beside it. First case: A9 Isaac Grandy, 38th U.S. Colored
@@ -49,5 +57,8 @@ Rendered on 11 Nov. 2026 to 320 px tall with `rsvg-convert -h 320 <XX>.svg`, the
 | NC | https://commons.wikimedia.org/wiki/File:Flag_of_North_Carolina.svg |
 | MD | https://commons.wikimedia.org/wiki/File:Flag_of_Maryland.svg |
 | DE | https://commons.wikimedia.org/wiki/File:Flag_of_Delaware.svg |
+| AR | https://commons.wikimedia.org/wiki/File:Flag_of_Arkansas.svg |
+| KY | https://commons.wikimedia.org/wiki/File:Flag_of_Kentucky.svg |
+| IN | https://commons.wikimedia.org/wiki/File:Flag_of_Indiana.svg |
 
 To add a state: render its flag the same way, add a row to `STATES` in `build.py`, and add it here.

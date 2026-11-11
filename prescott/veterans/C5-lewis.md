@@ -13,6 +13,7 @@ died: "1915-05-16"
 death_place: ""
 interred: ""
 city_lot_ref: ""
+emblem: "NC"                   # 37th USCI organized Feb. 1864 from the 3rd North Carolina Colored Infantry [4] (editor's decision, 11 Nov 2026)
 status: "stone-only"
 researchers: ["Bernard Brennan"]
 second_reader: ""
@@ -29,6 +30,8 @@ Co. H, 37th US Infantry · died 1915-05-16
 Frederick Lewis lies in grave C5 of the Prescott Post lot. His stone names his unit as Company H of the 37th US Infantry, and gives his death as May 16, 1915. [1]
 
 The National Park Service's index of Civil War soldiers lists Lewis, Frederick, 37th U.S. Colored Infantry, Company H, private in and out, microfilm M589 roll 54. [2] The stone reads "37 U.S. Inf." with no further word. The only Frederick Lewis the index places in a 37th U.S. regiment is in Company H of the 37th U.S. Colored Infantry, the company the stone names. This is a probable match, not a certain one; his service record will settle it.
+
+The 37th U.S. Colored Infantry, the regiment of the index card, was organized in February 1864 from the 3rd North Carolina Colored Infantry. [4] The flag on this page is North Carolina's for that reason.
 
 A 2022 list of Civil War veterans buried at North Burial Ground gives his death as 1915. [3]
 
@@ -58,6 +61,7 @@ Transcription as recorded in the plot register from the photograph; square brack
 1. Gravestone of Frederick Lewis, grave C5, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, November 11, 2026; transcription as recorded in the plot register.
 2. National Park Service, Civil War Soldiers and Sailors Database, search for "Frederick Lewis" (37th US Infantry); accessed November 11, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
 3. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for Frederick Lewis.
+4. Frederick H. Dyer, *A Compendium of the War of the Rebellion* (Des Moines: Dyer Publishing Co., 1908), pt. 3, s.v. "United States Colored Troops, 37th Regiment Infantry"; see also National Park Service, Richmond National Battlefield Park, "United States Colored Troops 37th Regiment Infantry," https://www.nps.gov/rich/learn/historyculture/37thusct.htm, accessed November 11, 2026.
 
 ## Credits
 
