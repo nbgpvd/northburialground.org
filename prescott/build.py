@@ -472,19 +472,25 @@ a.button:hover { background:var(--navy-dark); color:#fff; }
 .lotmap { background:var(--panel); border-radius:14px; padding:14px 12px 10px; margin:1rem 0 .8rem; }
 .lotmap .compass { display:flex; justify-content:space-between; font-size:.9rem; color:var(--muted); margin:0 2px 8px 24px; }
 .lotmap .compass b { font-weight:600; color:var(--ink); }
-/* stones to their measured shape and spacing (11 Nov 2026): 16 x 10 in faces, ~30 in apart along a row,
-   ~92 in between rows. Phone: 11 px per 30 in, so a stone is 6 x 4 px and a row is 34 px. */
-.maprow { display:flex; align-items:center; gap:8px; height:34px; padding:0 2px; border-radius:6px; }
+/* schematic: stones in order, not to scale. Every stone icon has the proportions of G3 Howland's face
+   (about 16 x 10 in, long side along the row); rows are packed close so the lot fills the panel. */
+.lotmap { --cw:min(10px, calc((100vw - 132px) / 25)); --ch:calc(var(--cw) * .625); --gap:2px; --rowh:22px; }  /* 16:10, Howland's face */
+.maprow { display:flex; align-items:center; gap:8px; height:var(--rowh); padding:0 2px; border-radius:6px; }
 .maprow.on { background:#fff; box-shadow:inset 0 0 0 2px var(--navy); }
 .maprow .maplabel { width:14px; text-align:center; font-size:.8rem; font-weight:600; color:var(--muted); }
 .maprow.on .maplabel { color:var(--navy); font-weight:800; }
-.maprow .cells { display:flex; gap:5px; align-items:center; }
-.cell { display:block; flex:0 0 auto; width:6px; height:4px; border-radius:1px; background:var(--stone); }
+.maprow .cells { display:flex; gap:var(--gap); align-items:center; }
+.cell { display:block; flex:0 0 auto; width:var(--cw); height:var(--ch); border-radius:2px; background:var(--stone); }
 .cell.i { background:var(--ident); } .cell.d { background:var(--navy); } .cell.c { background:var(--ink); box-shadow:0 0 0 2px var(--gold); }
 .cell.e { background:transparent; border:1px solid var(--dash); box-sizing:border-box; }
-.cell.f { width:7px; height:7px; border-radius:50%; border:2px solid var(--ink); background:#fff; box-sizing:border-box; }
-.cell.m { background:var(--monument); border-radius:2px; height:20px; } .cell.gap { background:transparent; }
-.legend .cell { width:16px; height:10px; } .legend .cell.f { width:12px; height:12px; } .legend .cell.m { height:12px; }
+.cell.f { width:var(--ch); height:var(--ch); border-radius:50%; border:2px solid var(--ink); background:#fff; box-sizing:border-box; margin:0 calc((var(--cw) - var(--ch)) / 2); }
+.cell.gap { background:transparent; }
+.monslot { display:block; flex:0 0 auto; position:relative; width:calc(4 * var(--cw) + 3 * var(--gap)); height:var(--ch); }
+.monslot .monument { position:absolute; z-index:1; left:calc(var(--cw) + var(--gap)); width:calc(2 * var(--cw) + var(--gap));
+                     top:calc(var(--ch) / 2 - var(--rowh) / 2 + 4px); height:calc(2 * var(--rowh) - 8px);
+                     background:var(--monument); border-radius:3px; }
+.legend .cell { width:16px; height:10px; } .legend .cell.f { width:12px; height:12px; margin:0; }
+.legend .cell.m { background:var(--monument); border-radius:3px; width:12px; height:16px; }
 .lotmap .note { font-size:.9rem; color:var(--muted); margin:.6rem 2px 0; }
 .legend { display:flex; flex-wrap:wrap; gap:.5rem 1.1rem; font-size:.95rem; margin:.6rem 0 1.4rem; }
 .legend span { display:inline-flex; align-items:center; gap:6px; }
@@ -551,11 +557,7 @@ header.site .sitenav { display:none; }
   .mapside .lotmap { margin-top:0; padding:18px 16px 12px; }
   .maprow { cursor:pointer; }
   .maprow:hover { background:#fff; }
-  .maprow { height:52px; }
-  .maprow .cells { gap:8px; }
-  .cell { width:9px; height:6px; }
-  .cell.f { width:10px; height:10px; }
-  .cell.m { height:32px; }
+  .lotmap { --cw:14px; --ch:8.75px; --gap:3px; --rowh:28px; }
   .mapside .legend { font-size:.9rem; }
   .mapside .chips button { height:40px; min-width:40px; }
   .maplists .rowlist .rowhead { padding-top:0; }
@@ -806,8 +808,9 @@ def render_map(rows, dossiers, release):
         cols = [c for (rr, c) in by_rc if rr == L]
         for n in range(1, max(cols) + 1 if cols else 1):
             if L in MONUMENT_ROWS and n == MONUMENT_AFTER + 1:
-                cells += ['<span class="cell gap"></span>', '<span class="cell m"></span>',
-                          '<span class="cell m"></span>', '<span class="cell gap"></span>']
+                # one shape spanning rows J and K, drawn from the upper row; the lower row keeps the space
+                inner = '<span class="monument" role="img" aria-label="Monument"></span>' if L == MONUMENT_ROWS[0] else ''
+                cells.append(f'<span class="monslot">{inner}</span>')
             r = by_rc.get((L, n))
             k = place_kind(r) if r else "e"
             cells.append(f'<span class="cell {k}" title="{L}{n}"></span>')
@@ -858,7 +861,7 @@ def render_map(rows, dossiers, release):
 <div class="lotmap">
   <div class="compass"><span>West · 1</span><b>Uphill ↑</b><span>{ncol} · East</span></div>
   {"".join(maprows)}
-  <p class="note">Each stone is drawn to its measured shape and spacing: about 16 by 10 inches, 30 inches apart along a row, and about 7½ feet between rows. Where each row begins is still drawn schematically, and the monument stands in rows J and K at a place still being fixed. {len(rows)} positions surveyed; {n_named} names read; {n_ident} men identified; {len(dossiers)} pages.</p>
+  <p class="note">Schematic: stones in order, not to scale; each is drawn in the proportions of a Prescott Post headstone. The monument stands in rows J and K; its exact place among their stones is still being fixed. {len(rows)} positions surveyed; {n_named} names read; {n_ident} men identified; {len(dossiers)} pages.</p>
 </div>
 <div class="legend"><span><i class="cell s"></i>Stone read</span><span><i class="cell i"></i>Identified</span><span><i class="cell d"></i>Life drafted</span><span><i class="cell c"></i>Complete</span><span><i class="cell e"></i>Not yet read</span><span><i class="cell m"></i>Monument</span><span><i class="cell f"></i>Flagpole</span></div>
 <div class="chooser"><p class="eyebrow">Choose a row</p><div class="chips">{chips}</div></div>
