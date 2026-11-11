@@ -20,6 +20,7 @@ died: "1922-11-28"
 death_place: "32 Superior Street, Providence, R.I. [15]"
 interred: ""                     # ledger not yet seen; death return says 'to be buried North Burial Ground' [15]
 city_lot_ref: ""                 # City lot record not yet matched
+emblem: "NC"                   # born Camden Co., N.C. [2][3][6]; his unit is federal, so the flag honors his native state (editor's decision, 11 Nov 2026)
 status: "draft"                  # CMSR read; pension index found (file not ordered); narrative drafted; civil life researched; no second reader
 researchers: ["Bernard Brennan"]
 second_reader: ""

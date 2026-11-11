@@ -14,6 +14,11 @@ vfw4651.org home page). Read from the dossier's `unit` field (see `unit_states()
   (West Virginia) to July 4, 1865, when Nevada's star was added. No star pattern was fixed until 1912; five
   rows of seven is one common 35-star arrangement. Drawn by `tools/emblems.py`.
 
+- **Native state, by the editor's decision:** where a man served in a federal unit and a record documents
+  his birth in a Southern state, the page may carry that state's flag instead of the national colors, set by
+  `emblem:` in the dossier with the record cited beside it. First case: A9 Isaac Grandy, 38th U.S. Colored
+  Infantry, born Camden County, N.C. (CMSR descriptive book and later records), North Carolina.
+
 Pages with no unit read yet carry no flag. A dossier can set `emblem: XX` or `emblem: none` in its front
 matter to override what the unit field gives.
 
@@ -41,5 +46,6 @@ Rendered on 11 Nov. 2026 to 320 px tall with `rsvg-convert -h 320 <XX>.svg`, the
 | PA | https://commons.wikimedia.org/wiki/File:Flag_of_Pennsylvania.svg |
 | RI | https://commons.wikimedia.org/wiki/File:Flag_of_Rhode_Island.svg |
 | VT | https://commons.wikimedia.org/wiki/File:Flag_of_Vermont.svg |
+| NC | https://commons.wikimedia.org/wiki/File:Flag_of_North_Carolina.svg |
 
 To add a state: render its flag the same way, add a row to `STATES` in `build.py`, and add it here.

@@ -419,9 +419,9 @@ p.gridline { display:flex; align-items:center; gap:12px; margin:1.3rem 0 .2rem; 
 .where { white-space:nowrap; }
 .stone-head { position:relative; isolation:isolate; }
 .colors { position:absolute; z-index:-1; top:.3rem; right:-20px; width:78%; height:9.5rem; pointer-events:none; user-select:none;
-          -webkit-mask-image:linear-gradient(90deg, transparent 0, #000 45%), linear-gradient(180deg, #000 60%, transparent);
+          -webkit-mask-image:linear-gradient(90deg, transparent 0, #000 22%), linear-gradient(180deg, #000 60%, transparent);
           -webkit-mask-composite:source-in;
-          mask-image:linear-gradient(90deg, transparent 0, #000 45%), linear-gradient(180deg, #000 60%, transparent);
+          mask-image:linear-gradient(90deg, transparent 0, #000 22%), linear-gradient(180deg, #000 60%, transparent);
           mask-composite:intersect; }
 .colors img { position:absolute; right:0; top:0; height:100%; width:auto; max-width:none; opacity:.26; }
 @media (min-width:1000px) { .colors { right:0; width:70%; height:10.5rem; } .colors img { opacity:.34; } }
@@ -669,6 +669,7 @@ STATES = [  # (code, name, pattern matched against the unit text)
     ("MI", "Michigan", r"\bMichigan\b|\bMich\.?(?=\s|$|,)"),
     ("CA", "California", r"\bCalifornia\b|\bCal\.(?=\s|$)"),
     ("IL", "Illinois", r"\bIllinois\b|\bIll\.(?=\s|$)"),
+    ("NC", "North Carolina", r"\bNorth Carolina\b|\bN\.\s?C\.?(?=\s|$|,)"),
 ]
 STATE_NAME = {c: n for c, n, _ in STATES}
 STATE_NAME.update({"US": "United States", "USN": "United States Navy"})
