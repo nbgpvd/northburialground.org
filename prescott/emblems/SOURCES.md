@@ -1,19 +1,21 @@
 # Emblems
 
-Small flags shown under the grid chip on a stone page (see `unit_states()` in `build.py`), read from the
-dossier's `unit` field:
+One flag per stone page, faded in from the right behind the grid line and the name (the treatment of the
+vfw4651.org home page). Read from the dossier's `unit` field (see `unit_states()` in `build.py`):
 
-- **National colors, April 1865** (`US.svg`) on every page that names a unit. Thirteen stripes and 35 stars:
-  the 35-star flag was official from July 4, 1863 (West Virginia) to July 4, 1865, when Nevada's star was added,
-  so it was the lawful flag at Appomattox. No star pattern was fixed until 1912; five rows of seven is one
-  common 35-star arrangement. Drawn for this project by `tools/emblems.py`.
-- **U.S. Navy union jack, 1865** (`USN.svg`) added for sailors: the blue union alone, the same 35 stars.
-  Same script.
-- **State flag** where the unit names a state regiment. The 8th and 11th U.S. Colored Heavy Artillery are the
-  14th Rhode Island Heavy Artillery (Colored) under later designations and carry Rhode Island's.
+- **Sailors:** the First Navy Jack (`USN.svg`): thirteen red and white stripes, an uncoiled rattlesnake,
+  DONT TREAD ON ME. The editor's choice of emblem for the Navy men. It is not the jack the Navy flew in 1865
+  (the blue union with its stars); it is the 1776 design as revived by the Navy in 2002. Drawn for this
+  project by `tools/emblems.py`.
+- **State regiments:** the current flag of the state. The 8th and 11th U.S. Colored Heavy Artillery are the
+  14th Rhode Island Heavy Artillery (Colored) under later designations and get Rhode Island's.
+- **Any other unit** (U.S. regulars, U.S. Colored Troops, U.S. Volunteers): the national colors as of
+  April 1865 (`US.svg`). Thirteen stripes and 35 stars: the 35-star flag was official from July 4, 1863
+  (West Virginia) to July 4, 1865, when Nevada's star was added. No star pattern was fixed until 1912; five
+  rows of seven is one common 35-star arrangement. Drawn by `tools/emblems.py`.
 
-Pages with no unit read yet carry nothing. A dossier can set `emblem: US, RI` (codes in display order) or
-`emblem: none` in its front matter to override what the unit field gives.
+Pages with no unit read yet carry no flag. A dossier can set `emblem: XX` or `emblem: none` in its front
+matter to override what the unit field gives.
 
 ## State flags
 
@@ -22,8 +24,8 @@ the war (Rhode Island's, for example, in 1897). They mark the state the regiment
 
 All twelve are public domain. Source SVGs: Wikimedia Commons, via the curated set in
 github.com/Mo-Ibra/us-state-flag-icons (`flags/`, with per-file license metadata in `flags/credits.json`).
-Rendered to PNG at 72 px tall on 11 Nov. 2026 with `rsvg-convert -h 72 <XX>.svg -o <XX>.png`, so the page
-loads about 60 KB of flags in all rather than several megabytes of SVG.
+Rendered on 11 Nov. 2026 to 320 px tall with `rsvg-convert -h 320 <XX>.svg`, then saved as WebP at quality 72
+(5–17 KB each, against up to 600 KB for the source SVG).
 
 | Code | Commons file |
 |---|---|

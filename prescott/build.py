@@ -417,10 +417,14 @@ p { margin:.6rem 0; }
 p.lede { font-size:1.15rem; line-height:1.4; margin:0 0 1rem; }
 p.gridline { display:flex; align-items:center; gap:12px; margin:1.3rem 0 .2rem; color:var(--muted); font-size:1.05rem; }
 .where { white-space:nowrap; }
-p.emblems { display:flex; flex-wrap:wrap; gap:6px 18px; margin:.7rem 0 0; }
-.emblem { display:inline-flex; align-items:center; gap:7px; font-size:.95rem; font-weight:700;
-          letter-spacing:.02em; color:var(--ink); line-height:1.1; text-align:center; }
-.emblem img { width:auto; height:28px; border:1px solid var(--rule); border-radius:2px; display:block; }
+.stone-head { position:relative; isolation:isolate; }
+.colors { position:absolute; z-index:-1; top:.3rem; right:-20px; width:78%; height:9.5rem; pointer-events:none; user-select:none;
+          -webkit-mask-image:linear-gradient(90deg, transparent 0, #000 45%), linear-gradient(180deg, #000 60%, transparent);
+          -webkit-mask-composite:source-in;
+          mask-image:linear-gradient(90deg, transparent 0, #000 45%), linear-gradient(180deg, #000 60%, transparent);
+          mask-composite:intersect; }
+.colors img { position:absolute; right:0; top:0; height:100%; width:auto; max-width:none; opacity:.26; }
+@media (min-width:1000px) { .colors { right:0; width:70%; height:10.5rem; } .colors img { opacity:.34; } }
 .chip { display:inline-block; background:var(--ink); color:#fff; font-weight:800; font-size:1.05rem; padding:.35rem .9rem; border-radius:8px; letter-spacing:.02em; }
 code { font-family:ui-monospace, Menlo, monospace; font-size:.9em; }
 mark.todo { background:var(--todo); padding:0 .15em; }
@@ -645,12 +649,12 @@ def load_dossiers():
 # Renderers
 # ----------------------------------------------------------------------------
 
-# Emblems beside the grid chip. Every page whose dossier names a unit carries the national colors
-# as of April 1865 (35 stars); a sailor's page also carries the Navy jack of the same date; a page whose
-# unit names a state regiment carries that state's current flag. The 8th and 11th U.S. Colored Heavy
-# Artillery are the 14th Rhode Island Heavy Artillery (Colored) under later designations and carry
-# Rhode Island's. Everything is read from the dossier's `unit` field (first clause, before any ";").
-# A dossier can override with `emblem: US, RI` (codes in display order) or suppress with `emblem: none`.
+# One flag per stone page, faded in behind the grid line and name from the right (after the hero of
+# vfw4651.org). A sailor's page gets the First Navy Jack; a state regiment's page gets its state's
+# current flag; any other unit gets the national colors of April 1865 (35 stars). The 8th and 11th
+# U.S. Colored Heavy Artillery are the 14th Rhode Island Heavy Artillery (Colored) under later
+# designations and get Rhode Island's. Read from the dossier's `unit` field (first clause, before any
+# ";"); no unit, no flag. Front matter `emblem: XX` or `emblem: none` overrides.
 # Provenance: emblems/SOURCES.md. US.svg and USN.svg are drawn by tools/emblems.py.
 STATES = [  # (code, name, pattern matched against the unit text)
     ("RI", "Rhode Island", r"\bRhode Island\b|\bR\.\s?I\.?(?=\s|$|,)"),
@@ -668,58 +672,42 @@ STATES = [  # (code, name, pattern matched against the unit text)
 ]
 STATE_NAME = {c: n for c, n, _ in STATES}
 STATE_NAME.update({"US": "United States", "USN": "United States Navy"})
-FEDERAL_TITLE = {"US": "National colors, 35 stars, as of April 1865",
-                 "USN": "U.S. Navy jack, 35 stars, as of April 1865"}
 RI_USCHA = r"\b(?:8th|11th|8|11)\s+U\.?\s?S\.?\s+(?:Colou?red\s+)?H(?:eavy|vy|\.)\s*Art"
 NAVY = r"\bNavy\b|\bU\.\s?S\.\s?N\.?"
-STATE_ABBR = {"RI": "R.I.", "MA": "Mass.", "CT": "Conn.", "ME": "Me.", "NH": "N.H.", "NY": "N.Y.", "VT": "Vt.",
-              "NJ": "N.J.", "PA": "Pa.", "MI": "Mich.", "CA": "Cal.", "IL": "Ill.", "US": "U.S.", "USN": "U.S.N."}   # as the stones cut them
 
 
 def unit_states(unit, override=""):
-    """Emblem codes for a unit string, in display order (national, Navy, states). Override wins if given."""
+    """The one emblem for a page, as a one-item list: a sailor's page gets the Navy jack; a state
+    regiment's page gets its state's flag; any other unit gets the national colors of April 1865.
+    `emblem:` in front matter overrides (a single code, or "none")."""
     override = str(override or "").strip()
     if override:
-        if override.lower() == "none":
-            return []
-        return [c.strip().upper() for c in re.split(r"[,\s]+", override) if c.strip()]
+        return [] if override.lower() == "none" else [override.split(",")[0].strip().upper()]
     first = str(unit or "").split(";")[0].strip()
     if not first:
         return []                       # no unit read yet: nothing on the page names his service
-    codes = ["US"]
     if re.search(NAVY, first):
-        codes.append("USN")
+        return ["USN"]
     hits = []
     for c, _, pat in STATES:
         m = re.search(pat, first)
         if m:
             hits.append((m.start(), c))
     m = re.search(RI_USCHA, first)
-    if m and "RI" not in [c for _, c in hits]:
+    if m:
         hits.append((m.start(), "RI"))
-    return codes + [c for _, c in sorted(hits)]
-
-
-def emblem_file(c):
-    for ext in (".svg", ".png"):
-        if (ROOT / "emblems" / f"{c}{ext}").exists():
-            return f"{c}{ext}"
-    return None
+    return [min(hits)[1]] if hits else ["US"]
 
 
 def emblem_html(codes, prefix, where):
-    out = []
-    for c in codes:
-        f = emblem_file(c)
-        if c not in STATE_NAME or not f:
+    """The page's one flag, faded in behind the head of the page from the right (after vfw4651.org's hero)."""
+    for c in codes[:1]:
+        f = c + (".svg" if c in ("US", "USN") else ".webp")
+        if not (ROOT / "emblems" / f).exists():
             problem("warn", where, f"no emblem for code {c!r}")
-            continue
-        n = html.escape(STATE_NAME[c])
-        title = html.escape(FEDERAL_TITLE.get(c, f"{STATE_NAME[c]} regiment"))
-        out.append(f'<span class="emblem" title="{title}"><img src="{prefix}assets/emblems/{f}" '
-                   f'alt="{title if c in FEDERAL_TITLE else "Flag of " + n}" height="28">'
-                   f'<span aria-hidden="true">{STATE_ABBR.get(c, n)}</span></span>')
-    return f'<p class="emblems">{"".join(out)}</p>' if out else ""
+            return ""
+        return f'<div class="colors" aria-hidden="true"><img src="{prefix}assets/emblems/{f}" alt=""></div>'
+    return ""
 
 
 def help_block(name, url):
@@ -824,7 +812,7 @@ def render_stone(d, reg_by_grid, release, file_requests=None):
     row, col = d["grid"][0], d["grid"][1:]
     unit = meta.get("unit") or (reg or {}).get("unit", "")
     emblems = emblem_html(unit_states(unit, meta.get("emblem", "")), prefix, where)
-    head = [f'<p class="gridline"><span class="chip">{d["grid"]}</span> <span class="where">Row {row}, place {col}</span></p>{emblems}',
+    head = [f'<p class="gridline"><span class="chip">{d["grid"]}</span> <span class="where">Row {row}, place {col}</span></p>',
             f"<h1>{title}</h1>",
             f'<p class="lede">{inline(subtitle, prefix)}</p>' if subtitle else "",
             status_bar(status, str(meta.get("last_revised", "")))]
@@ -845,7 +833,7 @@ def render_stone(d, reg_by_grid, release, file_requests=None):
     researchers = meta.get("researchers") or []
     if isinstance(researchers, str):
         researchers = [researchers]
-    layout = ('<div class="stone-layout"><div class="stone-head">' + "\n".join(h for h in head if h) + "</div>\n"
+    layout = ('<div class="stone-layout"><div class="stone-head">' + emblems + "\n".join(h for h in head if h) + "</div>\n"
               + (f'<aside class="stone-aside">{card}</aside>\n' if card else "")
               + f'<div class="stone-text">{body_html}</div></div>')
     return page(str(meta.get("name_carved", d["slug"])), layout, prefix,
