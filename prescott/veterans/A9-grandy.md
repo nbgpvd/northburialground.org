@@ -20,11 +20,11 @@ died: "1922-11-28"
 death_place: "32 Superior Street, Providence, R.I. [15]"
 interred: ""                     # ledger not yet seen; death return says 'to be buried North Burial Ground' [15]
 city_lot_ref: ""                 # City lot record not yet matched
-emblem: "NC"                   # born Camden Co., N.C. [2][3][6]; his unit is federal, so the flag honors his native state (editor's decision, 11 Nov 2026)
+emblem: "NC"                   # born Camden Co., N.C. [2][3][6]; his unit is federal, so the flag honors his native state (editor's decision, 11 Nov 2026, with the knowledge and consent of living descendants personally known to the researcher)
 status: "draft"                  # CMSR read; pension index found (file not ordered); narrative drafted; civil life researched; no second reader
 researchers: ["Bernard Brennan"]
 second_reader: ""
-last_revised: "2026-11-01"
+last_revised: "2026-11-11"
 records_dir: records/A9/
 ---
 
@@ -35,6 +35,8 @@ Corporal, Co. A, 38th U.S. Colored Infantry. Minister. Born Camden County, North
 ## Life
 
 Isaac Grandy was born in Camden County, North Carolina, in the early 1840s, to Edward, called Ned, and Amy Grandy. [3][11][15]
+
+The flag on this page is North Carolina's, the state of his birth. [2][3]
 
 On January 5, 1864, at Norfolk, Virginia, he enlisted in Captain Clapp's company of the 1st Eastern Virginia Colored Infantry, which became Company A of the 38th U.S. Colored Infantry. He was twenty, a farmer. [2] He was sick in hospital at Portsmouth that spring and on fatigue duty at Point of Rocks the next winter. He was made a corporal and mustered out at Indianola, Texas, on January 25, 1867. [2]
 
@@ -141,7 +143,7 @@ Conflicts. Birth year: see What we don't know; no single record is preferred, an
 
 ## Credits
 
-Researched by Bernard Brennan. Records courtesy City of Providence, Department of Parks, North Burial Ground. Revised 2026-11-01.
+Researched by Bernard Brennan. Records courtesy City of Providence, Department of Parks, North Burial Ground. Revised 2026-11-11.
 
 <!-- Editor's notes (not for publication):
      - Drafted 31 Oct 2026 with the consent of granddaughter Marlene Walker Qualls, reported by

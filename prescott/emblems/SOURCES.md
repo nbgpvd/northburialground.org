@@ -19,13 +19,14 @@ vfw4651.org home page). Read from the dossier's `unit` field (see `unit_states()
   in the dossier and explained in a cited sentence in the man's Life section. As of 11 Nov 2026:
   37th USCI (from the 3rd North Carolina Colored Infantry; C5), 54th USCI (from the 2nd Arkansas Infantry,
   African Descent; M11), 117th USCI (organized at Covington, Ky.; the stone carves "Ken."; M20), 28th USCI
-  (raised by the State of Indiana; D15). Not applied, for now: the 20th and 26th USCI (raised in New York by
+  (raised by the State of Indiana; D15), 5th U.S. Colored Cavalry (organized at Camp Nelson, Ky.; J15). Not applied, for now: the 20th and 26th USCI (raised in New York by
   the Union League Club, not by the state) and the 31st (organized in New York; absorbed companies of the
   30th Connecticut; depends on the man's company).
 - **Native state, by the editor's decision:** where a man served in a federal unit and a record documents
   his birth in a Southern state, the page may carry that state's flag instead of the national colors, set by
   `emblem:` in the dossier with the record cited beside it. First case: A9 Isaac Grandy, 38th U.S. Colored
-  Infantry, born Camden County, N.C. (CMSR descriptive book and later records), North Carolina.
+  Infantry, born Camden County, N.C. (CMSR descriptive book and later records), North Carolina; set with the
+  knowledge and consent of living descendants personally known to the researcher.
 
 Pages with no unit read yet carry no flag. A dossier can set `emblem: XX` or `emblem: none` in its front
 matter to override what the unit field gives.
