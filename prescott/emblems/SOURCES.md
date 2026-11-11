@@ -1,8 +1,21 @@
-# State emblems
+# Emblems
 
-Small flags shown on a stone page when the man's unit names a state regiment (see `unit_states()` in `build.py`).
-Federal units (U.S. regulars, U.S. Colored Troops, U.S. Navy) carry none. A dossier can set `emblem: RI` (or
-`emblem: none`) in its front matter to override what the unit field gives.
+Small flags shown under the grid chip on a stone page (see `unit_states()` in `build.py`), read from the
+dossier's `unit` field:
+
+- **National colors, April 1865** (`US.svg`) on every page that names a unit. Thirteen stripes and 35 stars:
+  the 35-star flag was official from July 4, 1863 (West Virginia) to July 4, 1865, when Nevada's star was added,
+  so it was the lawful flag at Appomattox. No star pattern was fixed until 1912; five rows of seven is one
+  common 35-star arrangement. Drawn for this project by `tools/emblems.py`.
+- **U.S. Navy union jack, 1865** (`USN.svg`) added for sailors: the blue union alone, the same 35 stars.
+  Same script.
+- **State flag** where the unit names a state regiment. The 8th and 11th U.S. Colored Heavy Artillery are the
+  14th Rhode Island Heavy Artillery (Colored) under later designations and carry Rhode Island's.
+
+Pages with no unit read yet carry nothing. A dossier can set `emblem: US, RI` (codes in display order) or
+`emblem: none` in its front matter to override what the unit field gives.
+
+## State flags
 
 These are the **current official state flags**, not the colors the regiments carried. Most were adopted after
 the war (Rhode Island's, for example, in 1897). They mark the state the regiment belonged to and claim nothing more.
