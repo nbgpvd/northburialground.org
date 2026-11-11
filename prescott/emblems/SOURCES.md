@@ -3,10 +3,10 @@
 One flag per stone page, faded in from the right behind the grid line and the name (the treatment of the
 vfw4651.org home page). Read from the dossier's `unit` field (see `unit_states()` in `build.py`):
 
-- **Sailors:** the First Navy Jack (`USN.svg`): thirteen red and white stripes, an uncoiled rattlesnake,
-  DONT TREAD ON ME. The editor's choice of emblem for the Navy men. It is not the jack the Navy flew in 1865
-  (the blue union with its stars); it is the 1776 design as revived by the Navy in 2002. Drawn for this
-  project by `tools/emblems.py`.
+- **Sailors:** the First Navy Jack (`USN.svg`), the Naval jack of the United States as flown 2002–2019:
+  thirteen stripes, the uncoiled rattlesnake, DONT TREAD ON ME. The editor's choice of emblem for the Navy men;
+  it is not the jack of 1865 (the blue union with its stars). Source: U.S. Navy, Naval Historical Center;
+  vectorization by User:Denelson83. Public domain. https://commons.wikimedia.org/w/index.php?curid=79399559
 - **State regiments:** the current flag of the state. The 8th and 11th U.S. Colored Heavy Artillery are the
   14th Rhode Island Heavy Artillery (Colored) under later designations and get Rhode Island's.
 - **Any other unit** (U.S. regulars, U.S. Colored Troops, U.S. Volunteers): the national colors as of
