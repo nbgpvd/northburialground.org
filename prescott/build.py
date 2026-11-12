@@ -529,12 +529,37 @@ a.button:hover { background:var(--navy-dark); color:#fff; }
 header.site .sitenav { display:none; }
 [hidden] { display:none !important; }
 
+/* walking the lot: the direction pad, pinned to the bottom of the screen on phones (thumb reach) */
+nav.walk { position:sticky; bottom:0; z-index:5; margin:2rem -20px 0; padding:8px 10px calc(10px + env(safe-area-inset-bottom));
+           background:var(--panel); border-top:1px solid var(--rule); box-shadow:0 -6px 16px rgba(22,24,27,.08); }
+nav.walk .pad { display:grid; grid-template-columns:repeat(3, minmax(0, 1fr)); grid-template-rows:repeat(3, 52px); gap:6px;
+                grid-template-areas:"pos up ." "west here east" "map down ."; max-width:440px; margin:0 auto; }
+nav.walk .w-up { grid-area:up; } nav.walk .w-down { grid-area:down; } nav.walk .w-west { grid-area:west; }
+nav.walk .w-east { grid-area:east; } nav.walk .here { grid-area:here; } nav.walk .pos { grid-area:pos; } nav.walk .tomap { grid-area:map; }
+.walk-btn { display:flex; flex-direction:column; align-items:center; justify-content:center; min-width:0; padding:2px 6px;
+            background:#fff; border:2px solid var(--ink); border-radius:10px; color:var(--ink); text-decoration:none; line-height:1.15; }
+a.walk-btn:hover { border-color:var(--navy); color:var(--navy); }
+a.walk-btn:focus-visible { outline:3px solid var(--navy); outline-offset:2px; }
+.walk-btn b { display:flex; align-items:center; gap:3px; font-weight:800; font-size:.95rem; }
+.walk-btn span { display:block; max-width:100%; font-size:.78rem; font-weight:600; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.walk-btn small { display:block; font-size:.66rem; color:var(--muted); }
+.walk-btn.off { background:transparent; border:2px dashed var(--dash); color:var(--muted); font-size:.74rem; font-weight:600; text-align:center; }
+.walk-btn.tomap { flex-direction:row; gap:6px; border-color:var(--rule); color:var(--navy); }
+.walk-btn.tomap span { font-size:.9rem; font-weight:700; }
+nav.walk .here { display:flex; flex-direction:column; align-items:center; justify-content:center; background:var(--ink); color:#fff;
+                 border-radius:10px; font-size:.7rem; }
+nav.walk .here b { font-size:1.15rem; font-weight:800; }
+nav.walk .pos { display:flex; flex-direction:column; justify-content:center; padding-left:6px; font-size:.78rem; color:var(--muted); }
+nav.walk .pos b { color:var(--ink); font-size:.95rem; }
+
 /* ---- Wider screens. Same pages, same URLs (QR codes depend on them); only the layout changes. ---- */
 @media (min-width: 720px) {
   .column { max-width:760px; }
   main { padding:0 40px 2.5rem; }
   header.site, footer.site { padding-left:40px; padding-right:40px; }
   .banner { padding-left:40px; }
+  /* tablets and desktops: the pad sits at the foot of the page instead of over it */
+  nav.walk { position:static; margin:2.5rem 0 0; padding:14px; border:1px solid var(--rule); border-radius:14px; box-shadow:none; }
 }
 @media (min-width: 1000px) {
   html { font-size:106.25%; }
@@ -767,12 +792,12 @@ NAV_SHORT = {"Life": "Life", "The records": "Records", "What we don't know": "Un
              "A reading of the record": "Reading", "The stone": "Stone"}
 
 
-def status_bar(status, revised):
+def status_bar(status, revised, caption=None):
     n = STATUS_STEP.get(status, 0)
     labels = ["Stone read", "Identified", "Life drafted", "Complete"]
     segs = "".join(f'<span class="seg{" on" if i < n else ""}"></span>' for i in range(4))
     labs = "".join(f'<span class="{"cur" if i == n - 1 else ""}">{l}</span>' for i, l in enumerate(labels))
-    cap = STATUS_CAPTION.get(status, "")
+    cap = STATUS_CAPTION.get(status, "") if caption is None else caption
     rev = f" Revised {html.escape(fmt_date(revised))}." if revised else ""
     return (f'<div class="progress" role="group" aria-label="Research status: {html.escape(status)}">'
             f'<div class="segs">{segs}</div><div class="labs">{labs}</div><p class="cap">{cap}{rev}</p></div>')
@@ -802,7 +827,149 @@ def stone_card(stone_md, grid, name, prefix, where):
     return f'<section class="stone" id="the-stone">{img}<div class="stone-body">{carved}{note}</div></section>'
 
 
-def render_stone(d, reg_by_grid, release, file_requests=None):
+# ----------------------------------------------------------------------------
+# Walking the lot: every position has a page, and every stone page carries a pad that moves to the
+# next stone west or east along the row, or to the nearest stone in the row uphill or downhill.
+# Directions follow the map's compass: row A is at the top of the slope; place 1 is at the west end.
+# ----------------------------------------------------------------------------
+
+class Lot:
+    """The register as a walkable plan. slug(grid) is a place's page: its dossier's <GRID>-<surname>,
+    or plain <GRID> for a place with no dossier yet (decided 12 Nov 2026)."""
+
+    def __init__(self, rows, dossiers):
+        self.by_grid = {r["grid"]: r for r in rows}
+        self.dossier = {d["grid"]: d for d in dossiers}
+        self.letters = sorted({r["_row"] for r in rows})
+        self.rows = {L: sorted((r for r in rows if r["_row"] == L and place_kind(r) != "f"),
+                               key=lambda r: r["_col"]) for L in self.letters}
+
+    def slug(self, grid):
+        d = self.dossier.get(grid)
+        return d["slug"] if d else grid
+
+    def x(self, r):
+        """Position across the lot as the map draws it: the last row sits one place east of the others,
+        and in the monument rows the places after the monument sit four places further east."""
+        x = r["_col"]
+        if r["_row"] == self.letters[-1]:
+            x += 1
+        if r["_row"] in MONUMENT_ROWS and r["_col"] > MONUMENT_AFTER:
+            x += 4
+        return x
+
+
+def short_label(r, d=None):
+    """What a walk button calls a place: a surname, or what little the stone has given up."""
+    name = str((d["meta"].get("name_carved") if d else "") or r["name_carved"] or "")
+    name = re.sub(r"[\[\]]|\(\?\)", "", name).strip(" .,")
+    if name:
+        last = name.split()[-1].strip(".,")
+        return re.sub(r"\bMc([a-z])", lambda m: "Mc" + m.group(1).upper(), last.capitalize())
+    notes = r["notes"].lower()
+    if "no visible stone" in notes:
+        return "No stone seen"
+    if "sunk" in notes:
+        return "Sunk marker"
+    if r["unit"]:
+        return tidy_unit(r["unit"])
+    return "Not yet read"
+
+
+ARROW = {  # chevrons, drawn like the site's other icons
+    "up": '<path d="M6 15l6-6 6 6"/>', "down": '<path d="M6 9l6 6 6-6"/>',
+    "west": '<path d="M15 6l-6 6 6 6"/>', "east": '<path d="M9 6l6 6-6 6"/>',
+}
+
+
+def arrow_svg(way):
+    return ('<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" '
+            f'stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">{ARROW[way]}</svg>')
+
+
+def walk_nav(grid, lot):
+    """The direction pad for the page of `grid`. Links are relative to /stone/<slug>/."""
+    r = lot.by_grid[grid]
+    L, places = r["_row"], lot.rows[r["_row"]]
+    i = next(k for k, p in enumerate(places) if p["grid"] == grid)
+    li = lot.letters.index(L)
+
+    def button(way, target, word, note=""):
+        d = lot.dossier.get(target["grid"])
+        lab = short_label(target, d)
+        g = target["grid"]
+        inner = (f'<b>{arrow_svg(way) if way in ("up", "west") else ""}{g}{arrow_svg(way) if way in ("down", "east") else ""}</b>'
+                 f'<span>{html.escape(lab)}</span>')
+        if note:
+            inner += f'<small>{html.escape(note)}</small>'
+        return (f'<a class="walk-btn w-{way}" href="../{lot.slug(g)}/index.html" '
+                f'aria-label="{html.escape(word, quote=True)} to {g}, {html.escape(lab, quote=True)}">{inner}</a>')
+
+    def off(way, text):
+        return f'<span class="walk-btn off w-{way}">{html.escape(text)}</span>'
+
+    west = button("west", places[i - 1], "West along the row") if i > 0 else off("west", f"West end of row {L}")
+    east = button("east", places[i + 1], "East along the row") if i + 1 < len(places) else off("east", f"East end of row {L}")
+
+    def vertical(way, dl, word):
+        k = li + dl
+        if not 0 <= k < len(lot.letters):
+            return off(way, "Top row" if dl < 0 else "Bottom row")
+        x0 = lot.x(r)
+        cand = lot.rows[lot.letters[k]]
+        if not cand:
+            return off(way, f"Row {lot.letters[k]} is empty")
+        t = min(cand, key=lambda p: (abs(lot.x(p) - x0), p["_col"]))
+        note = "nearest stone" if lot.x(t) != x0 else ""
+        return button(way, t, word, note)
+
+    up = vertical("up", -1, "Uphill")
+    down = vertical("down", 1, "Downhill")
+    return (f'<nav class="walk" aria-label="Neighboring stones"><div class="pad">'
+            f'<span class="pos"><b>Row {L}</b>{i + 1} of {len(places)}</span>'
+            f'{up}{west}<span class="here"><b>{grid}</b>you are here</span>{east}'
+            f'<a class="walk-btn tomap" href="../../map/index.html#row-{L}">{MAP_ICON}<span>Map</span></a>{down}'
+            f'</div></nav>')
+
+
+def render_placeholder(r, lot, release, photo_url=""):
+    """The page for a place that has no dossier: what the survey recorded, and a way to help read it."""
+    prefix, grid = "../../", r["grid"]
+    notes = r["notes"].lower()
+    unit = tidy_unit(r["unit"]) if r["unit"] else ""
+    if "no visible stone" in notes:
+        h1 = "No stone seen here"
+        lede = ("No stone was visible at this place when it was checked; the ground has not yet been probed "
+                "for a sunk marker.")
+    elif "sunk" in notes:
+        h1 = "Marker not yet read"
+        lede = "This marker has sunk into the ground, and no inscription has been read."
+    elif unit:
+        h1 = "Name not yet read"
+        lede = (f"Only part of this stone has been recorded so far: <b>{html.escape(unit)}</b>. "
+                "The name has not yet been read.")
+    else:
+        h1 = "Stone not yet read"
+        lede = "No inscription was recorded for this stone when the lot was surveyed."
+    emblems = emblem_html(unit_states(r["unit"]), prefix, f"register.csv {grid}") if unit else ""
+    ask = (f'<p><a class="button" href="{html.escape(photo_url)}" rel="noopener">Upload a photograph</a></p>'
+           if photo_url else "")
+    body = (f'<div class="stone-layout"><div class="stone-head">{emblems}'
+            f'<p class="gridline"><span class="chip">{grid}</span> <span class="where">Row {r["_row"]}, place {r["_col"]}</span></p>'
+            f'<h1>{h1}</h1><p class="lede">{lede}</p>'
+            + status_bar("", "", caption="This place has a page so that it can be found; its man is not yet known.")
+            + '</div><div class="stone-text">'
+            f'<section class="help" id="help"><h2>Help read this stone</h2>'
+            f'<p>A clear photograph of the face of this stone, taken straight on, with its place in the lot '
+            f'(<b>{grid}</b>), is new knowledge. If the stone is sunk or worn, photograph it as it is.</p>'
+            f'{ask}<p><a href="{prefix}help/index.html">How to help with the Prescott Post lot</a></p></section>'
+            '</div></div>')
+    researchers = [r["researcher"]] if r.get("researcher") else []
+    return page(f"{grid} — {h1}", body + walk_nav(grid, lot), prefix, researchers, "", release,
+                kind="stone", path=f"stone/{grid}/")
+
+
+def render_stone(d, reg_by_grid, release, file_requests=None, lot=None):
     meta, prefix, where = d["meta"], "../../", d["file"]
     records = set()
     raw = COMMENT_RE.sub("", d["body"])
@@ -872,6 +1039,8 @@ def render_stone(d, reg_by_grid, release, file_requests=None):
     layout = ('<div class="stone-layout"><div class="stone-head">' + emblems + "\n".join(h for h in head if h) + "</div>\n"
               + (f'<aside class="stone-aside">{card}</aside>\n' if card else "")
               + f'<div class="stone-text">{body_html}</div></div>')
+    if lot and d["grid"] in lot.by_grid:
+        layout += walk_nav(d["grid"], lot)
     return page(str(meta.get("name_carved", d["slug"])), layout, prefix,
                 researchers, str(meta.get("last_revised", "")), release, kind="stone",
                 path=f"stone/{d['slug']}/"), records
@@ -959,8 +1128,8 @@ def render_map(rows, dossiers, release):
                         flag = f'<span class="pflag" aria-hidden="true"><img src="{prefix}assets/emblems/{f}" alt="" loading="lazy"></span>'
             inner = (f'{flag}<span class="code">{code}</span><span class="what"><span class="{cls}">{nm}</span>'
                      f'{unit_line}<span class="st">{st}</span></span>')
-            if d:
-                items.append(f'<a class="place linked" href="../stone/{d["slug"]}/index.html">{inner}{CHEVRON}</a>')
+            if k != "f":   # every place has a page: its dossier, or a placeholder at /stone/<GRID>/
+                items.append(f'<a class="place linked" href="../stone/{d["slug"] if d else code}/index.html">{inner}{CHEVRON}</a>')
             else:
                 items.append(f'<div class="place">{inner}</div>')
         lists.append(f'<div class="rowlist" data-row="{L}" hidden><div class="rowhead"><h2>Row {L}</h2>'
@@ -1163,13 +1332,35 @@ def main():
         if not grid.startswith("_"):      # rows beginning "_" are general requests (e.g. _photos), not stones
             problem("warn", "file-requests.csv", f"{grid}: open request but no dossier page to show it on")
 
+    lot = Lot(rows, dossiers)
     hosted = set()
     for d in dossiers:
-        html_text, records = render_stone(d, reg_by_grid, args.release, file_requests)
+        html_text, records = render_stone(d, reg_by_grid, args.release, file_requests, lot)
         dest = out / "stone" / d["slug"]
         dest.mkdir(parents=True)
         (dest / "index.html").write_text(html_text, encoding="utf-8")
         hosted |= records
+    # Every other place gets a placeholder at /stone/<GRID>/; every dossier also answers at /stone/<GRID>/
+    # (a redirect), so a grid-only address always works, before and after a name is read.
+    help_meta = {}
+    if (ROOT / "site" / "help.md").exists():
+        help_meta, _ = parse_front_matter((ROOT / "site" / "help.md").read_text(encoding="utf-8"), "site/help.md")
+    photo_url = str(help_meta.get("photo_request_url", "")).strip()
+    n_placeholders = 0
+    for r in rows:
+        if place_kind(r) == "f":
+            continue
+        dest = out / "stone" / r["grid"]
+        dest.mkdir(parents=True, exist_ok=True)
+        d = lot.dossier.get(r["grid"])
+        if d:
+            (dest / "index.html").write_text(
+                f'<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>{r["grid"]}</title>'
+                f'<meta http-equiv="refresh" content="0; url=../{d["slug"]}/"><link rel="canonical" href="{SITE_URL}stone/{d["slug"]}/"></head>'
+                f'<body><p><a href="../{d["slug"]}/index.html">{r["grid"]}</a></p></body></html>', encoding="utf-8")
+        else:
+            (dest / "index.html").write_text(render_placeholder(r, lot, args.release, photo_url), encoding="utf-8")
+            n_placeholders += 1
     # Photographs of stones not yet matched to a grid position are shown on the help page.
     # Records that the site pages (site/*.md) show directly are hosted too.
     for sp in (ROOT / "site").glob("*.md"):
@@ -1207,7 +1398,7 @@ def main():
 
     errors = [p for p in PROBLEMS if p[0] == "error"]
     warns = [p for p in PROBLEMS if p[0] == "warn"]
-    print(f"built {len(dossiers)} stone page(s), 1 map, {len(hosted)} hosted record(s) -> {out}")
+    print(f"built {len(dossiers)} stone page(s), {n_placeholders} placeholder(s), 1 map, {len(hosted)} hosted record(s) -> {out}")
     for sev, where, msg in PROBLEMS:
         print(f"  {sev.upper():5} {where}: {msg}")
     print(f"{len(errors)} error(s), {len(warns)} warning(s)")

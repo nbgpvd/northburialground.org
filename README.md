@@ -22,8 +22,11 @@ Standard library only. No database. Anyone with this repo can rebuild the site w
 
 ## URLs are permanent
 
-QR codes at the plot point to `https://northburialground.org/prescott/stone/<GRID>-<surname>/`.
-Do not rename a published stone page or change the grid scheme without a redirect.
+A stone with a dossier lives at `https://northburialground.org/prescott/stone/<GRID>-<surname>/`.
+Every other place in the lot has a placeholder at `/prescott/stone/<GRID>/` (e.g. `/stone/A8/`),
+generated from `register.csv`; when a dossier is written for that place, `/stone/<GRID>/` becomes a
+redirect to it, so a grid-only address always works. Do not rename a published stone page or change
+the grid scheme without a redirect.
 
 ## Ownership
 
