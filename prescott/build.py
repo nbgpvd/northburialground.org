@@ -425,6 +425,12 @@ p.gridline { display:flex; align-items:center; gap:12px; margin:1.3rem 0 .2rem; 
           mask-composite:intersect; }
 .colors img { position:absolute; right:0; top:0; height:100%; width:auto; max-width:none; opacity:.26; }
 @media (min-width:1000px) { .colors { right:0; width:70%; height:10.5rem; } .colors img { opacity:.34; } }
+.map-head { position:relative; isolation:isolate; }
+.mapbg { position:absolute; z-index:-1; top:0; right:-20px; left:-20px; height:17rem; pointer-events:none; user-select:none; overflow:hidden;
+         -webkit-mask-image:linear-gradient(180deg, #000 45%, transparent); mask-image:linear-gradient(180deg, #000 45%, transparent); }
+.mapbg img { width:100%; height:100%; object-fit:cover; object-position:50% 38%; opacity:.24; }
+@media (min-width:720px) { .mapbg { left:-40px; right:-40px; height:19rem; } }
+@media (min-width:1000px) { .mapbg { left:-56px; right:-56px; height:21rem; } .mapbg img { object-position:50% 40%; opacity:.26; } }
 .chip { display:inline-block; background:var(--ink); color:#fff; font-weight:800; font-size:1.05rem; padding:.35rem .9rem; border-radius:8px; letter-spacing:.02em; }
 code { font-family:ui-monospace, Menlo, monospace; font-size:.9em; }
 mark.todo { background:var(--todo); padding:0 .15em; }
@@ -586,7 +592,8 @@ nav.walk .pos b { color:var(--ink); font-size:.95rem; }
   header.site .sitenav a.org { color:var(--muted); font-weight:500; padding-left:1.6rem; border-left:1px solid var(--rule); border-bottom:0; }
   h1 { font-size:2.9rem; margin-top:1rem; }
   /* reading pages keep a comfortable line length */
-  body:not(.stone) main > *:not(.mapgrid) { max-width:46rem; }
+  body:not(.stone) main > *:not(.mapgrid):not(.map-head) { max-width:46rem; }
+  .map-head > *:not(.mapbg) { max-width:46rem; }
 
   /* stone page: text on the left, the stone kept in view on the right */
   .stone-layout { display:grid; grid-template-columns:minmax(0, 1fr) 400px; grid-template-rows:auto 1fr;
@@ -1173,12 +1180,18 @@ def render_map(rows, dossiers, release):
 
     n_named = sum(1 for r in rows if r["name_carved"])
     n_ident = sum(1 for r in rows if place_kind(r) in "idc")
+    # The monument page's main photograph, faded in behind the head of the page (like a stone page's flag).
+    bg = "records/_monument/monument-inscription-2026.jpg"
+    bg_html = (f'<div class="mapbg" aria-hidden="true"><img src="{prefix}{bg}" alt=""></div>'
+               if (ROOT / bg).exists() else "")
     intro = f"""
+<div class="map-head">{bg_html}
 <h1>{html.escape(str(meta.get("title", "The Prescott Post lot")))}</h1>
 """
     head = f"""
 <h2 id="rows">The lot, row by row</h2>
 <p class="lede">The lot is on a slope. Row A is at the top; the rows run downhill from there. Pick a row to see its stones.</p>
+</div>
 <div class="mapgrid"><div class="mapside">
 <div class="lotmap">
   <div class="compass"><span>West · 1</span><b>Uphill ↑</b><span>{ncol} · East</span></div>
