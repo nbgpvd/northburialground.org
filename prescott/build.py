@@ -1175,10 +1175,8 @@ def render_map(rows, dossiers, release):
     n_ident = sum(1 for r in rows if place_kind(r) in "idc")
     intro = f"""
 <h1>{html.escape(str(meta.get("title", "The Prescott Post lot")))}</h1>
-<div class="essay" id="about">
 """
     head = f"""
-</div>
 <h2 id="rows">The lot, row by row</h2>
 <p class="lede">The lot is on a slope. Row A is at the top; the rows run downhill from there. Pick a row to see its stones.</p>
 <div class="mapgrid"><div class="mapside">
@@ -1219,7 +1217,9 @@ def render_map(rows, dossiers, release):
     essay_text, essay_sources = (essay[:cut], essay[cut:]) if cut >= 0 else (essay, "")
     if essay_sources:
         essay_sources = '<div class="essay">' + essay_sources + "</div>"
-    return page("Plot map", intro + essay_text + head + essay_sources + script, prefix, researchers,
+    # The map comes first (12 Nov 2026): a visitor at the lot wants to find a stone; the essay follows.
+    essay_text = '<div class="essay" id="about"><h2 id="about-the-lot">About the lot</h2>' + essay_text + "</div>"
+    return page("Plot map", intro + head + essay_text + essay_sources + script, prefix, researchers,
                 str(meta.get("last_revised", "")), release, kind="map", path="map/")
 
 
