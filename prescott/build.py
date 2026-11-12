@@ -533,9 +533,17 @@ header.site .sitenav { display:none; }
 nav.walk { position:sticky; bottom:0; z-index:5; margin:2rem -20px 0; padding:8px 10px calc(10px + env(safe-area-inset-bottom));
            background:var(--panel); border-top:1px solid var(--rule); box-shadow:0 -6px 16px rgba(22,24,27,.08); }
 nav.walk .pad { display:grid; grid-template-columns:repeat(3, minmax(0, 1fr)); grid-template-rows:repeat(3, 52px); gap:6px;
-                grid-template-areas:"pos up ." "west here east" "map down ."; max-width:440px; margin:0 auto; }
+                grid-template-areas:"pos up hide" "west here east" "map down ."; max-width:440px; margin:0 auto; }
 nav.walk .w-up { grid-area:up; } nav.walk .w-down { grid-area:down; } nav.walk .w-west { grid-area:west; }
-nav.walk .w-east { grid-area:east; } nav.walk .here { grid-area:here; } nav.walk .pos { grid-area:pos; } nav.walk .tomap { grid-area:map; }
+nav.walk .w-east { grid-area:east; } nav.walk .here { grid-area:here; } nav.walk .pos { grid-area:pos; } nav.walk .tomap { grid-area:map; } nav.walk .walk-hide { grid-area:hide; }
+.walk-btn.walk-hide { flex-direction:row; gap:4px; border-color:var(--rule); color:var(--muted); font:inherit; cursor:pointer; }
+.walk-btn.walk-hide span { font-size:.85rem; font-weight:700; }
+.walk-show { display:flex; align-items:center; justify-content:center; gap:10px; width:100%; max-width:440px; min-height:48px; margin:0 auto;
+             background:#fff; border:2px solid var(--ink); border-radius:10px; color:var(--ink); font:inherit; cursor:pointer; }
+.walk-show b { font-weight:800; font-size:1rem; } .walk-show span { font-weight:700; font-size:.9rem; }
+nav.walk.collapsed { padding-top:6px; }
+nav.walk.collapsed .pad { display:none; }
+nav.walk:not(.collapsed) .walk-show { display:none; }
 .walk-btn { display:flex; flex-direction:column; align-items:center; justify-content:center; min-width:0; padding:2px 6px;
             background:#fff; border:2px solid var(--ink); border-radius:10px; color:var(--ink); text-decoration:none; line-height:1.15; }
 a.walk-btn:hover { border-color:var(--navy); color:var(--navy); }
@@ -560,6 +568,8 @@ nav.walk .pos b { color:var(--ink); font-size:.95rem; }
   .banner { padding-left:40px; }
   /* tablets and desktops: the pad sits at the foot of the page instead of over it */
   nav.walk { position:static; margin:2.5rem 0 0; padding:14px; border:1px solid var(--rule); border-radius:14px; box-shadow:none; }
+  nav.walk .walk-show, nav.walk .walk-hide { display:none !important; }   /* hiding is a phone feature */
+  nav.walk.collapsed .pad { display:grid; }
 }
 @media (min-width: 1000px) {
   html { font-size:106.25%; }
@@ -925,11 +935,37 @@ def walk_nav(grid, lot):
 
     up = vertical("up", -1, "Uphill")
     down = vertical("down", 1, "Downhill")
-    return (f'<nav class="walk" aria-label="Neighboring stones"><div class="pad">'
+    return (f'<nav class="walk" aria-label="Neighboring stones">'
+            f'<button type="button" class="walk-show" aria-controls="walkpad" aria-expanded="false" hidden>'
+            f'<b>{grid}</b><span>Show directions</span>{arrow_svg("up")}</button>'
+            f'<div class="pad" id="walkpad">'
             f'<span class="pos"><b>Row {L}</b>{i + 1} of {len(places)}</span>'
-            f'{up}{west}<span class="here"><b>{grid}</b>you are here</span>{east}'
+            f'{up}<button type="button" class="walk-btn walk-hide" aria-controls="walkpad" aria-expanded="true" hidden>'
+            f'{arrow_svg("down")}<span>Hide</span></button>'
+            f'{west}<span class="here"><b>{grid}</b>you are here</span>{east}'
             f'<a class="walk-btn tomap" href="../../map/index.html#row-{L}">{MAP_ICON}<span>Map</span></a>{down}'
-            f'</div></nav>')
+            f'</div></nav>' + WALK_SCRIPT)
+
+
+# Hide/show the pad on phones. The choice is remembered on this phone across stone pages
+# (localStorage; if storage is unavailable the pad simply starts shown). Without JavaScript the
+# toggle buttons stay hidden and the pad is always shown.
+WALK_SCRIPT = """<script>
+(function(){
+  var nav=document.currentScript.previousElementSibling; if(!nav||!nav.classList.contains('walk')) return;
+  var show=nav.querySelector('.walk-show'), hide=nav.querySelector('.walk-hide'), K='pp-walk-hidden';
+  function set(h, save){
+    nav.classList.toggle('collapsed', h);
+    show.setAttribute('aria-expanded', String(!h)); hide.setAttribute('aria-expanded', String(!h));
+    if(save){ try{ localStorage.setItem(K, h?'1':'0'); }catch(e){} }
+  }
+  show.hidden=false; hide.hidden=false;
+  var h=false; try{ h=localStorage.getItem(K)==='1'; }catch(e){}
+  set(h, false);
+  show.addEventListener('click', function(){ set(false, true); var b=nav.querySelector('a.walk-btn'); if(b) b.focus(); });
+  hide.addEventListener('click', function(){ set(true, true); show.focus(); });
+})();
+</script>"""
 
 
 def render_placeholder(r, lot, release, photo_url=""):
