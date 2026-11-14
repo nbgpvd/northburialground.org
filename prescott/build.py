@@ -1186,10 +1186,9 @@ def render_map(rows, dossiers, release):
                if (ROOT / bg).exists() else "")
     intro = f"""
 <div class="map-head">{bg_html}
-<h1>{html.escape(str(meta.get("title", "The Prescott Post lot")))}</h1>
 """
     head = f"""
-<h2 id="rows">The lot, row by row</h2>
+<h1 id="rows">The lot, row by row</h1>
 <p class="lede">The lot is on a slope. Row A is at the top; the rows run downhill from there. Pick a row to see its stones.</p>
 </div>
 <div class="mapgrid"><div class="mapside">
