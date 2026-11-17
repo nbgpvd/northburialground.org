@@ -5,8 +5,8 @@ name_full: "Charles H. Smith"
 variants: ["Charles H. Smith [stone]"]
 unit: "1st U.S. Colored Infantry"
 company: "K"
-rank_highest: ""
-rank_at_discharge: ""
+rank_highest: "Corporal [NPS index]"
+rank_at_discharge: "Private [NPS index]"
 born: ""
 birthplace: ""
 died: "188X-03-09"
@@ -22,7 +22,7 @@ records_dir: records/I21/
 
 # CHARLES H. SMITH
 
-Co. K, 1st U.S. Colored Infantry
+Corporal, Co. K, 1st U.S. Colored Infantry
 
 ## Life
 

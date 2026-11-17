@@ -5,8 +5,8 @@ name_full: "Robert W. Small"
 variants: ["Robert W. Small [stone]"]
 unit: "2nd Rhode Island Volunteers"
 company: "I"
-rank_highest: ""
-rank_at_discharge: ""
+rank_highest: "First Lieutenant [NPS index]"
+rank_at_discharge: "First Lieutenant (Regimental Quartermaster) [NPS index]"
 born: ""
 birthplace: ""
 died: "1918-11-04"
@@ -22,7 +22,7 @@ records_dir: records/B4/
 
 # ROBERT W. SMALL
 
-Co. I, 2nd Rhode Island Volunteers · died 1918-11-04
+First Lieutenant, 2nd Rhode Island Volunteers · died 1918-11-04
 
 ## Life
 

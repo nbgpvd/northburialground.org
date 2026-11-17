@@ -5,8 +5,8 @@ name_full: "Constantine G. W. Bischoff"
 variants: ["Constantine G. W. Bischoff [stone]", "Bischoff, Constantine G. W. (filed under Bishoff) [NPS index]"]
 unit: "5th Rhode Island Heavy Artillery"
 company: "F"
-rank_highest: ""
-rank_at_discharge: ""
+rank_highest: "Sergeant [NPS index]"
+rank_at_discharge: "Private [NPS index]"
 born: ""
 birthplace: ""
 died: "1915-11-09"
@@ -22,7 +22,7 @@ records_dir: records/C2/
 
 # CONSTANTINE G. W. BISCHOFF
 
-Co. F, 5th Rhode Island Heavy Artillery · died 1915-11-09
+Sergeant, Co. F, 5th Rhode Island Heavy Artillery · died 1915-11-09
 
 ## Life
 
