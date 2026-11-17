@@ -2,7 +2,7 @@
 grid: "G23"
 name_carved: "[CH]ARLES RAA[D]"
 name_full: "Charles Raad"
-variants: ["Charles Raad [stone]"]
+variants: ["Charles Raad [stone]", "Raab, Charles [NPS index]"]
 unit: "1st Rhode Island Light Artillery"
 company: "A"
 rank_highest: ""
@@ -28,7 +28,7 @@ Co. A, 1st Rhode Island Light Artillery · died 1884-07-04
 
 Charles Raad lies in grave G23 of the Prescott Post lot. His stone names his unit as Company A of the 1st Rhode Island Light Artillery, and gives his death as July 4, 1884. [1]
 
-The National Park Service's index of Civil War soldiers and sailors has not yet been searched for him.
+The National Park Service's index of Civil War soldiers lists Raab, Charles, 1st Rhode Island Light Artillery, Battery A, private in and out, microfilm M555 roll 6; the card notes he was temporarily attached to the battery and that his cards are filed with the 52nd New York Infantry. [2] No Charles Raad or Rand was found in the 1st Rhode Island Light Artillery; the Charles in its Battery A is indexed as Raab (a second card spells it Rabb). The last letter of the surname on the stone is worn; it may be B rather than D.
 
 His service record, any pension file, and his life before and after the war have not yet been researched. This page will grow as the records are read.
 
@@ -56,6 +56,7 @@ Transcription as recorded in the plot register from the photograph; square brack
 ## Sources
 
 1. Gravestone of Charles Raad, grave G23, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, November 17, 2026; transcription as recorded in the plot register.
+2. National Park Service, Civil War Soldiers and Sailors Database, search for "Charles Raab" (1st Rhode Island Light Artillery); accessed November 17, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
 
 ## Credits
 

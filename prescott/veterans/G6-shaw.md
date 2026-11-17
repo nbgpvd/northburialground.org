@@ -28,7 +28,7 @@ records_dir: records/G6/
 
 Richard A. Shaw lies in grave G6 of the Prescott Post lot. His stone names his unit as 156th New York Volunteers, and gives his death as March 21, 1881. [1]
 
-The National Park Service's index of Civil War soldiers and sailors has not yet been searched for him.
+The National Park Service's index of Civil War soldiers lists Shaw, Richard A., 156th New York Infantry, Company F, private in and out, microfilm M551 roll 127. [2] The stone gives no company; the index card gives Company F.
 
 His service record, any pension file, and his life before and after the war have not yet been researched. This page will grow as the records are read.
 
@@ -54,6 +54,7 @@ Transcription as recorded in the plot register from the photograph; square brack
 ## Sources
 
 1. Gravestone of Richard A. Shaw, grave G6, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, November 17, 2026; transcription as recorded in the plot register.
+2. National Park Service, Civil War Soldiers and Sailors Database, search for "Richard A. Shaw" (156th New York Volunteers); accessed November 17, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
 
 ## Credits
 

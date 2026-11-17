@@ -2,7 +2,7 @@
 grid: "G1"
 name_carved: "ALBERT J. REEVE[S]"
 name_full: "Albert J. Reeves"
-variants: ["Albert J. Reeves [stone]"]
+variants: ["Albert J. Reeves [stone]", "Reeves, A. J. (filed under Albert J. Reeve) [NPS index]"]
 unit: "26th Pennsylvania Volunteers"
 company: "C"
 rank_highest: ""
@@ -28,9 +28,9 @@ Co. C, 26th Pennsylvania Volunteers
 
 Albert J. Reeves lies in grave G1 of the Prescott Post lot. His stone names his unit as Company C of the 26th Pennsylvania Volunteers, and gives his death as October 29 of a year in the 1890s (1893 or 1898). [1]
 
-The National Park Service's index of Civil War soldiers and sailors has not yet been searched for him.
+The National Park Service's index of Civil War soldiers lists Reeves, A. J. (filed under Albert J. Reeve), 26th Pennsylvania Infantry, Company C, private in and out, microfilm M554 roll 99. [2]
 
-A 2022 list of Civil War veterans buried at North Burial Ground gives his death as 1893. [2]
+A 2022 list of Civil War veterans buried at North Burial Ground gives his death as 1893. [3]
 
 His service record, any pension file, and his life before and after the war have not yet been researched. This page will grow as the records are read.
 
@@ -57,7 +57,8 @@ Transcription as recorded in the plot register from the photograph; square brack
 ## Sources
 
 1. Gravestone of Albert J. Reeves, grave G1, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, November 17, 2026; transcription as recorded in the plot register.
-2. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for Albert J. Reeves.
+2. National Park Service, Civil War Soldiers and Sailors Database, search for "Albert J. Reeves" (26th Pennsylvania Volunteers); accessed November 17, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
+3. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for Albert J. Reeves.
 
 ## Credits
 

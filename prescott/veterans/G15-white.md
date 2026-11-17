@@ -28,9 +28,9 @@ records_dir: records/G15/
 
 Thomas J. White lies in grave G15 of the Prescott Post lot. His stone is badly weathered: the name can be read, the line that named his unit has worn away, and it gives his death as October 7 of a year in the 1870s. [1]
 
-The National Park Service's index of Civil War soldiers and sailors has not yet been searched for him.
+The index has two Thomas Whites in Rhode Island units (Battery G, 1st Rhode Island Light Artillery, attached from a New York battery; and Company D, 9th Rhode Island) and none with the initial J. With the unit line gone from his stone, neither can be matched to him. [2]
 
-A 2022 list of Civil War veterans buried at North Burial Ground has a Thomas J. White, born about 1820, who died in 1876. [2]
+A 2022 list of Civil War veterans buried at North Burial Ground has a Thomas J. White, born about 1820, who died in 1876. [3]
 
 His service record, any pension file, and his life before and after the war have not yet been researched. This page will grow as the records are read.
 
@@ -57,7 +57,8 @@ Transcription as recorded in the plot register from the photograph; square brack
 ## Sources
 
 1. Gravestone of Thomas J. White, grave G15, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, November 17, 2026; transcription as recorded in the plot register.
-2. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for Thomas J. White.
+2. National Park Service, Civil War Soldiers and Sailors Database, search for "Thomas J. White" (); accessed November 17, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
+3. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for Thomas J. White.
 
 ## Credits
 

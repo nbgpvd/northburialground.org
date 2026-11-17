@@ -28,9 +28,9 @@ Co. K, 11th Rhode Island Volunteers · died 1878-11-18
 
 William Bates lies in grave G17 of the Prescott Post lot. His stone names his unit as Company K of the 11th Rhode Island Volunteers, and gives his death as November 18, 1878. [1]
 
-The National Park Service's index of Civil War soldiers and sailors has not yet been searched for him.
+The National Park Service's index of Civil War soldiers lists Bates, William, 11th Rhode Island Infantry, Company K, private in and out, microfilm M555 roll 1. [2] The index has only one William Bates in Company K, so it does not settle which William Bates died in 1905.
 
-A 2022 list of Civil War veterans buried at North Burial Ground gives his death as 1878. [2]
+A 2022 list of Civil War veterans buried at North Burial Ground gives his death as 1878. [3]
 
 His service record, any pension file, and his life before and after the war have not yet been researched. This page will grow as the records are read.
 
@@ -57,7 +57,8 @@ Transcription as recorded in the plot register from the photograph; square brack
 ## Sources
 
 1. Gravestone of William Bates, grave G17, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, November 17, 2026; transcription as recorded in the plot register.
-2. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for William Bates.
+2. National Park Service, Civil War Soldiers and Sailors Database, search for "William Bates" (11th Rhode Island Volunteers); accessed November 17, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
+3. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for William Bates.
 
 ## Credits
 

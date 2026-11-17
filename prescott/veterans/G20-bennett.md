@@ -2,7 +2,7 @@
 grid: "G20"
 name_carved: "ALPHONSO J. BENNETT"
 name_full: "Alphonso J. Bennett"
-variants: ["Alphonso J. Bennett [stone]"]
+variants: ["Alphonso J. Bennett [stone]", "Bennett, Alphonso [NPS index]"]
 unit: "10th Rhode Island Light Battery"
 company: ""
 rank_highest: "Corporal [stone; NPS index]"
@@ -28,9 +28,9 @@ Corporal, 10th Rhode Island Light Battery · died 1882-05-06
 
 Alphonso J. Bennett lies in grave G20 of the Prescott Post lot. His stone names his unit as 10th Rhode Island Light Battery, and gives his death as May 6, 1882. [1]
 
-The National Park Service's index of Civil War soldiers and sailors has not yet been searched for him.
+The National Park Service's index of Civil War soldiers lists Bennett, Alphonso, 10th Rhode Island Infantry, Company L, corporal in and out, microfilm M555 roll 1. [2] The stone names the 10th Rhode Island Light Battery; the index files him with the 10th Rhode Island Infantry as Company L, with the same rank as the stone. His service record should show how the battery and the regiment's Company L relate.
 
-A 2022 list of Civil War veterans buried at North Burial Ground gives his death as 1882. [2]
+A 2022 list of Civil War veterans buried at North Burial Ground gives his death as 1882. [3]
 
 His service record, any pension file, and his life before and after the war have not yet been researched. This page will grow as the records are read.
 
@@ -57,7 +57,8 @@ Transcription as recorded in the plot register from the photograph; square brack
 ## Sources
 
 1. Gravestone of Alphonso J. Bennett, grave G20, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, November 17, 2026; transcription as recorded in the plot register.
-2. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for Alphonso J. Bennett.
+2. National Park Service, Civil War Soldiers and Sailors Database, search for "Alphonso J. Bennett" (10th Rhode Island Light Battery); accessed November 17, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
+3. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for Alphonso J. Bennett.
 
 ## Credits
 

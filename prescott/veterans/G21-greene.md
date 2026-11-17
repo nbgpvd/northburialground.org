@@ -2,7 +2,7 @@
 grid: "G21"
 name_carved: "LYMAN W. GREENE"
 name_full: "Lyman W. Greene"
-variants: ["Lyman W. Greene [stone]"]
+variants: ["Lyman W. Greene [stone]", "Greene, Lyman W. (also filed as Green [NPS index]"]
 unit: "18th Connecticut Volunteers"
 company: "D"
 rank_highest: ""
@@ -28,9 +28,9 @@ Co. D, 18th Connecticut Volunteers · died 1882-10-05
 
 Lyman W. Greene lies in grave G21 of the Prescott Post lot. His stone names his unit as Company D of the 18th Connecticut Volunteers, and gives his death as October 5, 1882. [1]
 
-The National Park Service's index of Civil War soldiers and sailors has not yet been searched for him.
+The National Park Service's index of Civil War soldiers lists Greene, Lyman W. (also filed as Green, Jr., Lyman), 18th Connecticut Infantry, Company D, private in and out, microfilm M535 roll 7. [2]
 
-A 2022 list of Civil War veterans buried at North Burial Ground gives his death as 1882. [2]
+A 2022 list of Civil War veterans buried at North Burial Ground gives his death as 1882. [3]
 
 His service record, any pension file, and his life before and after the war have not yet been researched. This page will grow as the records are read.
 
@@ -56,7 +56,8 @@ Transcription as recorded in the plot register from the photograph; square brack
 ## Sources
 
 1. Gravestone of Lyman W. Greene, grave G21, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, November 17, 2026; transcription as recorded in the plot register.
-2. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for Lyman W. Greene.
+2. National Park Service, Civil War Soldiers and Sailors Database, search for "Lyman W. Greene" (18th Connecticut Volunteers); accessed November 17, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
+3. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for Lyman W. Greene.
 
 ## Credits
 

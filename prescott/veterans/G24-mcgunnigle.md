@@ -2,7 +2,7 @@
 grid: "G24"
 name_carved: "[J]AMES McGUNNIGL[E]"
 name_full: "James McGunnigle"
-variants: ["James McGunnigle [stone]"]
+variants: ["James McGunnigle [stone]", "McGunnigle, James (also filed as McGunigle) [NPS index]"]
 unit: "1st Rhode Island Light Artillery"
 company: "B"
 rank_highest: ""
@@ -28,9 +28,9 @@ Co. B, 1st Rhode Island Light Artillery · died 1884-07-02
 
 James McGunnigle lies in grave G24 of the Prescott Post lot. His stone names his unit as Company B of the 1st Rhode Island Light Artillery, and gives his death as July 2, 1884. [1]
 
-The National Park Service's index of Civil War soldiers and sailors has not yet been searched for him.
+The National Park Service's index of Civil War soldiers lists McGunnigle, James (also filed as McGunigle), 1st Rhode Island Infantry (3 months, 1861), Company B, with the company note "Batty. B", private in and out, microfilm M555 roll 5. [2] No James McGunnigle is indexed under the 1st Rhode Island Light Artillery. The card's "Batty. B" note fits the stone's Company B; a second card puts a James McGunnigle in Company G of the same three-month regiment.
 
-A 2022 list of Civil War veterans buried at North Burial Ground gives his death as 1884. [2]
+A 2022 list of Civil War veterans buried at North Burial Ground gives his death as 1884. [3]
 
 His service record, any pension file, and his life before and after the war have not yet been researched. This page will grow as the records are read.
 
@@ -57,7 +57,8 @@ Transcription as recorded in the plot register from the photograph; square brack
 ## Sources
 
 1. Gravestone of James McGunnigle, grave G24, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, November 17, 2026; transcription as recorded in the plot register.
-2. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for James McGunnigle.
+2. National Park Service, Civil War Soldiers and Sailors Database, search for "James McGunnigle" (1st Rhode Island Light Artillery); accessed November 17, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
+3. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for James McGunnigle.
 
 ## Credits
 

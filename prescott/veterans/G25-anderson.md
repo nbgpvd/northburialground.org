@@ -28,9 +28,9 @@ Co. E, 3rd Rhode Island Cavalry
 
 John W. Anderson lies in grave G25 of the Prescott Post lot. His stone names his unit as Company E of the 3rd Rhode Island Cavalry, and gives his death as September 25 of a year in the 1880s. [1]
 
-The National Park Service's index of Civil War soldiers and sailors has not yet been searched for him.
+The National Park Service's index of Civil War soldiers lists Anderson, John W., 3rd Rhode Island Cavalry, Company E, private in, first sergeant out, microfilm M555 roll 1; the card notes "See also 7 Mass. Inf.". [2] He left the service as first sergeant, a rank the stone does not carry.
 
-A 2022 list of Civil War veterans buried at North Burial Ground gives his death as 1885. [2]
+A 2022 list of Civil War veterans buried at North Burial Ground gives his death as 1885. [3]
 
 His service record, any pension file, and his life before and after the war have not yet been researched. This page will grow as the records are read.
 
@@ -57,7 +57,8 @@ Transcription as recorded in the plot register from the photograph; square brack
 ## Sources
 
 1. Gravestone of John W. Anderson, grave G25, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, November 17, 2026; transcription as recorded in the plot register.
-2. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for John W. Anderson.
+2. National Park Service, Civil War Soldiers and Sailors Database, search for "John W. Anderson" (3rd Rhode Island Cavalry); accessed November 17, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
+3. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for John W. Anderson.
 
 ## Credits
 

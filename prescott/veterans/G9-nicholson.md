@@ -28,9 +28,9 @@ Michigan Volunteers · died 1886-04-27
 
 George C. Nicholson lies in grave G9 of the Prescott Post lot. His stone names his unit as Michigan Volunteers, and gives his death as April 27, 1886. [1]
 
-The National Park Service's index of Civil War soldiers and sailors has not yet been searched for him.
+No George C. Nicholson was found in a Michigan unit, searching by name and by name with "Michigan". Which Michigan regiment he served in is still open. [2]
 
-A 2022 list of Civil War veterans buried at North Burial Ground gives his death as 1886. [2]
+A 2022 list of Civil War veterans buried at North Burial Ground gives his death as 1886. [3]
 
 His service record, any pension file, and his life before and after the war have not yet been researched. This page will grow as the records are read.
 
@@ -57,7 +57,8 @@ Transcription as recorded in the plot register from the photograph; square brack
 ## Sources
 
 1. Gravestone of George C. Nicholson, grave G9, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, November 17, 2026; transcription as recorded in the plot register.
-2. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for George C. Nicholson.
+2. National Park Service, Civil War Soldiers and Sailors Database, search for "George C. Nicholson" (Michigan Volunteers); accessed November 17, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
+3. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for George C. Nicholson.
 
 ## Credits
 

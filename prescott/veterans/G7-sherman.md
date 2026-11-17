@@ -28,9 +28,9 @@ Co. A, 11th Rhode Island Volunteers · died 1886-07-01
 
 Henry Sherman lies in grave G7 of the Prescott Post lot. His stone names his unit as Company A of the 11th Rhode Island Volunteers, and gives his death as July 1, 1886. [1]
 
-The National Park Service's index of Civil War soldiers and sailors has not yet been searched for him.
+The National Park Service's index of Civil War soldiers lists Sherman, Henry, 11th Rhode Island Infantry, Company A, private in and out, microfilm M555 roll 6. [2]
 
-A 2022 list of Civil War veterans buried at North Burial Ground gives his death as 1881. [2]
+A 2022 list of Civil War veterans buried at North Burial Ground gives his death as 1881. [3]
 
 His service record, any pension file, and his life before and after the war have not yet been researched. This page will grow as the records are read.
 
@@ -57,7 +57,8 @@ Transcription as recorded in the plot register from the photograph; square brack
 ## Sources
 
 1. Gravestone of Henry Sherman, grave G7, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, November 17, 2026; transcription as recorded in the plot register.
-2. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for Henry Sherman.
+2. National Park Service, Civil War Soldiers and Sailors Database, search for "Henry Sherman" (11th Rhode Island Volunteers); accessed November 17, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
+3. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for Henry Sherman.
 
 ## Credits
 
