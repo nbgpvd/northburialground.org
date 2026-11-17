@@ -5,8 +5,8 @@ name_full: "Leo Frazier"
 variants: ["Leo Frazier [stone]", "Frazier, Leo (also filed as Frazer) [NPS index]"]
 unit: "17th Vermont Infantry"
 company: "A"
-rank_highest: ""
-rank_at_discharge: ""
+rank_highest: "Corporal [NPS index]"
+rank_at_discharge: "Corporal [NPS index]"
 born: ""
 birthplace: ""
 died: "1913-04-18"
@@ -22,7 +22,7 @@ records_dir: records/C16/
 
 # LEO FRAZIER
 
-Co. A, 17th Vermont Infantry · died 1913-04-18
+Corporal, Co. A, 17th Vermont Infantry · died 1913-04-18
 
 ## Life
 

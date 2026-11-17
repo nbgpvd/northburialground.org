@@ -5,8 +5,8 @@ name_full: "William H. Luther"
 variants: ["William H. Luther [stone]"]
 unit: "10th Rhode Island Volunteers"
 company: "F"
-rank_highest: ""
-rank_at_discharge: ""
+rank_highest: "Corporal [NPS index]"
+rank_at_discharge: "Corporal [NPS index]"
 born: ""
 birthplace: ""
 died: "188?-10-10"
@@ -22,7 +22,7 @@ records_dir: records/G12/
 
 # [WI]LL[IA]M H. LUTHER
 
-Co. F, 10th Rhode Island Volunteers
+Corporal, Co. F, 10th Rhode Island Volunteers
 
 ## Life
 

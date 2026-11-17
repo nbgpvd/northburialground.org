@@ -5,8 +5,8 @@ name_full: "Thomas McGraw"
 variants: ["Thomas McGraw [stone]", "McGraw, Thomas H. [NPS index]"]
 unit: "9th Maine Volunteers"
 company: "A"
-rank_highest: ""
-rank_at_discharge: ""
+rank_highest: "Corporal [NPS index]"
+rank_at_discharge: "Corporal [NPS index]"
 born: ""
 birthplace: ""
 died: ""
@@ -22,7 +22,7 @@ records_dir: records/D1/
 
 # Thomas McGraw
 
-Co. A, 9th Maine Volunteers
+Corporal, Co. A, 9th Maine Volunteers
 
 ## Life
 

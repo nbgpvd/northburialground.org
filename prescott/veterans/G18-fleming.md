@@ -5,8 +5,8 @@ name_full: "James Fleming"
 variants: ["James Fleming [stone]"]
 unit: "1st New York Mounted Rifles"
 company: "A"
-rank_highest: ""
-rank_at_discharge: ""
+rank_highest: "Corporal [NPS index]"
+rank_at_discharge: "Corporal [NPS index]"
 born: ""
 birthplace: ""
 died: "188?-07-12"
@@ -22,7 +22,7 @@ records_dir: records/G18/
 
 # JAMES FLEMING
 
-Co. A, 1st New York Mounted Rifles
+Corporal, Co. A, 1st New York Mounted Rifles
 
 ## Life
 

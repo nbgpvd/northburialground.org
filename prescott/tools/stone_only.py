@@ -645,7 +645,8 @@ def make(r, s):
         stone_section = (f"{s['carved']}\n\nTranscription as recorded in the plot register from the photograph; square brackets mark "
                          f"letters not legible or below ground. Photograph by B. Brennan, {photo_when(s['photo'])}. [{n_stone}]"
                          + (f" {s['stone_note']}" if s.get("stone_note") else ""))
-    rank_line = f'"{rank} [stone; NPS index]"' if rank else '""'
+    rank_src = "stone; NPS index" if re.search(r"Corp|Serg|Sgt|Capt|Lieut", s.get("carved") or "") else "NPS index"
+    rank_line = f'"{rank} [{rank_src}]"' if rank else '""'
     variants = [f"{full} [stone]"]
     if s.get("nps") and s["nps"] not in ("unsearched",):
         nps_name = s["nps"].split(",")[0] + ", " + s["nps"].split(",")[1].strip()

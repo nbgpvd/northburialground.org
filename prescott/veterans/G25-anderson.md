@@ -5,8 +5,8 @@ name_full: "John W. Anderson"
 variants: ["John W. Anderson [stone]"]
 unit: "3rd Rhode Island Cavalry"
 company: "E"
-rank_highest: ""
-rank_at_discharge: ""
+rank_highest: "First Sergeant [NPS index]"
+rank_at_discharge: "First Sergeant [NPS index]"
 born: ""
 birthplace: ""
 died: "188?-09-25"
@@ -22,7 +22,7 @@ records_dir: records/G25/
 
 # JOHN W. ANDERSO[N]
 
-Co. E, 3rd Rhode Island Cavalry
+First Sergeant, Co. E, 3rd Rhode Island Cavalry
 
 ## Life
 
