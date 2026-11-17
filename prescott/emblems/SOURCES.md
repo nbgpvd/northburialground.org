@@ -9,6 +9,16 @@ vfw4651.org home page). Read from the dossier's `unit` field (see `unit_states()
   vectorization by User:Denelson83. Public domain. https://commons.wikimedia.org/w/index.php?curid=79399559
 - **State regiments:** the current flag of the state. The 8th and 11th U.S. Colored Heavy Artillery are the
   14th Rhode Island Heavy Artillery (Colored) under later designations and get Rhode Island's.
+- **Federal cavalry** (U.S. regular cavalry and U.S. Colored Cavalry, where no state flag applies): the
+  company guidon of the U.S. cavalry (`USCAV.svg`). War Department General Orders No. 4, January 18, 1862,
+  ordered that "guidons and camp colors will be made like the United States flag with stars and stripes"; the
+  swallow-tailed form of the 1834 regulations was kept, 27 × 41 inches with a 15-inch swallowtail, and the stars
+  were commonly gilt, in two concentric circles with one star in each corner of the canton. Drawn here with
+  35 stars (21 and 10, plus the four corners) to match the national colors of April 1865; the star count and
+  arrangement varied in practice. Drawn by `tools/emblems.py`. Source for the pattern: Flags of the World,
+  "Army – Cavalry Guidons (U.S.)," https://www.crwflags.com/fotw/flags/us%5Ecav.html (accessed 17 Nov 2026).
+  As of 17 Nov 2026: B3 Moseley (1st U.S. Cavalry), B12 Walker (2nd U.S. Cavalry), D14 White (2nd U.S. Colored
+  Cavalry). J15 Parker (5th U.S. Colored Cavalry) keeps Kentucky's flag by the earlier editor's decision below.
 - **Any other unit** (U.S. regulars, U.S. Colored Troops, U.S. Volunteers): the national colors as of
   April 1865 (`US.svg`). Thirteen stripes and 35 stars: the 35-star flag was official from July 4, 1863
   (West Virginia) to July 4, 1865, when Nevada's star was added. No star pattern was fixed until 1912; five

@@ -1,8 +1,12 @@
 #!/usr/bin/env python3
 """Draw the national-colors emblem as SVG into ../emblems/ (standard library only).
 
-    US.svg   national colors as of April 1865: 13 stripes, 35 stars (official from July 4, 1863,
-             after West Virginia; Nevada's 36th star became official July 4, 1865)
+    US.svg     national colors as of April 1865: 13 stripes, 35 stars (official from July 4, 1863,
+               after West Virginia; Nevada's 36th star became official July 4, 1865)
+    USCAV.svg  U.S. cavalry company guidon, pattern of War Department General Orders No. 4,
+               January 18, 1862 ("like the United States flag with stars and stripes"), on the
+               1834 swallow-tailed form, 27 x 41 in with a 15 in swallowtail; 35 gilt stars in two
+               concentric circles (21 and 10) with one star in each corner of the canton.
 
 No star pattern was fixed by law until 1912. Five rows of seven, used here, is one of the
 common 35-star arrangements. Colors are the conventional red, white and dark blue.
@@ -44,6 +48,30 @@ def main():
     union = f'<rect width="{UW:g}" height="{UH:.3f}" fill="{BLUE}"/><g fill="{WHITE}">{stars(UW, UH)}</g>'
     (OUT / "US.svg").write_text(svg(W, H, stripes + union, "Flag of the United States, 35 stars, April 1865"))
     print("wrote", OUT / "US.svg")
+    guidon()
+
+
+def guidon():
+    """Swallow-tailed cavalry guidon: hoist 27, fly 41, tails cut 15 deep (inches, scaled x4)."""
+    import math
+    k = 4.0
+    gh, gw, cut = 27 * k, 41 * k, 15 * k
+    sh = gh / 13
+    stripes = "".join(f'<rect y="{i * sh:.3f}" width="{gw:g}" height="{sh:.3f}" fill="{RED if i % 2 == 0 else WHITE}"/>'
+                      for i in range(13))
+    cw, ch = gh * 0.62, sh * 7          # canton: seven stripes deep
+    gold = "#D4A93A"
+    cx, cy = cw / 2, ch / 2
+    r = min(cw, ch) * 0.043
+    st = [star(cx + rad * math.cos(-math.pi / 2 + 2 * math.pi * i / n), cy + rad * math.sin(-math.pi / 2 + 2 * math.pi * i / n), r)
+          for n, rad in ((21, min(cw, ch) * 0.40), (10, min(cw, ch) * 0.22)) for i in range(n)]
+    m = r * 1.7
+    st += [star(x, y, r) for x in (m, cw - m) for y in (m, ch - m)]
+    canton = f'<rect width="{cw:.2f}" height="{ch:.3f}" fill="{BLUE}"/><g fill="{gold}">{"".join(st)}</g>'
+    clip = (f'<clipPath id="tail"><polygon points="0,0 {gw:g},0 {gw - cut:g},{gh / 2:g} {gw:g},{gh:g} 0,{gh:g}"/></clipPath>')
+    body = f'<defs>{clip}</defs><g clip-path="url(#tail)">{stripes}{canton}</g>'
+    (OUT / "USCAV.svg").write_text(svg(gw, gh, body, "U.S. cavalry guidon, pattern of 1862, 35 stars"))
+    print("wrote", OUT / "USCAV.svg")
 
 
 if __name__ == "__main__":

@@ -698,7 +698,8 @@ def load_dossiers():
 
 # One flag per stone page, faded in behind the grid line and name from the right (after the hero of
 # vfw4651.org). A sailor's page gets the First Navy Jack; a state regiment's page gets its state's
-# current flag; any other unit gets the national colors of April 1865 (35 stars). The 8th and 11th
+# current flag; a federal cavalry unit gets the cavalry guidon of 1862 (35 gilt stars); any other unit
+# gets the national colors of April 1865 (35 stars). The 8th and 11th
 # U.S. Colored Heavy Artillery are the 14th Rhode Island Heavy Artillery (Colored) under later
 # designations and get Rhode Island's. Read from the dossier's `unit` field (first clause, before any
 # ";"); no unit, no flag. Front matter `emblem: XX` or `emblem: none` overrides.
@@ -724,9 +725,10 @@ STATES = [  # (code, name, pattern matched against the unit text)
     ("NC", "North Carolina", r"\bNorth Carolina\b|\bN\.\s?C\.?(?=\s|$|,)"),
 ]
 STATE_NAME = {c: n for c, n, _ in STATES}
-STATE_NAME.update({"US": "United States", "USN": "United States Navy"})
+STATE_NAME.update({"US": "United States", "USN": "United States Navy", "USCAV": "United States cavalry guidon"})
 RI_USCHA = r"\b(?:8th|11th|8|11)\s+U\.?\s?S\.?\s+(?:Colou?red\s+)?H(?:eavy|vy|\.)\s*Art"
 NAVY = r"\bNavy\b|\bUSN\b|\bU\.\s?S\.\s?N\.?"
+CAVALRY = r"\bCav(?:alry|\.)?\b"
 
 
 def unit_states(unit, override=""):
@@ -749,7 +751,9 @@ def unit_states(unit, override=""):
     m = re.search(RI_USCHA, first)
     if m:
         hits.append((m.start(), "RI"))
-    return [min(hits)[1]] if hits else ["US"]
+    if hits:
+        return [min(hits)[1]]
+    return ["USCAV"] if re.search(CAVALRY, first) else ["US"]
 
 
 UNIT_TIDY = [   # display only: the register and dossiers keep the wording as recorded
@@ -780,7 +784,7 @@ def tidy_unit(unit):
 def emblem_html(codes, prefix, where):
     """The page's one flag, faded in behind the head of the page from the right (after vfw4651.org's hero)."""
     for c in codes[:1]:
-        f = c + (".svg" if c in ("US", "USN") else ".webp")
+        f = c + (".svg" if c in ("US", "USN", "USCAV") else ".webp")
         if not (ROOT / "emblems" / f).exists():
             problem("warn", where, f"no emblem for code {c!r}")
             return ""
@@ -1166,7 +1170,7 @@ def render_map(rows, dossiers, release):
                 unit_line = f'<span class="unit">{html.escape(shown)}</span>' if r["name_carved"] else ""
                 codes = unit_states(unit, override)
                 if codes:
-                    f = codes[0] + (".svg" if codes[0] in ("US", "USN") else ".webp")
+                    f = codes[0] + (".svg" if codes[0] in ("US", "USN", "USCAV") else ".webp")
                     if (ROOT / "emblems" / f).exists():
                         flag = f'<span class="pflag" aria-hidden="true"><img src="{prefix}assets/emblems/{f}" alt="" loading="lazy"></span>'
             inner = (f'{flag}<span class="code">{code}</span><span class="what"><span class="{cls}">{nm}</span>'
