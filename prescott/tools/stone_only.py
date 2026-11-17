@@ -13,7 +13,7 @@ the NPS index, Chenery (1898) and the PV001 list say. Everything else goes under
 import csv, re, sys, pathlib
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
-REV = "2026-11-11"
+REV = "2026-11-17"
 
 # grid: dict(carved=transcription as recorded (lines separated by " / "),
 #            photo="IMG_xxxx", nps=..., chenery=page or None, pv001=death year or None,
@@ -485,6 +485,51 @@ STONES["C21"].update(**{'nps': 'Smith, William H., 29th Connecticut Infantry (Co
 STONES["C22"].update(**{'nps': 'Crawford, John, 198th Pennsylvania Infantry, Company B, private in and out, microfilm M554 roll 24', 'nps_accessed': 'November 11, 2026'})
 STONES["C25"].update(**{'nps': 'Hall, Thomas, 1st Massachusetts Heavy Artillery, Company E, private in and out, microfilm M544 roll 17', 'nps_accessed': 'November 11, 2026'})
 STONES["C5"]["notes"] = []
+
+# Row G, read 17 Nov 2026 from close frames sent through the Claude app (reduced resolution), turned upright,
+# and checked the same day against the PV001 list. The NPS index has not been searched for these men.
+_rg = dict(chenery=None, photo="2026-11-17 10:55", nps="unsearched")
+STONES.update({
+ 'G1': dict(carved='ALBERT J. REEVE[S] / Co. C. 26th Penn. Vols. / Died Oct. 29, 189[3?]', died_text='October 29 of a year in the 1890s (1893 or 1898)', pv001='1893', **_rg,
+    notes=['The last digit of the year reads 3 or 8 on the stone. The PV001 list gives 1893.']),
+ 'G4': dict(carved="WILLIAM HAYNE[?] / Co. A. 1st R.I.L. Art'y / Died July 7, 186[7?]", died_text='July 7 of a year in the 1860s', pv001='1867', **_rg,
+    notes=['The last letter of the surname is worn and could be S or R. The PV001 list has a William Hayner who died in 1867, with no unit, and a William Haynes of Battery A, 1st Rhode Island Light Artillery, with no date. They are probably the same man; which spelling is right, his service record will say.', "The last digit of the year is worn; 1867 is the PV001 list's year. A death in 1867 is earlier than the lot (1871), so he may have been moved here."]),
+ 'G5': dict(carved='[G]EO. A. WHEELOC[K] / Co. G. 10th Mass. Vols. / Died Aug. 17, 1882', died_text='August 17, 1882', pv001='1882', **_rg),
+ 'G6': dict(carved='[R]ICHARD A. SHAW / 156th N.Y. Vol. / Died Mar. 21, 1881', died_text='March 21, 1881', pv001=None, **_rg),
+ 'G7': dict(carved='HENRY SHERMAN / Co. A. 11th R.I. Vols. / Died July 1, 1886', died_text='July 1, 1886', pv001='1881', **_rg,
+    notes=['The PV001 list gives his death as 1881; the stone clearly reads 1886. The stone is followed here.']),
+ 'G8': dict(carved='DANIEL NIXON / U.S. Navy. / Died May 20, 1886', died_text='May 20, 1886', pv001='1886', **_rg,
+    notes=["Which ship or ships did he serve on? The Navy's enlistment records have not yet been searched."]),
+ 'G9': dict(carved='GEO. C. NICHOLSO[N] / Mich. Vols. / Died April 27, 1886', died_text='April 27, 1886', pv001='1886', **_rg,
+    notes=['The stone names only "Mich. Vols.", with no regiment or company. Which Michigan regiment he served in is not yet established.']),
+ 'G10': dict(carved='[D]ANIE[L] KELLE[Y] / Co. D. 1st R.I. Cav. / Died Jan. 16, 1886', died_text='January 16, 1886', pv001='1886', **_rg,
+    notes=['The name line is badly worn; only ANIE and KELLE can be read with confidence. "Daniel Kelley" agrees with the PV001 list, which has a Daniel Kelley of Company D, 1st Rhode Island Cavalry, who died in 1886. The identification is probable, not certain.']),
+ 'G12': dict(carved='[WI]LL[IA]M H. LUTHER / Co. F. 10th R.I. Vol. / Died Oct. 10, 188[6?]', died_text='October 10 of a year in the 1880s', pv001='1886', **_rg,
+    notes=['The given name is pitted and the last digit of the year is worn; the PV001 list has a William H. Luther of Company F, 10th Rhode Island, who died in 1886.', 'The 10th Rhode Island was a three-month regiment of 1862.']),
+ 'G13': dict(carved='JAMES W. LON[G] / U.S. Navy. / Died Feb. 1, 187[6?]', died_text='February 1 of a year in the 1870s', pv001='1876', **_rg,
+    notes=["The last letter of the surname and the last digit of the year are at the stone's edge; the PV001 list has a James W. Long, U.S. Navy, who died in 1876.", "Which ship or ships did he serve on? The Navy's enlistment records have not yet been searched."]),
+ 'G15': dict(carved='THOMAS J. WH[I]T[E] / [unit line worn away] / Died Oct. 7, 187[?]', died_text='October 7 of a year in the 1870s', pv001='1876', **_rg,
+    notes=['The stone is badly weathered and the unit line has worn away entirely. The PV001 list has a Thomas J. White, born about 1820, who died in 1876, with no unit. What unit he served in is not yet known.']),
+ 'G16': dict(carved="[W]ILLIAM H. GLEASO[N] / Co. D. 3d R.I.H. Art'y / Died Jan. 25, 186[2?]", died_text='January 25 of a year in the 1860s', pv001='1862', **_rg,
+    notes=['The last digit of the year is worn; the PV001 list gives 1862. A death in 1862, while his regiment was in service, is earlier than the lot (1871). Where he died and when he was moved here are open questions.']),
+ 'G17': dict(carved='WILLIAM BATES / Co. K. 11th R.I. Vols. / Died Nov. 18, 1878', died_text='November 18, 1878', pv001='1878', **_rg,
+    notes=['The PV001 list has two William Bateses: one who died in 1878, with no unit, and one of Company K, 11th Rhode Island, who died in 1905. The stone puts Company K, 11th Rhode Island, with the 1878 death. Which man died in 1905 is open.']),
+ 'G18': dict(carved='JAMES FLEMING / Co. A. 1st N.Y. M. Rifle[s] / Died July 12, 188[0?]', died_text='July 12 of a year in the 1880s', pv001='1905', **_rg,
+    notes=['The PV001 list gives his death as February 22, 1905. The stone reads July 12, 188-, with the last digit worn, which fits the other dates in this row. The stone is followed here; his death record will settle it.']),
+ 'G19': dict(carved='ABRAHAM S. MEDBURY / Co. B. 1st R.I. Cav. / Died May 11, 1881', died_text='May 11, 1881', pv001='1881', **_rg,
+    notes=['A crack runs across the upper right corner of the stone through the surname.']),
+ 'G20': dict(carved='ALPHONSO J. BENNETT / Corp. 10th R.I. L. Bat[t]. / Died May 6, 1882', died_text='May 6, 1882', pv001='1882', **_rg,
+    notes=['His stone carries his rank, corporal. Most stones in the lot carry none.']),
+ 'G21': dict(carved='LYMAN W. GREENE / Co. D. 18th Conn. Vols. / Died Oct. 5, 1882', died_text='October 5, 1882', pv001='1882', **_rg),
+ 'G22': dict(carved='WILLIAM [?]. LEW[??] / Co. G. 1st R.I.L. Art[y] / Died Dec. [?]1, 18[??]', died_text='a day in December, the year worn away', pv001='1882', **_rg,
+    notes=['The surname can be read only as far as LEW, and the middle initial looks like B or D. The PV001 list has a William B. Lewis who died in 1882, with no unit. The identification is provisional.', 'The day of death and the year are mostly worn away.']),
+ 'G23': dict(carved='[CH]ARLES RAA[D] / Co. A. 1st R.I.L. Arty / Died July 4, 1884', died_text='July 4, 1884', pv001=None, **_rg,
+    notes=['The surname reads RAAD, with the last letter worn. No Charles Raad or Rand is in the PV001 list.', 'James McGunnigle, in the next grave, also of the 1st Rhode Island Light Artillery, died two days earlier, on July 2, 1884.']),
+ 'G24': dict(carved="[J]AMES McGUNNIGL[E] / Co. B. 1st R.I.L. Art'y / Died July 2, 1884", died_text='July 2, 1884', pv001='1884', **_rg,
+    notes=['Charles Raad, in the next grave, also of the 1st Rhode Island Light Artillery, died two days later, on July 4, 1884.']),
+ 'G25': dict(carved='JOHN W. ANDERSO[N] / Co. E. 3d R.I. Cav. / Died Sept. 25, 188[5?]', died_text='September 25 of a year in the 1880s', pv001='1885', **_rg,
+    notes=['The last digit of the year is at the turf line; the PV001 list gives 1885.']),
+})
 
 CHENERY = ("William H. Chenery, *The Fourteenth Regiment Rhode Island Heavy Artillery (Colored) in the War "
            "to Preserve the Union, 1861–1865* (Providence: Snow & Farnham, 1898)")
