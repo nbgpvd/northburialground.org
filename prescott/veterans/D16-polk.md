@@ -42,7 +42,7 @@ As recorded on the plot survey sheet; the stone has not been photographed and th
 
 ## The records
 
-- `records/D16/stone-2026.jpg` — Headstone of Polk, grid D16, Prescott Post lot, photographed 2026. [1]
+No records are hosted for him yet. A photograph of his stone is wanted; see the help page.
 
 ## What we don't know
 

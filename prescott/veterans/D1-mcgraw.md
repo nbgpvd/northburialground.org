@@ -38,7 +38,7 @@ Not yet photographed. The plot survey sheet records: Thomas McGraw, Co. A, 9th M
 
 ## The records
 
-- `records/D1/stone-2026.jpg` — Headstone of Thomas McGraw, grid D1, Prescott Post lot, 2026. [1]
+No records are hosted for him yet. A photograph of his stone is wanted; see the help page.
 
 ## What we don't know
 

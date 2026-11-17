@@ -220,7 +220,7 @@ STONES = {
  "F16": dict(carved=None, photo=None, nps="Burr, William, 11th U.S. Colored Heavy Artillery, Company C, private in and out, microfilm M589 roll 13", chenery="177", pv001="1903", died_text=None),
  "F22": dict(carved=None, photo=None, nps="Jenkins, John A., 11th U.S. Colored Heavy Artillery, Company A, sergeant in, private out, microfilm M589 roll 46",
     nps_note="He entered as a sergeant and left as a private; the service record will say why. Chenery lists him twice, in the Company A roster and at p. 20.", chenery="156 and 20", pv001=None, died_text="June 4, 1902"),
- "G11": dict(carved=None, photo=None, nps="Hunter, Henry, 11th U.S. Colored Heavy Artillery, Company B, private in and out, microfilm M589 roll 43", chenery="170", pv001=None, died_text="November 14, 1885"),
+ "G11": dict(carved="HENRY HUNTER / Co. B. 14th R.I.H. Art'y / Died Nov. 14, 1885", photo="2026-11-17 10:55", nps="Hunter, Henry, 11th U.S. Colored Heavy Artillery, Company B, private in and out, microfilm M589 roll 43", chenery="170", pv001=None, died_text="November 14, 1885"),
  "G14": dict(carved=None, photo=None, nps="Jackson, Theodore, 11th U.S. Colored Heavy Artillery, Company B, private in and out, microfilm M589 roll 45", chenery="170", pv001=None, died_text="April 9, 1876",
     notes=["His 1876 death is the earliest yet read in the lot, a year after it was dedicated. The register carries a note \"died in Louisiana?\" with no source; if he died where the regiment served, how he came to be buried here is a question. The PV001 list gives a birth about 1833."]),
  "H15": dict(carved=None, photo=None, nps="Chase, Joseph (no middle initial), 9th U.S. Colored Infantry, Company H, private in and out, microfilm M589 roll 16 — a probable match", chenery=None, pv001=None, died_text="June 1 of a year in the 1880s, the last digit not read",
@@ -679,6 +679,8 @@ records_dir: records/{grid}/
     sub = company_phrase(unit, co, rank)
     if died:
         sub += f" · died {died}" if not any(ch in died for ch in "X?") else ""
+    records_section = ("No records are hosted for him yet. A photograph of his stone is wanted; see the help page." if sheet_only else
+        f"- `records/{grid}/stone-2026.jpg` — Headstone of {full}, grid {grid}, Prescott Post lot, photographed {photo_when(s['photo'])}. [{n_stone}]")
     body = f"""
 # {carved}
 
@@ -694,7 +696,7 @@ records_dir: records/{grid}/
 
 ## The records
 
-- `records/{grid}/stone-2026.jpg` — Headstone of {full}, grid {grid}, Prescott Post lot, photographed {photo_when(s['photo']) if s.get('photo') else '2026'}. [{n_stone}]
+{records_section}
 
 ## What we don't know
 

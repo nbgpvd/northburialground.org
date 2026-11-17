@@ -40,7 +40,7 @@ Not yet photographed. The plot survey sheet records: Jacob White, Co. F, 2nd U.S
 
 ## The records
 
-- `records/D14/stone-2026.jpg` — Headstone of Jacob White, grid D14, Prescott Post lot, 2026. [1]
+No records are hosted for him yet. A photograph of his stone is wanted; see the help page.
 
 ## What we don't know
 

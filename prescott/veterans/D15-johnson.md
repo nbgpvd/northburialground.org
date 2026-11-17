@@ -43,7 +43,7 @@ Not yet photographed. The plot survey sheet records: James E. Johnson, 28th U.S.
 
 ## The records
 
-- `records/D15/stone-2026.jpg` — Headstone of James E. Johnson, grid D15, Prescott Post lot, 2026. [1]
+No records are hosted for him yet. A photograph of his stone is wanted; see the help page.
 
 ## What we don't know
 

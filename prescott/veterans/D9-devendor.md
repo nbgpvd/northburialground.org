@@ -40,7 +40,7 @@ Not yet photographed. The plot survey sheet records: Joseph Devendor, Co. A, 20t
 
 ## The records
 
-- `records/D9/stone-2026.jpg` — Headstone of Joseph Devendor, grid D9, Prescott Post lot, 2026. [1]
+No records are hosted for him yet. A photograph of his stone is wanted; see the help page.
 
 ## What we don't know
 

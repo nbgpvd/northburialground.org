@@ -40,7 +40,7 @@ Not yet photographed. The plot survey sheet records: Joseph R. Parker, Co. M, 14
 
 ## The records
 
-- `records/D4/stone-2026.jpg` — Headstone of Joseph R. Parker, grid D4, Prescott Post lot, 2026. [1]
+No records are hosted for him yet. A photograph of his stone is wanted; see the help page.
 
 ## What we don't know
 

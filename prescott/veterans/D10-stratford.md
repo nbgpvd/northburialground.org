@@ -42,7 +42,7 @@ Not yet photographed. The plot survey sheet records: Charles H. Stratford, Co. D
 
 ## The records
 
-- `records/D10/stone-2026.jpg` — Headstone of Charles H. Stratford, grid D10, Prescott Post lot, 2026. [1]
+No records are hosted for him yet. A photograph of his stone is wanted; see the help page.
 
 ## What we don't know
 
