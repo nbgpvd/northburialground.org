@@ -1438,7 +1438,8 @@ def main():
         dest.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy(ROOT / rel, dest)
     # Pages whose address changed (grid renumbering). Old address -> new slug. Keep these forever: QR codes may carry them.
-    for old, new in {"E24-hammond": "E25-hammond", "A17-moseley": "B3-moseley"}.items():
+    for old, new in {"E24-hammond": "E25-hammond", "A17-moseley": "B3-moseley",
+                     "D10-stratford": "D10-stafford"}.items():
         d = out / "stone" / old
         d.mkdir(parents=True, exist_ok=True)
         (d / "index.html").write_text(

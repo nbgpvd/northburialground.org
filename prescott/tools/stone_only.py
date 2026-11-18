@@ -227,11 +227,11 @@ STONES = {
  "D7": dict(carved=None, photo=None, nps="Lee, Adam, 11th U.S. Colored Heavy Artillery, Company L, private in, corporal out, microfilm M589 roll 53", chenery="248", pv001=None, died_text=None),
  "D8": dict(carved=None, photo=None, nps="Mackbee, Jeff, 23rd U.S. Colored Infantry, Company E, private in and out, microfilm M589 roll 56", chenery=None, pv001="1910", died_text=None),
  "D9": dict(carved=None, photo=None, nps=None, nps_note="No Joseph Devendor (or Devender, Devendore) was found in the index for the 20th U.S. Colored Infantry, which has a John and a Henry Devendorf; the spelling on his service record may differ.", chenery=None, pv001="1910", died_text=None),
- # D10: the stone was read on 18 Nov 2026 and carves STAFFORD, so the register's name_carved changed and
- # slug(name_full) would now be "stafford". The page is hand-edited and published at /stone/D10-stratford/,
- # from the withdrawn survey-sheet reading; moving it changes a URL a QR code may point at. The slug is
- # pinned here until Bernard decides, so this table does not quietly create a second page for the man.
- "D10": dict(slug="stratford", carved=None, photo=None, nps="Stafford, Charles H., 11th U.S. Colored Heavy Artillery, Company B, private in and out, microfilm M589 roll 82",
+ # D10: the stone was read on 18 Nov 2026 and carves STAFFORD. The page was published at
+ # /stone/D10-stratford/, from the withdrawn survey-sheet reading, and was moved to D10-stafford on
+ # 18 Nov 2026; build.py redirects the old address. The page is hand-edited -- this table would
+ # overwrite it only with --force.
+ "D10": dict(carved=None, photo=None, nps="Stafford, Charles H., 11th U.S. Colored Heavy Artillery, Company B, private in and out, microfilm M589 roll 82",
     nps_note="The survey sheet read the name as Stratford; the index, the PV001 list and Chenery's errata have Stafford. The sheet and the PV001 list put him in Company D, the index card in Company B. Both questions are for the stone and the service record.", chenery="172 (errata)", pv001="1911", died_text=None),
  "D14": dict(carved=None, photo=None, nps="White, Jacob, 2nd U.S. Colored Cavalry, Company F, private in and out, microfilm M589 roll 93", chenery=None, pv001="1910", died_text=None),
  "D15": dict(carved=None, photo=None, nps="Johnson, James E., 28th U.S. Colored Infantry, two cards: Company D, private in and out, and one with no company (\"unassigned recruits\"); microfilm M589 roll 47", chenery=None, pv001="1910", died_text=None,

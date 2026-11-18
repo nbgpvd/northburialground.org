@@ -70,6 +70,6 @@ No records are hosted for him yet. His compiled service record and the City's in
 
 Researched by Bernard Brennan. Records courtesy City of Providence, Department of Parks, North Burial Ground. Revised 2026-11-18.
 
-<!-- Editor's note (not for publication): the page's URL is still /stone/D10-stratford/, from the
-     withdrawn survey-sheet reading. Moving it to D10-stafford changes a published URL that a QR code
-     may point at, so it needs Bernard's decision and a redirect. Raised 18 Nov 2026. -->
+<!-- Editor's note (not for publication): this page was published at /stone/D10-stratford/ from the
+     withdrawn survey-sheet reading. Moved to /stone/D10-stafford/ on 18 Nov 2026 on Bernard's
+     decision; the old address redirects here and is kept forever, because a QR code may carry it. -->
