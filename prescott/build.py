@@ -502,7 +502,7 @@ a.button:hover { background:var(--navy-dark); color:#fff; }
 /* the flagpole is not a grave: it sits in the aisle below row D, level with place 11, and takes no place */
 .poleslot { display:block; flex:0 0 auto; position:relative; width:0; height:var(--ch);
             margin-right:calc(-1 * var(--gap)); }   /* absorb the extra flex gap: takes no place in the row */
-.poleslot .flagpole { position:absolute; z-index:1; left:calc(-1 * (var(--cw) / 2 + var(--gap)));
+.poleslot .flagpole { position:absolute; z-index:1; left:calc(-1 * var(--gap) / 2);
                       top:calc(var(--ch) + (var(--rowh) - var(--ch)) / 2); transform:translate(-50%, -50%);
                       width:calc(var(--ch) * 1.25); height:calc(var(--ch) * 1.25); border-radius:50%;
                       border:2px solid var(--ink); background:#fff; box-sizing:border-box; }
@@ -1125,12 +1125,15 @@ KIND_TEXT = {"s": "Stone read · not yet researched", "i": "Identified", "d": "L
              "e": "No inscription recorded yet"}
 MONUMENT_AFTER = 10          # the monument stands in rows J and K, after place 10 (schematic)
 MONUMENT_ROWS = ("J", "K")
-# The flagpole stands in the D-E aisle, not in a grave place. Tape and GPS on 18 Nov 2026 put its base
-# 3 ft 10 in off the row E stone line, within inches of the center of a 7.8 ft aisle, and level along
-# the row with place 11 (claude/plot-geometry-2026-11-18.md). The survey sheet recorded it as D11 and
-# so lost the man buried there, Stephen Davis.
+# The flagpole stands in the D-E aisle, not in a grave place: tape across the aisle on 18 Nov 2026 reads
+# 43-44 in from one side and 46 in from the other, so the base sits within inches of the center of a
+# 7.8 ft aisle. Along the row it stands at the 12/13 boundary: on the E side the field note of 17 Nov
+# brackets it between E12 Green and E13 Frawley, and on the D side it stands in the break that the
+# register carries as D12 and D13. No tape reading of its position ALONG the row was taken, and the
+# dropped pin is good only to ten or fifteen feet, so the field observation is what places it here.
+# The survey sheet recorded the pole as D11 and so lost the man buried there, Stephen Davis.
 FLAGPOLE_ROW = "D"
-FLAGPOLE_AFTER = 11
+FLAGPOLE_AFTER = 12
 
 
 def place_kind(r):
@@ -1168,7 +1171,7 @@ def render_map(rows, dossiers, release):
             k = place_kind(r) if r else "e"
             cells.append(f'<span class="cell {k}" title="{L}{n}"></span>')
             if L == FLAGPOLE_ROW and n == FLAGPOLE_AFTER:
-                # the pole itself: in the aisle below this row, level with this place, taking no place of its own
+                # the pole itself: in the aisle below this row, on the boundary after this place, taking no place of its own
                 cells.append('<span class="poleslot"><span class="flagpole" role="img" '
                              'aria-label="Flagpole, in the aisle between rows D and E"></span></span>')
         maprows.append(f'<div class="maprow" data-row="{L}"><span class="maplabel">{L}</span>'
@@ -1228,7 +1231,7 @@ def render_map(rows, dossiers, release):
 <div class="lotmap">
   <div class="compass"><span>West · 1</span><b>Uphill ↑</b><span>{ncol} · East</span></div>
   {"".join(maprows)}
-  <p class="note">Schematic: stones in order, not to scale; each is drawn in the proportions of a Prescott Post headstone. The monument stands in rows J and K; its exact place among their stones is still being fixed. The flagpole stands in the aisle between rows D and E, and takes no grave place. {len(rows)} positions surveyed; {n_named} names read; {n_ident} men identified; {len(dossiers)} pages.</p>
+  <p class="note">Schematic: stones in order, not to scale; each is drawn in the proportions of a Prescott Post headstone. The monument stands in rows J and K; its exact place among their stones is still being fixed. The flagpole stands in the aisle between rows D and E, in the break in row D, and takes no grave place. The breaks themselves are not drawn to scale: row D's measures 9 ft 6 in on the ground, wider than the two places the register carries there. {len(rows)} positions surveyed; {n_named} names read; {n_ident} men identified; {len(dossiers)} pages.</p>
 </div>
 <div class="legend"><span><i class="cell s"></i>Stone read</span><span><i class="cell i"></i>Identified</span><span><i class="cell d"></i>Life drafted</span><span><i class="cell c"></i>Complete</span><span><i class="cell e"></i>Not yet read</span><span><i class="cell m"></i>Monument</span><span><i class="pole"></i>Flagpole</span></div>
 <div class="chooser"><p class="eyebrow">Choose a row</p><div class="chips">{chips}</div></div>
