@@ -993,10 +993,22 @@ def render_placeholder(r, lot, release, photo_url=""):
     prefix, grid = "../../", r["grid"]
     notes = r["notes"].lower()
     unit = tidy_unit(r["unit"]) if r["unit"] else ""
+    carved = r["name_carved"].strip()
     if "no visible stone" in notes:
         h1 = "No stone seen here"
         lede = ("No stone was visible at this place when it was checked; the ground has not yet been probed "
                 "for a sunk marker.")
+    elif carved:
+        # Part of a name has been read but not enough to name the man, so there is no dossier and no
+        # surname to build a page address from. Say what the stone has given up, or the plot map lists a
+        # name here that this page appears to deny.
+        h1 = html.escape(carved)
+        lede = f"This stone has been read so far as <b>{html.escape(carved)}</b>"
+        if unit:
+            lede += f", of <b>{html.escape(unit)}</b>"
+        lede += (". The marker has sunk into the ground, and the rest of the inscription has not been read."
+                 if "sunk" in notes else ". The rest of the inscription has not been read.")
+        lede += " Square brackets mark letters that could not be made out."
     elif "sunk" in notes:
         h1 = "Marker not yet read"
         lede = "This marker has sunk into the ground, and no inscription has been read."
@@ -1007,13 +1019,18 @@ def render_placeholder(r, lot, release, photo_url=""):
     else:
         h1 = "Stone not yet read"
         lede = "No inscription was recorded for this stone when the lot was surveyed."
+    # A date may be read from a stone whose name is not: say so, or the plot map lists a date this page omits.
+    if r["died"].strip() and "no visible stone" not in notes:
+        lede += f" The stone gives a death on {html.escape(fmt_date(r['died']))}."
     emblems = emblem_html(unit_states(r["unit"]), prefix, f"register.csv {grid}") if unit else ""
     ask = (f'<p><a class="button" href="{html.escape(photo_url)}" rel="noopener">Upload a photograph</a></p>'
            if photo_url else "")
     body = (f'<div class="stone-layout"><div class="stone-head">{emblems}'
             f'<p class="gridline"><span class="chip">{grid}</span> <span class="where">Row {r["_row"]}, place {r["_col"]}</span></p>'
             f'<h1>{h1}</h1><p class="lede">{lede}</p>'
-            + status_bar("", "", caption="This place has a page so that it can be found; its man is not yet known.")
+            + status_bar("", "", caption=("This place has a page so that it can be found; the man buried here is "
+                                          "not yet identified." if carved else
+                                          "This place has a page so that it can be found; its man is not yet known."))
             + '</div><div class="stone-text">'
             f'<section class="help" id="help"><h2>Help read this stone</h2>'
             f'<p>A clear photograph of the face of this stone, taken straight on, with its place in the lot '
