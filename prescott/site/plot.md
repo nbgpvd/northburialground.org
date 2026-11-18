@@ -9,7 +9,7 @@ researchers: ["Bernard Brennan"]
 
 ![The lot from its downhill end, looking up the slope over the rows to the monument: an old cannon set upright on a granite base. [About the monument →](../monument/index.html) Photograph by Bernard Brennan, 2026.](../records/_lot/lot-from-row-n-2026.jpg)
 
-You are standing in a burial lot of the Grand Army of the Republic, the organization of Union veterans. The monument at its center reads "Prescott Post, No. 1, G.A.R., A.D. 1875." [1] It has [a page of its own](../monument/index.html). Around it stand about three hundred small white government headstones in rows. [2] The earliest death carved on them is 1876; the latest are in the 1930s. [2]
+You are standing in a burial lot of the Grand Army of the Republic, the organization of Union veterans. The monument at its center reads "Prescott Post, No. 1, G.A.R., A.D. 1875." [1] It has [a page of its own](../monument/index.html). Around it stand about three hundred small white government headstones in rows. [2] The earliest death carved on them is 1867, and on one more the year has worn down to 186-; the latest is 1937. [2]
 
 ## How the lot began
 
@@ -45,7 +45,7 @@ Howland's is the one case documented so far. The 1885 law makes it likely there 
 
 ## How the rows were filled
 
-The dates on the stones run in order. Deaths of the 1870s and 1880s are in the rows nearest the monument. From there the dates run outward in both directions, a row at a time: the 1890s, the 1900s, the 1910s, and in the uphill rows the 1920s and 1930s. [2] From the 1890s on, the Post buried its men in the order they died, each in the next grave.
+The dates on the stones run in order. Deaths of the 1860s, 1870s and 1880s are in the rows nearest the monument. From there the dates run outward in both directions, a row at a time: the 1890s, the 1900s, the 1910s, and in the uphill rows the 1920s and 1930s. [2] From the 1890s on, the Post buried its men in the order they died, each in the next grave.
 
 The oldest rows are less simple. The lot was enlarged and its monument re-centered after 1886, and men who had died years earlier were brought in that year. Where a man in those rows lies may depend on when he was reburied, not when he died. Nothing in the record found so far shows anyone was placed by race. The Post's own records, if they survive, are where that will be settled.
 
@@ -62,7 +62,7 @@ The lot is cared for by the City of Providence, Department of Parks, North Buria
 ## Sources
 
 1. Monument inscription, Prescott Post lot, North Burial Ground, Providence, R.I. Photograph by Bernard Brennan, 2026 (IMG_2584).
-2. Prescott Post Digital Companion, *Plot register* (register.csv), surveyed and photographed by Bernard Brennan, 2025–2026; stone-by-stone transcriptions and photo references are in the register. Dated stones in grid order: row A 1919–1928; row B 1915–1919; row C 1912–1915; row F 1902–1904; rows G–I 1876–1889; rows J–K 1894–1898; row E 1905–1909; row M 1899–190?; row N 1928–1937.
+2. Prescott Post Digital Companion, *Plot register* (register.csv), surveyed and photographed by Bernard Brennan, 2025–2026; stone-by-stone transcriptions and photo references are in the register. Dated stones in grid order, as the register stood on 18 November 2026: row A 1919–1928; row B 1915–1919; row C 1911–1915; row D 1910; row E 1905–1909; row F 1902–1904; row G 1867–1886, with one stone worn to 186-; row H 1887; row I, no date yet read; rows J–K 1894–1898; row L, no date yet read; row M 1899; row N 1888–1937.
 3. "The Laureled Dead: Annual Observance of Decoration … Dedication of the Prescott Post Monument," *Providence Morning Star*, May 31, 1875, 1, including the report of the Post's building committee.
 4. Andrew Evans, "Black Memory of the Civil War in New England, 1865–1877" (PhD diss., Brandeis University, 2026), 125 n. 187, 159–60. ⟨replace or supplement with a primary source for the 1868 charter: Department of R.I. proceedings or Ives Post records⟩
 5. Jack Perry, "An Overdue Salute," *Providence Journal*, June 19, 2025, 1.
@@ -72,8 +72,10 @@ The lot is cared for by the City of Providence, Department of Parks, North Buria
 9. City of Providence, City Council, Resolution No. 287, "Resolution to set off a lot in the North Burying Ground for use of the Grand Army of the Republic," approved December 21, 1871; as printed in ⟨title of printed volume⟩.
 
 <!-- Editor's notes, not for publication:
-     - "about three hundred": the register has 14 rows × up to 25 columns incl. a flagpole
-       and an unsurveyed front row; give a counted figure once the front row is added.
+     - "about three hundred": the register has 318 positions across 14 rows, plus an
+       unsurveyed front row; give a counted figure once the front row is added. (The
+       flagpole was counted as a place until 18 Nov 2026; it stands in the D-E aisle and
+       is not a grave. D11 is Stephen Davis.)
      - "more than a dozen regiments of USCT": register currently names 1st, 2nd, 3rd, 9th,
        20th, 23rd, 26th, 28th, 31st, 38th, 39th, 45th, 54th, 117th USCI, 2nd & 5th USCC
        = 16 units. Fine as written; recount at release.
