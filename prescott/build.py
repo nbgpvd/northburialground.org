@@ -498,13 +498,21 @@ a.button:hover { background:var(--navy-dark); color:#fff; }
 .cell { display:block; flex:0 0 auto; width:var(--cw); height:var(--ch); border-radius:2px; background:var(--stone); }
 .cell.i { background:var(--ident); } .cell.d { background:var(--navy); } .cell.c { background:var(--ink); box-shadow:0 0 0 2px var(--gold); }
 .cell.e { background:transparent; border:1px solid var(--dash); box-sizing:border-box; }
-.cell.f { width:var(--ch); height:var(--ch); border-radius:50%; border:2px solid var(--ink); background:#fff; box-sizing:border-box; margin:0 calc((var(--cw) - var(--ch)) / 2); }
 .cell.gap { background:transparent; }
+/* the flagpole is not a grave: it sits in the aisle below row D, level with place 11, and takes no place */
+.poleslot { display:block; flex:0 0 auto; position:relative; width:0; height:var(--ch);
+            margin-right:calc(-1 * var(--gap)); }   /* absorb the extra flex gap: takes no place in the row */
+.poleslot .flagpole { position:absolute; z-index:1; left:calc(-1 * (var(--cw) / 2 + var(--gap)));
+                      top:calc(var(--ch) + (var(--rowh) - var(--ch)) / 2); transform:translate(-50%, -50%);
+                      width:calc(var(--ch) * 1.25); height:calc(var(--ch) * 1.25); border-radius:50%;
+                      border:2px solid var(--ink); background:#fff; box-sizing:border-box; }
 .monslot { display:block; flex:0 0 auto; position:relative; width:calc(4 * var(--cw) + 3 * var(--gap)); height:var(--ch); }
 .monslot .monument { position:absolute; z-index:1; left:calc(var(--cw) + var(--gap)); width:calc(2 * var(--cw) + var(--gap));
                      top:calc(var(--ch) / 2 - var(--rowh) / 2 + 4px); height:calc(2 * var(--rowh) - 8px);
                      background:var(--monument); border-radius:3px; }
-.legend .cell { width:16px; height:10px; } .legend .cell.f { width:12px; height:12px; margin:0; }
+.legend .cell { width:16px; height:10px; }
+.legend .pole { display:inline-block; width:12px; height:12px; border-radius:50%; border:2px solid var(--ink);
+                background:#fff; box-sizing:border-box; }
 .legend .cell.m { background:var(--monument); border-radius:3px; width:12px; height:16px; }
 .lotmap .note { font-size:.9rem; color:var(--muted); margin:.6rem 2px 0; }
 .legend { display:flex; flex-wrap:wrap; gap:.5rem 1.1rem; font-size:.95rem; margin:.6rem 0 1.4rem; }
@@ -863,7 +871,7 @@ class Lot:
         self.by_grid = {r["grid"]: r for r in rows}
         self.dossier = {d["grid"]: d for d in dossiers}
         self.letters = sorted({r["_row"] for r in rows})
-        self.rows = {L: sorted((r for r in rows if r["_row"] == L and place_kind(r) != "f"),
+        self.rows = {L: sorted((r for r in rows if r["_row"] == L),
                                key=lambda r: r["_col"]) for L in self.letters}
 
     def slug(self, grid):
@@ -1097,15 +1105,18 @@ def render_stone(d, reg_by_grid, release, file_requests=None, lot=None):
 CHEVRON = ('<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1E3A66" stroke-width="2.2" '
            'stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>')
 KIND_TEXT = {"s": "Stone read · not yet researched", "i": "Identified", "d": "Life drafted", "c": "Complete",
-             "e": "No inscription recorded yet", "f": "Flagpole · not a grave"}
+             "e": "No inscription recorded yet"}
 MONUMENT_AFTER = 10          # the monument stands in rows J and K, after place 10 (schematic)
 MONUMENT_ROWS = ("J", "K")
+# The flagpole stands in the D-E aisle, not in a grave place. Tape and GPS on 18 Nov 2026 put its base
+# 3 ft 10 in off the row E stone line, within inches of the center of a 7.8 ft aisle, and level along
+# the row with place 11 (claude/plot-geometry-2026-11-18.md). The survey sheet recorded it as D11 and
+# so lost the man buried there, Stephen Davis.
+FLAGPOLE_ROW = "D"
+FLAGPOLE_AFTER = 11
 
 
 def place_kind(r):
-    notes = r["notes"].lower()
-    if "flagpole" in notes:
-        return "f"
     if not r["name_carved"] and not r["unit"]:
         return "e"
     return {"stone-only": "s", "identified": "i", "draft": "d", "complete": "c"}.get(r["status"], "s")
@@ -1139,6 +1150,10 @@ def render_map(rows, dossiers, release):
             r = by_rc.get((L, n))
             k = place_kind(r) if r else "e"
             cells.append(f'<span class="cell {k}" title="{L}{n}"></span>')
+            if L == FLAGPOLE_ROW and n == FLAGPOLE_AFTER:
+                # the pole itself: in the aisle below this row, level with this place, taking no place of its own
+                cells.append('<span class="poleslot"><span class="flagpole" role="img" '
+                             'aria-label="Flagpole, in the aisle between rows D and E"></span></span>')
         maprows.append(f'<div class="maprow" data-row="{L}"><span class="maplabel">{L}</span>'
                        f'<div class="cells">{"".join(cells)}</div></div>')
 
@@ -1147,7 +1162,7 @@ def render_map(rows, dossiers, release):
     lists = []
     for L in letters:
         rr = sorted((r for r in rows if r["_row"] == L), key=lambda r: r["_col"])
-        total = sum(1 for r in rr if place_kind(r) != "f")
+        total = len(rr)
         ident = sum(1 for r in rr if place_kind(r) in "idc")
         items = []
         for r in rr:
@@ -1156,8 +1171,6 @@ def render_map(rows, dossiers, release):
             d = by_grid.get(code)
             if r["name_carved"]:
                 nm, cls = html.escape(r["name_carved"]), "name"
-            elif k == "f":
-                nm, cls = "Flagpole", "name unnamed"
             elif r["unit"]:
                 nm, cls = html.escape(tidy_unit(r["unit"])) + " · name not yet read", "name unnamed"
             else:
@@ -1176,10 +1189,8 @@ def render_map(rows, dossiers, release):
                         flag = f'<span class="pflag" aria-hidden="true"><img src="{prefix}assets/emblems/{f}" alt="" loading="lazy"></span>'
             inner = (f'{flag}<span class="code">{code}</span><span class="what"><span class="{cls}">{nm}</span>'
                      f'{unit_line}<span class="st">{st}</span></span>')
-            if k != "f":   # every place has a page: its dossier, or a placeholder at /stone/<GRID>/
-                items.append(f'<a class="place linked" href="../stone/{d["slug"] if d else code}/index.html">{inner}{CHEVRON}</a>')
-            else:
-                items.append(f'<div class="place">{inner}</div>')
+            # every place has a page: its dossier, or a placeholder at /stone/<GRID>/
+            items.append(f'<a class="place linked" href="../stone/{d["slug"] if d else code}/index.html">{inner}{CHEVRON}</a>')
         lists.append(f'<div class="rowlist" data-row="{L}" hidden><div class="rowhead"><h2>Row {L}</h2>'
                      f'<span>{total} places · {ident} identified</span></div>{"".join(items)}</div>')
 
@@ -1200,9 +1211,9 @@ def render_map(rows, dossiers, release):
 <div class="lotmap">
   <div class="compass"><span>West · 1</span><b>Uphill ↑</b><span>{ncol} · East</span></div>
   {"".join(maprows)}
-  <p class="note">Schematic: stones in order, not to scale; each is drawn in the proportions of a Prescott Post headstone. The monument stands in rows J and K; its exact place among their stones is still being fixed. {len(rows)} positions surveyed; {n_named} names read; {n_ident} men identified; {len(dossiers)} pages.</p>
+  <p class="note">Schematic: stones in order, not to scale; each is drawn in the proportions of a Prescott Post headstone. The monument stands in rows J and K; its exact place among their stones is still being fixed. The flagpole stands in the aisle between rows D and E, and takes no grave place. {len(rows)} positions surveyed; {n_named} names read; {n_ident} men identified; {len(dossiers)} pages.</p>
 </div>
-<div class="legend"><span><i class="cell s"></i>Stone read</span><span><i class="cell i"></i>Identified</span><span><i class="cell d"></i>Life drafted</span><span><i class="cell c"></i>Complete</span><span><i class="cell e"></i>Not yet read</span><span><i class="cell m"></i>Monument</span><span><i class="cell f"></i>Flagpole</span></div>
+<div class="legend"><span><i class="cell s"></i>Stone read</span><span><i class="cell i"></i>Identified</span><span><i class="cell d"></i>Life drafted</span><span><i class="cell c"></i>Complete</span><span><i class="cell e"></i>Not yet read</span><span><i class="cell m"></i>Monument</span><span><i class="pole"></i>Flagpole</span></div>
 <div class="chooser"><p class="eyebrow">Choose a row</p><div class="chips">{chips}</div></div>
 </div><div class="maplists">{"".join(lists)}</div></div>
 """
@@ -1401,8 +1412,6 @@ def main():
     photo_url = str(help_meta.get("photo_request_url", "")).strip()
     n_placeholders = 0
     for r in rows:
-        if place_kind(r) == "f":
-            continue
         dest = out / "stone" / r["grid"]
         dest.mkdir(parents=True, exist_ok=True)
         d = lot.dossier.get(r["grid"])
