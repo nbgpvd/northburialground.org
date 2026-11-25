@@ -38,7 +38,7 @@ His service record, any pension file, and his life before and after the war have
 
 WILLIAM L. JOHNSON / Co. L. 14 R.I.H.Art. / Di[ed …]
 
-The date line is below the soil at the stone's lower edge; the date of death here is from the survey sheet and has not yet been checked against the stone. Transcription from the photograph; square brackets mark letters not legible or below ground. Photograph by B. Brennan, November 2, 2026. [1]
+The date line is below the soil at the stone's lower edge; the date of death here is from the survey sheet and has not yet been checked against the stone. Transcription from the photograph; square brackets mark letters not legible or below ground. Photographed November 2, 2026. [1]
 
 ## The records
 
@@ -55,7 +55,7 @@ The date line is below the soil at the stone's lower edge; the date of death her
 
 ## Sources
 
-1. Gravestone of William L. Johnson, grave B17, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, November 2, 2026; the date of death, which is below ground in the photograph, from the Prescott Post plot survey sheet, grave B17, compiled by Bernard Brennan, 2026.
+1. Gravestone of William L. Johnson, grave B17, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Project photograph, November 2, 2026; the date of death, which is below ground in the photograph, from the Prescott Post plot survey sheet, grave B17, 2026.
 2. National Park Service, Civil War Soldiers and Sailors Database, search for "William L. Johnson" (14th Rhode Island Heavy Artillery); accessed October 31, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
 3. William H. Chenery, *The Fourteenth Regiment Rhode Island Heavy Artillery (Colored) in the War to Preserve the Union, 1861–1865* (Providence: Snow & Farnham, 1898), 252.
 

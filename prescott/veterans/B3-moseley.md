@@ -36,7 +36,7 @@ His service record, any pension file, and his life before and after the war have
 
 NATHANIEL MOS[E]LEY / Co. I. 1 U.S. Cav. / Died Dec. 3, 1918
 
-Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph by B. Brennan, October 22, 2026; read again on site, November 2, 2026. [1]
+Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photographed October 22, 2026; read again on site, November 2, 2026. [1]
 
 ## The records
 
@@ -55,7 +55,7 @@ Transcription as recorded in the plot register from the photograph; square brack
 
 ## Sources
 
-1. Gravestone of Nathaniel Moseley, grave B3, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photographs by Bernard Brennan, October 22 and November 2, 2026; transcription as recorded in the plot register.
+1. Gravestone of Nathaniel Moseley, grave B3, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Project photographs, October 22 and November 2, 2026; transcription as recorded in the plot register.
 
 ## Credits
 

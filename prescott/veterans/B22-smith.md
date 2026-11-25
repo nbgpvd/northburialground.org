@@ -36,7 +36,7 @@ His service record, any pension file, and his life before and after the war have
 
 CHARLES H. SMITH / Co. C 33 Reg. M[ass.] / [date line not read]
 
-Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph by B. Brennan, November 2, 2026. [1]
+Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photographed November 2, 2026. [1]
 
 ## The records
 
@@ -55,7 +55,7 @@ Transcription as recorded in the plot register from the photograph; square brack
 
 ## Sources
 
-1. Gravestone of Charles H. Smith, grave B22, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, November 2, 2026; transcription as recorded in the plot register.
+1. Gravestone of Charles H. Smith, grave B22, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Project photograph, November 2, 2026; transcription as recorded in the plot register.
 2. National Park Service, Civil War Soldiers and Sailors Database, search for "Charles H. Smith" (33rd Massachusetts Infantry); accessed November 2, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
 
 ## Credits

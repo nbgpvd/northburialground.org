@@ -61,7 +61,7 @@ No records are hosted for him yet. His compiled service record and the City's in
 
 ## Sources
 
-1. Headstone of Charles H. Stafford, grave D10, Prescott Post lot, North Burial Ground, Providence, R.I. Photographed by Bernard Brennan, November 18, 2026 (IMG_1999); transcribed from the photograph.
+1. Headstone of Charles H. Stafford, grave D10, Prescott Post lot, North Burial Ground, Providence, R.I. Photographed November 18, 2026 (IMG_1999); transcribed from the photograph.
 2. National Park Service, Civil War Soldiers and Sailors Database, entry for Stafford, Charles H., 11th U.S. Colored Heavy Artillery, Company B, microfilm M589 roll 82; accessed October 31, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
 3. William H. Chenery, *The Fourteenth Regiment Rhode Island Heavy Artillery (Colored) in the War to Preserve the Union, 1861–1865* (Providence: Snow & Farnham, 1898), 172 (errata).
 4. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for Stafford, Charles H.

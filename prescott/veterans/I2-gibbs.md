@@ -39,7 +39,7 @@ His service record, any pension file, and his life before and after the war have
 
 [????] GIBBS / [Co. ?] U.S.C.[T.] / [worn]
 
-Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph by B. Brennan, April 7, 2025. [1]
+Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photographed April 7, 2025. [1]
 
 ## The records
 
@@ -57,7 +57,7 @@ Transcription as recorded in the plot register from the photograph; square brack
 
 ## Sources
 
-1. Gravestone of Gibbs, grave I2, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, April 7, 2025; transcription as recorded in the plot register.
+1. Gravestone of Gibbs, grave I2, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Project photograph, April 7, 2025; transcription as recorded in the plot register.
 2. National Park Service, Civil War Soldiers and Sailors Database, search for "Gibbs" (3rd US Colored Infantry); accessed October 31, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
 3. Frederick H. Dyer, *A Compendium of the War of the Rebellion* (Des Moines: Dyer Publishing Co., 1908), pt. 3, s.v. "United States Colored Troops, 3rd Regiment Infantry": "Organized at Camp William Penn, near Philadelphia, Pa., August 3-10, 1863."; transcribed at https://www.generalstaff.org/WFA/Dyers/USCT_Inf.htm, accessed November 17, 2026.
 

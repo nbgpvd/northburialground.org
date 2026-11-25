@@ -348,7 +348,7 @@ STONES.update({
  "E24": dict(carved="WILLIAM A. LEWIS / Co. C 2nd R.I. Vols. / [date under grass]", photo="2026-10-30 14:08", died_text=None, nps="unsearched", chenery=None, pv001=None,
     notes=["This stone is not on the plot survey sheet; it was found in the photographs of October 30, 2026, between Ira Smith (E23) and Joshua F. Hammond, who was renumbered from E24 to E25 to make room for it.", "The date line is under grass."]),
  "I1": dict(carved="JAMES M. CLARK / U.S. N[avy] / [worn]", photo="2025-06-20 15:02", died_text=None, nps="unsearched", chenery=None, pv001=None,
-    notes=["His place at I1 rests on the order of the photographs of June 20, 2025 (Diggs at I6, Gibbs at I2, then this stone, then an uninscribed one) and on the survey sheet's reading of I1 as a Navy stone; confirmed by B. Brennan on November 1, 2026.", "Which ship or ships did he serve on? The Navy's enlistment records and the NPS sailors index have not yet been searched."]),
+    notes=["His place at I1 rests on the order of the photographs of June 20, 2025 (Diggs at I6, Gibbs at I2, then this stone, then an uninscribed one) and on the survey sheet's reading of I1 as a Navy stone; confirmed on November 1, 2026.", "Which ship or ships did he serve on? The Navy's enlistment records and the NPS sailors index have not yet been searched."]),
  "E2": dict(carved="BENJAMIN W. FOSTER / Priv. 1st R.I. Art. / Died Ma[?]. 18, 1909", photo="2026-10-30 14:06", died_text="the 18th of March or May 1909", **_unsearched),
  "E3": dict(carved="WILLIAM BURROUGHS / U.S. Navy / [lower half under earth]", photo="2026-10-30 14:06", died_text=None, **_unsearched,
     notes=["The lower half of the stone is under earth; no date has been read.", "Which ship or ships did he serve on? The Navy's enlistment records and the NPS sailors index have not yet been searched."]),
@@ -618,11 +618,11 @@ def make(r, s):
     srcs = []
     sheet_only = not s.get("photo")
     if sheet_only:
-        srcs.append(f"Prescott Post plot survey sheet, grave {grid}, compiled by Bernard Brennan, 2026: name, unit and date of death as read on site. "
+        srcs.append(f"Prescott Post plot survey sheet, grave {grid}, 2026: name, unit and date of death as read on site. "
                     f"The stone has not yet been photographed.")
     else:
         srcs.append(f"Gravestone of {full}, grave {grid}, Prescott Post plot, North Burial Ground, Providence, Rhode Island. "
-                    f"Photograph by Bernard Brennan, {photo_when(s['photo'])}; transcription as recorded in the plot register.")
+                    f"Project photograph, {photo_when(s['photo'])}; transcription as recorded in the plot register.")
     n_stone = 1
     n_nps = n_chen = n_pv = None
     if s.get("nps") != "unsearched":
@@ -686,7 +686,7 @@ def make(r, s):
                          f". A photograph is wanted; see the help page. [{n_stone}]")
     else:
         stone_section = (f"{s['carved']}\n\nTranscription as recorded in the plot register from the photograph; square brackets mark "
-                         f"letters not legible or below ground. Photograph by B. Brennan, {photo_when(s['photo'])}. [{n_stone}]"
+                         f"letters not legible or below ground. Photographed {photo_when(s['photo'])}. [{n_stone}]"
                          + (f" {s['stone_note']}" if s.get("stone_note") else ""))
     rank_src = "stone; NPS index" if re.search(r"Corp|Serg|Sgt|Capt|Lieut", s.get("carved") or "") else "NPS index"
     rank_line = f'"{rank} [{rank_src}]"' if rank else '""'

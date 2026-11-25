@@ -2,7 +2,6 @@
 title: "Editorial standards"
 slug: /standards/
 last_revised: "2026-11-01"
-researchers: ["Bernard Brennan"]
 ---
 
 # Editorial standards

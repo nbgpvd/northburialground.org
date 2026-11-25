@@ -39,7 +39,7 @@ His service record, any pension file, and his life before and after the war have
 
 JAMES B. BERRY / Co. A. 39th U.S.C.T. / Died April 2[?], 1[???]
 
-Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph IMG_1239 (B. Brennan). [1]
+Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph IMG_1239. [1]
 
 ## The records
 
@@ -57,7 +57,7 @@ Transcription as recorded in the plot register from the photograph; square brack
 
 ## Sources
 
-1. Gravestone of James B. Berry, grave M23, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan (IMG_1239), 2026; transcription as recorded in the plot register.
+1. Gravestone of James B. Berry, grave M23, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Project photograph (IMG_1239), 2026; transcription as recorded in the plot register.
 2. National Park Service, Civil War Soldiers and Sailors Database, search for "James B. Berry" (39th US Colored Infantry); accessed October 31, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
 
 3. L. Allison Wilmer, J. H. Jarrett and Geo. W. F. Vernon, *History and Roster of Maryland Volunteers, War of 1861–5*, vol. 2 (Baltimore: Guggenheimer, Weil & Co., 1899), 261–62 (regimental history), 263–64 (Company A roster); digitized from the Cornell University Library copy, https://archive.org/details/cu31924092925134; copy also at https://antietaminstitute.org/hrc/files/original/f0bcdfc3cdf9780e6f613b1697e413b0d5d52a36.pdf.

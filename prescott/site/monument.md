@@ -69,7 +69,7 @@ The two newspaper reports are cited below and linked where a public copy exists;
 
 ## Sources
 
-1. Monument inscription, Prescott Post lot, North Burial Ground, Providence, R.I. Photograph by Bernard Brennan, 2026 (IMG_2584).
+1. Monument inscription, Prescott Post lot, North Burial Ground, Providence, R.I. Project photograph, 2026 (IMG_2584).
 2. "The Laureled Dead: Annual Observance of Decoration … At North Burial Ground," *Providence Morning Star*, May 31, 1875, p. 1, including the "Report of the Building Committee" read by Major E. C. Pomroy. ⟨BB: confirm title, page and column from the clipping's source, and whether a public copy exists to link⟩
 3. City of Providence, City Council, Resolution No. 287, "Resolution to set off a lot in the North Burying Ground for use of the Grand Army of the Republic," approved December 21, 1871; as printed in the compiled record of town and city acts relating to the North Burial Ground. ⟨BB: title, publisher and date of the compiled volume from which these pages are taken⟩
 4. An Act granting one condemned cannon to Prescott Post No. one Grand Army of the Republic for the erection of a monument at Providence, Public No. 127, approved June 10, 1874, 43rd Congress, 1st Session; *Statutes at Large* ⟨volume 18, page to be confirmed⟩.

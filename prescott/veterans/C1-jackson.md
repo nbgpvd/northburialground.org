@@ -38,7 +38,7 @@ Back in Providence he worked as a laborer and teamster. [8][10][11] In June 1890
 
 [CH]ARLES A. JACKSO[N] / Co. B. 11 U.S. H. Art. / Died Nov. 11, 1915
 
-Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph by B. Brennan, November 11, 2026. [1]
+Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photographed November 11, 2026. [1]
 
 The stone names the regiment by its last title, the 11th U.S. Colored Heavy Artillery, announced August 28, 1864. [6] It gives no rank. Its date of death, November 11, differs from the city death register's 7th. [14]
 
@@ -69,7 +69,7 @@ The stone names the regiment by its last title, the 11th U.S. Colored Heavy Arti
 
 ## Sources
 
-1. Gravestone of Charles A. Jackson, grave C1, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, November 11, 2026; transcription as recorded in the plot register.
+1. Gravestone of Charles A. Jackson, grave C1, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Project photograph, November 11, 2026; transcription as recorded in the plot register.
 2. National Park Service, Civil War Soldiers and Sailors Database, "Jackson, Charles A.," 11th U.S. Colored Heavy Artillery, Company B; National Archives microfilm M589, roll 44; accessed October 31, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
 3. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for Charles A. Jackson.
 4. Compiled military service record, Charles A. Jackson, Co. B, 11th U.S. Colored Heavy Artillery, Carded Records Showing Military Service of Soldiers Who Fought in Volunteer Organizations During the American Civil War, Record Group 94, National Archives, Washington, DC; microfilm M1818, roll 200, images 0811–0835; National Archives Catalog, NAID 38587769, https://catalog.archives.gov/id/38587769.

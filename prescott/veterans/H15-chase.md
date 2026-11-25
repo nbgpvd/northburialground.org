@@ -39,7 +39,7 @@ His service record, any pension file, and his life before and after the war have
 
 [JOS]EPH N. CHAS[E] / [Co.] H 9th U.S.C.[T.] / [Die]d June 1, 188[?]
 
-Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph by B. Brennan, April 2, 2024. [1]
+Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photographed April 2, 2024. [1]
 
 ## The records
 
@@ -58,7 +58,7 @@ Transcription as recorded in the plot register from the photograph; square brack
 
 ## Sources
 
-1. Gravestone of Joseph N. Chase, grave H15, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, April 2, 2024; transcription as recorded in the plot register.
+1. Gravestone of Joseph N. Chase, grave H15, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Project photograph, April 2, 2024; transcription as recorded in the plot register.
 2. National Park Service, Civil War Soldiers and Sailors Database, search for "Joseph N. Chase" (9th US Colored Infantry); accessed October 31, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
 
 3. L. Allison Wilmer, J. H. Jarrett and Geo. W. F. Vernon, *History and Roster of Maryland Volunteers, War of 1861–5*, vol. 2 (Baltimore: Guggenheimer, Weil & Co., 1899), 183 (regimental history), 200 (Company H roster); digitized from the Cornell University Library copy, https://archive.org/details/cu31924092925134.

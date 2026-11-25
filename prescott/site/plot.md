@@ -7,7 +7,7 @@ researchers: ["Bernard Brennan"]
 
 # The Prescott Post lot
 
-![The lot from its downhill end, looking up the slope over the rows to the monument: an old cannon set upright on a granite base. [About the monument →](../monument/index.html) Photograph by Bernard Brennan, 2026.](../records/_lot/lot-from-row-n-2026.jpg)
+![The lot from its downhill end, looking up the slope over the rows to the monument: an old cannon set upright on a granite base. [About the monument →](../monument/index.html) Project photograph, 2026.](../records/_lot/lot-from-row-n-2026.jpg)
 
 You are standing in a burial lot of the Grand Army of the Republic, the organization of Union veterans. The monument at its center reads "Prescott Post, No. 1, G.A.R., A.D. 1875." [1] It has [a page of its own](../monument/index.html). Around it stand about three hundred small white government headstones in rows. [2] The earliest death carved on them is 1867, and on one more the year has worn down to 186-; the latest is 1937. [2]
 
@@ -61,12 +61,12 @@ The lot is cared for by the City of Providence, Department of Parks, North Buria
 
 ## Sources
 
-1. Monument inscription, Prescott Post lot, North Burial Ground, Providence, R.I. Photograph by Bernard Brennan, 2026 (IMG_2584).
-2. Prescott Post Digital Companion, *Plot register* (register.csv), surveyed and photographed by Bernard Brennan, 2025–2026; stone-by-stone transcriptions and photo references are in the register. Dated stones in grid order, as the register stood on 18 November 2026: row A 1919–1928; row B 1915–1919; row C 1911–1915; row D 1910; row E 1905–1909; row F 1902–1904; row G 1867–1886, with one stone worn to 186-; row H 1887; row I, no date yet read; rows J–K 1894–1898; row L, no date yet read; row M 1899; row N 1888–1937.
+1. Monument inscription, Prescott Post lot, North Burial Ground, Providence, R.I. Project photograph, 2026 (IMG_2584).
+2. Prescott Post Digital Companion, *Plot register* (register.csv), surveyed and photographed 2025–2026; stone-by-stone transcriptions and photo references are in the register. Dated stones in grid order, as the register stood on 18 November 2026: row A 1919–1928; row B 1915–1919; row C 1911–1915; row D 1910; row E 1905–1909; row F 1902–1904; row G 1867–1886, with one stone worn to 186-; row H 1887; row I, no date yet read; rows J–K 1894–1898; row L, no date yet read; row M 1899; row N 1888–1937.
 3. "The Laureled Dead: Annual Observance of Decoration … Dedication of the Prescott Post Monument," *Providence Morning Star*, May 31, 1875, 1, including the report of the Post's building committee.
 4. Andrew Evans, "Black Memory of the Civil War in New England, 1865–1877" (PhD diss., Brandeis University, 2026), 125 n. 187, 159–60. ⟨replace or supplement with a primary source for the 1868 charter: Department of R.I. proceedings or Ives Post records⟩
 5. Jack Perry, "An Overdue Salute," *Providence Journal*, June 19, 2025, 1.
-6. City of Providence, North Burial Ground, *Superintendent's Record of Burials*, 1883, entry of 18 March 1883 (Zebedee Howland), with marginal annotation of 8 September 1886; same page, series headings "White Free Ground" and "Colored Free Ground." Photograph by Bernard Brennan, 2026 (IMG_2550), courtesy City of Providence, Department of Parks, North Burial Ground. ⟨volume and page: ask A. Heppner⟩
+6. City of Providence, North Burial Ground, *Superintendent's Record of Burials*, 1883, entry of 18 March 1883 (Zebedee Howland), with marginal annotation of 8 September 1886; same page, series headings "White Free Ground" and "Colored Free Ground." Project photograph, 2026 (IMG_2550), courtesy City of Providence, Department of Parks, North Burial Ground. ⟨volume and page: ask A. Heppner⟩
 7. City of Providence, ⟨title of printed volume⟩, 1886, No. 272, "Report of the Joint Committee on the North Burial Ground, relative to the Enlargement of the 'Prescott Post Lot,'" presented June 7, 1886, ⟨329⟩–330; No. 273, "Resolution Authorizing the Commissioners of the North Burial Ground to Enlarge the 'Prescott Post Lot,'" approved June 28, 1886, 330–⟨331⟩. ⟨page number is clipped in our copy of the page: 330 or 336; confirm⟩ ⟨Add the 1885 statute: R.I. *Acts and Resolves*, May Session 1885, chapter⟩
 8. The editorial standards of this site: see [Editorial standards](../standards/index.html).
 9. City of Providence, City Council, Resolution No. 287, "Resolution to set off a lot in the North Burying Ground for use of the Grand Army of the Republic," approved December 21, 1871; as printed in ⟨title of printed volume⟩.

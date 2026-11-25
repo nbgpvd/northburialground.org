@@ -41,7 +41,7 @@ His service record, any pension file, and his life before and after the war have
 
 FREDERICK LEWI[S] / Co. H. 37 U.S. Inf. / Died May 16, 1915
 
-Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph by B. Brennan, November 11, 2026. [1]
+Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photographed November 11, 2026. [1]
 
 ## The records
 
@@ -58,7 +58,7 @@ Transcription as recorded in the plot register from the photograph; square brack
 
 ## Sources
 
-1. Gravestone of Frederick Lewis, grave C5, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, November 11, 2026; transcription as recorded in the plot register.
+1. Gravestone of Frederick Lewis, grave C5, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Project photograph, November 11, 2026; transcription as recorded in the plot register.
 2. National Park Service, Civil War Soldiers and Sailors Database, search for "Frederick Lewis" (37th US Infantry); accessed November 11, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
 3. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for Frederick Lewis.
 4. Frederick H. Dyer, *A Compendium of the War of the Rebellion* (Des Moines: Dyer Publishing Co., 1908), pt. 3, s.v. "United States Colored Troops, 37th Regiment Infantry"; see also National Park Service, Richmond National Battlefield Park, "United States Colored Troops 37th Regiment Infantry," https://www.nps.gov/rich/learn/historyculture/37thusct.htm, accessed November 11, 2026.

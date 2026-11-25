@@ -57,7 +57,7 @@ No records are hosted for him yet. A photograph of his stone is wanted; see the 
 
 ## Sources
 
-1. Prescott Post plot survey sheet, grave D8, compiled by Bernard Brennan, 2026: name, unit and date of death as read on site. The stone has not yet been photographed.
+1. Prescott Post plot survey sheet, grave D8, 2026: name, unit and date of death as read on site. The stone has not yet been photographed.
 2. National Park Service, Civil War Soldiers and Sailors Database, search for "Jeffrey Mackbee" (23rd US Colored Infantry); accessed October 31, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
 3. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for Jeffrey Mackbee.
 4. Frederick H. Dyer, *A Compendium of the War of the Rebellion* (Des Moines: Dyer Publishing Co., 1908), pt. 3, s.v. "United States Colored Troops, 23rd Regiment Infantry": "Organized at Camp Casey, Va., November 23, 1863, to June 30, 1864."; transcribed at https://www.generalstaff.org/WFA/Dyers/USCT_Inf.htm, accessed November 17, 2026.

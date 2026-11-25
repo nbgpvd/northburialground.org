@@ -39,7 +39,7 @@ His service record, any pension file, and his life before and after the war have
 
 WILLIAM I. BUTLER / Co. H. 2 U.S. Inf. Col. / Died Jan. 15, 1912
 
-Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph by B. Brennan, November 11, 2026. [1]
+Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photographed November 11, 2026. [1]
 
 ## The records
 
@@ -56,7 +56,7 @@ Transcription as recorded in the plot register from the photograph; square brack
 
 ## Sources
 
-1. Gravestone of William I. Butler, grave C24, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, November 11, 2026; transcription as recorded in the plot register.
+1. Gravestone of William I. Butler, grave C24, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Project photograph, November 11, 2026; transcription as recorded in the plot register.
 2. National Park Service, Civil War Soldiers and Sailors Database, search for "William I. Butler" (2nd US Colored Infantry); accessed October 31, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
 3. Frederick H. Dyer, *A Compendium of the War of the Rebellion* (Des Moines: Dyer Publishing Co., 1908), pt. 3, s.v. "United States Colored Troops, 2nd Regiment Infantry": "Organized at Arlington, Va., June 20 to November 11, 1863."; transcribed at https://www.generalstaff.org/WFA/Dyers/USCT_Inf.htm, accessed November 17, 2026.
 

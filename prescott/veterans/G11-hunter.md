@@ -38,7 +38,7 @@ His service record, any pension file, and his life before and after the war have
 
 HENRY HUNTER / Co. B. 14th R.I.H. Art'y / Died Nov. 14, 1885
 
-Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph by B. Brennan, November 17, 2026. [1]
+Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photographed November 17, 2026. [1]
 
 ## The records
 
@@ -55,7 +55,7 @@ Transcription as recorded in the plot register from the photograph; square brack
 
 ## Sources
 
-1. Gravestone of Henry Hunter, grave G11, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, November 17, 2026; transcription as recorded in the plot register.
+1. Gravestone of Henry Hunter, grave G11, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Project photograph, November 17, 2026; transcription as recorded in the plot register.
 2. National Park Service, Civil War Soldiers and Sailors Database, search for "Henry Hunter" (14th Rhode Island Heavy Artillery); accessed October 31, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
 3. William H. Chenery, *The Fourteenth Regiment Rhode Island Heavy Artillery (Colored) in the War to Preserve the Union, 1861–1865* (Providence: Snow & Farnham, 1898), 170.
 

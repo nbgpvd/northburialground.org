@@ -36,7 +36,7 @@ His service record, any pension file, and his life before and after the war have
 
 ROBERT S. JOHNSON / Co. K. 1st U.S. Col. Tps. / Died March 16, 1897
 
-Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph IMG_1229 (B. Brennan). [1]
+Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph IMG_1229. [1]
 
 ## The records
 
@@ -53,7 +53,7 @@ Transcription as recorded in the plot register from the photograph; square brack
 
 ## Sources
 
-1. Gravestone of Robert S. Johnson, grave K6, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan (IMG_1229), 2026; transcription as recorded in the plot register.
+1. Gravestone of Robert S. Johnson, grave K6, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Project photograph (IMG_1229), 2026; transcription as recorded in the plot register.
 2. National Park Service, Civil War Soldiers and Sailors Database, search for "Robert S. Johnson" (1st US Colored Infantry); accessed October 31, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
 
 ## Credits

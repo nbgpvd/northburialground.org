@@ -57,7 +57,7 @@ No records are hosted for him yet. A photograph of his stone is wanted; see the 
 
 ## Sources
 
-1. Prescott Post plot survey sheet, grave D20, compiled by Bernard Brennan, 2026: name, unit and date of death as read on site. The stone has not yet been photographed.
+1. Prescott Post plot survey sheet, grave D20, 2026: name, unit and date of death as read on site. The stone has not yet been photographed.
 2. National Park Service, Civil War Soldiers and Sailors Database, search for "Tafft" (); accessed October 31, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
 3. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for Tafft.
 

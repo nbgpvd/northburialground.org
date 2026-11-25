@@ -38,7 +38,7 @@ His service record, any pension file, and his life before and after the war have
 
 HENRY FRAWLEY / 7th 4?th 58th Mass Vol. / Died Feb. 5, 1907
 
-Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph by B. Brennan, October 16, 2025. [1]
+Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photographed October 16, 2025. [1]
 
 ## The records
 
@@ -57,7 +57,7 @@ Transcription as recorded in the plot register from the photograph; square brack
 
 ## Sources
 
-1. Gravestone of Henry Frawley, grave E13, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, October 16, 2025; transcription as recorded in the plot register.
+1. Gravestone of Henry Frawley, grave E13, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Project photograph, October 16, 2025; transcription as recorded in the plot register.
 2. National Park Service, Civil War Soldiers and Sailors Database, search for "Henry Frawley" (7th, 47th & 58th Mass); accessed October 31, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
 3. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for Henry Frawley.
 

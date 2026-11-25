@@ -38,7 +38,7 @@ His service record, any pension file, and his life before and after the war have
 
 DANIEL W. DEA[NE] / Co. C. 22 Mass. Vol. / Died Mar. 27, 1919
 
-The end of the surname is worn; the final E follows the survey sheet and the PV001 list. Transcription from the photograph; square brackets mark letters not legible or below ground. Photograph by B. Brennan, November 2, 2026. [1]
+The end of the surname is worn; the final E follows the survey sheet and the PV001 list. Transcription from the photograph; square brackets mark letters not legible or below ground. Photographed November 2, 2026. [1]
 
 ## The records
 
@@ -55,7 +55,7 @@ The end of the surname is worn; the final E follows the survey sheet and the PV0
 
 ## Sources
 
-1. Gravestone of Daniel W. Deane, grave B1, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, November 2, 2026; transcription as recorded in the plot register.
+1. Gravestone of Daniel W. Deane, grave B1, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Project photograph, November 2, 2026; transcription as recorded in the plot register.
 2. National Park Service, Civil War Soldiers and Sailors Database, search for "Daniel W. Deane" (22nd Massachusetts Volunteers); accessed October 31, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
 3. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for Daniel W. Deane.
 

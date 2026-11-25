@@ -36,7 +36,7 @@ His service record, any pension file, and his life before and after the war have
 
 JAMES M. CLARK / U.S. N[avy] / [worn]
 
-Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph by B. Brennan, June 20, 2025. [1]
+Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photographed June 20, 2025. [1]
 
 ## The records
 
@@ -44,7 +44,7 @@ Transcription as recorded in the plot register from the photograph; square brack
 
 ## What we don't know
 
-- His place at I1 rests on the order of the photographs of June 20, 2025 (Diggs at I6, Gibbs at I2, then this stone, then an uninscribed one) and on the survey sheet's reading of I1 as a Navy stone; confirmed by B. Brennan on November 1, 2026.
+- His place at I1 rests on the order of the photographs of June 20, 2025 (Diggs at I6, Gibbs at I2, then this stone, then an uninscribed one) and on the survey sheet's reading of I1 as a Navy stone; confirmed on November 1, 2026.
 - Which ship or ships did he serve on? The Navy's enlistment records and the NPS sailors index have not yet been searched.
 - When and where did he enlist, and what did his company do? His compiled military service record (National Archives, RG 94) will say.
 - Did he or his widow apply for a pension? The General Index to Pension Files (NARA T288/T289) has not yet been searched for him.
@@ -55,7 +55,7 @@ Transcription as recorded in the plot register from the photograph; square brack
 
 ## Sources
 
-1. Gravestone of James M. Clark, grave I1, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, June 20, 2025; transcription as recorded in the plot register.
+1. Gravestone of James M. Clark, grave I1, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Project photograph, June 20, 2025; transcription as recorded in the plot register.
 
 ## Credits
 

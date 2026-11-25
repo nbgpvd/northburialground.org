@@ -41,7 +41,7 @@ His service record, any pension file, and his life before and after the war have
 
 WILLIAM W. WALLEY / Co. I. 54th U.S.C.Troops / [date line not read]
 
-Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph IMG_1236 (B. Brennan). [1]
+Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph IMG_1236. [1]
 
 ## The records
 
@@ -58,7 +58,7 @@ Transcription as recorded in the plot register from the photograph; square brack
 
 ## Sources
 
-1. Gravestone of William W. Walley, grave M11, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan (IMG_1236), 2026; transcription as recorded in the plot register.
+1. Gravestone of William W. Walley, grave M11, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Project photograph (IMG_1236), 2026; transcription as recorded in the plot register.
 2. National Park Service, Civil War Soldiers and Sailors Database, search for "William W. Walley" (54th US Colored Infantry); accessed October 31, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
 3. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for William W. Walley.
 4. Frederick H. Dyer, *A Compendium of the War of the Rebellion* (Des Moines: Dyer Publishing Co., 1908), pt. 3, s.v. "Arkansas Volunteers, 2nd Regiment Infantry (African Descent)" and "United States Colored Troops, 54th Regiment Infantry"; see also *Encyclopedia of Arkansas*, s.v. "Second Arkansas Infantry (African Descent) (US)," https://encyclopediaofarkansas.net/entries/Second-Arkansas-Infantry-6436, accessed November 11, 2026.

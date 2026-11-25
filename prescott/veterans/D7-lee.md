@@ -54,7 +54,7 @@ No records are hosted for him yet. A photograph of his stone is wanted; see the 
 
 ## Sources
 
-1. Prescott Post plot survey sheet, grave D7, compiled by Bernard Brennan, 2026: name, unit and date of death as read on site. The stone has not yet been photographed.
+1. Prescott Post plot survey sheet, grave D7, 2026: name, unit and date of death as read on site. The stone has not yet been photographed.
 2. National Park Service, Civil War Soldiers and Sailors Database, search for "Adam D. Lee" (14th Rhode Island Heavy Artillery); accessed October 31, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
 3. William H. Chenery, *The Fourteenth Regiment Rhode Island Heavy Artillery (Colored) in the War to Preserve the Union, 1861–1865* (Providence: Snow & Farnham, 1898), 248.
 

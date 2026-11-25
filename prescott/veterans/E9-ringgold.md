@@ -62,7 +62,7 @@ Transcription from the photograph of October 30, 2026; square brackets mark lett
 
 ## Sources
 
-1. Gravestone of Benjamin Ringgold, grave E9, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, October 30, 2026; Prescott Post plot survey sheet, grave E9, compiled by Bernard Brennan, 2026.
+1. Gravestone of Benjamin Ringgold, grave E9, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Project photograph, October 30, 2026; Prescott Post plot survey sheet, grave E9, 2026.
 2. Company Descriptive Book card, "Benjamin Ringold," Co. G, 11th U.S. Colored Heavy Artillery, Compiled Military Service Records of Volunteer Union Soldiers Who Served with the United States Colored Troops: Artillery Organizations, National Archives microfilm publication M1818, roll 208, frame 568; Records of the Adjutant General's Office, Record Group 94, National Archives, Washington, D.C.
 3. Historical Data Systems, abstract of *Register of Rhode Island Volunteers 1861–1865* for Benjamin Ringgold, Co. G, 14th Heavy Artillery, in *U.S., Civil War Soldier Records and Profiles, 1861–1865* (Ancestry.com, 2009), record 976963, accessed November 1, 2026. Secondary; to be verified against the printed Register.
 4. National Park Service, Civil War Soldiers and Sailors Database, "Ringgold, Benjamin," 11th Regiment, U.S. Colored Heavy Artillery, Company G, private to corporal; index to National Archives microfilm M589, roll 73; https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm, accessed October 31, 2026.

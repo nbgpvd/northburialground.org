@@ -41,7 +41,7 @@ His service record, any pension file, and his life before and after the war have
 
 WILLIAM WALKER / Co. I. 26th U.S.C.[T.] / Died May 8, 190[?]
 
-Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph IMG_1237 (B. Brennan). [1]
+Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph IMG_1237. [1]
 
 ## The records
 
@@ -58,7 +58,7 @@ Transcription as recorded in the plot register from the photograph; square brack
 
 ## Sources
 
-1. Gravestone of William Walker, grave M15, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan (IMG_1237), 2026; transcription as recorded in the plot register.
+1. Gravestone of William Walker, grave M15, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Project photograph (IMG_1237), 2026; transcription as recorded in the plot register.
 2. National Park Service, Civil War Soldiers and Sailors Database, search for "William Walker" (26th US Colored Infantry); accessed October 31, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
 3. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for William Walker.
 4. Frederick H. Dyer, *A Compendium of the War of the Rebellion* (Des Moines: Dyer Publishing Co., 1908), pt. 3, s.v. "United States Colored Troops, 26th Regiment Infantry": "Organized at Riker's Island, New York Harbor, February 27, 1864."; transcribed at https://www.generalstaff.org/WFA/Dyers/USCT_Inf.htm, accessed November 17, 2026.

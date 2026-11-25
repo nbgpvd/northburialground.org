@@ -39,7 +39,7 @@ His service record, any pension file, and his life before and after the war have
 
 DENNIS D. BURGESS / Co. I. 117th Ken. Col. T[ps]. / Died July 16 1899
 
-Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph IMG_1238 (B. Brennan). [1]
+Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph IMG_1238. [1]
 
 ## The records
 
@@ -56,7 +56,7 @@ Transcription as recorded in the plot register from the photograph; square brack
 
 ## Sources
 
-1. Gravestone of Dennis D. Burgess, grave M20, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan (IMG_1238), 2026; transcription as recorded in the plot register.
+1. Gravestone of Dennis D. Burgess, grave M20, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Project photograph (IMG_1238), 2026; transcription as recorded in the plot register.
 2. National Park Service, Civil War Soldiers and Sailors Database, search for "Dennis D. Burgess" (117th US Colored Infantry); accessed October 31, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
 3. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for Dennis D. Burgess.
 4. Frederick H. Dyer, *A Compendium of the War of the Rebellion* (Des Moines: Dyer Publishing Co., 1908), pt. 3, s.v. "United States Colored Troops, 117th Regiment Infantry": organized at Covington, Ky., July 18 to September 27, 1864.

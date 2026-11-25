@@ -36,7 +36,7 @@ His service record, any pension file, and his life before and after the war have
 
 JOHN G. HO[MAN] / Co. F. 15 N.Y. Vol. / [date line in grass]
 
-The end of the surname is worn and the date line is hidden by grass; the date of death here is from the survey sheet. Transcription from the photograph; square brackets mark letters not legible or below ground. Photograph by B. Brennan, November 2, 2026. [1]
+The end of the surname is worn and the date line is hidden by grass; the date of death here is from the survey sheet. Transcription from the photograph; square brackets mark letters not legible or below ground. Photographed November 2, 2026. [1]
 
 ## The records
 
@@ -53,7 +53,7 @@ The end of the surname is worn and the date line is hidden by grass; the date of
 
 ## Sources
 
-1. Gravestone of John G. Homan, grave B25, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, November 2, 2026; the date of death, hidden by grass in the photograph, from the Prescott Post plot survey sheet, grave B25, compiled by Bernard Brennan, 2026.
+1. Gravestone of John G. Homan, grave B25, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Project photograph, November 2, 2026; the date of death, hidden by grass in the photograph, from the Prescott Post plot survey sheet, grave B25, 2026.
 2. National Park Service, Civil War Soldiers and Sailors Database, search for "John G. Homan" (15th New York Volunteers); accessed October 31, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
 
 ## Credits

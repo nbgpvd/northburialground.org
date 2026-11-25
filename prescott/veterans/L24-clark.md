@@ -40,7 +40,7 @@ His service record, any pension file, and his life before and after the war have
 
 [AM]BROSE C[LARK] / Co. M. 14th [R.I.H.Art.] / [date line below ground]
 
-Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph IMG_1231 (B. Brennan). [1]
+Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph IMG_1231. [1]
 
 ## The records
 
@@ -59,7 +59,7 @@ Transcription as recorded in the plot register from the photograph; square brack
 
 ## Sources
 
-1. Gravestone of Ambrose Clark, grave L24, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan (IMG_1231), 2026; transcription as recorded in the plot register.
+1. Gravestone of Ambrose Clark, grave L24, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Project photograph (IMG_1231), 2026; transcription as recorded in the plot register.
 2. National Park Service, Civil War Soldiers and Sailors Database, search for "Ambrose Clark" (14th Rhode Island Heavy Artillery); accessed October 31, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
 3. William H. Chenery, *The Fourteenth Regiment Rhode Island Heavy Artillery (Colored) in the War to Preserve the Union, 1861–1865* (Providence: Snow & Farnham, 1898), 259.
 4. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for Ambrose Clark.

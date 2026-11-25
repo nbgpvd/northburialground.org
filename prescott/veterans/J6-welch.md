@@ -38,7 +38,7 @@ His service record, any pension file, and his life before and after the war have
 
 HENRY N. WELCH / Co. G. 1st Ill. Arty. / Died Sept. 19, 1894
 
-Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph IMG_1224 (B. Brennan). [1]
+Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph IMG_1224. [1]
 
 ## The records
 
@@ -55,7 +55,7 @@ Transcription as recorded in the plot register from the photograph; square brack
 
 ## Sources
 
-1. Gravestone of Henry N. Welch, grave J6, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan (IMG_1224), 2026; transcription as recorded in the plot register.
+1. Gravestone of Henry N. Welch, grave J6, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Project photograph (IMG_1224), 2026; transcription as recorded in the plot register.
 2. National Park Service, Civil War Soldiers and Sailors Database, search for "Henry N. Welch" (1st Illinois Artillery); accessed October 31, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
 3. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for Henry N. Welch.
 

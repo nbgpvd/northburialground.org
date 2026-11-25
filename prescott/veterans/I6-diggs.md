@@ -38,7 +38,7 @@ His service record, any pension file, and his life before and after the war have
 
 [HENR]Y C. DIGGS / [Co. H] 14th R.I.H.A. / Died Sept. 30, 18[??]
 
-Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph by B. Brennan, June 20, 2025. [1]
+Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photographed June 20, 2025. [1]
 
 ## The records
 
@@ -55,7 +55,7 @@ Transcription as recorded in the plot register from the photograph; square brack
 
 ## Sources
 
-1. Gravestone of Diggs, grave I6, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, June 20, 2025; transcription as recorded in the plot register.
+1. Gravestone of Diggs, grave I6, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Project photograph, June 20, 2025; transcription as recorded in the plot register.
 2. National Park Service, Civil War Soldiers and Sailors Database, search for "Diggs" (14th Rhode Island Heavy Artillery); accessed October 31, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
 3. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for Diggs.
 

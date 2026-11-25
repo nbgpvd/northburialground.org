@@ -36,7 +36,7 @@ His service record, any pension file, and his life before and after the war have
 
 RICHARD PIERCE / Priv. Troop C 1st R.I. Cav. / [date line worn]
 
-Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph by B. Brennan, October 30, 2026. [1]
+Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photographed October 30, 2026. [1]
 
 ## The records
 
@@ -53,7 +53,7 @@ Transcription as recorded in the plot register from the photograph; square brack
 
 ## Sources
 
-1. Gravestone of Richard Pierce, grave E7, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, October 30, 2026; transcription as recorded in the plot register.
+1. Gravestone of Richard Pierce, grave E7, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Project photograph, October 30, 2026; transcription as recorded in the plot register.
 
 ## Credits
 

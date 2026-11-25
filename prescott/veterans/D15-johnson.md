@@ -58,7 +58,7 @@ No records are hosted for him yet. A photograph of his stone is wanted; see the 
 
 ## Sources
 
-1. Prescott Post plot survey sheet, grave D15, compiled by Bernard Brennan, 2026: name, unit and date of death as read on site. The stone has not yet been photographed.
+1. Prescott Post plot survey sheet, grave D15, 2026: name, unit and date of death as read on site. The stone has not yet been photographed.
 2. National Park Service, Civil War Soldiers and Sailors Database, search for "James E. Johnson" (28th US Colored Infantry); accessed October 31, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
 3. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for James E. Johnson.
 4. W. H. H. Terrell, *Report of the Adjutant General of the State of Indiana*, vol. 3 (Indianapolis: Samuel M. Douglass, 1866), 379–84; see also Indiana Historical Bureau, "28th Regiment USCT" (historical marker, Indianapolis, 2004), https://www.in.gov/history/markers/3.htm, accessed November 11, 2026.

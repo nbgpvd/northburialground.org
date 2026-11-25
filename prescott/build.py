@@ -407,6 +407,9 @@ header.site .home { font-weight:700; font-size:.82rem; letter-spacing:.09em; tex
 header.site .maplink { display:inline-flex; align-items:center; gap:6px; font-weight:700; font-size:1.05rem; text-decoration:none; }
 footer.site { padding:1.2rem 20px 2rem; border-top:1px solid var(--rule); font-size:.85rem; color:var(--muted); }
 footer.site a { color:var(--navy); }
+section.credits { margin-top:2.4rem; padding-top:.6rem; border-top:1px solid var(--rule); font-size:.8rem; line-height:1.45; color:var(--muted); }
+section.credits h2 { font-family:inherit; font-size:.8rem; font-weight:600; text-transform:uppercase; letter-spacing:.05em; margin:0 0 .3rem; padding:0; border:0; color:var(--muted); }
+section.credits p { margin:.2rem 0; }
 footer.site .org { margin-top:.9rem; padding-top:.7rem; border-top:1px solid var(--rule); }
 .banner { background:var(--todo); color:var(--ink); font-size:.8rem; padding:.4rem 20px; }
 
@@ -1037,8 +1040,8 @@ def render_placeholder(r, lot, release, photo_url=""):
             f'(<b>{grid}</b>), is new knowledge. If the stone is sunk or worn, photograph it as it is.</p>'
             f'{ask}<p><a href="{prefix}help/index.html">How to help with the Prescott Post lot</a></p></section>'
             '</div></div>')
-    researchers = [r["researcher"]] if r.get("researcher") else []
-    return page(f"{grid} — {h1}", body + walk_nav(grid, lot), prefix, researchers, "", release,
+    # No researcher credit on a placeholder: nothing has been researched yet.
+    return page(f"{grid} — {h1}", body + walk_nav(grid, lot), prefix, [], "", release,
                 kind="stone", path=f"stone/{grid}/")
 
 
@@ -1112,10 +1115,14 @@ def render_stone(d, reg_by_grid, release, file_requests=None, lot=None):
     layout = ('<div class="stone-layout"><div class="stone-head">' + emblems + "\n".join(h for h in head if h) + "</div>\n"
               + (f'<aside class="stone-aside">{card}</aside>\n' if card else "")
               + f'<div class="stone-text">{body_html}</div></div>')
+    # The Credits section is set small and quiet at the foot of the text; it is the one place
+    # a stone page names its researchers, so the footer does not repeat them.
+    layout = re.sub(r'<h2 id="credits">(.*?)</h2>(.*?)(?=<h2 |</div></div>)',
+                    r'<section class="credits"><h2 id="credits">\1</h2>\2</section>', layout, count=1, flags=re.S)
     if lot and d["grid"] in lot.by_grid:
         layout += walk_nav(d["grid"], lot)
     return page(str(meta.get("name_carved", d["slug"])), layout, prefix,
-                researchers, str(meta.get("last_revised", "")), release, kind="stone",
+                [], str(meta.get("last_revised", "")), release, kind="stone",
                 path=f"stone/{d['slug']}/"), records
 
 
@@ -1340,7 +1347,7 @@ def render_help(rows, dossiers, file_requests, release):
     researchers = meta.get("researchers") or []
     if isinstance(researchers, str):
         researchers = [researchers]
-    return page(str(meta.get("title", "How to help")), html_body, prefix, researchers,
+    return page(str(meta.get("title", "How to help")), html_body, prefix, [],
                 str(meta.get("last_revised", "")), release, kind="help", path="help/")
 
 def render_site_pages(out, release):

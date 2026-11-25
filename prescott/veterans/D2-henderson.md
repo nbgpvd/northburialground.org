@@ -38,7 +38,7 @@ His service record, any pension file, and his life before and after the war have
 
 [W]ILLIAM HENDERSON / U. S. Navy / Died Nov. 12, 19--
 
-Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph by B. Brennan, November 18, 2026. [1] The first letters of the given name fall outside the frame, and the year lies in shadow.
+Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photographed November 18, 2026. [1] The first letters of the given name fall outside the frame, and the year lies in shadow.
 
 ## The records
 
@@ -57,7 +57,7 @@ Transcription as recorded in the plot register from the photograph; square brack
 
 ## Sources
 
-1. Gravestone of William Henderson, grave D2, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, November 18, 2026; transcription as recorded in the plot register.
+1. Gravestone of William Henderson, grave D2, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Project photograph, November 18, 2026; transcription as recorded in the plot register.
 2. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for William Henderson.
 
 ## Credits

@@ -38,7 +38,7 @@ His service record, any pension file, and his life before and after the war have
 
 ORRIN VROMAN / Co. G. 14th R.I.H.Arty. / Died April 1[4 or 5], 1895
 
-Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph IMG_1222 (B. Brennan). [1]
+Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph IMG_1222. [1]
 
 ## The records
 
@@ -56,7 +56,7 @@ Transcription as recorded in the plot register from the photograph; square brack
 
 ## Sources
 
-1. Gravestone of Orrin Vroman, grave J2, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan (IMG_1222), 2026; transcription as recorded in the plot register.
+1. Gravestone of Orrin Vroman, grave J2, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Project photograph (IMG_1222), 2026; transcription as recorded in the plot register.
 2. National Park Service, Civil War Soldiers and Sailors Database, search for "Orrin Vroman" (14th Rhode Island Heavy Artillery); accessed October 31, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
 3. William H. Chenery, *The Fourteenth Regiment Rhode Island Heavy Artillery (Colored) in the War to Preserve the Union, 1861–1865* (Providence: Snow & Farnham, 1898), 218.
 

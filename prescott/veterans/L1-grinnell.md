@@ -38,7 +38,7 @@ His service record, any pension file, and his life before and after the war have
 
 BENJAMIN F. G[--]NN[--] / Co. E. 2d R.I. Vols / Died Feb. 20, 1899
 
-Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph by B. Brennan, November 18, 2026. [1] The middle of the surname is worn away.
+Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photographed November 18, 2026. [1] The middle of the surname is worn away.
 
 ## The records
 
@@ -56,7 +56,7 @@ Transcription as recorded in the plot register from the photograph; square brack
 
 ## Sources
 
-1. Gravestone of Benjamin F. Grinnell, grave L1, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, November 18, 2026; transcription as recorded in the plot register.
+1. Gravestone of Benjamin F. Grinnell, grave L1, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Project photograph, November 18, 2026; transcription as recorded in the plot register.
 2. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for Benjamin F. Grinnell.
 
 ## Credits

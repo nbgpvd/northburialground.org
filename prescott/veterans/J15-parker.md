@@ -39,7 +39,7 @@ His service record, any pension file, and his life before and after the war have
 
 EMANUEL PARKER / [Co.] H 5th U.S.C. Cav. / Died April 8, 1898
 
-Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph by B. Brennan, April 2, 2024. [1]
+Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photographed April 2, 2024. [1]
 
 ## The records
 
@@ -56,7 +56,7 @@ Transcription as recorded in the plot register from the photograph; square brack
 
 ## Sources
 
-1. Gravestone of Emanuel Parker, grave J15, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, April 2, 2024; transcription as recorded in the plot register.
+1. Gravestone of Emanuel Parker, grave J15, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Project photograph, April 2, 2024; transcription as recorded in the plot register.
 2. National Park Service, Civil War Soldiers and Sailors Database, search for "Emanuel Parker" (5th US Colored Cavalry); accessed October 31, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
 3. Frederick H. Dyer, *A Compendium of the War of the Rebellion* (Des Moines: Dyer Publishing Co., 1908), pt. 3, s.v. "United States Colored Troops, 5th Regiment Cavalry": organized at Camp Nelson, Ky., October 24, 1864.
 

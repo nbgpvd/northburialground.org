@@ -9,7 +9,7 @@ rank_highest: "Private [stone; NPS index 4]"
 rank_at_discharge: "Private [NPS index 4]"
 born: "1846"                        # stone only
 birthplace: ""
-died: "1888-07-11"                  # stone; month read as July by B. Brennan, 31 Oct 2026
+died: "1888-07-11"                  # stone; month read as July, 31 Oct 2026
 death_place: "Almshouse, Cranston, Rhode Island"   # SUVCW
 interred: "2008-05-31"
 city_lot_ref: ""
@@ -40,7 +40,7 @@ Nothing is yet known of his life before the war, or of how he came to be in the 
 
 MICHAEL McELROY / PVT CO D 2 RI INFANTRY / CIVIL WAR / 1846 / JUL[Y] 11 1888
 
-A flat, polished granite marker with modern lettering, flush with the turf. It is not a 19th-century stone and was presumably set at the 2008 reburial; that is not confirmed. Grass partly covers the month of death in the photograph of 31 Oct 2026; it was read as July by B. Brennan. The 1888 death year agrees with the SUVCW account. [1][2] The stone gives no day or month of birth and no birthplace.
+A flat, polished granite marker with modern lettering, flush with the turf. It is not a 19th-century stone and was presumably set at the 2008 reburial; that is not confirmed. Grass partly covers the month of death in the photograph of 31 Oct 2026; it was read as July. The 1888 death year agrees with the SUVCW account. [1][2] The stone gives no day or month of birth and no birthplace.
 
 ## The records
 
@@ -59,7 +59,7 @@ A flat, polished granite marker with modern lettering, flush with the turf. It i
 
 ## Sources
 
-1. Gravestone of Michael McElroy, grave N15, Prescott Post plot, North Burial Ground, Providence, Rhode Island; photographed by Bernard Brennan, October 31, 2026.
+1. Gravestone of Michael McElroy, grave N15, Prescott Post plot, North Burial Ground, Providence, Rhode Island; photographed October 31, 2026.
 2. Rhode Island Department, Sons of Union Veterans of the Civil War, "Pvt. Michael McElroy Reinterment Ceremony," risuvcw.org, posted March 31, 2023, accessed October 31, 2026, https://risuvcw.org/pvt-michael-mcelroy-reinterment-ceremony/.
 3. Rhode Island Department of Transportation, "RIDOT Hosts Memorial Service for 71 Men, Women and Children Re-interred at State Institution Cemetery," press release, RI.gov, n.d. [2009?], accessed October 31, 2026, https://www.ri.gov/press/view/9296.
 4. National Park Service, Civil War Soldiers and Sailors Database, "McElroy, Michael," 2nd Regiment, Rhode Island Infantry, Company D; index to NARA microfilm publication M555, roll 5; accessed October 31, 2026, https://www.nps.gov/civilwar/search-soldiers-detail.htm?soldierId=52DE21B8-DC7A-DF11-BF36-B8AC6F5D926A.

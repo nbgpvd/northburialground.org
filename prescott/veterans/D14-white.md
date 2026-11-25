@@ -57,7 +57,7 @@ No records are hosted for him yet. A photograph of his stone is wanted; see the 
 
 ## Sources
 
-1. Prescott Post plot survey sheet, grave D14, compiled by Bernard Brennan, 2026: name, unit and date of death as read on site. The stone has not yet been photographed.
+1. Prescott Post plot survey sheet, grave D14, 2026: name, unit and date of death as read on site. The stone has not yet been photographed.
 2. National Park Service, Civil War Soldiers and Sailors Database, search for "Jacob White" (2nd US Colored Cavalry); accessed October 31, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
 3. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for Jacob White.
 4. Frederick H. Dyer, *A Compendium of the War of the Rebellion* (Des Moines: Dyer Publishing Co., 1908), pt. 3, s.v. "United States Colored Troops, 2nd Regiment Cavalry": "Organized at Fort Monroe, Va., December 22, 1863."; transcribed at https://warriorsoftherebellion.shoutwiki.com/wiki/2nd_United_States_Colored_Cavalry, accessed November 17, 2026.

@@ -40,7 +40,7 @@ His service record, any pension file, and his life before and after the war have
 
 JOHN H. EASTON / Co. A. 14th R.I.H.A[rt.] / [lower line weathered]
 
-Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph IMG_1234 (B. Brennan). [1]
+Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph IMG_1234. [1]
 
 ## The records
 
@@ -58,7 +58,7 @@ Transcription as recorded in the plot register from the photograph; square brack
 
 ## Sources
 
-1. Gravestone of John H. Easton, grave M8, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan (IMG_1234), 2026; transcription as recorded in the plot register.
+1. Gravestone of John H. Easton, grave M8, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Project photograph (IMG_1234), 2026; transcription as recorded in the plot register.
 2. National Park Service, Civil War Soldiers and Sailors Database, search for "John H. Easton" (14th Rhode Island Heavy Artillery); accessed October 31, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
 3. William H. Chenery, *The Fourteenth Regiment Rhode Island Heavy Artillery (Colored) in the War to Preserve the Union, 1861–1865* (Providence: Snow & Farnham, 1898), 160.
 4. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for John H. Easton.

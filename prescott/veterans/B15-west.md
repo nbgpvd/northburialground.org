@@ -38,7 +38,7 @@ His service record, any pension file, and his life before and after the war have
 
 THOMAS E. WEST / 7 N.Y. Cav. / [Died ???.] 1916
 
-Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph by B. Brennan, November 2, 2026. [1]
+Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photographed November 2, 2026. [1]
 
 ## The records
 
@@ -56,7 +56,7 @@ Transcription as recorded in the plot register from the photograph; square brack
 
 ## Sources
 
-1. Gravestone of Thomas E. West, grave B15, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, November 2, 2026; transcription as recorded in the plot register.
+1. Gravestone of Thomas E. West, grave B15, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Project photograph, November 2, 2026; transcription as recorded in the plot register.
 2. National Park Service, Civil War Soldiers and Sailors Database, search for "Thomas E. West" (7th New York Cavalry); accessed November 2, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
 3. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for Thomas E. West.
 

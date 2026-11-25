@@ -40,7 +40,7 @@ His service record, any pension file, and his life before and after the war have
 
 WILLIAM BURR / Co. C 14th R.I.H.A. / [Died ???.] 14, 190[?]
 
-Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photograph by B. Brennan, April 7, 2025. [1]
+Transcription as recorded in the plot register from the photograph; square brackets mark letters not legible or below ground. Photographed April 7, 2025. [1]
 
 ## The records
 
@@ -57,7 +57,7 @@ Transcription as recorded in the plot register from the photograph; square brack
 
 ## Sources
 
-1. Gravestone of William Burr, grave F16, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Photograph by Bernard Brennan, April 7, 2025; transcription as recorded in the plot register.
+1. Gravestone of William Burr, grave F16, Prescott Post plot, North Burial Ground, Providence, Rhode Island. Project photograph, April 7, 2025; transcription as recorded in the plot register.
 2. National Park Service, Civil War Soldiers and Sailors Database, search for "William Burr" (14th Rhode Island Heavy Artillery); accessed October 31, 2026, https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm.
 3. William H. Chenery, *The Fourteenth Regiment Rhode Island Heavy Artillery (Colored) in the War to Preserve the Union, 1861–1865* (Providence: Snow & Farnham, 1898), 177.
 4. James Bessel, list of Civil War veterans buried at North Burial Ground (PV001), 2022, entry for William Burr.
